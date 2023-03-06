@@ -7,6 +7,7 @@
 1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark0)__
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
+   * _Installation via Composer(Hyvä Theme)_
 2. __[_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3)__
    * _General Settings_&#x20;
    * _Checkout Behaviour_
@@ -49,6 +50,12 @@ php bin/magento setup:static-content:deploy
 {% content-ref url="../installation-via-composer.md" %}
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
+
+* <mark style="color:orange;">**Installation via Composer(Hyvä Theme):**</mark> Go to My Account section then go to Composer Instructions. Run the composer config commands mentioned on the page then run the below command to install the module on hyva theme.&#x20;
+
+```
+composer require hyva-themes/magento2-scommerce-googletagmanagerpro
+```
 
 ### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#_bookmark3" id="_bookmark3"></a>
 
