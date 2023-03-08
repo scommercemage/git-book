@@ -105,10 +105,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 #### <mark style="color:orange;">**GA4**</mark> <a href="#_toc65169381" id="_toc65169381"></a>
 
 * **Synch GA4 –** Select “Yes” or “No” to enable or disable the GA4 sync.
-* **API Secret –** Enter the API secret key here. API secret key can be created by going into GA4>Admin>Data Streams>Select website>Measurement Protocol API Secrets>Create enter the name and click on create to get the key.
+* **API Secret –** Enter the API secret key here. API secret key can be created by going into **GA4>Admin>Data Streams>Select website>Measurement Protocol API Secrets>Create enter the name and click on create to get the key.**
 * **Skip Order days –** Enter the number of days that will be skipped before sending to GA4. Please put greater than 0 value. This is done to avoid duplicate transactions. For eg:- Suppose if you enter 2 then orders from 2days ago will be synced today.
-* **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from GA4>Admin>Data Streams>Select website and it is available in the top right corner.
-* **Property ID –** Enter the property ID of GA4.&#x20;
+* **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
+* **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**
 
 ![](../../.gitbook/assets/synga4.png)
 
