@@ -68,6 +68,7 @@
     * [Magento 2 Order Delete or Archive](magento-2-extensions/admin-extensions/magento-2-order-delete-or-archive.md)
     * [Magento 2 Order Tagger](magento-2-extensions/admin-extensions/magento-2-order-tagger.md)
     * [Magento 2 Subcategory Grid/List Extension](magento-2-extensions/admin-extensions/magento-2-subcategory-grid-list-extension.md)
+    * [Magento 2 Advanced Reporting Extension](magento-2-extensions/admin-extensions/magento-2-advanced-reporting-extension.md)
   * [Data & Privacy Extensions](magento-2-extensions/data-and-privacy-extensions/README.md)
     * [Magento 2 Not On The High Street Integration](magento-2-extensions/data-and-privacy-extensions/magento-2-not-on-the-high-street-integration.md)
     * [Magento 2 GDPR Compliance: Anonymisation of order data](magento-2-extensions/data-and-privacy-extensions/magento-2-gdpr-compliance-anonymisation-of-order-data.md)
