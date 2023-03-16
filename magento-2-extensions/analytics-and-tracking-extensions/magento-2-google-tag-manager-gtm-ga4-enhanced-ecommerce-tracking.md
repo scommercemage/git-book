@@ -150,12 +150,12 @@ up required Tags, Triggers and Variables. Go to the extension file m2-google-tag
 * **GTM-AdwordsDynamicRemarketing.json:-** Google AdWords Dynamic Remarketing
 * **GTM-google\_ads\_conversion\_tracking.json:-** Google Ads Conversion Tracking
 * **GTM-Pinterest.json:-** Pinterest tracking
-* **GTM-Pinterest-GA4.json:-** Pinterest tracking( Make sure 'Enable UA data layer' is set to 'No' and 'Enable GA4 data layer' is set to 'Yes' in the configuration. This JSON contains GTM settings for pinterest tracking when only GA4 data layer is enabled.&#x20;
+* **GTM-Pinterest-GA4.json:-** Use this file if you are using only GA4 and not UA
 * **GTM-Partnerize.json:-** Partnerize
 * **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration)
 * **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
 
-<mark style="color:orange;">**Note:-**</mark> _Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file otherwise use the original Pinterest JSON file._&#x20;
+<mark style="color:red;"><mark style="color:orange;">**Note:-**<mark style="color:orange;"></mark><mark style="color:red;">** **</mark><mark style="color:red;">****</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file otherwise use the original Pinterest JSON file.**</mark> _&#x20;
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
