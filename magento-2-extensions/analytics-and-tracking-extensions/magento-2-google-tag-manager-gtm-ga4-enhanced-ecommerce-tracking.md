@@ -144,15 +144,18 @@ The extension package contains JSONs which can be imported in GTM to set
 
 up required Tags, Triggers and Variables. Go to the extension file m2-google-tag- manager-pro and then to the Data Folder (Path - **m2-google-tag-manager-pro/data/**) to find these files. The JSONs can be used to set up
 
-* Google Analytics 4
-* Enhanced Ecommerce Universal Analytics
-* Facebook Pixel
-* AdWords Dynamic Remarketing
-* Google Ads Conversion Tracking
-* Pinterest
-* Partnerize
-* Google Ads Enhanced Conversion Tracking
-* Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
+* **GTM-GoogleAnalytics4.json:-** Google Analytics 4
+* **GTM-UniversalAnalytics.json:-** Enhanced Ecommerce Universal Analytics
+* **GTM-Facebook.json:-** Facebook Pixel tracking
+* **GTM-AdwordsDynamicRemarketing.json:-** Google AdWords Dynamic Remarketing
+* **GTM-google\_ads\_conversion\_tracking.json:-** Google Ads Conversion Tracking
+* **GTM-Pinterest.json:-** Pinterest tracking
+* **GTM-Pinterest-GA4.json:-** Pinterest tracking( Make sure 'Enable UA data layer' is set to 'No' and 'Enable GA4 data layer' is set to 'Yes' in the configuration. This JSON contains GTM settings for pinterest tracking when only GA4 data layer is enabled.&#x20;
+* **GTM-Partnerize.json:-** Partnerize
+* **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration)
+* **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
+
+<mark style="color:orange;">**Note:-**</mark> _Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file otherwise use the original Pinterest JSON file._&#x20;
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
