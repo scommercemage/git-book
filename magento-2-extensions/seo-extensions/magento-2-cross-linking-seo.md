@@ -7,6 +7,7 @@
 1. [_Installation_ ](magento-2-cross-linking-seo.md#\_toc\_250004)__
    * _Installation via app/code_
    * _Installation via Composer_
+   * _Installation via Composer(Hyvä Theme)_
 2. __[_Configuration Settings for SEO Base_ ](magento-2-cross-linking-seo.md#\_toc\_250003)__
    * _General Settings_&#x20;
 3. __[_Configuration Settings for Cross Linking_ ](magento-2-cross-linking-seo.md#\_toc\_250001)__
@@ -37,6 +38,12 @@ php bin/magento setup:static-content:deploy
 {% content-ref url="../installation-via-composer.md" %}
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
+
+* <mark style="color:orange;">**Installation via Composer(Hyvä Theme):**</mark> Go to My Account section then go to Composer Instructions. Run the composer config commands mentioned on the page then run the below command to install the module on hyva theme.&#x20;
+
+```
+composer require hyva-themes/magento2-scommerce-crosslinking
+```
 
 ### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250003" id="_toc_250003"></a>
 
