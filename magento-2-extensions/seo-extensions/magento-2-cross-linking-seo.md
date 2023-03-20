@@ -105,7 +105,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3).png>)
+![](<../../.gitbook/assets/1 (3) (1).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 

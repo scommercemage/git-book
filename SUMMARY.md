@@ -40,6 +40,7 @@
     * [Magento 2 Delivery Instructions and Delivery Date](magento-2-extensions/payment-and-shipping-extensions/magento-2-delivery-instructions-and-delivery-date.md)
     * [Magento 2 Product Handling or Additional Fee](magento-2-extensions/payment-and-shipping-extensions/magento-2-product-handling-or-additional-fee.md)
     * [Magento 2 Surcharge or Additional Fee](magento-2-extensions/payment-and-shipping-extensions/magento-2-surcharge-or-additional-fee.md)
+    * [Magento 2 Shipping Carrier Tracker](magento-2-extensions/payment-and-shipping-extensions/magento-2-shipping-carrier-tracker.md)
   * [User Experience Extensions](magento-2-extensions/user-experience-extensions/README.md)
     * [Magento 2 How Did You Hear About Us](magento-2-extensions/user-experience-extensions/magento-2-how-did-you-hear-about-us.md)
     * [Magento 2 FAQ](magento-2-extensions/user-experience-extensions/magento-2-faq.md)

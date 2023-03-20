@@ -43,7 +43,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Label
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license key for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Product Label Grid</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 

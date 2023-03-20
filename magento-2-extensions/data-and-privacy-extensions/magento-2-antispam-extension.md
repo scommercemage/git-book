@@ -71,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Antispam Cata
 
 When an user searches with diallowed character then the warning message appears on the frontend as shown below:-
 
-![](../../.gitbook/assets/1.png)
+![](<../../.gitbook/assets/1 (3).png>)
 
 #### <mark style="color:orange;">Rate Limiter</mark>
 
