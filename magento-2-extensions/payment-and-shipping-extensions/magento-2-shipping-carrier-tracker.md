@@ -69,4 +69,4 @@ Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a
 
 <figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-shipping-carrier-tracker.html#customfaq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
