@@ -47,15 +47,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 * **URLs –** Enter the shipping method and the URL. The URL should contain the {number} parameter which will be used to pass the tracking number to the shipping carriers tracking site where the shipment can be tracked.
 * **Additional Carriers-** Add the additional carriers which will be available in the carrier selector dropdown list while creating a shipment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Tracking Links</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
 Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a shipment. Scroll down to find shipping information then select the shipping carrier from the carrier dropdown list and enter the tracking number for that carrier. Select email copy of shipment checkbox then generate the shipment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Admin Panel:-**</mark> Once the shipment is generated you can go to the order then from the left menu select shipments and view the generated shipment. You should see the tracking number consists a link, and once you link on that link it will take you to the shipping carriers tracking site with your tracking number.
 

@@ -61,15 +61,21 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Can Regenerate Cache Manually -** Please select " Yes" or "No". If set to "Yes" then you can regenerate cache manually from cache warmer grid.
 * **Generate Log -** Select "Yes" to generate the log.
 
-![](../../.gitbook/assets/general\_cachewarmer.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* **Generation order -** Select which page will be generated first by adding the generation order alognside the page type. 1 is the highest priority.
+* **Allow bestsellers products to be cached first -** Select "Yes" to give best seller products the highest priority in cache generation.
+* **Bestseller Frequency -** Choose the range of bestleer products monthly/yearly. Based on your selection these products will be cached.
+* **Website priority -** In multi website structures change the website in order to prioritize which will be cached first. 1 is highest priority.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Cron Settings</mark> <a href="#_toc_250003" id="_toc_250003"></a>
 
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
-* **Delay in Request -** Please define delay in request in seconds. This setting will apply a delay in seconds between the concurrent request.
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
-![](../../.gitbook/assets/cron\_cachewarmer.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 

@@ -239,7 +239,7 @@ Please follow the steps provided below in order to setup 360 view and certificat
 
 **Test URL** - [![](https://diamondsearch.scommerce-mage.co.uk/static/version1651246469/frontend/Magento/luma/en\_US/Magento\_Theme/favicon.ico)Choose a diamond](https://diamondsearch.scommerce-mage.co.uk/diamondsearch/#!/93072712)
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 #### <mark style="color:orange;">Certificate</mark>
 
@@ -247,7 +247,7 @@ Please follow the steps provided below in order to setup 360 view and certificat
 
 #### <mark style="color:orange;">360 view</mark>
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 ### <mark style="color:blue;">Frontend</mark>
 
