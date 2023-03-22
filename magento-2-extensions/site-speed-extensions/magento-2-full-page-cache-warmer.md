@@ -75,17 +75,17 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 
-When you enable the module and set **General Settings > Can Regenerate Cache Manually >** to **"Yes"** then it adds an additional option "Regenerate" under the "**Actions > Select**" drop-down at **Admin > System > Cache Warmer > Actions.** This grid will have Id, Page Type - (Home, Product, Category, CMS), Page URL, Last Cache - (Date, Time ), Status - (Cached/Un-cached), and Action- (Regenerate, Delete).
+When you enable the module and set **General Settings > Can Regenerate Cache Manually >** to **"Yes"** then it adds an additional option "Regenerate" under the "**Actions > Select**" drop-down at **Admin > System > Cache Warmer > Actions.** This grid will have Id, Reference Id, Processed Time, Request Path, Page URL, Last Cache - (Date, Time ), Status - (Cached/Un-cached), Page Type - (Home, Product, Category, CMS), Store View, and Action- (Regenerate, Delete).
 
-![](../../.gitbook/assets/cachewarmergrid.jpg)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Regenerate -**</mark>** ** It regenerates cache manually for Category/Product/CMS page(s). By clicking "Regenerate" action you can regenerate cache manually for a specific URL.
 
-![](<../../.gitbook/assets/5 (21)>)
+<figure><img src="../../.gitbook/assets/4324324.png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Console Commands</mark> <a href="#_toc_250001" id="_toc_250001"></a>
 
