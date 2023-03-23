@@ -7,7 +7,7 @@
 1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#\_bookmark0)__
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Surcharge_ ](magento-2-shipping-carrier-tracker.md#\_bookmark3)__
+2. __[_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#\_bookmark3)__
    * _General Settings_&#x20;
    * _Shipping Methods_
 3. __[_Tracking Links_](magento-2-shipping-carrier-tracker.md#\_bookmark8)__
@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Shipping Methods</mark>  <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -59,7 +59,7 @@ Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a
 
 * <mark style="color:orange;">**Admin Panel:-**</mark> Once the shipment is generated you can go to the order then from the left menu select shipments and view the generated shipment. You should see the tracking number consists a link, and once you link on that link it will take you to the shipping carriers tracking site with your tracking number.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**My Account Section:-**</mark> Once the shipment is generated customers can view the shipmen in the **My Account>My Orders>Order Shipments** section where the trackings numbers with links will be available as per the shipping carriers selected with the shipment.
 
@@ -67,6 +67,6 @@ Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a
 
 * <mark style="color:orange;">**Shipment Email:-**</mark> Once the shipment is generated the shipment email will be sent to the customer with tracking links to each of the shipping carriers.
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (6).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-shipping-carrier-tracker.html#customfaq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

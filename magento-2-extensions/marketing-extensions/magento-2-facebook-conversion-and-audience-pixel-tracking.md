@@ -55,7 +55,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Analyze Data with Facebook Events Manager -**</mark>** ** Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
 
