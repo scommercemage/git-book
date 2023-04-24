@@ -4,30 +4,31 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
-2. __[_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3)__
+   * _Installation via Composer(Breeze Theme)_
+2. [_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
-3. __[_Configuration Settings for Google Tag Manager Pro_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3-1)__
+3. [_Configuration Settings for Google Tag Manager Pro_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3-1)
    * _General Settings_
    * _Cookies From Query Params_&#x20;
-4. __[_JSONs/Script provided with extension package_  ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark5)__
-5. __[_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark10) __&#x20;
-6. __[_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark11) __&#x20;
-7. __[_Publishing Tags in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark12) __&#x20;
-8. __[_Set up Enhanced Ecommerce in Google Analytics_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark13) __&#x20;
-9. __[_Set up Google Analytics 4_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14) __&#x20;
-10. __[_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14-1)__
-11. __[_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)__
+4. [_JSONs/Script provided with extension package_  ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark5)
+5. [_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark10)&#x20;
+6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark11)&#x20;
+7. [_Publishing Tags in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark12)&#x20;
+8. [_Set up Enhanced Ecommerce in Google Analytics_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark13)&#x20;
+9. [_Set up Google Analytics 4_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14)&#x20;
+10. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14-1)
+11. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)
     * _Enable Enhanced Conversions in Google Adwords_
     * _Set up Enhanced Conversion with the Module_
-12. __[_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#back-end-admin-tracking)__
-13. __[_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)__
-14. __[_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16-1)__
-15. __[_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16) __&#x20;
+12. [_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#back-end-admin-tracking)
+13. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)
+14. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16-1)
+15. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)&#x20;
     * _Order Total of Product without VAT_&#x20;
     * _Order Total of Product with VAT_&#x20;
     * _Send SKU of Child Product_&#x20;
@@ -37,7 +38,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -55,6 +56,12 @@ php bin/magento setup:static-content:deploy
 
 ```
 composer require hyva-themes/magento2-scommerce-googletagmanagerpro
+```
+
+* <mark style="color:orange;">**Installation via Composer(Breeze Theme):**</mark> Go to My Account section then go to Composer Instructions. Run the composer config commands mentioned on the page then run the below command to install the module on hyva theme.&#x20;
+
+```
+composer require scommerce/breeze-googletagmanagerpro
 ```
 
 ### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#_bookmark3" id="_bookmark3"></a>
@@ -155,7 +162,7 @@ up required Tags, Triggers and Variables. Go to the extension file m2-google-tag
 * **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration)
 * **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
 
-<mark style="color:red;"><mark style="color:orange;">**Note:-**<mark style="color:orange;"></mark><mark style="color:red;">** **</mark><mark style="color:red;">****</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file. Also if you have 'Send Product Impression on Scroll ' enabled in Admin>Stores>Configuration>Scommerce Configuration>Tracking Base**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**then use the Pinterest GA4 JSON file as well**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**otherwise you can use the original Pinterest JSON file.**</mark> <mark style="color:red;"></mark><mark style="color:red;"></mark>_&#x20;
+<mark style="color:red;"><mark style="color:orange;">**Note:-**<mark style="color:orange;"></mark> _<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file. Also if you have 'Send Product Impression on Scroll ' enabled in Admin>Stores>Configuration>Scommerce Configuration>Tracking Base**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**then use the Pinterest GA4 JSON file as well**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**otherwise you can use the original Pinterest JSON file.**</mark>_&#x20;
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -193,19 +200,19 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Variables Created with JSON’s**</mark>
 
-* <mark style="color:orange;">**GA ID –**</mark>** ** This variable is created when GTM-UniversalAnalytics.json is imported and it holds value for Google Analytics Id for the site. Click on the GA ID and change it to correct value.
+* <mark style="color:orange;">**GA ID –**</mark> This variable is created when GTM-UniversalAnalytics.json is imported and it holds value for Google Analytics Id for the site. Click on the GA ID and change it to correct value.
 
 ![](../../.gitbook/assets/gtm\_variable2.jpg)
 
-* <mark style="color:orange;">**conversionID -**</mark>** ** This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
+* <mark style="color:orange;">**conversionID -**</mark> This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
 
 ![](../../.gitbook/assets/gtm\_variable3.jpg)
 
-* <mark style="color:orange;">**facebookPixelID -**</mark>** ** This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
+* <mark style="color:orange;">**facebookPixelID -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
 
 ![](../../.gitbook/assets/gtm\_variable4.jpg)
 
-* <mark style="color:orange;">**currencyCode -**</mark>** ** This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
+* <mark style="color:orange;">**currencyCode -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
 
 ![](../../.gitbook/assets/gtm\_variable5.jpg)
 
@@ -329,7 +336,7 @@ Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_t
 
 ### <mark style="color:blue;">**Back-end / Admin Tracking**</mark>&#x20;
 
-&#x20;**** It tracks orders placed from **Admin > Sales > Orders > Create New Order.**
+&#x20;It tracks orders placed from **Admin > Sales > Orders > Create New Order.**
 
 ![](../../.gitbook/assets/gtm\_backend.jpg)
 
@@ -341,7 +348,7 @@ Cookies from query Params configuration can be used to create new cookie paramet
 
 ![](../../.gitbook/assets/query\_click.png)
 
-<mark style="color:blue;"></mark>
+
 
 ### <mark style="color:blue;">Upgrading the Module From 3.0.1 and Below</mark> <a href="#_bookmark16" id="_bookmark16"></a>
 
@@ -444,7 +451,7 @@ Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll do
 
 #### <mark style="color:orange;">Primary Category</mark> <a href="#_bookmark22" id="_bookmark22"></a>
 
-Go to **Catalog > Products** and select any product. Then Scroll down to the option **** Primary Category.
+Go to **Catalog > Products** and select any product. Then Scroll down to the option Primary Category.
 
 ![](../../.gitbook/assets/gtm\_front6.jpg.jpg)
 
@@ -452,4 +459,4 @@ Here you can set the primary category for any product. If you do not wish to sen
 
 ![](../../.gitbook/assets/gtm\_front7.jpg.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-google-tag-manager.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-google-tag-manager.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
