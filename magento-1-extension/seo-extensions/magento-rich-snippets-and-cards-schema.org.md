@@ -85,15 +85,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
-* <mark style="color:orange;">**Home Page Markup Code –**</mark>** ** You can add structured data/markup code on homepage from **Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”**. To test structured data, go to **Structured Data Testing Tool > Provide Home Page URL** > Click **“Run Test”**.
+* <mark style="color:orange;">**Home Page Markup Code –**</mark> You can add structured data/markup code on homepage from **Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”**. To test structured data, go to **Structured Data Testing Tool > Provide Home Page URL** > Click **“Run Test”**.
 
 ![](<../../.gitbook/assets/6 (43)>)
 
-* <mark style="color:orange;">**Category Page Markup Code –**</mark>** ** You can add markup code, breadcrumbs on category page from Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”.
+* <mark style="color:orange;">**Category Page Markup Code –**</mark> You can add markup code, breadcrumbs on category page from Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”.
 
 ![](<../../.gitbook/assets/7 (44)>)
 
-* <mark style="color:orange;">**Product Page Markup Code –**</mark>** ** To add structured data markup code on product page, set “Enable” to “Yes” from **Admin > Configuration > Rich Snippet** .
+* <mark style="color:orange;">**Product Page Markup Code –**</mark> To add structured data markup code on product page, set “Enable” to “Yes” from **Admin > Configuration > Rich Snippet** .
 
 ![](<../../.gitbook/assets/8 (37)>)
 
@@ -103,12 +103,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](<../../.gitbook/assets/9 (20)>)
 
-* <mark style="color:orange;">**Facebook Open Graph –**</mark>** ** Enable Facebook Open Graph from **Admin > Stores> Configuration > Rich Snippet > Facebook Open Graph > Enable – “Yes”**
+* <mark style="color:orange;">**Facebook Open Graph –**</mark> Enable Facebook Open Graph from **Admin > Stores> Configuration > Rich Snippet > Facebook Open Graph > Enable – “Yes”**
 
 ![](<../../.gitbook/assets/10 (41)>)
 
-* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Result –**</mark>** ** In the below image you can see the increased and optimized page ranking in search results.
+* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Result –**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
 ![](<../../.gitbook/assets/11 (23)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-rich-snippets-for-google-microsoft-yahoo.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-rich-snippets-for-google-microsoft-yahoo.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

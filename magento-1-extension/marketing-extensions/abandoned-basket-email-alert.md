@@ -15,9 +15,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Abandoned cart</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -42,4 +42,4 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Abandoned Car
 
 ![](<../../.gitbook/assets/3 (79)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://scommerce-mage.com/magento-abandoned-cart-or-basket-alert.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://scommerce-mage.com/magento-abandoned-cart-or-basket-alert.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

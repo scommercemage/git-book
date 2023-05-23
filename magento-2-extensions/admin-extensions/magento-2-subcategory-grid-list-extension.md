@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Subcategory Extension_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark3)__
+2. [_Configuration Settings for Subcategory Extension_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Subcategories Widget_&#x20;
    * _Display Mode Selection Drop-down “Subcategories Only”_&#x20;
    * _Sub-categories Settings Dropdown_&#x20;
-3. __[_Front-end Screenshots_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark8)__
+3. [_Front-end Screenshots_ ](magento-2-subcategory-grid-list-extension.md#\_bookmark8)
    * _Subcategories Grid View on the Front- end_&#x20;
    * _Subcategories List View on the Front- end_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -85,4 +85,4 @@ Navigate to **Catalog > Categories**, select the category, and then scroll down 
 
 ![](<../../.gitbook/assets/11 (15)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-subcategory-grid.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-subcategory-grid.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

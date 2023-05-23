@@ -286,7 +286,7 @@ To setup Google Adwords Conversion, please make sure you add **GTM-google\_ads\_
 * Conversion Linker Tag&#x20;
 * Google Ads Conversion Tracking
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 <mark style="color:red;">**Please note: If you have GA4 enabled but UA disabled in Magento admin configuration then you need to change the following variables in GTM for Google Ads Conversion Tracking**</mark>
 

@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-admin-action-log.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-admin-action-log.md#\_bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#\_bookmark3)__
+2. [_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Modules Activity Logger_&#x20;
    * _Admin Activity Logger_&#x20;
@@ -19,11 +19,11 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Download Extension:**</mark>** ** Once you have placed the order from our site then go to Account section and click on My Downloadable Products and download the extension package.
+* <mark style="color:orange;">**Download Extension:**</mark> Once you have placed the order from our site then go to Account section and click on My Downloadable Products and download the extension package.
 
 ![](../../.gitbook/assets/Download.png)
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -72,11 +72,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 ![](<../../.gitbook/assets/8 (4)>)
 
-* <mark style="color:orange;">**Admin Activity Logger -**</mark>** ** You can view admin activity logger from, **Admin > System > Scommerce Admin Activity Logger > Admin Activity / Login Activity.**
+* <mark style="color:orange;">**Admin Activity Logger -**</mark> You can view admin activity logger from, **Admin > System > Scommerce Admin Activity Logger > Admin Activity / Login Activity.**
 
 ![](../../.gitbook/assets/adminactivity.jpg)
 
-* <mark style="color:orange;">**Admin Activity Grid -**</mark>** ** In the back-end under Admin Activity Logger grid you can view all the admin activities details from **Admin > System > Admin Activity Logger**. This grid will have, Admin Username, Name, Activity Type, Store View, Module, Full Action, IP, Item, Revert and Action columns.
+* <mark style="color:orange;">**Admin Activity Grid -**</mark> In the back-end under Admin Activity Logger grid you can view all the admin activities details from **Admin > System > Admin Activity Logger**. This grid will have, Admin Username, Name, Activity Type, Store View, Module, Full Action, IP, Item, Revert and Action columns.
   * **Date: -** The exact date and time of the activity performed.
   * **Admin Username: -** user name of the admin.
   * **Name: -** The name of the admin.
@@ -93,17 +93,17 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 ![](../../.gitbook/assets/adminactivitylogger.jpg)
 
-* <mark style="color:orange;">**Admin Logger Detailed View for Admin Activities -**</mark>** ** To get more details about each particular action simply click on the 'View' link from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > General, to view all the detailed data.**
+* <mark style="color:orange;">**Admin Logger Detailed View for Admin Activities -**</mark> To get more details about each particular action simply click on the 'View' link from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > General, to view all the detailed data.**
   * You can view all the general details of the user’s activity in the general tab.
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/11 (39)>)
 
-* <mark style="color:orange;">**Admin Logger Detailed View for Item Info -**</mark>** ** You can view the item details from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > Items info.**
+* <mark style="color:orange;">**Admin Logger Detailed View for Item Info -**</mark> You can view the item details from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > Items info.**
   * This section contains all granular information. For instance if you place an order from the admin panel then all the details of the order such as price, store, etc. Are visible in this section.
 
 ![](../../.gitbook/assets/activity\_details.jpg)
 
-* <mark style="color:orange;">**Login Activity Grid -**</mark>** ** You can view login activities from **Admin > System > Login Activity > Login Activity Logger**. It logs details of each and every single activity along with what value being changed by who and when. This section contains following information: -
+* <mark style="color:orange;">**Login Activity Grid -**</mark> You can view login activities from **Admin > System > Login Activity > Login Activity Logger**. It logs details of each and every single activity along with what value being changed by who and when. This section contains following information: -
   * **Date: -** The precise date and time of the log.
   * **Type: -** whether logged in or logged out.
   * **Username: -** Username of the person is stored here.
@@ -114,4 +114,4 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 ![](../../.gitbook/assets/loginactivity\_logger.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-admin-action-log.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-admin-action-log.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,24 +4,24 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250008)__
+1. [_Installation_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250008)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250007)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250007)
    * _General Settings_
-3. __[_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250005)__
+3. [_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250005)
    * _General Settings_&#x20;
    * _Configuration Path to Set Up Primary Category_&#x20;
    * _Primary Category settings for Category_&#x20;
    * _Run the script to setup primary category of one or all products together_&#x20;
-4. __[_Set Primary Categories_](magento-2-seo-unique-catalog-urls.md#set-primary-categories)__
-5. __[_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250000)__
+4. [_Set Primary Categories_](magento-2-seo-unique-catalog-urls.md#set-primary-categories)
+5. [_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250000)
    * _Product Page Unique URL_&#x20;
    * _Search Page / Category Page Unique Catalog Product URL_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250008" id="_toc_250008"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -67,7 +67,7 @@ Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary C
 
 Go to _Admin > Catalog > Categories > Select Category > Primary Category Settings._ The drop down will show two primary category settings for the selected category: -
 
-* <mark style="color:orange;">**Exclude from Primary Category (Yes/No) -**</mark>** ** Select Yes/No whether you want this category to excluded from the primary category or not.
+* <mark style="color:orange;">**Exclude from Primary Category (Yes/No) -**</mark> Select Yes/No whether you want this category to excluded from the primary category or not.
 * <mark style="color:orange;">**Exclude Root Categories –**</mark> Set the priority for the category, the highest priority will be selected as the primary category.
 
 ![](<../../.gitbook/assets/4 (20)>)
@@ -76,13 +76,13 @@ Go to _Admin > Catalog > Categories > Select Category > Primary Category Setting
 
 We have included a PHP script that can be utilized to set primary category for one or all products together. Simply run the script in the url and the primary categories will get updated for the set products.
 
-* <mark style="color:orange;">**For one product –**</mark>** ** Run the script given and refer to the image below to update the primary category of a single product.
+* <mark style="color:orange;">**For one product –**</mark> Run the script given and refer to the image below to update the primary category of a single product.
 
 `{{Website_URL}}/SetPrimaryCategoryM2.php?deleteSku s=MH01`
 
 ![](<../../.gitbook/assets/5 (44)>)
 
-* <mark style="color:orange;">**For all Products –**</mark>** ** Run the script given and refer to the image below to update the primary category of all products.
+* <mark style="color:orange;">**For all Products –**</mark> Run the script given and refer to the image below to update the primary category of all products.
 
 `{{Website_URL}}/SetPrimaryCategoryM2.php?deleteSku s=all`
 
@@ -106,13 +106,13 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
 
-* <mark style="color:orange;">**Product Page Unique URL -**</mark>** ** You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ **** In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
+* <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
 ![](<../../.gitbook/assets/14 (26)>)
 
-### <mark style="color:blue;"></mark> <a href="#_toc_250023" id="_toc_250023"></a>
+### &#x20;<a href="#_toc_250023" id="_toc_250023"></a>
 
-* <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark>** ** We have assigned “**Strive Shoulder Pack**” product to “**Gear**” Category and the URL stays the same when we access the product from the search or category page
+* <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark> We have assigned “**Strive Shoulder Pack**” product to “**Gear**” Category and the URL stays the same when we access the product from the search or category page
 
 ![](<../../.gitbook/assets/8 (51)>)
 

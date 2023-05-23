@@ -4,12 +4,12 @@
 
 ### Table of Contents
 
-1. __[_Installation_ ](magento-2-free-shipping-bar.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-free-shipping-bar.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Free Shipping Bar Rule_ ](magento-2-free-shipping-bar.md#\_bookmark3)__
+2. [_Configuration Settings for Free Shipping Bar Rule_ ](magento-2-free-shipping-bar.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Manage Free Shipping Bar Rules_ ](magento-2-free-shipping-bar.md#\_bookmark5)__
+3. [_Manage Free Shipping Bar Rules_ ](magento-2-free-shipping-bar.md#\_bookmark5)
    * _Free Shipping Bar Rule - Grid_&#x20;
    * _New Shipping Bar - General Settings_&#x20;
    * _New Shipping Bar - Websites & Customers Groups_&#x20;
@@ -19,7 +19,7 @@
    * _New Shipping Bar - Design_&#x20;
    * _Font Color - Enter font color_&#x20;
    * _Free Shipping Discount_&#x20;
-4. [_Front-end Site View 10_](magento-2-free-shipping-bar.md#\_bookmark15)__
+4. [_Front-end Site View 10_](magento-2-free-shipping-bar.md#\_bookmark15)
    * _Free Shipping Bar on the Homepage with Generic Message_&#x20;
    * _Free Shipping Bar with Generic Message / Bar Position Bottom Fixed_&#x20;
    * _Free Shipping Bar with Remaining Amount_&#x20;
@@ -27,7 +27,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -116,24 +116,24 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 ![DesignNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/8 (47)>)
 
-* <mark style="color:orange;">**Free Shipping Discount -**</mark>** ** The extension only implements the bar display and actual shipping discount needs to be set separately in Magento out of the box.
+* <mark style="color:orange;">**Free Shipping Discount -**</mark> The extension only implements the bar display and actual shipping discount needs to be set separately in Magento out of the box.
 
 ### Front-end Site View <a href="#_bookmark15" id="_bookmark15"></a>
 
-* <mark style="color:orange;">**Free Shipping Bar on the Homepage with Generic Message -**</mark>** ** You can set generic message for free shipping bar from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Initial Message**
+* <mark style="color:orange;">**Free Shipping Bar on the Homepage with Generic Message -**</mark> You can set generic message for free shipping bar from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Initial Message**
 
 ![Untitled (2)](<../../.gitbook/assets/9 (27)>)
 
-* <mark style="color:orange;">**Free Shipping Bar on the Category Page with Generic Message / Bar Position Bottom Fixed -**</mark>** ** You can set bar position by selecting bar options from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Display Options Bar Position.**
+* <mark style="color:orange;">**Free Shipping Bar on the Category Page with Generic Message / Bar Position Bottom Fixed -**</mark> You can set bar position by selecting bar options from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Display Options Bar Position.**
 
 ![Untitled (2)](<../../.gitbook/assets/10 (2)>)
 
-* <mark style="color:orange;">**Free Shipping Bar with Remaining Amount -**</mark>** ** You can inform customers about the remaining amount left for free shipping by providing in progress message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > In Progress Message**
+* <mark style="color:orange;">**Free Shipping Bar with Remaining Amount -**</mark> You can inform customers about the remaining amount left for free shipping by providing in progress message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > In Progress Message**
 
 ![Untitled (2)](<../../.gitbook/assets/11 (31)>)
 
-* <mark style="color:orange;">**Free Shipping Bar on the Cart Page with Success Message -**</mark>** ** You can set success message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Achieved Message**
+* <mark style="color:orange;">**Free Shipping Bar on the Cart Page with Success Message -**</mark> You can set success message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Achieved Message**
 
 ![Untitled (2)](<../../.gitbook/assets/12 (4)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-free-shipping-bar.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-free-shipping-bar.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,19 +4,19 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-cross-linking-seo.md#\_toc\_250004)__
+1. [_Installation_ ](magento-2-cross-linking-seo.md#\_toc\_250004)
    * _Installation via app/code_
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
-2. __[_Configuration Settings for SEO Base_ ](magento-2-cross-linking-seo.md#\_toc\_250003)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-cross-linking-seo.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for Cross Linking_ ](magento-2-cross-linking-seo.md#\_toc\_250001)__
+3. [_Configuration Settings for Cross Linking_ ](magento-2-cross-linking-seo.md#\_toc\_250001)
    * _Cross Links Grid_&#x20;
    * _Add New Cross Link._&#x20;
    * _Build External Link to Any Website_&#x20;
    * _Alert Message for Inactive Product / Category_&#x20;
-4. __[_Set Primary Categories_](magento-2-cross-linking-seo.md#set-primary-categories)__
-5. [_Front-end Site view_ ](magento-2-cross-linking-seo.md#\_toc\_250000)__
+4. [_Set Primary Categories_](magento-2-cross-linking-seo.md#set-primary-categories)
+5. [_Front-end Site view_ ](magento-2-cross-linking-seo.md#\_toc\_250000)
    * _Cross Link on Category Page_&#x20;
    * _Category Page Cross Link Redirecting on External Link_&#x20;
    * _Cross Link on Product Page_&#x20;
@@ -25,7 +25,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250004" id="_toc_250004"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -69,11 +69,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking_
 
 ![](../../.gitbook/assets/general\_crosslinking.png)
 
-* <mark style="color:orange;">**Cross Links Grid -**</mark>** ** You can manage and create new cross links from **Admin > Marketing > SEO Cross Linking > Cross Links**. This grid will have ID, Title, Status, Store View, Target, Replacement Limit, Priority, Nofollow, Action.
+* <mark style="color:orange;">**Cross Links Grid -**</mark> You can manage and create new cross links from **Admin > Marketing > SEO Cross Linking > Cross Links**. This grid will have ID, Title, Status, Store View, Target, Replacement Limit, Priority, Nofollow, Action.
 
 ![](../../.gitbook/assets/crosslinks\_grid.png)
 
-* <mark style="color:orange;">**Add New Cross Link -**</mark>** ** To add new cross link, go to **Admin > Marketing > SEO Cross Linking > Cross Links >** Click on "**Add New Link**" button. It redirects on "Add New Cross Link" page and by providing all the general information you can create a new cross link.
+* <mark style="color:orange;">**Add New Cross Link -**</mark> To add new cross link, go to **Admin > Marketing > SEO Cross Linking > Cross Links >** Click on "**Add New Link**" button. It redirects on "Add New Cross Link" page and by providing all the general information you can create a new cross link.
 
 ![](../../.gitbook/assets/addnewcrosslink.png)
 
@@ -92,15 +92,15 @@ This will have following general information:-
 
 
 
-* <mark style="color:orange;">**Build External Link to Any Website -**</mark>** ** You can set external link to any website from _Admin > Marketing > SEO Cross Linking > Cross Links >Reference - Custom Url > Custom Url_ - **** Provide External Link.
+* <mark style="color:orange;">**Build External Link to Any Website -**</mark> You can set external link to any website from _Admin > Marketing > SEO Cross Linking > Cross Links >Reference - Custom Url > Custom Url_ - Provide External Link.
 
 ![](<../../.gitbook/assets/5 (63)>)
 
-* <mark style="color:orange;">**Alert Message for Inactive Product / Category -**</mark>** ** It shows an alert / warning message when you disable the category or product from _Admin > Catalog > Category / Product > Select Category / Product > Disable > Save._
+* <mark style="color:orange;">**Alert Message for Inactive Product / Category -**</mark> It shows an alert / warning message when you disable the category or product from _Admin > Catalog > Category / Product > Select Category / Product > Disable > Save._
 
 ![](../../.gitbook/assets/alertinactivecategory.jpg)
 
-__
+
 
 * <mark style="color:orange;">**Alert Message for Inactive Category**</mark>
 
@@ -124,25 +124,25 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 
-* <mark style="color:orange;">**Cross Link on Category Page -**</mark>** ** You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1_. It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
+* <mark style="color:orange;">**Cross Link on Category Page -**</mark> You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1_. It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
 
 ![](../../.gitbook/assets/crosslinkoncategory.jpg)
 
-* <mark style="color:orange;">**Category Page Cross Link Redirecting on External Link -**</mark>** ** Click on the cross link "Luma" will redirect to external link.
+* <mark style="color:orange;">**Category Page Cross Link Redirecting on External Link -**</mark> Click on the cross link "Luma" will redirect to external link.
 
 ![](../../.gitbook/assets/categorypagecrosslink.jpg)
 
-* <mark style="color:orange;">**Cross Link on Product Page -**</mark>** ** You can define replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 2._ Individual Cross link limit determines how many times the link will be replaced on the given page.
+* <mark style="color:orange;">**Cross Link on Product Page -**</mark> You can define replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 2._ Individual Cross link limit determines how many times the link will be replaced on the given page.
 
 ![](../../.gitbook/assets/crosslinkonproduct.jpg)
 
 
 
-* <mark style="color:orange;">**Product Page Cross Link Redirecting on Internal Link -**</mark>** ** Click on the cross link "Duffle" will redirect to defined internal link.
+* <mark style="color:orange;">**Product Page Cross Link Redirecting on Internal Link -**</mark> Click on the cross link "Duffle" will redirect to defined internal link.
 
 ![](../../.gitbook/assets/productpagecrosslink.jpg)
 
-* <mark style="color:orange;">**Cross Link on CMS Page**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> You can set replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 1._ **** Individual Cross link limit determines how many times the link will be replaced on the given page.
+* <mark style="color:orange;">**Cross Link on CMS Page**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> You can set replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 1._ Individual Cross link limit determines how many times the link will be replaced on the given page.
 
 ![](../../.gitbook/assets/crosslinkoncms.jpg)
 

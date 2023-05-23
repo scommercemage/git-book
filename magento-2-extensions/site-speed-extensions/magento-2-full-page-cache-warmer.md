@@ -4,27 +4,27 @@
 
 **Table Of Contents**
 
-1. [_Installation_ ](magento-2-full-page-cache-warmer.md#\_toc\_250008)__
+1. [_Installation_ ](magento-2-full-page-cache-warmer.md#\_toc\_250008)
    * _Installation via app/code_
    * _Installation via Composer_&#x20;
-2. __[_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#\_toc\_250007)__
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#\_toc\_250007)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#\_toc\_250005)__
+3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#\_toc\_250005)
    * _General Settings_&#x20;
    * _Cron Settings_&#x20;
-4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#\_toc\_250002)__
+4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#\_toc\_250002)
    * _Regenerate_&#x20;
-5. __[_Console Commands_ ](magento-2-full-page-cache-warmer.md#\_toc\_250001)__
+5. [_Console Commands_ ](magento-2-full-page-cache-warmer.md#\_toc\_250001)
    * _Category Page_&#x20;
    * _Product Page_&#x20;
    * _CMS Page_&#x20;
-6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#\_toc\_250000)__
+6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#\_toc\_250000)
    * _Cache Hit for the Category Page After the Execution of Category Page Command_&#x20;
    * _Cache Miss for the Category Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250008" id="_toc_250008"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -61,7 +61,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Can Regenerate Cache Manually -** Please select " Yes" or "No". If set to "Yes" then you can regenerate cache manually from cache warmer grid.
 * **Generate Log -** Select "Yes" to generate the log.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 * **Generation order -** Select which page will be generated first by adding the generation order alognside the page type. 1 is the highest priority.
 * **Allow bestsellers products to be cached first -** Select "Yes" to give best seller products the highest priority in cache generation.
@@ -81,9 +81,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 
 When you enable the module and set **General Settings > Can Regenerate Cache Manually >** to **"Yes"** then it adds an additional option "Regenerate" under the "**Actions > Select**" drop-down at **Admin > System > Cache Warmer > Actions.** This grid will have Id, Reference Id, Processed Time, Request Path, Page URL, Last Cache - (Date, Time ), Status - (Cached/Un-cached), Page Type - (Home, Product, Category, CMS), Store View, and Action- (Regenerate, Delete).
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
-* <mark style="color:orange;">**Regenerate -**</mark>** ** It regenerates cache manually for Category/Product/CMS page(s). By clicking "Regenerate" action you can regenerate cache manually for a specific URL.
+* <mark style="color:orange;">**Regenerate -**</mark> It regenerates cache manually for Category/Product/CMS page(s). By clicking "Regenerate" action you can regenerate cache manually for a specific URL.
 
 <figure><img src="../../.gitbook/assets/4324324.png" alt=""><figcaption></figcaption></figure>
 
@@ -91,19 +91,19 @@ When you enable the module and set **General Settings > Can Regenerate Cache Man
 
 You can regenerate cache for Product/Category/CMS page(s) by running the following console commands:-
 
-* <mark style="color:orange;">**Category Page -**</mark>** ** To regenerate cache for the category page, execute the below command.
+* <mark style="color:orange;">**Category Page -**</mark> To regenerate cache for the category page, execute the below command.
 
 &#x20;**`scommerce:cachewarmer:category`**
 
 ![](<../../.gitbook/assets/6 (4)>)
 
-* <mark style="color:orange;">**Product Page -**</mark>** ** To regenerate cache for the product page(s), execute the below command.
+* <mark style="color:orange;">**Product Page -**</mark> To regenerate cache for the product page(s), execute the below command.
 
-&#x20;** `scommerce:cachewarmer:product`**
+&#x20;**`scommerce:cachewarmer:product`**
 
 ![](<../../.gitbook/assets/7 (46)>)
 
-* <mark style="color:orange;">**CMS Page -**</mark>** ** To regenerate cache for CMS page, run the below command.
+* <mark style="color:orange;">**CMS Page -**</mark> To regenerate cache for CMS page, run the below command.
 
 &#x20;**`scommerce:cachewarmer:cmspage`**
 
@@ -111,12 +111,12 @@ You can regenerate cache for Product/Category/CMS page(s) by running the followi
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 
-* <mark style="color:orange;">**Cache Hit for the Category Page After the Execution of Category Page Command -**</mark>** ** When you execute the command for category page then it regenerates the cache and on the front-end you check the status "Hit" or "Miss" using browser tool (Inspect element) at **Network > Select Page URL > Header > X- Magento-Cache-Debug : HIT**
+* <mark style="color:orange;">**Cache Hit for the Category Page After the Execution of Category Page Command -**</mark> When you execute the command for category page then it regenerates the cache and on the front-end you check the status "Hit" or "Miss" using browser tool (Inspect element) at **Network > Select Page URL > Header > X- Magento-Cache-Debug : HIT**
 
 ![](<../../.gitbook/assets/9 (28)>)
 
-* <mark style="color:orange;">**Cache Miss for the Category Page -**</mark>** ** Flush the cache by executing the command, **c:f** and then check cache using browser tool at, **Network > Select Page URL > Header > X-Magento-Cache-Debug : MISS**
+* <mark style="color:orange;">**Cache Miss for the Category Page -**</mark> Flush the cache by executing the command, **c:f** and then check cache using browser tool at, **Network > Select Page URL > Header > X-Magento-Cache-Debug : MISS**
 
 ![](<../../.gitbook/assets/10 (17)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-full-page-cache-warmer.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-full-page-cache-warmer.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

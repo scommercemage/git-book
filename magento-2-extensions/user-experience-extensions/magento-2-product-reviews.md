@@ -4,23 +4,23 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-product-reviews.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-product-reviews.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Product Reviews_](magento-2-product-reviews.md#\_bookmark3)__
+2. [_Configuration Settings for Product Reviews_](magento-2-product-reviews.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Creating New Review Sliders_](magento-2-product-reviews.md#\_bookmark5)__
-4. __[_A_d](magento-2-product-reviews.md#\_bookmark5)[ding Review Slider](magento-2-product-reviews.md#\_bookmark5)
+3. [_Creating New Review Sliders_](magento-2-product-reviews.md#\_bookmark5)
+4. [_A_d](magento-2-product-reviews.md#\_bookmark5)[ding Review Slider](magento-2-product-reviews.md#\_bookmark5)
    * _Category Page_
    * _CMS Pages_
-5. __[_Front-End View_](magento-2-product-reviews.md#front-end-view)__
+5. [_Front-End View_](magento-2-product-reviews.md#front-end-view)
    * _Email Field in Review Form_
    * _Reviews on CMS Pages_
    * _Reviews on Category Pages_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade

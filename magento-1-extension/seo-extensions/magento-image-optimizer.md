@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. [_Installation_](magento-image-optimizer.md#installation)__
+1. [_Installation_](magento-image-optimizer.md#installation)
    * &#x20;_Disable Compilation Mode_
    * &#x20;_Upload Package_
    * _Clear Caches_
-2. __[_Configuration Settings for Optimize Images_](magento-image-optimizer.md#\_toc40181960)__
+2. [_Configuration Settings for Optimize Images_](magento-image-optimizer.md#\_toc40181960)
    * _General Settings_
    * _Compress/Optimize Product Images_
    * _Compress/Optimize Category Images_
@@ -18,9 +18,9 @@
 
 ### &#x20;<mark style="color:blue;">Installation</mark>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Optimize Images</mark> <a href="#_toc40181960" id="_toc40181960"></a>
 
@@ -35,7 +35,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimize Imag
 * #### **Compress New Product Images –** Enable Compression for new product images as soon as they are uploaded via Magento admin. We recommend this to be enabled because all the new product images will be compressed straight away.
 * #### **Compress CMS Pages –** Enable compression for CMS Images which you upload from Wysiwyg editor within Magento admin.
 * #### **Image Compression Provider –** Select the compression provider from the list. These are three providers in the drop down. Resmush, ImageOptim and Kraken IO. Resmush is free and for the other two subscribe at their websites.
-* #### **Provider API URL –** Provider API URL **Smush it –** [http://api.resmush.it/ws.php?img=](http://api.resmush.it/ws.php?img=) **Imageoptim –** [**http://im2.io/\{{username\}}/full/**](http://im2.io/%7B%7Busername%7D%7D/full/) **Kraken –** [https://api.kraken.io/v1/url](https://api.kraken.io/v1/url)****
+* #### **Provider API URL –** Provider API URL **Smush it –** [http://api.resmush.it/ws.php?img=](http://api.resmush.it/ws.php?img=) **Imageoptim –** [**http://im2.io/\{{username\}}/full/**](http://im2.io/%7B%7Busername%7D%7D/full/) **Kraken –** [https://api.kraken.io/v1/url](https://api.kraken.io/v1/url)
 * **API Key –** This will be required for certain providers like Kraken.io
 * **API Secret Key –** This will be required for certain providers like Krake.io
 * **Thumbnail images size –** Provide thumbnail sizes for your product images in a comma separated format for example **50x,56x56,75x**. If you are not sure the you can either check sizes under **\media\cache\1\small\_image folder** or just simply save the configuration.
@@ -75,4 +75,4 @@ You can compress CMS images by enabling module from Admin > Stores > Configurati
 
 ![](../../.gitbook/assets/imgm17.png)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-image-optimizer.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-image-optimizer.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,17 +4,17 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark3)__
+2. [_Configuration Settings for Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Social Booster - Facebook Settings_&#x20;
    * _Social Booster - Twitter Settings_&#x20;
    * _Email_&#x20;
-3. [_Create/Edit/Delete Custom form fields_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark8)__
+3. [_Create/Edit/Delete Custom form fields_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark8)
    * _View Custom Field Screen_&#x20;
-4. __[_Create/Edit Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark10)__
+4. [_Create/Edit Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark10)
    * _Create Competition_&#x20;
    * _Add Fields in Competition Form_&#x20;
    * _Add Custom Fields_&#x20;
@@ -23,9 +23,9 @@
    * _Twitter Sharing_&#x20;
    * _Email Template for Competition Entry Email_&#x20;
    * _Choose Winner_&#x20;
-5. __[_Competition Entrants_ ](magento-2-competition-or-prize-draw-with-social-booster.md#competition-entrants)__
+5. [_Competition Entrants_ ](magento-2-competition-or-prize-draw-with-social-booster.md#competition-entrants)
    * _View Entrants_&#x20;
-6. __[_Front-end Site View_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark21)__
+6. [_Front-end Site View_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark21)
    * _Competition Form_&#x20;
    * _Social Sharing Links on the Form_&#x20;
    * _Competition Entry Confirmation Email_&#x20;
@@ -34,7 +34,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -48,7 +48,7 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-<mark style="color:blue;"></mark>
+
 
 ### <mark style="color:blue;">Configuration Settings for Competition</mark> <a href="#_bookmark3" id="_bookmark3"></a>
 
@@ -98,7 +98,7 @@ You can create, update and delete custom fields from **Admin > Competition > Cus
 
 ![](<../../.gitbook/assets/8 (26)>)
 
-* <mark style="color:orange;">**View Custom Field Screen -**</mark>** ** Click on "Add New Custom Field" will redirect you to detailed view custom field page and by filling all the required details you can create a new custom field. It will have below tabs: -
+* <mark style="color:orange;">**View Custom Field Screen -**</mark> Click on "Add New Custom Field" will redirect you to detailed view custom field page and by filling all the required details you can create a new custom field. It will have below tabs: -
 
 <mark style="color:blue;">**Field Information**</mark>
 
@@ -162,7 +162,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 
 ![](<../../.gitbook/assets/12 (32)>)
 
-* <mark style="color:orange;">**Add Fields in Competition Form -**</mark>** ** To add fields in competition form go to **Admin > Competition > Competitions > Add Fields in Competition Form.** It will have the fields: -
+* <mark style="color:orange;">**Add Fields in Competition Form -**</mark> To add fields in competition form go to **Admin > Competition > Competitions > Add Fields in Competition Form.** It will have the fields: -
   * ID
   * Field Title
   * Field Type
@@ -171,7 +171,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 
 ![](<../../.gitbook/assets/13 (5)>)
 
-* <mark style="color:orange;">**Add Custom Fields -**</mark>** ** You can add fields from **Admin > Competition > Competitions > Add Fields in Competition Form >** Click on **"Add Fields**" **>** Select fields and Click on "**Add Selected Fields"**. This screen will have all the available custom fields in a grid form and user will be able to select fields to add to the competition form.
+* <mark style="color:orange;">**Add Custom Fields -**</mark> You can add fields from **Admin > Competition > Competitions > Add Fields in Competition Form >** Click on **"Add Fields**" **>** Select fields and Click on "**Add Selected Fields"**. This screen will have all the available custom fields in a grid form and user will be able to select fields to add to the competition form.
   * Checkbox to select fields
   * Field Code
   * Field Name/Title
@@ -180,7 +180,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 
 ![](<../../.gitbook/assets/14 (28)>)
 
-* <mark style="color:orange;">**Design -**</mark>** ** This tab will display two drop downs with all the static block where user will be able to select static block for the competition entry page and success page from **Admin > Competition > Competitions > Add Fields in Competition Form > Design.**
+* <mark style="color:orange;">**Design -**</mark> This tab will display two drop downs with all the static block where user will be able to select static block for the competition entry page and success page from **Admin > Competition > Competitions > Add Fields in Competition Form > Design.**
   * **Static block for Competition Entry Page –** Please select static block for competition entry page on front end.
   * **Static block for Competition Entry Thank you page –** Please select static block for competition entry page on the front end.
 
@@ -195,7 +195,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 
 ![](../../.gitbook/assets/competition2.png)
 
-* <mark style="color:orange;">**Twitter Sharing –**</mark>** ** This tab will only be visible, if enabled from **Admin >Stores > Configuration > Scommerce Configuration > Competition > Social Booster- Twitter Settings**
+* <mark style="color:orange;">**Twitter Sharing –**</mark> This tab will only be visible, if enabled from **Admin >Stores > Configuration > Scommerce Configuration > Competition > Social Booster- Twitter Settings**
   * **Enabled (yes/no) –** Please select “Yes” or “No” for Twitter sharing on competition form.
   * **Twitter Text –** Please add description of your promotion which appears on the sharing popup.
   * **Hashtags –** Please add hashtag of your promotion which appears on the sharing popup at the end of the description.
@@ -203,7 +203,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 ![](<../../.gitbook/assets/17 (17)>)
 
 * <mark style="color:orange;">**Email Template for Competition Entry Email –**</mark> This will be a dropdown to select default competition level competition entry email template from the available list of templates. If nothing selected, then it will pick up template defined in section **Admin > Stores > Configuration > Scommerce Configuration > Email**.
-* <mark style="color:orange;">**Choose Winner –**</mark>** ** It generates winners only when the competition has ended. This will be determined by competition end date and will have below two elements.
+* <mark style="color:orange;">**Choose Winner –**</mark> It generates winners only when the competition has ended. This will be determined by competition end date and will have below two elements.
   * **Number of winners –** Please add number of winners you would like to generate for the competition.
   * **Generate Winner Button –** To generate a winner, click on "Generate Winner" button. It resets manually generated winners and selects a new winner randomly. This is a random process, and doesn't validate any answer or entries.
 
@@ -223,17 +223,17 @@ You can generate winner manually from Entrants grid by selecting "Mark Winner" u
 
 ![](<../../.gitbook/assets/19 (18)>)
 
-* <mark style="color:orange;">**View Entrants –**</mark>** ** To view entrants details go to **Admin > Competition > Entrants> Select "View",** it opens View Entrants page from where you can select winner ma by selecting "**Yes**" from Mark Winner drop-down. It selects winner manually and it doesn't validate any answer or entries.
+* <mark style="color:orange;">**View Entrants –**</mark> To view entrants details go to **Admin > Competition > Entrants> Select "View",** it opens View Entrants page from where you can select winner ma by selecting "**Yes**" from Mark Winner drop-down. It selects winner manually and it doesn't validate any answer or entries.
 
 ![](<../../.gitbook/assets/20 (17)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark21" id="_bookmark21"></a>
 
-* <mark style="color:orange;">**Competition Form -**</mark>** ** When you create a competition from **Admin > Competition > Competitions**, then based on defined URL key it opens the competition on the front-end site with the social sharing options, which you can see in the below screen grab.
+* <mark style="color:orange;">**Competition Form -**</mark> When you create a competition from **Admin > Competition > Competitions**, then based on defined URL key it opens the competition on the front-end site with the social sharing options, which you can see in the below screen grab.
 
 ![](../../.gitbook/assets/competition3.png.jpg)
 
-* <mark style="color:orange;">**Social Sharing Links on the Form -**</mark>** ** After entering into the competition when you share the competition on the social sites, it increases the possibility to win the competition. It allows you to enter five entries in the same prize draw competition by following / liking / sharing the prize draw or competition on Facebook and Twitter, also you can enable/disable the social sharing options from the back-end.
+* <mark style="color:orange;">**Social Sharing Links on the Form -**</mark> After entering into the competition when you share the competition on the social sites, it increases the possibility to win the competition. It allows you to enter five entries in the same prize draw competition by following / liking / sharing the prize draw or competition on Facebook and Twitter, also you can enable/disable the social sharing options from the back-end.
 
 ![](../../.gitbook/assets/competition4.png.jpg)
 
@@ -241,7 +241,7 @@ You can generate winner manually from Entrants grid by selecting "Mark Winner" u
 
 ![](../../.gitbook/assets/competition5.png.jpg)
 
-* <mark style="color:orange;">**Newsletter Subscription Confirmation Email -**</mark>** ** When you select "Yes" for " Subscription to Newsletter on Form Submission " from **Admin > Stores > Configuration > Scommerce Configuration > Competition,** then it sends newsletter subscription confirmation email to users.
+* <mark style="color:orange;">**Newsletter Subscription Confirmation Email -**</mark> When you select "Yes" for " Subscription to Newsletter on Form Submission " from **Admin > Stores > Configuration > Scommerce Configuration > Competition,** then it sends newsletter subscription confirmation email to users.
 
 ![](../../.gitbook/assets/competition6.png)
 
@@ -249,4 +249,4 @@ You can generate winner manually from Entrants grid by selecting "Mark Winner" u
 
 ![](../../.gitbook/assets/competition7.png.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-competition-module-with-social-booster.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-competition-module-with-social-booster.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

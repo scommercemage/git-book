@@ -4,31 +4,31 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
-2. __[_Configuration Settings for Tracking Base_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3)
+2. [_Configuration Settings for Tracking Base_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
-3. __[_Configuration Settings for Global Site Tag (gtag.js)_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3-1)
+3. [_Configuration Settings for Global Site Tag (gtag.js)_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3-1)
    * _General Settings_&#x20;
-4. __[_Backend Tracking_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark5)
+4. [_Backend Tracking_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark5)
    * _Backend Order Tracking in Google Analytics_&#x20;
    * _Backend Order Google Analytics Source/Medium_&#x20;
    * _Google Analytics Checkout Behaviour_&#x20;
    * _Google Analytics Shopping Behaviour_&#x20;
    * _Google Analytics Sales Performance_
-5. __[_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)__
-6. __[_Link Google Optimize with Google Analytics Account_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)__
-7. __[_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)__
+5. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)
+6. [_Link Google Optimize with Google Analytics Account_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
+7. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
    * _Home Page with Tags_&#x20;
    * _Gtag.js Code_&#x20;
    * _Gtag.js Brand Name_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -121,23 +121,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 ### Backend Tracking <a href="#_bookmark5" id="_bookmark5"></a>
 
-* <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark>** ** You can track admin orders by selecting "Yes" for " **Enabled Backend Tracking**" from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Enabled Backend Tracking - "Yes".** In the below image you can see the tracked admin orders in Google analytics.
+* <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark> You can track admin orders by selecting "Yes" for " **Enabled Backend Tracking**" from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Enabled Backend Tracking - "Yes".** In the below image you can see the tracked admin orders in Google analytics.
 
 ![](../../.gitbook/assets/gtag\_backendorder.jpg)
 
-* <mark style="color:orange;">**Backend Order Google Analytics Source/Medium -**</mark>** ** To track/add Campaign Source and Medium for backend orders, add campaign source and medium from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Backend Campaign Source - "phone" > Campaign Medium -"admin".**
+* <mark style="color:orange;">**Backend Order Google Analytics Source/Medium -**</mark> To track/add Campaign Source and Medium for backend orders, add campaign source and medium from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Backend Campaign Source - "phone" > Campaign Medium -"admin".**
 
 ![](<../../.gitbook/assets/4 (9)>)
 
-* <mark style="color:orange;">**Google Analytics Checkout Behaviour -**</mark>** ** You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details.
+* <mark style="color:orange;">**Google Analytics Checkout Behaviour -**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details.
 
 ![](../../.gitbook/assets/gtag\_checkoutbehaviour.jpg)
 
-* <mark style="color:orange;">**Google Analytics Shopping Behaviour -**</mark>** ** In below image you can see the shopping behaviour with all sessions, product views, add to cart, checkout details.
+* <mark style="color:orange;">**Google Analytics Shopping Behaviour -**</mark> In below image you can see the shopping behaviour with all sessions, product views, add to cart, checkout details.
 
 ![](../../.gitbook/assets/gtag\_shoppingbehaviour.jpg)
 
-* <mark style="color:orange;">**Google Analytics Sales Performance -**</mark>** ** Placed order details in GA, with Transaction ID, Tax, Shipping, Refund Amount and Quantity details.
+* <mark style="color:orange;">**Google Analytics Sales Performance -**</mark> Placed order details in GA, with Transaction ID, Tax, Shipping, Refund Amount and Quantity details.
 
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
@@ -182,16 +182,16 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
-* <mark style="color:orange;">**Home Page with Tags -**</mark>** ** In Tag Assistant tool you can see all the fired tags.
+* <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see all the fired tags.
 
 ![](../../.gitbook/assets/gtag\_front1.jpg)
 
-* <mark style="color:orange;">**Gtag.js Code -**</mark>** ** In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – UA – 33387561-8, AW- 12345678.
+* <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – UA – 33387561-8, AW- 12345678.
 
 ![](<../../.gitbook/assets/11 (20)>)
 
-* <mark style="color:orange;">**Gtag.js Brand Name –**</mark>** ** You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand Name – “TestScommerce”.**
+* <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand Name – “TestScommerce”.**
 
 ![](../../.gitbook/assets/gtag\_front3.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

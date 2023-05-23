@@ -4,22 +4,22 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-update-order-email-address.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-update-order-email-address.md#\_bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Update Order Email Address_ ](magento-2-update-order-email-address.md#\_bookmark3)__
+2. [_Configuration Settings for Update Order Email Address_ ](magento-2-update-order-email-address.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Update Email Address from Order Detail View Page_&#x20;
    * _Updated Email Address Visible on the Order Detail View Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Download Extension:**</mark>** ** Once you have placed the order from our site then go to Account section and click on My Downloadable Products and download the extension package.
+* <mark style="color:orange;">**Download Extension:**</mark> Once you have placed the order from our site then go to Account section and click on My Downloadable Products and download the extension package.
 
 ![](../../.gitbook/assets/Download.png)
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -46,12 +46,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Update Order 
 
 ![](<../../.gitbook/assets/1 (45)>)
 
-* <mark style="color:orange;">**Update Email Address from Order Detail View Page -**</mark>** ** You can update email address from **Admin > Sales > Orders > Select Order >** Click on "**Change**" then add new email address **>** Click "**Save**".
+* <mark style="color:orange;">**Update Email Address from Order Detail View Page -**</mark> You can update email address from **Admin > Sales > Orders > Select Order >** Click on "**Change**" then add new email address **>** Click "**Save**".
 
 ![](<../../.gitbook/assets/2 (66)>)
 
-* <mark style="color:orange;">**Updated Email Address Visible on the Order Detail View Page -**</mark>** ** The updated email address will be shown on the order detail view page under "Account Information" section.
+* <mark style="color:orange;">**Updated Email Address Visible on the Order Detail View Page -**</mark> The updated email address will be shown on the order detail view page under "Account Information" section.
 
 ![](<../../.gitbook/assets/3 (67)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-ajax-login-add-to-wishlist.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-ajax-login-add-to-wishlist.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -24,8 +24,8 @@
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Google Sitemap</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -39,23 +39,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sitemap**
 
 ![](../../.gitbook/assets/m1googgeneral.jpg)
 
-* <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark>** ** To include or exclude categories, go to **Admin > Catalog > Manage Categories > Select Category** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
+* <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark> To include or exclude categories, go to **Admin > Catalog > Manage Categories > Select Category** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
 
 ![](<../../.gitbook/assets/2 (72)>)
 
-* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark>** ** To exclude products from sitemap, go to **Admin > Catalog > Manage Products > Select Product** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
+* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to **Admin > Catalog > Manage Products > Select Product** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
 
 ![](<../../.gitbook/assets/3 (30)>)
 
-* <mark style="color:orange;">**Exclude CMS from Sitemap –**</mark>** ** To exclude CMS pages from sitemap, go to **Admin > CMS > Pages > Select CMS Page** (you want to exclude from site map**) > General > Exclude from Sitemap:** Set to **“Yes/No”.**
+* <mark style="color:orange;">**Exclude CMS from Sitemap –**</mark> To exclude CMS pages from sitemap, go to **Admin > CMS > Pages > Select CMS Page** (you want to exclude from site map**) > General > Exclude from Sitemap:** Set to **“Yes/No”.**
 
 ![](<../../.gitbook/assets/4 (8)>)
 
-* <mark style="color:orange;">**How to Generate Sitemap –**</mark>** ** To generate the site map from the admin panel go to **Admin > Catalog > Google Sitemap >** Click **“Generate Sitemap”.**
+* <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to **Admin > Catalog > Google Sitemap >** Click **“Generate Sitemap”.**
 
 ![](<../../.gitbook/assets/5 (16)>)
 
-* <mark style="color:orange;">**Add new Sitemap –**</mark>** ** You can create a new site map from **Admin > Catalog > Google Sitemap >** Click **“Add Sitemap”**, it redirects to New Site Map page**,** and by providing all the required details you can create Site Map.
+* <mark style="color:orange;">**Add new Sitemap –**</mark> You can create a new site map from **Admin > Catalog > Google Sitemap >** Click **“Add Sitemap”**, it redirects to New Site Map page**,** and by providing all the required details you can create Site Map.
 
 ![](<../../.gitbook/assets/6 (23)>)
 
@@ -63,7 +63,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sitemap**
 
 ![](<../../.gitbook/assets/7 (47)>)
 
-### <mark style="color:blue;">**Google Sitemap XML**</mark>** **&#x20;
+### <mark style="color:blue;">**Google Sitemap XML**</mark>&#x20;
 
 Google site map shows all the Included Products, Categories, and CMS Page links in the sitemap.xml
 
@@ -71,12 +71,12 @@ Google site map shows all the Included Products, Categories, and CMS Page links 
 
 ![](<../../.gitbook/assets/8 (13)>)
 
-* <mark style="color:orange;">**Category Link in Sitemap XML –**</mark>** ** You can see the category link in the Google Sitemap XML.
+* <mark style="color:orange;">**Category Link in Sitemap XML –**</mark> You can see the category link in the Google Sitemap XML.
 
 ![](<../../.gitbook/assets/9 (32)>)
 
-* <mark style="color:orange;">**CMS Page Link in Sitemap XML –**</mark>** ** In the below screen grab you can see the about-us page link in the Google Sitemap XML.
+* <mark style="color:orange;">**CMS Page Link in Sitemap XML –**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
 ![](../../.gitbook/assets/10)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-site-map-exclusion.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-site-map-exclusion.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

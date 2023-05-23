@@ -24,9 +24,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply Click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘Refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply Click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘Refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Google Universal Analytics</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -87,23 +87,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 ![](../../.gitbook/assets/m1ua\_eesetup.jpg)
 
 * Click Submit.
-* <mark style="color:orange;">**Real Time Event –**</mark>** ** You can view the tracked events from **GA > Realtime > Events.**
+* <mark style="color:orange;">**Real Time Event –**</mark> You can view the tracked events from **GA > Realtime > Events.**
 
 ![](../../.gitbook/assets/m1ua\_realtimeevent.jpg)
 
-* <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark>** ** You can track admin orders by selecting “Yes” for **“Send Phone or Admin Orders”** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enable Enhanced Ecommerce – “Yes”.**
+* <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark> You can track admin orders by selecting “Yes” for **“Send Phone or Admin Orders”** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enable Enhanced Ecommerce – “Yes”.**
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (17)>)
 
-* <mark style="color:orange;">**Shopping Behaviour –**</mark>** ** You can see the shopping behaviour from **GA > Conversion > Ecommerce > Shopping Behaviour.**
+* <mark style="color:orange;">**Shopping Behaviour –**</mark> You can see the shopping behaviour from **GA > Conversion > Ecommerce > Shopping Behaviour.**
 
 ![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/6 (19)>)
 
-* <mark style="color:orange;">**Checkout Behaviour –**</mark>** ** You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversions> Ecommerce > Checkout Behaviour.**
+* <mark style="color:orange;">**Checkout Behaviour –**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversions> Ecommerce > Checkout Behaviour.**
 
 ![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/7 (33)>)
 
-* <mark style="color:orange;">**Product Performance –**</mark>** ** To view the product performance go to **GA > Conversion> Ecommerce > Product Performance.**
+* <mark style="color:orange;">**Product Performance –**</mark> To view the product performance go to **GA > Conversion> Ecommerce > Product Performance.**
 
 ![A screen shot of a computer  Description automatically generated](<../../.gitbook/assets/8 (49)>)
 
@@ -113,12 +113,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark14" id="_bookmark14"></a>
 
-* <mark style="color:orange;">**Home Page with Tags –**</mark>** ** In Tag Assistant tool you can see the fired tags.
+* <mark style="color:orange;">**Home Page with Tags –**</mark> In Tag Assistant tool you can see the fired tags.
 
 ![](<../../.gitbook/assets/10 (10)>)
 
-* <mark style="color:orange;">**GA – UA Tracking Code –**</mark>** ** In the below image you can see the UA tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Account Id** – UA – 33387561-7.
+* <mark style="color:orange;">**GA – UA Tracking Code –**</mark> In the below image you can see the UA tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Account Id** – UA – 33387561-7.
 
 ![](<../../.gitbook/assets/11 (30)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-enhanced-ecommerce-tracking.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-enhanced-ecommerce-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

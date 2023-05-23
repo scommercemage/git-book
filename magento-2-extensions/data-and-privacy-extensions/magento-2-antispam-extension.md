@@ -4,19 +4,19 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-antispam-extension.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-antispam-extension.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-antispam-extension.md#\_bookmark3)__
+2. [_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-antispam-extension.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Rate Limiter_
-3. __[_Frontend_](magento-2-antispam-extension.md#frontend)__
+3. [_Frontend_](magento-2-antispam-extension.md#frontend)
    * _Invalid Search_
    * _Rate Limiter_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade

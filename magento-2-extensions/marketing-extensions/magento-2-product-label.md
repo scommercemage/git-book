@@ -4,23 +4,23 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-label.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-product-label.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Label_](magento-2-product-label.md#\_bookmark3)__
+2. [_Configuration Settings for Product Label_](magento-2-product-label.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Product Label Grid_
    * _Add New Product Label_
-3.  __[_Front-end Site View_ ](magento-2-product-label.md#\_bookmark9)__
+3.  [_Front-end Site View_ ](magento-2-product-label.md#\_bookmark9)
 
     * _Product Label on Category Page_&#x20;
     * _Product Label on Product Page_
 
-    __
+
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade

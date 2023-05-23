@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250006)__
+1. [_Installation_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250006)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250005)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250005)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Alternate Hreflang_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250003)__
+3. [_Configuration Settings for Alternate Hreflang_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250003)
    * _General Settings_&#x20;
    * _Language and Country Settings_&#x20;
-4. __[_Set Path Priority_](magento-2-alternate-hreflang-tags.md#set-path-priority)__
-5. __[_Override Canonical URL_](magento-2-alternate-hreflang-tags.md#override-canonical-url)__
+4. [_Set Path Priority_](magento-2-alternate-hreflang-tags.md#set-path-priority)
+5. [_Override Canonical URL_](magento-2-alternate-hreflang-tags.md#override-canonical-url)
    * _Category Page_
    * _Product Page_
    * _CMS Page_
-6. __[_Set Primary Categories_](magento-2-alternate-hreflang-tags.md#set-primary-categories)__
-7. __[_Frontend Site View_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250000)__
+6. [_Set Primary Categories_](magento-2-alternate-hreflang-tags.md#set-primary-categories)
+7. [_Frontend Site View_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250000)
    * _Hreflang Tag on the Home Page_&#x20;
    * _Hreflang Tag on the Category Page_&#x20;
    * _Hreflang Tag on the Product Page_&#x20;
@@ -26,7 +26,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250006" id="_toc_250006"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -129,19 +129,19 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 
-* <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark>** ** You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
+* <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark> You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
 
 ![](../../.gitbook/assets/hreflang\_home.png)
 
-* <mark style="color:orange;">**Hreflang Tag on the Category Page -**</mark>** ** To enable hreflang on the category page, go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Categories - "Yes"._
+* <mark style="color:orange;">**Hreflang Tag on the Category Page -**</mark> To enable hreflang on the category page, go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Categories - "Yes"._
 
 ![](../../.gitbook/assets/hreflang\_category.jpg)
 
-* <mark style="color:orange;">**Hreflang Tag on the Product Page -**</mark>** ** You can enable hreflang on the product page by selecting "Yes" for " Hreflang Tags For Products " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Products._
+* <mark style="color:orange;">**Hreflang Tag on the Product Page -**</mark> You can enable hreflang on the product page by selecting "Yes" for " Hreflang Tags For Products " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Products._
 
 ![](../../.gitbook/assets/hreflang\_product.png)
 
-* <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark>** ** Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes". Go to Admin > content > Pages_ select the about us page for each store view and go into _Search Engine Optimization. Put the same identifier if you want interlinking between various languages of the same about us page._
+* <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark> Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes". Go to Admin > content > Pages_ select the about us page for each store view and go into _Search Engine Optimization. Put the same identifier if you want interlinking between various languages of the same about us page._
 
 ![](<../../.gitbook/assets/4 (2).png>)
 

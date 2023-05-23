@@ -4,28 +4,28 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-rich-snippets.md#\_toc\_250010)__
+1. [_Installation_ ](magento-2-google-rich-snippets.md#\_toc\_250010)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-google-rich-snippets.md#\_toc\_250009)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-google-rich-snippets.md#\_toc\_250009)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for Rich Snippets_ ](magento-2-google-rich-snippets.md#\_toc\_250007)__
+3. [_Configuration Settings for Rich Snippets_ ](magento-2-google-rich-snippets.md#\_toc\_250007)
    * _General Settings_&#x20;
    * _Rich Snippets General Settings_&#x20;
    * _Twitter Card Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Pinterest Rich Pins Settings_&#x20;
-4. __[_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-google-rich-snippets.md#\_toc\_250001)__
+4. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-google-rich-snippets.md#\_toc\_250001)
    * _Home Page Markup Code_&#x20;
    * _Category Page Markup Code_&#x20;
    * _Product Page Markup Code_&#x20;
    * _Twitter, Facebook Open Graph Social Sharing Code_&#x20;
    * _Increased and Optimized Page Ranking in Search Results_&#x20;
-5. __[_Set Primary Categories_](magento-2-google-rich-snippets.md#set-primary-categories)__
+5. [_Set Primary Categories_](magento-2-google-rich-snippets.md#set-primary-categories)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250010" id="_toc_250010"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -109,13 +109,13 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 Some settings are only available on the website level for eg:- Region/State.
 
 * **Show free shipping-** Select “Yes” or “No” to add or remove free shipping schema from the product page.
-* **Country –**  It **** determines which country will have free shipping for the selected website
+* **Country –**  It determines which country will have free shipping for the selected website
 * **Region/State –** It determines which state within the selected country will have free shipping for the selected website
 * **Base Currency -** Added as a part of free shipping schema, set 'YES' to allow use of base currency of the website otherwise the currency chosen by the customer.
 
 ![](../../.gitbook/assets/richsn.png)
 
-****
+
 
 ### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_toc_250007" id="_toc_250007"></a>
 
@@ -123,7 +123,7 @@ Some settings are only available on the website level for eg:- Region/State.
 
 ![](<../../.gitbook/assets/7 (37)>)
 
-* <mark style="color:orange;">**Category Page Markup Code -**</mark>** ** You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
+* <mark style="color:orange;">**Category Page Markup Code -**</mark> You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
 
 ![](<../../.gitbook/assets/8 (19)>)
 
@@ -137,15 +137,15 @@ Some settings are only available on the website level for eg:- Region/State.
 
 ### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
 
-* <mark style="color:orange;">**Twitter Card -**</mark>** ** You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
+* <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
 ![](<../../.gitbook/assets/10 (43)>)
 
-* <mark style="color:orange;">**Facebook Open Graph -**</mark>** ** Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
+* <mark style="color:orange;">**Facebook Open Graph -**</mark> Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
 ![](<../../.gitbook/assets/11 (32)>)
 
-* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark>** ** In the below image you can see the increased and optimized page ranking in search results.
+* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
 ![](<../../.gitbook/assets/12 (35)>)
 

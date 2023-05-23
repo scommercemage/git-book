@@ -4,26 +4,26 @@
 
 **Table of Contents**
 
-__[_1. Installation_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc62151771)__
+[_1. Installation_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc62151771)
 
 * _Installation via app/code_&#x20;
 * _Installation via Composer_
 
-__[_2. Configuration Settings for Google Analytics Synchronization_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169380)__
+[_2. Configuration Settings for Google Analytics Synchronization_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169380)
 
 * _General Settings_
 * _GA4_
 * _Select Store View_
 
-__[_3. Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169382)__
+[_3. Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169382)
 
-__[_4. Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169393)__
+[_4. Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169393)
 
-__[_5. Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169394)__
+[_5. Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169394)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc62151771" id="_toc62151771"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 composer require google/apiclient
@@ -178,4 +178,4 @@ Login to Your Google Analytics account and go to **Admin>View Settings**. You wi
 
 `php bin/magento scommerce:analyticssync:synchronize`
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-delivery-date-and-instructions.html#faq') **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-delivery-date-and-instructions.html#faq') first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

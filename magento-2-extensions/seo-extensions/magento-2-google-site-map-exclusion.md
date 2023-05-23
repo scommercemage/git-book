@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-google-site-map-exclusion.md#\_toc\_250004)__
+1. [_Installation_ ](magento-2-google-site-map-exclusion.md#\_toc\_250004)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#\_toc\_250003)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#\_toc\_250001)__
+3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#\_toc\_250001)
    * _General Settings_&#x20;
    * _Exclude Categories from Sitemap_&#x20;
    * _Exclude Products from Sitemap_&#x20;
@@ -17,20 +17,20 @@
    * _How to Generate Sitemap_&#x20;
    * _Add new Sitemap_&#x20;
    * _Magento Out of the Box Functionality to set the Category Path_&#x20;
-4. __[_Google Sitemap XML_ ](magento-2-google-site-map-exclusion.md#google-sitemap-xml)__
+4. [_Google Sitemap XML_ ](magento-2-google-site-map-exclusion.md#google-sitemap-xml)
    * _Product Link in Sitemap XML_&#x20;
    * _Category Link in Sitemap XML_&#x20;
    * _CMS Pages Link in Sitemap XML_&#x20;
-5. __[_Set Path Priority_](magento-2-google-site-map-exclusion.md#set-path-priority)__
-6. __[_Override Canonical URL_](magento-2-google-site-map-exclusion.md#override-canonical-url)
+5. [_Set Path Priority_](magento-2-google-site-map-exclusion.md#set-path-priority)
+6. [_Override Canonical URL_](magento-2-google-site-map-exclusion.md#override-canonical-url)
    * _Category Page_
    * _Product Page_
    * _CMS Page_
-7. __[_Set Primary Categories_](magento-2-google-site-map-exclusion.md#set-primary-categories)__
+7. [_Set Primary Categories_](magento-2-google-site-map-exclusion.md#set-primary-categories)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250004" id="_toc_250004"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -69,7 +69,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/3 (10)>)
 
-* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark>** ** To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
+* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
 
 ![](<../../.gitbook/assets/4 (30)>)
 
@@ -77,7 +77,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/5 (19)>)
 
-* <mark style="color:orange;">**How to Generate Sitemap –**</mark>** ** To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
+* <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
 
 ![](<../../.gitbook/assets/6 (30)>)
 
@@ -85,7 +85,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/7 (13)>)
 
-* <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark>** ** To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
+* <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark> To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
 
 ![](<../../.gitbook/assets/8 (45)>)
 
@@ -151,14 +151,14 @@ Google site map shows all the included Products, Categories**,** and CMS Pages l
 
 ![](<../../.gitbook/assets/10 (4)>)
 
-* <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark>** ** In the below screen grab you can see the about-us page link in the Google Sitemap XML.
+* <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
 ![](<../../.gitbook/assets/11 (14)>)
 
-* <mark style="color:orange;">**Product Link in Sitemap XML -**</mark>** ** You can see the product link in the Google Sitemap XML.
+* <mark style="color:orange;">**Product Link in Sitemap XML -**</mark> You can see the product link in the Google Sitemap XML.
 
 ![](../../.gitbook/assets/cat.png)
 
-<mark style="color:blue;"></mark>
+
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-google-sitemap-exclusion.html#faq) first. If you can't find the answer you are looking for then please contact [**core@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

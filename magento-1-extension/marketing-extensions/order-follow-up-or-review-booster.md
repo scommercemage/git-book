@@ -36,7 +36,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Follow up**
 
 ![](../../.gitbook/assets/m1orderfollow\_general.jpg)
 
-* <mark style="color:orange;">**Follow up Email Template -**</mark>** ** Below is the template for the follow up email.
+* <mark style="color:orange;">**Follow up Email Template -**</mark> Below is the template for the follow up email.
 
 ![](../../.gitbook/assets/m1orderfollow\_template.jpg)
 
@@ -56,4 +56,4 @@ DELETE FROM core_resource WHERE CODE=’scommerce_followup_setup’;
 ALTER TABLE sales_flat_order DROP COLUMN followup_alert
 ```
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-order-follow-up-or-review-booster.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-order-follow-up-or-review-booster.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

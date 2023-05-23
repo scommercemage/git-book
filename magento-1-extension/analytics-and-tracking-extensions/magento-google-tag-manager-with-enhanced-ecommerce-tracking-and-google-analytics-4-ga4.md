@@ -15,6 +15,7 @@
    * Facebook Pixel&#x20;
    * Adwords Dynamic Remarketing&#x20;
    * Google Analytics 4
+   * Google Ads Enhanced Conversion Tracking
 4. [Importing JSONs into GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark10)&#x20;
 5. [Setting variable information in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark11)&#x20;
 6. [Publishing Tags in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark12)&#x20;
@@ -24,14 +25,14 @@
    * AJAX Add to Basket&#x20;
    * AJAX Remove from Basket&#x20;
    * Back-end/Admin Tracking&#x20;
-10. __[_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)__
-11. __[_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)__
+10. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
+11. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System>Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System>Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro Tracking</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -43,9 +44,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 * **Container Id –** Enter your Google Tag Manager Container Id.
 * **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce
+* **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
+* **PII Data Format –** Set “data layer” to push the PII data directly into the data layer ( this requires you to map the data in GTM as per your use. Set "Global Javascript" to store the PII data in a global javascript variable. Use the GTM json file which automatically maps this data into the Enhanced Conversion tag.
 * **Brand Attribute –** Select brand attribute to send brand information to Google Analytics.
 * **Brand text box –** If you don’t have brand attribute and you want to send default brand name to Google Analytics then you can enter here.
 * **Base –** Set “Yes” if you want to send base order data and ‘No’ to send store order data to Google. Set this to “Yes” always unless you have multi- store/currency is enabled and you want to send different currency data to Google.
+* **Revenue without Shipping Price –** Set “yes” to send revenue data without the shipping amount.
 * **Send Phone or Admin Orders –** Enable this feature only if you want to send admin orders on order creation.
 * **Source –** Add source you want to pass to Google for admin orders.
 * **Medium –** Add medium you want to pass to Google for admin orders**.**
@@ -55,10 +59,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Enable GDPR cookie check –** If you are using our GDPR Extension or any other GDPR Extension and you want to block sending information to Google then set this to “yes” based on customer preference. Please note this is optional as far as you are not sending any PII to Google this setting needs to be turned off.
 * **Order Total Include VAT –** If set to “Yes” then VAT will be included in order total.
 * **Order Item Include VAT –** If set to “Yes” then VAT will be included in order item.
+* **Enable GA4 data layer –** Set “yes” to enable the GA4 data layer.
+* **Enable UA data layer –** Set “yes” to enable the Universal Analytics data layer.
+* **Affiliation –** Enter the affiliation to be sent with GA4 events.
 
-![](../../.gitbook/assets/m1gtm\_general1.jpg)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
@@ -68,36 +75,35 @@ The extension package contains JSONs which can be imported in GTM to set up requ
 * Facebook Pixel
 * Adwords Dynamic Remarketing
 * Google Analytics 4
+* Google Ads Enhanced Conversion Tracking
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
 To import JSONS provided with extension package follow below steps:
 
-1. Log into GTM and navigate to your Account and container
-2. In the top navigation, click through the Admin
+* Log into GTM and navigate to your Account and container
+* In the top navigation, click through the Admin
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/2 (26)>)
 
-1. Under the container options, click on Import Container
+* Under the container options, click on Import Container
 
 ![](<../../.gitbook/assets/3 (8)>)
 
-1. Choose the JSON file which you would like to import
+* Choose the JSON file which you would like to import
 
 ![](<../../.gitbook/assets/4 (34)>)
 
-1. Choose to either Overwrite or Merge
-   * Overwriting the existing container will remove all your existing tags, triggers, and variables, and will replace them with those in the imported container. A new container version will be created before the import.
-   * Merging containers will let you keep your existing tags, triggers, and variables, and just add in the new ones. If you choose to Merge the new container with your existing container, you’ll have to then decide whether you want to overwrite conflicting tags or rename conflicting tags.
-
+* Choose to either Overwrite or Merge
+  * Overwriting the existing container will remove all your existing tags, triggers, and variables, and will replace them with those in the imported container. A new container version will be created before the import.
+  * Merging containers will let you keep your existing tags, triggers, and variables, and just add in the new ones. If you choose to Merge the new container with your existing container, you’ll have to then decide whether you want to overwrite conflicting tags or rename conflicting tags.
 * **Overwrite –** If a variable, tag, or trigger in the new container has the same name but the contents are different, overwrite the old one with the new one.
 * **Rename –** If a variable, tag, or trigger in the new container has the same name but the contents are different, keep the old one and rename the new one.
-
-1. **Click Continue**. You’ll see a preview of changes, showing how many tags, triggers, and variables will be added, modified, or deleted. You can also click the link to View Detailed Changes to see which tags, triggers, and variables are being added, modified, or deleted.
+* **Click Continue**. You’ll see a preview of changes, showing how many tags, triggers, and variables will be added, modified, or deleted. You can also click the link to View Detailed Changes to see which tags, triggers, and variables are being added, modified, or deleted.
 
 ![](<../../.gitbook/assets/5 (28)>)
 
-1. Once you’re satisfied with the changes, click _Confirm_.
+* Once you’re satisfied with the changes, click _Confirm_.
 
 ### <mark style="color:blue;">Setting variable information in GTM</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
@@ -111,15 +117,15 @@ Once the GTM container file has been imported, you need to change variable infor
 
 ![](<../../.gitbook/assets/7 (14)>)
 
-* <mark style="color:orange;">**conversionID -**</mark>** ** This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
+* <mark style="color:orange;">**conversionID -**</mark> This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
 
 ![](<../../.gitbook/assets/8 (8)>)
 
-* <mark style="color:orange;">**facebookPixelID -**</mark>** ** This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
+* <mark style="color:orange;">**facebookPixelID -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
 
 ![](<../../.gitbook/assets/9 (34)>)
 
-* <mark style="color:orange;">**currencyCode -**</mark>** ** This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
+* <mark style="color:orange;">**currencyCode -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
 
 ![](<../../.gitbook/assets/10 (35)>)
 
@@ -201,7 +207,7 @@ Function gaAddToCart(){jQuery.cookie.json = true;var productToBasket = jQuery.co
 Function gaRemoveFromCart(){jQuery.cookie.json = true;var productOutBasket = jQuery.cookie(“productOutBasket”);if (productOutBasket != undefined){manipulationOfCart(productOutBasket, ‘remove’, “);jQuery.removeCookie(“productOutBasket” , { path: ‘/’ , domain: ‘.’ + document.domain});}}
 ```
 
-* <mark style="color:orange;">**Back-end/Admin Tracking -**</mark>** ** When you enable the **"**Send Phone or Admin Orders **"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro Tracking,** then it tracks admin orders. To see admin order go to **GA > Conversion > Ecommerce > Sales Performance.**
+* <mark style="color:orange;">**Back-end/Admin Tracking -**</mark> When you enable the **"**Send Phone or Admin Orders **"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro Tracking,** then it tracks admin orders. To see admin order go to **GA > Conversion > Ecommerce > Sales Performance.**
 
 ![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/13 (8)>)
 
@@ -288,4 +294,4 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

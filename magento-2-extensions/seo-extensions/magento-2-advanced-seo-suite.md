@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-advanced-seo-suite.md#\_toc\_250032)__
+1. [_Installation_ ](magento-2-advanced-seo-suite.md#\_toc\_250032)
    * _Installation via app/code_
    * _Installation via Composer_
-2. __[_Configuration Settings for SEO Base_ ](magento-2-advanced-seo-suite.md#\_toc\_250031)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-advanced-seo-suite.md#\_toc\_250031)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-advanced-seo-suite.md#\_toc\_250029)__
+3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-advanced-seo-suite.md#\_toc\_250029)
    * _General Settings_&#x20;
    * _Exclude Categories from Sitemap_&#x20;
    * _Exclude Products from Sitemap_&#x20;
@@ -17,16 +17,16 @@
    * _How to Generate Sitemap_&#x20;
    * _Add new Sitemap_&#x20;
    * _Magento Out of the Box Functionality to set the Category Path_&#x20;
-4. [_Google Sitemap XML_ ](magento-2-advanced-seo-suite.md#google-sitemap-xml)__
+4. [_Google Sitemap XML_ ](magento-2-advanced-seo-suite.md#google-sitemap-xml)
    * _Product Link in Sitemap XML_&#x20;
    * _Category Link in Sitemap XML_&#x20;
    * _CMS Pages Link in Sitemap XML_&#x20;
-5. [_Configuration Settings for Catalog URL_ ](magento-2-advanced-seo-suite.md#\_toc\_250027)__
+5. [_Configuration Settings for Catalog URL_ ](magento-2-advanced-seo-suite.md#\_toc\_250027)
    * _General Settings_&#x20;
    * _Configuration Path to Set Up Primary Category_&#x20;
-6. __[_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250024)__
+6. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250024)
    * _Product Page Unique URL_&#x20;
-7. __[_Configuration Settings for Canonical Tags_ ](magento-2-advanced-seo-suite.md#\_toc\_250023)__
+7. [_Configuration Settings for Canonical Tags_ ](magento-2-advanced-seo-suite.md#\_toc\_250023)
    * _General Settings_&#x20;
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
@@ -35,18 +35,18 @@
    * _Product Setup for Canonical URL_&#x20;
    * _Category Setup for Canonical URL_&#x20;
    * _CMS Setup for Canonical URL_&#x20;
-8. __[_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250014)__
+8. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250014)
    * _Canonical Tag on the Category Page_&#x20;
    * _Canonical Tag on the Product Page_&#x20;
    * _Canonical Tag on the CMS Page_&#x20;
-9. [_Configuration Settings for Rich Snippets_ ](magento-2-advanced-seo-suite.md#\_toc\_250013)__
+9. [_Configuration Settings for Rich Snippets_ ](magento-2-advanced-seo-suite.md#\_toc\_250013)
    * _General Settings_&#x20;
    * _Rich Snippets General Settings_&#x20;
    * _Twitter Card Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Pinterest Rich Pins Settings_&#x20;
-10. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-advanced-seo-suite.md#\_toc\_250007)__
+10. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-advanced-seo-suite.md#\_toc\_250007)
     * _Home Page Markup Code_&#x20;
     * _Category Page Markup Code_&#x20;
     * _Product Page Markup Code_&#x20;
@@ -54,21 +54,21 @@
     * _Twitter Card_&#x20;
     * _Facebook Open Graph_&#x20;
     * _Increased and Optimized Page Ranking in Search Results_&#x20;
-11. [_Configuration Settings for Hreflang_ ](magento-2-advanced-seo-suite.md#\_toc\_250005)__
+11. [_Configuration Settings for Hreflang_ ](magento-2-advanced-seo-suite.md#\_toc\_250005)
     * _General Settings_&#x20;
     * _Language and Country Settings_&#x20;
-12. __[_Front-end Site view_ ](magento-2-advanced-seo-suite.md#\_toc\_250002)__
+12. [_Front-end Site view_ ](magento-2-advanced-seo-suite.md#\_toc\_250002)
     * _Hreflang Tag on the Home Page_&#x20;
     * _Hreflang Tag on the Category Page_&#x20;
     * _Hreflang Tag on the Product Page_&#x20;
     * _Hreflang Tag on the CMS Page_&#x20;
-13. [_Configuration Settings for Cross Linking_ ](magento-2-advanced-seo-suite.md#\_toc\_250001)__
+13. [_Configuration Settings for Cross Linking_ ](magento-2-advanced-seo-suite.md#\_toc\_250001)
     * _Cross Links Grid_&#x20;
     * _Add New Cross Link._&#x20;
     * _Build External Link to Any Website_&#x20;
     * _Alert Message for Inactive Product / Category_&#x20;
-14. __[_Set Primary Categories_](magento-2-advanced-seo-suite.md#set-primary-categories)__
-15. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250000)__
+14. [_Set Primary Categories_](magento-2-advanced-seo-suite.md#set-primary-categories)
+15. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250000)
     * _Cross Link on Category Page_&#x20;
     * _Category Page Cross Link Redirecting on External Link_&#x20;
     * _Cross Link on Product Page_
@@ -77,7 +77,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250032" id="_toc_250032"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -116,7 +116,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/3 (10)>)
 
-* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark>** ** To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
+* <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
 
 ![](<../../.gitbook/assets/4 (30)>)
 
@@ -124,7 +124,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/5 (19)>)
 
-* <mark style="color:orange;">**How to Generate Sitemap –**</mark>** ** To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
+* <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
 
 ![](<../../.gitbook/assets/6 (30)>)
 
@@ -132,7 +132,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 ![](<../../.gitbook/assets/7 (13)>)
 
-* <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark>** ** To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
+* <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark> To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
 
 ![](<../../.gitbook/assets/8 (45)>)
 
@@ -144,11 +144,11 @@ Google site map shows all the included Products, Categories**,** and CMS Pages l
 
 ![](<../../.gitbook/assets/10 (4)>)
 
-* <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark>** ** In the below screen grab you can see the about-us page link in the Google Sitemap XML.
+* <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
 ![](<../../.gitbook/assets/11 (14)>)
 
-* <mark style="color:orange;">**Product Link in Sitemap XML -**</mark>** ** You can see the product link in the Google Sitemap XML.
+* <mark style="color:orange;">**Product Link in Sitemap XML -**</mark> You can see the product link in the Google Sitemap XML.
 
 ![](../../.gitbook/assets/cat.png)
 
@@ -171,7 +171,7 @@ Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary C
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
 
-* <mark style="color:orange;">**Product Page Unique URL -**</mark>** ** You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ **** In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
+* <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
 ![](<../../.gitbook/assets/14 (26)>)
 
@@ -248,11 +248,11 @@ Go to _Admin > Content > Pages > Choose page (for which you want to set canonica
 
 ![](../../.gitbook/assets/canonicaltag\_cateogry.jpg)
 
-* <mark style="color:orange;">**Canonical Tag on the Product Page -**</mark>** ** To add canonical tag on the product page, go to _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Product Canonical Enable - Select "Yes"._
+* <mark style="color:orange;">**Canonical Tag on the Product Page -**</mark> To add canonical tag on the product page, go to _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Product Canonical Enable - Select "Yes"._
 
 ![](../../.gitbook/assets/canonicaltag\_product.jpg)
 
-* <mark style="color:orange;">**Canonical Tag on the CMS Page -**</mark>** ** You can add canonical tag on the CMS page from _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > CMS Canonical Enable - Select "Yes"._
+* <mark style="color:orange;">**Canonical Tag on the CMS Page -**</mark> You can add canonical tag on the CMS page from _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > CMS Canonical Enable - Select "Yes"._
 
 ![](../../.gitbook/assets/canonicaltag\_cms.png)
 
@@ -316,7 +316,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](<../../.gitbook/assets/image (23).png>)
 
-* <mark style="color:orange;">**Category Page Markup Code -**</mark>** ** You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
+* <mark style="color:orange;">**Category Page Markup Code -**</mark> You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
 
 ![](<../../.gitbook/assets/8 (19)>)
 
@@ -326,15 +326,15 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
 
-* <mark style="color:orange;">**Twitter Card -**</mark>** ** You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
+* <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
 ![](<../../.gitbook/assets/10 (43)>)
 
-* <mark style="color:orange;">**Facebook Open Graph -**</mark>** ** Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
+* <mark style="color:orange;">**Facebook Open Graph -**</mark> Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
 ![](<../../.gitbook/assets/11 (32)>)
 
-* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark>** ** In the below image you can see the increased and optimized page ranking in search results.
+* <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
 ![](<../../.gitbook/assets/12 (35)>)
 
@@ -367,23 +367,23 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang_
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 
-* <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark>** ** You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
+* <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark> You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
 
 ![](../../.gitbook/assets/hreflang\_home.png)
 
-* <mark style="color:orange;">**Hreflang Tag on the Category Page -**</mark>** ** To enable hreflang on the category page, go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Categories - "Yes"._
+* <mark style="color:orange;">**Hreflang Tag on the Category Page -**</mark> To enable hreflang on the category page, go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Categories - "Yes"._
 
 ![](../../.gitbook/assets/hreflang\_category.jpg)
 
-* <mark style="color:orange;">**Hreflang Tag on the Product Page -**</mark>** ** You can enable hreflang on the product page by selecting "Yes" for " Hreflang Tags For Products " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Products._
+* <mark style="color:orange;">**Hreflang Tag on the Product Page -**</mark> You can enable hreflang on the product page by selecting "Yes" for " Hreflang Tags For Products " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For Products._
 
 ![](../../.gitbook/assets/hreflang\_product.png)
 
-* <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark>** ** Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes"._
+* <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark> Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes"._
 
 ![](../../.gitbook/assets/hreflang\_cms.png)
 
-__
+
 
 ### <mark style="color:blue;">Configuration Settings for Cross Linking</mark> <a href="#_toc_250001" id="_toc_250001"></a>
 
@@ -400,11 +400,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking_
 
 
 
-* <mark style="color:orange;">**Cross Links Grid -**</mark>** ** You can manage and create new cross links from _Admin > Marketing > SEO Cross Linking > Cross Links._ This grid will have ID, Title, Status, Store View, Target, Replacement Limit, Priority, Nofollow, Action.
+* <mark style="color:orange;">**Cross Links Grid -**</mark> You can manage and create new cross links from _Admin > Marketing > SEO Cross Linking > Cross Links._ This grid will have ID, Title, Status, Store View, Target, Replacement Limit, Priority, Nofollow, Action.
 
 ![](../../.gitbook/assets/crosslinks\_grid.png)
 
-* <mark style="color:orange;">**Add New Cross Link -**</mark>** ** To add new cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Click on "Add New Link" button._ It redirects on "Add New Cross Link" page and by providing all the general information you can create a new cross link.
+* <mark style="color:orange;">**Add New Cross Link -**</mark> To add new cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Click on "Add New Link" button._ It redirects on "Add New Cross Link" page and by providing all the general information you can create a new cross link.
 
 ![](../../.gitbook/assets/addnewcrosslink.png)
 
@@ -442,19 +442,19 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 
-* <mark style="color:orange;">**Cross Link on Category Page -**</mark>** ** You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1._ It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
+* <mark style="color:orange;">**Cross Link on Category Page -**</mark> You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1._ It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
 
 ![](../../.gitbook/assets/crosslinkoncategory.jpg)
 
-* <mark style="color:orange;">**Category Page Cross Link Redirecting on External Link -**</mark>** ** Click on the cross link "Luma" will redirect to external link.
+* <mark style="color:orange;">**Category Page Cross Link Redirecting on External Link -**</mark> Click on the cross link "Luma" will redirect to external link.
 
 ![](../../.gitbook/assets/categorypagecrosslink.jpg)
 
-* <mark style="color:orange;">**Cross Link on Product Page -**</mark>** ** You can define replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 2._ Individual Cross link limit determines how many times the link will be replaced on the given page.
+* <mark style="color:orange;">**Cross Link on Product Page -**</mark> You can define replacement limit for cross link from _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit - 2._ Individual Cross link limit determines how many times the link will be replaced on the given page.
 
 ![](../../.gitbook/assets/crosslinkonproduct.jpg)
 
-* <mark style="color:orange;">**Product Page Cross Link Redirecting on Internal Link -**</mark>** ** Click on the cross link "Duffle" will redirect to defined internal link.
+* <mark style="color:orange;">**Product Page Cross Link Redirecting on Internal Link -**</mark> Click on the cross link "Duffle" will redirect to defined internal link.
 
 ![](../../.gitbook/assets/productpagecrosslink.jpg)
 

@@ -4,20 +4,20 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-previously-ordered-products.md#\_toc\_250007)__
+1. [_Installation_ ](magento-2-previously-ordered-products.md#\_toc\_250007)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#\_toc\_250006)__
+2. [_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#\_toc\_250006)
    * _General Settings_&#x20;
-3. __[_Hide One or Multiple Columns from the Previous Purchases Grid_](magento-2-previously-ordered-products.md#\_toc\_250004)__
-4. _<mark style="color:blue;"></mark>_[_Front-end Site view_ ](magento-2-previously-ordered-products.md#\_toc\_250003)__
+3. [_Hide One or Multiple Columns from the Previous Purchases Grid_](magento-2-previously-ordered-products.md#\_toc\_250004)
+4. [_Front-end Site view_ ](magento-2-previously-ordered-products.md#\_toc\_250003)
    * _Previous Purchase Grid_&#x20;
    * _Hide Columns in the Previous Purchase Grid_&#x20;
    * _Add One or Multiple Products to Cart Directly From the Grid_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250007" id="_toc_250007"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade

@@ -4,20 +4,20 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#\_bookmark3)__
+2. [_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Shipping Methods_
-3. __[_Tracking Links_](magento-2-shipping-carrier-tracker.md#\_bookmark8)__
+3. [_Tracking Links_](magento-2-shipping-carrier-tracker.md#\_bookmark8)
    * _Admin Panel_
    * _My Account Section_
    * _Shipment Email_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -47,9 +47,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 * **URLs –** Enter the shipping method and the URL. The URL should contain the {number} parameter which will be used to pass the tracking number to the shipping carriers tracking site where the shipment can be tracked.
 * **Additional Carriers-** Add the additional carriers which will be available in the carrier selector dropdown list while creating a shipment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Tracking Links</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -69,4 +69,4 @@ Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a
 
 <figure><img src="../../.gitbook/assets/1 (6).png" alt=""><figcaption></figcaption></figure>
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-shipping-carrier-tracker.html#customfaq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-shipping-carrier-tracker.html#customfaq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,27 +4,27 @@
 
 #### **Table of Contents**
 
-1. __[_Prerequisites( module installed previously )_](magento-2-diamond-search.md#\_bookmark0)__
+1. [_Prerequisites( module installed previously )_](magento-2-diamond-search.md#\_bookmark0)
    * _Module Installed via composer_
    * _Module Installed by Placing Files in app/code_
-2. __[_Installation_](magento-2-diamond-search.md#\_bookmark0-1)__
+2. [_Installation_](magento-2-diamond-search.md#\_bookmark0-1)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-3. [_Configuration Settings for Diamond Search_](magento-2-diamond-search.md#\_bookmark3)__
+3. [_Configuration Settings for Diamond Search_](magento-2-diamond-search.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Filter Widget Settings_
    * _Myo Widget_
-4. [_Integration Modes_](magento-2-diamond-search.md#integration-modes)__
+4. [_Integration Modes_](magento-2-diamond-search.md#integration-modes)
    * _Local_
    * _RapNet_
-5. __[_Ring Builder_](magento-2-diamond-search.md#ring-builder)__
+5. [_Ring Builder_](magento-2-diamond-search.md#ring-builder)
    * _Choosing a Diamond_
    * _Choosing a Setting_
    * _Review Complete Ring_
-6. __[_Setup 360 view and Certificate_](magento-2-diamond-search.md#setup-360-view-and-certificate)__
+6. [_Setup 360 view and Certificate_](magento-2-diamond-search.md#setup-360-view-and-certificate)
    * _Certificate_
    * _360 view_
-7. __[_Frontend_](magento-2-diamond-search.md#frontend)__
+7. [_Frontend_](magento-2-diamond-search.md#frontend)
 
 ### <mark style="color:blue;">Prerequisites( module installed previously )</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
@@ -59,7 +59,7 @@ php bin/magento setup:static-content:deploy
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -134,7 +134,7 @@ Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 
 ![](../../.gitbook/assets/ug2.jpg)
 
-****
+
 
 * **Filter by Price Total In Currency:-** Enable/Disable PRICE filter. Set "Yes" to show PRICE filter. If set to "No" PRICE filter will be disabled
 * **Filter by Price Total In Currency From:-** PRICE filter range start
@@ -160,7 +160,7 @@ Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 
 #### <mark style="color:orange;">Myo Widget</mark>  <a href="#_bookmark4" id="_bookmark4"></a>
 
-* **Add custom size option to bundle product:-** <mark style="color:orange;"></mark> Set "Yes" or "No" to Add or Remove custom size option to bundle product
+* **Add custom size option to bundle product:-** Set "Yes" or "No" to Add or Remove custom size option to bundle product
 * **Bundle Generated Size Label:-** Bundle Generated Size Label for dropdown with custom options of generated bundle product
 * **Custom Sizes:**- Select the custom Sizes added to bundle product on the fly
 
@@ -184,7 +184,7 @@ Ring Builder is a great tool to allow your customers to pair any diamond with se
 
 The entire process is divided into three steps namely, choosing a diamond, choosing a ring and in the final step a bundled product is created using previous selections and customers can place an order with that product.
 
-_<mark style="color:red;">**Note:-**</mark> <mark style="color:red;"></mark><mark style="color:red;">Customers can start by either choosing a diamond first or choosing a setting(ring) first they will automatically be redirected to the next step.</mark>_ <mark style="color:red;"></mark><mark style="color:red;"></mark>&#x20;
+_<mark style="color:red;">**Note:-**</mark> <mark style="color:red;"></mark><mark style="color:red;">Customers can start by either choosing a diamond first or choosing a setting(ring) first they will automatically be redirected to the next step.</mark>_&#x20;
 
 #### <mark style="color:orange;">Choosing a Diamond</mark>
 
@@ -239,11 +239,11 @@ Please follow the steps provided below in order to setup 360 view and certificat
 
 **Test URL** - [![](https://diamondsearch.scommerce-mage.co.uk/static/version1651246469/frontend/Magento/luma/en\_US/Magento\_Theme/favicon.ico)Choose a diamond](https://diamondsearch.scommerce-mage.co.uk/diamondsearch/#!/93072712)
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 #### <mark style="color:orange;">Certificate</mark>
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 #### <mark style="color:orange;">360 view</mark>
 
@@ -255,4 +255,4 @@ The below screengrab contains order  with custom ring size selected:-
 
 ![](../../.gitbook/assets/f5324560-89cc-4d5d-af0a-d3f8f1f88d83.png)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-diamond-search.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-diamond-search.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

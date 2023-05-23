@@ -23,9 +23,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Google Global Site Tag</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -61,23 +61,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 ![](../../.gitbook/assets/m1gtag\_admintrans.jpg)
 
-* <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark>** ** You can track admin orders by selecting “Yes” for **“ Admin Transactions Tracking “** from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “Yes”.** In the below Image you can see the tracked admin orders in Google Analytics.
+* <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark> You can track admin orders by selecting “Yes” for **“ Admin Transactions Tracking “** from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “Yes”.** In the below Image you can see the tracked admin orders in Google Analytics.
 
 ![](../../.gitbook/assets/m1gtag\_backendordertracking.jpg)
 
-* <mark style="color:orange;">**Backend Order Tracking - Source/Medium –**</mark>** ** To add campaign Source and Medium for backend orders go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “phone” > Admin Medium – “admin”.**
+* <mark style="color:orange;">**Backend Order Tracking - Source/Medium –**</mark> To add campaign Source and Medium for backend orders go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “phone” > Admin Medium – “admin”.**
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (1)>)
 
-* <mark style="color:orange;">**Google Analytics Checkout Behaviour –**</mark>** ** You can view the checkout behaviour in GA tool under **Conversions > Ecommerce > Checkout Behaviour.**
+* <mark style="color:orange;">**Google Analytics Checkout Behaviour –**</mark> You can view the checkout behaviour in GA tool under **Conversions > Ecommerce > Checkout Behaviour.**
 
 ![](../../.gitbook/assets/m1gtag\_checkoutbeha.jpg)
 
-* <mark style="color:orange;">**Google Analytics Shopping Behaviour –**</mark>** ** You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Shopping Behaviour.**
+* <mark style="color:orange;">**Google Analytics Shopping Behaviour –**</mark> You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Shopping Behaviour.**
 
 ![](<../../.gitbook/assets/7 (51)>)
 
-* <mark style="color:orange;">**Google Analytics Sales Performance –**</mark>** ** You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Sales Performance.**
+* <mark style="color:orange;">**Google Analytics Sales Performance –**</mark> You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Sales Performance.**
 
 ![](<../../.gitbook/assets/8 (28)>)
 
@@ -87,12 +87,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 ![](../../.gitbook/assets/m1gtag\_front1.jpg)
 
-* <mark style="color:orange;">**Gtag.js Code –**</mark>** ** In the below image you can see the **UA** and **AW** tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id > Click on “Add Account”** – UA - 33387561-3, AW – 123456789.
+* <mark style="color:orange;">**Gtag.js Code –**</mark> In the below image you can see the **UA** and **AW** tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id > Click on “Add Account”** – UA - 33387561-3, AW – 123456789.
 
 ![](<../../.gitbook/assets/10 (11)>)
 
-* <mark style="color:orange;">**Gtag.js Brand Name –**</mark>** ** You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand name – “TestScommerce”**
+* <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand name – “TestScommerce”**
 
 ![](<../../.gitbook/assets/11 (2)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-facebook-conversion-audience-tracking.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

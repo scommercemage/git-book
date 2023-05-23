@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-lazy-load-image.md#\_toc\_250005)__
+1. [_Installation_ ](magento-2-lazy-load-image.md#\_toc\_250005)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Optimiser Base_ ](magento-2-lazy-load-image.md#\_toc\_250004)__
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-lazy-load-image.md#\_toc\_250004)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#\_toc\_250002)__
+3. [_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#\_toc\_250002)
    * _General Settings_&#x20;
-4. __[_Front-end Screenshots_ ](magento-2-lazy-load-image.md#\_toc\_250000)__
+4. [_Front-end Screenshots_ ](magento-2-lazy-load-image.md#\_toc\_250000)
    * _Lazy Loading on the Homepage_&#x20;
    * _Home Page Excluded from Lazy Loading_&#x20;
    * _Lazy Loading on the Category Page_&#x20;
@@ -20,7 +20,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250005" id="_toc_250005"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -66,11 +66,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading*
 
 ### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 
-* <mark style="color:orange;">**Lazy Loading on the Homepage –**</mark>** ** To implement lazy loading on the homepage, enable the module from **Admin > Stores > Configuration > Lazy Loading- Enable "Yes".**
+* <mark style="color:orange;">**Lazy Loading on the Homepage –**</mark> To implement lazy loading on the homepage, enable the module from **Admin > Stores > Configuration > Lazy Loading- Enable "Yes".**
 
 ![](<../../.gitbook/assets/9 (14)>)
 
-* <mark style="color:orange;">**Home Page Excluded from Lazy Loading –**</mark>** ** You can exclude homepage images from lazy loading by selecting option "Home Page" from **Admin > Stores > Configuration > Lazy Loading > Exclude Pages .**
+* <mark style="color:orange;">**Home Page Excluded from Lazy Loading –**</mark> You can exclude homepage images from lazy loading by selecting option "Home Page" from **Admin > Stores > Configuration > Lazy Loading > Exclude Pages .**
 
 ![](<../../.gitbook/assets/10 (25)>)
 
@@ -78,7 +78,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading*
 
 ![](<../../.gitbook/assets/11 (28)>)
 
-* <mark style="color:orange;">**Lazy Loading on the Search Page –**</mark>** ** You can implement lazy loading on search page from **Admin > Stores > Configuration > Lazy Loading - Enable** "**Yes**".
+* <mark style="color:orange;">**Lazy Loading on the Search Page –**</mark> You can implement lazy loading on search page from **Admin > Stores > Configuration > Lazy Loading - Enable** "**Yes**".
 
 ![](<../../.gitbook/assets/12 (11)>)
 

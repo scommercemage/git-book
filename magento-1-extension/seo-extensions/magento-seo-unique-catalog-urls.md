@@ -17,9 +17,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right-hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right-hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -42,12 +42,12 @@ To set primary category go to **Admin > Catalog > Select Product > Primary Categ
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-* <mark style="color:orange;">**Product Page Unique URL –**</mark>** ** You can assign primary category to a product from **Admin > Catalog > Select Product > Primary Category.** In the below image you can see the primary category “**Home & Decor > Electronics”** has been set for the product Madison LX2200**.**
+* <mark style="color:orange;">**Product Page Unique URL –**</mark> You can assign primary category to a product from **Admin > Catalog > Select Product > Primary Category.** In the below image you can see the primary category “**Home & Decor > Electronics”** has been set for the product Madison LX2200**.**
 
 ![](../../.gitbook/assets/m1seo\_2.jpg)
 
-* <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark>** ** We have set the primary category of "Madison LX2200" product to “**Home & Decor > Electronics”**, and the category path remains the same when we access the product from the search or any other category, which you can see in the below image.
+* <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark> We have set the primary category of "Madison LX2200" product to “**Home & Decor > Electronics”**, and the category path remains the same when we access the product from the search or any other category, which you can see in the below image.
 
 ![](../../.gitbook/assets/m1\_seo2.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-seo-catalog-urls.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-seo-catalog-urls.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

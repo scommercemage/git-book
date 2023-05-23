@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-repeat-order.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-repeat-order.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Repeat Order Subscription_ ](magento-2-repeat-order.md#\_bookmark3)__
+2. [_Configuration Settings for Repeat Order Subscription_ ](magento-2-repeat-order.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Repeat Order Subscription Email_&#x20;
    * _Payment / Order Failed Emailed_&#x20;
    * _Subscription Status Update Notification_&#x20;
-3. __[_Manage Subscription Grid_ ](magento-2-repeat-order.md#manage-subscription-grid)__
+3. [_Manage Subscription Grid_ ](magento-2-repeat-order.md#manage-subscription-grid)
    * _Re-start/Pause, Cancel Subscriptions_&#x20;
    * _Subscribed Items and Order History on the Edit Subscription Page_&#x20;
    * _Backend Order Page Link through Subscription Order_&#x20;
-4. __[_Subscriptions Payment Grid_ ](magento-2-repeat-order.md#subscriptions-payment-grid)__
+4. [_Subscriptions Payment Grid_ ](magento-2-repeat-order.md#subscriptions-payment-grid)
    * _View Subscription Payment Details_&#x20;
-5. [_Front-end Site View_ ](magento-2-repeat-order.md#\_bookmark14)__
+5. [_Front-end Site View_ ](magento-2-repeat-order.md#\_bookmark14)
    * _Subscription Options on the Checkout Page_&#x20;
    * _Frequency Selection Drop-down_&#x20;
    * _My Subscription Section on the My Account Page_&#x20;
@@ -28,7 +28,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -96,7 +96,7 @@ You can manage subscriptions from, **Admin > Scommerce Mage > Repeat Order > Man
 
 ![](../../.gitbook/assets/repeat\_managesubgrid.jpg)
 
-* <mark style="color:orange;">**Re-start/Pause, Cancel Subscriptions -**</mark>** ** You can re-start, pause and cancel subscriptions from **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit.**
+* <mark style="color:orange;">**Re-start/Pause, Cancel Subscriptions -**</mark> You can re-start, pause and cancel subscriptions from **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit.**
 
 ![](../../.gitbook/assets/repeat\_restart.jpg)
 
@@ -104,7 +104,7 @@ You can manage subscriptions from, **Admin > Scommerce Mage > Repeat Order > Man
 
 ![](../../.gitbook/assets/repeat\_subhistory.jpg)
 
-* <mark style="color:orange;">**Backend Order Page Link through Subscription Order –**</mark>** ** When you click on subscription order URL visible under Orders History section at **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit,** then it redirects to backend order page.
+* <mark style="color:orange;">**Backend Order Page Link through Subscription Order –**</mark> When you click on subscription order URL visible under Orders History section at **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit,** then it redirects to backend order page.
 
 ![](../../.gitbook/assets/repeat\_backendorder.jpg)
 
@@ -114,38 +114,38 @@ You can manage subscriptions from, **Admin > Scommerce Mage > Repeat Order > Man
 
 ### <mark style="color:blue;">**Subscriptions Payment Grid**</mark>&#x20;
 
-&#x20;**** To see subscriptions payment details go to **Admin> **<mark style="color:blue;">****</mark>** Scommerce Mage > Repeat Order > Subscription Payments**. This grid will provide a view of payment status for the Payment transactions processed for automated subscription order. This will mainly have Subscription Id, First name, Transactions date and time, Transaction error/response.
+&#x20;To see subscriptions payment details go to **Admin>** **Scommerce Mage > Repeat Order > Subscription Payments**. This grid will provide a view of payment status for the Payment transactions processed for automated subscription order. This will mainly have Subscription Id, First name, Transactions date and time, Transaction error/response.
 
 ![](../../.gitbook/assets/repeat\_subpaymentgrid.jpg)
 
-* <mark style="color:orange;">**View Subscription Payment Details -**</mark>** ** You can view payment details from Admin**> Scommerce Mage > Repeat Order > Subscription Payments > Select Subscription > View.**
+* <mark style="color:orange;">**View Subscription Payment Details -**</mark> You can view payment details from Admin**> Scommerce Mage > Repeat Order > Subscription Payments > Select Subscription > View.**
 
 ![](../../.gitbook/assets/repeat\_viewsubpaydetail.jpg)
 
 ### Front-end Site View <a href="#_bookmark14" id="_bookmark14"></a>
 
-* <mark style="color:orange;">**Subscription Options on the Checkout Page -**</mark>** ** When you enable the module then it shows subscription options on the checkout page, by checking "Yes please I would like to receive future discounts" you can subscribed for the repeat order.
+* <mark style="color:orange;">**Subscription Options on the Checkout Page -**</mark> When you enable the module then it shows subscription options on the checkout page, by checking "Yes please I would like to receive future discounts" you can subscribed for the repeat order.
 
 ![](../../.gitbook/assets/repeat\_front1.jpg)
 
-* <mark style="color:orange;">**Frequency Selection Drop-down -**</mark>** ** On the checkout page when you check the subscription option then it shows frequency drop down, from where you can select the repeat order frequency.
+* <mark style="color:orange;">**Frequency Selection Drop-down -**</mark> On the checkout page when you check the subscription option then it shows frequency drop down, from where you can select the repeat order frequency.
 
 ![](../../.gitbook/assets/repeat\_front2.jpg)
 
-* <mark style="color:orange;">**My Subscription Section on the My Account Page -**</mark>** ** On the front-end you can see the subscription details at My Account > My Subscriptions
+* <mark style="color:orange;">**My Subscription Section on the My Account Page -**</mark> On the front-end you can see the subscription details at My Account > My Subscriptions
 
 ![](../../.gitbook/assets/repeat\_front3.jpg)
 
-* <mark style="color:orange;">**Subscription Details on the My Subscriptions Page -**</mark>** ** To view subscriptions details go to My Account > My Subscriptions.
+* <mark style="color:orange;">**Subscription Details on the My Subscriptions Page -**</mark> To view subscriptions details go to My Account > My Subscriptions.
 
 ![](../../.gitbook/assets/repeat\_front4.jpg)
 
-* <mark style="color:orange;">**View / Edit Subscription Information from the Front-end/ My Account -**</mark>** ** On the front-end you can view and edit the subscriptions from My **Account > My Subscriptions > Select Order > Edit.**
+* <mark style="color:orange;">**View / Edit Subscription Information from the Front-end/ My Account -**</mark> On the front-end you can view and edit the subscriptions from My **Account > My Subscriptions > Select Order > Edit.**
 
 ![](../../.gitbook/assets/repeat\_front5.jpg)
 
-* <mark style="color:orange;">**Subscription Confirmation Email –**</mark>** ** When you subscribed for repeat order, it sends subscription confirmation email.
+* <mark style="color:orange;">**Subscription Confirmation Email –**</mark> When you subscribed for repeat order, it sends subscription confirmation email.
 
 ![](../../.gitbook/assets/repeat\_front6.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-repeat-order.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-repeat-order.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

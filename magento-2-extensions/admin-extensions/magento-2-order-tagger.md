@@ -4,27 +4,27 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-order-tagger.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-order-tagger.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Order Tagger_](magento-2-order-tagger.md#\_bookmark3)__
+2. [_Configuration Settings for Order Tagger_](magento-2-order-tagger.md#\_bookmark3)
    * _Order Tags Logs_
    * _Order Tags Grid_
    * _General Settings_&#x20;
-3. __[_Types of Tags_](magento-2-order-tagger.md#\_bookmark3-1)__
+3. [_Types of Tags_](magento-2-order-tagger.md#\_bookmark3-1)
    * _Static Tags_
    * _Dynamic Tags_
    * _Predefined Tags_
-4. __[_Assign Tags_](magento-2-order-tagger.md#\_bookmark3-1)__
+4. [_Assign Tags_](magento-2-order-tagger.md#\_bookmark3-1)
    * _Manually Assign/Remove Tags_&#x20;
    * _Assign Tags Based on Conditions_
-5. __[_Tags in Action_](magento-2-order-tagger.md#\_bookmark3-2)__
+5. [_Tags in Action_](magento-2-order-tagger.md#\_bookmark3-2)
    * _Order Grid_
    * _Filter Order Grid_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -135,4 +135,4 @@ Orders can be filtered based on the tags. New filter option can be found in the 
 
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-order-tagger.html#customfaq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-order-tagger.html#customfaq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,16 +4,16 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-export-custom-product-attribute.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-export-custom-product-attribute.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Export Custom Product Attribute_](magento-2-export-custom-product-attribute.md#\_bookmark3)__
+2. [_Configuration Settings for Export Custom Product Attribute_](magento-2-export-custom-product-attribute.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Exporting Custom Product Attributes_](magento-2-export-custom-product-attribute.md#\_bookmark8)__
+3. [_Exporting Custom Product Attributes_](magento-2-export-custom-product-attribute.md#\_bookmark8)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -37,7 +37,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Export Produc
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 * **Allowed Attributes –** Select the porduct attributes that you want to list in separate columns while exporting the catalog products.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Exporting Custom Product Attributes</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -53,7 +53,7 @@ Make sure the custom attributes that you want to import are selected under **Adm
 
 **Step 3:-** Click on continue and when the cron runs the export will be generated and added in the list below
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;**Step 4:-** Finally, download the export file from the select dropdown.
 

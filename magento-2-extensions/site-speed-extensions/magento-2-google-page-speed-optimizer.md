@@ -4,41 +4,41 @@
 
 **Table of Contents**
 
-1. __[_Installation_](magento-2-google-page-speed-optimizer.md#\_toc\_250024)__
+1. [_Installation_](magento-2-google-page-speed-optimizer.md#\_toc\_250024)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250023)__
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250023)
    * _General Settings_&#x20;
-3. __[_Configuration Settings for Speed Optimiser_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250021)__
+3. [_Configuration Settings for Speed Optimiser_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250021)
    * _General Settings_&#x20;
    * _Minify HTML_&#x20;
    * _Javascript Settings_&#x20;
    * _CSS Settings_&#x20;
-4. [_Configuration Settings for Lazy Loading_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250016)__
+4. [_Configuration Settings for Lazy Loading_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250016)
    * _General Settings_&#x20;
    * _Lazy Loading on the Homepage_&#x20;
    * _Home Page Excluded from Lazy Loading_&#x20;
    * _Lazy Loading on the Category Page_&#x20;
    * _Lazy Loading on the Search Page_&#x20;
    * _Lazy Loading on the Cart Page_&#x20;
-5. __[_Configuration Settings for Image Optimizer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250014)__
+5. [_Configuration Settings for Image Optimizer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250014)
    * _General Settings_&#x20;
    * _Compress/Optimize Product Image_&#x20;
    * _Compress/Optimize Category Image._&#x20;
    * _Compress/Optimize CMS Image_&#x20;
-6. __[_Configuration Settings for Cache Warmer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250012)__
+6. [_Configuration Settings for Cache Warmer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250012)
    * _General Settings_&#x20;
    * _Cron Settings_&#x20;
-7. [_Cache Warmer Grid_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250009)__
+7. [_Cache Warmer Grid_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250009)
    * _Regenerate_&#x20;
-8. __[_Console Commands_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250008)__
+8. [_Console Commands_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250008)
    * _Category Page_&#x20;
    * _Product Page_&#x20;
    * _CMS Page_&#x20;
-9. [_Front-end Screenshots_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250007)__
+9. [_Front-end Screenshots_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250007)
    * _Cache Hit for the category page after the execution of category page c ommand_&#x20;
    * _Cache Miss for the Category Page_&#x20;
-10. __[_Google Page Speed Tests_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250006)__
+10. [_Google Page Speed Tests_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250006)
     * _Home Page Mobile_&#x20;
     * _Home Page Desktop_&#x20;
     * _Category Page Mobile_&#x20;
@@ -48,7 +48,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_toc_250024" id="_toc_250024"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -130,19 +130,19 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading_
 
 
 
-* <mark style="color:orange;">**Home Page Excluded from Lazy Loading –**</mark>** ** There is an option " Exclude Pages" available in the backend, from where you can select the page to exclude from the lazy loading.
+* <mark style="color:orange;">**Home Page Excluded from Lazy Loading –**</mark> There is an option " Exclude Pages" available in the backend, from where you can select the page to exclude from the lazy loading.
 
 ![](../../.gitbook/assets/lazy\_excludehomepage.jpg)
 
-* <mark style="color:orange;">**Lazy Loading on the Category Page –**</mark>** ** Enable the module to implement the lazy loading on the category page _Admin > Stores > Configuration > Lazy Loading - Enable "Yes"._
+* <mark style="color:orange;">**Lazy Loading on the Category Page –**</mark> Enable the module to implement the lazy loading on the category page _Admin > Stores > Configuration > Lazy Loading - Enable "Yes"._
 
 ![](../../.gitbook/assets/lazy\_category.jpg)
 
-* <mark style="color:orange;">**Lazy Loading on the Search Page –**</mark>** ** There is an option available in the configuration settings at _Admin > Stores > Configuration > Lazy Loading- Enable_ **** and by selecting "Yes" or "No" you can enable or disable the lazy loading on the search page.
+* <mark style="color:orange;">**Lazy Loading on the Search Page –**</mark> There is an option available in the configuration settings at _Admin > Stores > Configuration > Lazy Loading- Enable_ and by selecting "Yes" or "No" you can enable or disable the lazy loading on the search page.
 
 ![](../../.gitbook/assets/lazy\_search.jpg)
 
-* <mark style="color:orange;">**Lazy Loading on the Cart Page –**</mark>** ** You can implement lazy loading on the cart page by by enabling the module from the back-end configuration _Admin > Stores > Configuration > Lazy Loading- Enable "Yes"._
+* <mark style="color:orange;">**Lazy Loading on the Cart Page –**</mark> You can implement lazy loading on the cart page by by enabling the module from the back-end configuration _Admin > Stores > Configuration > Lazy Loading- Enable "Yes"._
 
 ![](<../../.gitbook/assets/20 (2)>)
 
@@ -170,7 +170,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Image Optimize
 
 ![](../../.gitbook/assets/image\_general2.png)
 
-* <mark style="color:orange;">**Compress/Optimize Product Image -**</mark>** ** You can compress product images by enabling module from _Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading - Select "Product "._
+* <mark style="color:orange;">**Compress/Optimize Product Image -**</mark> You can compress product images by enabling module from _Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading - Select "Product "._
 
 ![](../../.gitbook/assets/compress\_productpage.jpg)
 
@@ -178,7 +178,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Image Optimize
 
 ![](../../.gitbook/assets/compress\_categorypage.jpg)
 
-* <mark style="color:orange;">**Compress/Optimize CMS Image -**</mark>** ** You can compress CMS images by enabling module from _Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading - Select "CMS "._
+* <mark style="color:orange;">**Compress/Optimize CMS Image -**</mark> You can compress CMS images by enabling module from _Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading - Select "CMS "._
 
 ![](../../.gitbook/assets/compress\_cmsimage.jpg)
 
@@ -205,11 +205,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer_
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#_toc_250009" id="_toc_250009"></a>
 
-When you enable the module and set _General Settings > Can Regenerate Cache Manually >_ **** to **"Yes"** then it adds an additional option "Regenerate" under the "Actions ->Select" drop-down at _Admin > System > Cache Warmer > Actions._ **** This grid will have Id, Page URL, Page Type - (Home, Product, Category, CMS), Status - (Cached/Un-cached), Last Cached - (Date, Time), and Action- (Regenerate, Delete).
+When you enable the module and set _General Settings > Can Regenerate Cache Manually >_ to **"Yes"** then it adds an additional option "Regenerate" under the "Actions ->Select" drop-down at _Admin > System > Cache Warmer > Actions._ This grid will have Id, Page URL, Page Type - (Home, Product, Category, CMS), Status - (Cached/Un-cached), Last Cached - (Date, Time), and Action- (Regenerate, Delete).
 
 ![](../../.gitbook/assets/cache\_grid.jpg)
 
-* <mark style="color:orange;">**Regenerate -**</mark>** ** It regenerates cache manually for Category/Product/CMS pages. By clicking on the "Regenerate" action you can regenerate cache manually for a specific URL.
+* <mark style="color:orange;">**Regenerate -**</mark> It regenerates cache manually for Category/Product/CMS pages. By clicking on the "Regenerate" action you can regenerate cache manually for a specific URL.
 
 ![](../../.gitbook/assets/cache\_regenrate.png)
 
@@ -217,21 +217,21 @@ When you enable the module and set _General Settings > Can Regenerate Cache Manu
 
 You can regenerate cache for Product/Category/CMS page(s) by running the following console commands: -
 
-* <mark style="color:orange;">**Category Page -**</mark>** ** If you want to regenerate cache for the category page then run this command **`scommerce:cachewarmer:category`**
+* <mark style="color:orange;">**Category Page -**</mark> If you want to regenerate cache for the category page then run this command **`scommerce:cachewarmer:category`**
 
 ![](../../.gitbook/assets/console\_category.png)
 
-* <mark style="color:orange;">**Product Page -**</mark>** ** To regenerate cache for the product page(s), use this command **`scommerce:cachewarmer:product`**
+* <mark style="color:orange;">**Product Page -**</mark> To regenerate cache for the product page(s), use this command **`scommerce:cachewarmer:product`**
 
 ![](../../.gitbook/assets/console\_product.png)
 
-* <mark style="color:orange;">**CMS Page -**</mark>** ** To regenerate cache for CMS page please use this command **`scommerce:cachewarmer:cmspage`**
+* <mark style="color:orange;">**CMS Page -**</mark> To regenerate cache for CMS page please use this command **`scommerce:cachewarmer:cmspage`**
 
 ![](../../.gitbook/assets/console\_cms.png)
 
 ### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_toc_250007" id="_toc_250007"></a>
 
-* <mark style="color:orange;">**Cache Hit for the category page after the execution of category page command -**</mark>** ** When you run the command for category then it regenerates the cache. On the front-end you can debug the cache and check the status "Hit" or "Miss" using browser tool (Inspect element) under _Network > Select Page URL > Header > Cache Debug: HIT_
+* <mark style="color:orange;">**Cache Hit for the category page after the execution of category page command -**</mark> When you run the command for category then it regenerates the cache. On the front-end you can debug the cache and check the status "Hit" or "Miss" using browser tool (Inspect element) under _Network > Select Page URL > Header > Cache Debug: HIT_
 
 ![](../../.gitbook/assets/cachehit.png)
 

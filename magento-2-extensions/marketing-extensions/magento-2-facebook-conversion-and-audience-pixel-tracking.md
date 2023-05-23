@@ -4,15 +4,15 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Facebook Conversion Tracking_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark3)__
+2. [_Configuration Settings for Facebook Conversion Tracking_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Analyze Data with Facebook Events Manager_&#x20;
    * _Facebook Events Manager Graph_&#x20;
-3. __[_Enable GDPR Support_](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)__
-4. __[_Front-end site view_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)__
+3. [_Enable GDPR Support_](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)
+4. [_Front-end site view_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)
    * _Facebook Pixel Tag on the Category Page_&#x20;
    * _Facebook Pixel Tag on the Product Page_&#x20;
    * _Facebook Pixel Tag on the Cart Page_&#x20;
@@ -22,7 +22,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -44,7 +44,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
-* **New Facebook Tracking Enabled –** Set yes to enable Facebook new pixel tracking or Remarketing tag **** [**https://developers.facebook.com/docs/ads-for-websites/tag/api/**](https://developers.facebook.com/docs/ads-for-websites/tag/api/)
+* **New Facebook Tracking Enabled –** Set yes to enable Facebook new pixel tracking or Remarketing tag [**https://developers.facebook.com/docs/ads-for-websites/tag/api/**](https://developers.facebook.com/docs/ads-for-websites/tag/api/)
 * **Audience Pixel Tag Id –** Enter Custom Audience Pixel Id. This applies to old as well as new Facebook tracking.
 * **Dynamic Product Ads Enabled –** Set yes to enable the Dynamic Product Ads [**http://en-gb.facebook.com/business/help/www/455326144628161**](http://en-gb.facebook.com/business/help/www/455326144628161)
 * **Remarketing Default Value –** Enter default value for events where value can’t be defined like CompleteRegistration, Search **(only used for new Facebook tracking)**
@@ -57,11 +57,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 
 <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-* <mark style="color:orange;">**Analyze Data with Facebook Events Manager -**</mark>** ** Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
+* <mark style="color:orange;">**Analyze Data with Facebook Events Manager -**</mark> Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
 
 ![](../../.gitbook/assets/facebook\_analyze.jpg)
 
-* <mark style="color:orange;">**Facebook Events Manager Graph -**</mark>** ** You can view the event log and graph in Facebook business manager with all the events view details**.**
+* <mark style="color:orange;">**Facebook Events Manager Graph -**</mark> You can view the event log and graph in Facebook business manager with all the events view details**.**
 
 ![](../../.gitbook/assets/facebook\_eventsmanager.jpg)
 
@@ -75,11 +75,11 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Category Page -**</mark>** ** The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Category Page -**</mark> The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
 
 ![](../../.gitbook/assets/facebookfront1.jpg)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Product Page -**</mark>** ** When a key page is viewed such as a product page, e.g. landing on a product detail page. Provides detailed product information (such as Prices, SKU's, Currencies and Categories) for Dynamic Product Ads. You can enable dynamic product ads from **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conversion Tracking > Dynamic Products Ads Enabled - "Yes".**
+* <mark style="color:orange;">**Facebook Pixel Tag on the Product Page -**</mark> When a key page is viewed such as a product page, e.g. landing on a product detail page. Provides detailed product information (such as Prices, SKU's, Currencies and Categories) for Dynamic Product Ads. You can enable dynamic product ads from **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conversion Tracking > Dynamic Products Ads Enabled - "Yes".**
 
 ![](../../.gitbook/assets/facebookfront2.jpg)
 
@@ -87,16 +87,16 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 ![](../../.gitbook/assets/facebookfront3.jpg)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Checkout page -**</mark>** ** It tracks checkout , when a user clicks on checkout button.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Checkout page -**</mark> It tracks checkout , when a user clicks on checkout button.
 
 ![](../../.gitbook/assets/facebookfront4.jpg)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Payment Page -**</mark>** ** It tracks AddPaymentInfo when a payment information is added in the checkout flow, e.g. click on payment method.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Payment Page -**</mark> It tracks AddPaymentInfo when a payment information is added in the checkout flow, e.g. click on payment method.
 
 ![](../../.gitbook/assets/facebookfront5.jpg)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Success Page -**</mark>** ** When a purchase is made or checkout flow is completed, e.g. landing on thank you/success page, provides detailed order information such as Order Value and Cart Items.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Success Page -**</mark> When a purchase is made or checkout flow is completed, e.g. landing on thank you/success page, provides detailed order information such as Order Value and Cart Items.
 
 ![](../../.gitbook/assets/facebookfront6.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-facebook-conversion-audience-tracking.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

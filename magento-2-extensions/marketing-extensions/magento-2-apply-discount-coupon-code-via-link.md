@@ -4,20 +4,20 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Auto Coupon_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark3)__
+2. [_Configuration Settings for Auto Coupon_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Discount Setup_](magento-2-apply-discount-coupon-code-via-link.md#discount-setup)__
-4. __[_Discount Link_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)__
-5. __[_Front-end site view_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)__
+3. [_Discount Setup_](magento-2-apply-discount-coupon-code-via-link.md#discount-setup)
+4. [_Discount Link_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)
+5. [_Front-end site view_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)
    * _Successful Applied Discount Message on the Front-end_&#x20;
    * _Coupon Code On the Checkout Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -67,8 +67,8 @@ Once the discount is set up then on the front-end it can be applied using the be
 
 ![](../../.gitbook/assets/applydiscount\_front1.jpg)
 
-* <mark style="color:orange;">**Coupon Code On the Checkout Page -**</mark>** ** Applied discount coupon code will be shown on the front-end checkout page under "Order Summary" section.
+* <mark style="color:orange;">**Coupon Code On the Checkout Page -**</mark> Applied discount coupon code will be shown on the front-end checkout page under "Order Summary" section.
 
 ![](../../.gitbook/assets/applydiscount\_front2.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-apply-coupon-via-link.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-apply-coupon-via-link.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

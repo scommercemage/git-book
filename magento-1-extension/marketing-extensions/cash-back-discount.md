@@ -23,9 +23,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Cashback Discount</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -56,7 +56,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 
 ![](../../.gitbook/assets/m1cashback\_reminder.jpg)
 
-*   <mark style="color:orange;">**Shopping Cart Price Rules Setup –**</mark>** ** Steps to set up discount offer:
+*   <mark style="color:orange;">**Shopping Cart Price Rules Setup –**</mark> Steps to set up discount offer:
 
     1. Go to Promotions > Shopping Cart Price Rules > Add new rule
     2. Set up discount details as required.
@@ -71,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 
 **From Date –** This should be start date of the cash back promotion
 
-**To Date –** This should be expiry date of the cash back promotion specified in system <mark style="color:orange;">****</mark> configuration plus validity month specified in system configuration.
+**To Date –** This should be expiry date of the cash back promotion specified in system configuration plus validity month specified in system configuration.
 
 **For example ,** in system configuration of cash back, if you have specified expiry date is on **30/05/2020** and validity month is 1 month then To Date should be **30/06/2020**, this will allow customers to redeem their offer in next 30 days especially those who have placed their first order on **30/05/2020**
 
@@ -118,7 +118,7 @@ app/design/frontend/default/default/template/email/order/items.phtml
 ```
 
 * **If these files do exist in your custom theme then copy the differences in your version of files**
-* <mark style="color:orange;">**Clear Caches –**</mark>** ** Once you are done with everything above, clear the cache to get the changes reflect on your website
+* <mark style="color:orange;">**Clear Caches –**</mark> Once you are done with everything above, clear the cache to get the changes reflect on your website
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark14" id="_bookmark14"></a>
 
@@ -126,4 +126,4 @@ app/design/frontend/default/default/template/email/order/items.phtml
 
 ![](<../../.gitbook/assets/9 (39)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

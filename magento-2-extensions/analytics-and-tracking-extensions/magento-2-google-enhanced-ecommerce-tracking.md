@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Google Universal Tracking_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark3)__
+2. [_Configuration Settings for Google Universal Tracking_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Enhanced Ecommerce_&#x20;
-3. __[_To Turn on Enhanced E-commerce for a view, and label your checkout steps:_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark6)__
+3. [_To Turn on Enhanced E-commerce for a view, and label your checkout steps:_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark6)
    * _Real Time Event_&#x20;
    * _Backend Order Tracking in Google Analytics_&#x20;
    * _Shopping Behaviour_&#x20;
@@ -18,13 +18,13 @@
    * _Product Performance_&#x20;
    * _Sales Performance_&#x20;
    * _Product List Performance by Category._&#x20;
-4. __[_Front-end Site View_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark14)__
+4. [_Front-end Site View_ ](magento-2-google-enhanced-ecommerce-tracking.md#\_bookmark14)
    * _Home Page with Tags_&#x20;
    * _GA - UA Tracking Code_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -98,11 +98,11 @@ You can turn this option off to restore the older category of E-commerce reports
 
 
 
-* <mark style="color:orange;">**Real Time Event -**</mark>** ** You can view the tracked events from **GA > Realtime > Events.**
+* <mark style="color:orange;">**Real Time Event -**</mark> You can view the tracked events from **GA > Realtime > Events.**
 
 ![](<../../.gitbook/assets/16 (8)>)
 
-* <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark>** ** You can track admin orders by selecting "Yes" for **"Send Phone or Admin Orders"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enabled Enhanced Ecommerce - "Yes".**
+* <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark> You can track admin orders by selecting "Yes" for **"Send Phone or Admin Orders"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enabled Enhanced Ecommerce - "Yes".**
 
 ![](<../../.gitbook/assets/17 (4)>)
 
@@ -110,7 +110,7 @@ You can turn this option off to restore the older category of E-commerce reports
 
 ![](<../../.gitbook/assets/18 (20)>)
 
-* <mark style="color:orange;">**Checkout Behaviour -**</mark>** ** You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversion**
+* <mark style="color:orange;">**Checkout Behaviour -**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversion**
 
 **> Ecommerce > Checkout Behaviour.**
 
@@ -120,17 +120,17 @@ You can turn this option off to restore the older category of E-commerce reports
 
 ![](<../../.gitbook/assets/20 (3)>)
 
-* <mark style="color:orange;">**Sales Performance -**</mark>** ** To view tracked sales performance go to **GA > Conversion > Ecommerce > Sales Performance.**
-* <mark style="color:orange;">**Product List Performance by Category -**</mark>** ** You can view the product list performance from **GA > Conversion >Ecommerce >Product List Performance.**
+* <mark style="color:orange;">**Sales Performance -**</mark> To view tracked sales performance go to **GA > Conversion > Ecommerce > Sales Performance.**
+* <mark style="color:orange;">**Product List Performance by Category -**</mark> You can view the product list performance from **GA > Conversion >Ecommerce >Product List Performance.**
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark14" id="_bookmark14"></a>
 
-* <mark style="color:orange;">**Home Page with Tags -**</mark>** ** In Tag Assistant tool you can see the fired tags.
+* <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see the fired tags.
 
 ![](../../.gitbook/assets/enhanced\_front1.jpg)
 
-* <mark style="color:orange;">**GA - UA Tracking Code -**</mark>** ** In the below image you can see the **UA** tracking id's added from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Account Id -** UA -33387561-9.
+* <mark style="color:orange;">**GA - UA Tracking Code -**</mark> In the below image you can see the **UA** tracking id's added from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Account Id -** UA -33387561-9.
 
 ![](../../.gitbook/assets/enhanced\_front2.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](magento-2-google-enhanced-ecommerce-tracking.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](magento-2-google-enhanced-ecommerce-tracking.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

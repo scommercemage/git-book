@@ -4,12 +4,12 @@
 
 #### **Table of Contents**
 
-1. _<mark style="color:orange;background-color:blue;"></mark>_[_Installation_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for SEO Base_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark3)__
+2. [_Configuration Settings for SEO Base_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark3)
    * _General Settings_&#x20;
-3. _<mark style="color:orange;"></mark>_[_Configuration Settings for Canonical Tags_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark5)__
+3. [_Configuration Settings for Canonical Tags_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark5)
    * _General Settings_&#x20;
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
@@ -19,15 +19,15 @@
    * _Product set up for Canonical URL_&#x20;
    * _Category set up for Canonical URL_&#x20;
    * _CMS set up for Canonical URL_&#x20;
-4. __[_Set Primary Categories_](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#set-primary-categories)__
-5. [_Front-end Site View_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark15)__
+4. [_Set Primary Categories_](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#set-primary-categories)
+5. [_Front-end Site View_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark15)
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
    * _CMS Canonical Tag_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -150,16 +150,16 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ![](<../../.gitbook/assets/14 (4)>)
 
-* <mark style="color:orange;">**Product Canonical Tag -**</mark>** ** To add canonical tag on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Product Canonical Enable - Select "Yes"**&#x20;
+* <mark style="color:orange;">**Product Canonical Tag -**</mark> To add canonical tag on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Product Canonical Enable - Select "Yes"**&#x20;
 
 ![](<../../.gitbook/assets/15 (11)>)
 
-* <mark style="color:orange;">**CMS Canonical Tag -**</mark>** ** You can add canonical tag on any page from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags >CMS Canonical Enable - Select "Yes".**
+* <mark style="color:orange;">**CMS Canonical Tag -**</mark> You can add canonical tag on any page from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags >CMS Canonical Enable - Select "Yes".**
 
 ![](<../../.gitbook/assets/16 (16)>)
 
-* <mark style="color:orange;">**Other Pages Canonical Tags-**</mark>** ** You can add canonical tag on the CMS pages from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags > Other Page Canonical Enabled "Yes"** and under **Custom Canonical Tag Links** click on add and add the full route name of the page for eg:- when visiting the checkout page your URL will look something like [http://demo2.scommerce-](http://demo2.scommerce-mage.co.uk/contact/)[mage.co.uk/contact/.](http://demo2.scommerce-mage.co.uk/contact/) Here “contact” is your full route name. Lastly, enter the **Canonical tag link** that you want to send with the URL.
+* <mark style="color:orange;">**Other Pages Canonical Tags-**</mark> You can add canonical tag on the CMS pages from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags > Other Page Canonical Enabled "Yes"** and under **Custom Canonical Tag Links** click on add and add the full route name of the page for eg:- when visiting the checkout page your URL will look something like [http://demo2.scommerce-](http://demo2.scommerce-mage.co.uk/contact/)[mage.co.uk/contact/.](http://demo2.scommerce-mage.co.uk/contact/) Here “contact” is your full route name. Lastly, enter the **Canonical tag link** that you want to send with the URL.
 
 ![](<../../.gitbook/assets/17 (7)>)
 
-If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-canonical-urls-for-category-product-and-cms-pages.html#faq) first. If you can't find the answer you are looking for then please contact **** [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-canonical-urls-for-category-product-and-cms-pages.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

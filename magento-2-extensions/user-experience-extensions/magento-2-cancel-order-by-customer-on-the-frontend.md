@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Cancel Order_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark3)__
+2. [_Configuration Settings for Cancel Order_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Front-end Site View for Order Cancellation from My Account Section_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark5)__
+3. [_Front-end Site View for Order Cancellation from My Account Section_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark5)
    * _Cancel Order from My Account Section_&#x20;
    * _Cancel Order Popup_&#x20;
    * _Notification Message for Cancel Order_&#x20;
@@ -24,7 +24,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -62,23 +62,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cancel Order*
 
 ### <mark style="color:blue;">Front-end Site View for Order Cancellation from My Account Section</mark> <a href="#_bookmark5" id="_bookmark5"></a>
 
-* <mark style="color:orange;">**Cancel Order from My Account Section -**</mark>** ** When you enable the module then it shows "Cancel Order" link on the front-end **My Account > My Orders section.**
+* <mark style="color:orange;">**Cancel Order from My Account Section -**</mark> When you enable the module then it shows "Cancel Order" link on the front-end **My Account > My Orders section.**
 
 ![](<../../.gitbook/assets/3 (18)>)
 
-* <mark style="color:orange;">**Cancel Order Popup -**</mark>** ** When you click "Cancel Order" button from **My Account > My Orders** section, it displays a pop up, from where you can add/select your own reasons of order cancellation and by clicking "Cancel Order" button you can cancel order.
+* <mark style="color:orange;">**Cancel Order Popup -**</mark> When you click "Cancel Order" button from **My Account > My Orders** section, it displays a pop up, from where you can add/select your own reasons of order cancellation and by clicking "Cancel Order" button you can cancel order.
 
 ![](<../../.gitbook/assets/4 (1)>)
 
-* <mark style="color:orange;">**Notification Message for Cancel Order -**</mark>** ** After the order cancellation it shows notification message on the front-end.
+* <mark style="color:orange;">**Notification Message for Cancel Order -**</mark> After the order cancellation it shows notification message on the front-end.
 
 ![](<../../.gitbook/assets/5 (24)>)
 
-* <mark style="color:orange;">**Cancel Order status (Cancelled) -**</mark>** ** When you cancel the order then it automatically updates the order status from Pending to Cancelled.
+* <mark style="color:orange;">**Cancel Order status (Cancelled) -**</mark> When you cancel the order then it automatically updates the order status from Pending to Cancelled.
 
 ![](<../../.gitbook/assets/6 (6)>)
 
-* <mark style="color:orange;">**Order Cancellation Email -**</mark>** ** After the successful order cancellation, it sends an email notification to the administrator and the customer, below is the sample email for the same.
+* <mark style="color:orange;">**Order Cancellation Email -**</mark> After the successful order cancellation, it sends an email notification to the administrator and the customer, below is the sample email for the same.
 
 ![Confirmation for your order cancellation - jatinnayyar1999 gmail com - Gmail (2)](<../../.gitbook/assets/7 (7)>)
 
@@ -90,11 +90,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cancel Order*
 
 ![](<../../.gitbook/assets/8 (2)>)
 
-* <mark style="color:orange;">**Order Information Page -**</mark>** ** After filling the Orders and Returns form when you click “Continue” button, it redirects on order information page, from where you can cancel the order by clicking “Cancel Order” button.
+* <mark style="color:orange;">**Order Information Page -**</mark> After filling the Orders and Returns form when you click “Continue” button, it redirects on order information page, from where you can cancel the order by clicking “Cancel Order” button.
 
 ![](<../../.gitbook/assets/9 (44)>)
 
-* <mark style="color:orange;">**Cancel Order Successfully -**</mark>** ** Once the order is cancelled, it displays the successful cancellation message.
+* <mark style="color:orange;">**Cancel Order Successfully -**</mark> Once the order is cancelled, it displays the successful cancellation message.
 
 ![](<../../.gitbook/assets/10 (15)>)
 

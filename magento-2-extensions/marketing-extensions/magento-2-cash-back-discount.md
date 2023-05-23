@@ -26,7 +26,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -79,7 +79,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cash Back**
 
 ![](../../.gitbook/assets/cashbackreminder\_settings.png)
 
-* <mark style="color:orange;">**Create Cart Price Rules for Cashback Discount -**</mark>** ** You can create cart price rules from **Admin > Marketing > Promotions > Cart Price Rules >** Click on "**Add New Rule"**, it redirects on new cart price rule and by filling all the required details you can create the new cart price rule.
+* <mark style="color:orange;">**Create Cart Price Rules for Cashback Discount -**</mark> You can create cart price rules from **Admin > Marketing > Promotions > Cart Price Rules >** Click on "**Add New Rule"**, it redirects on new cart price rule and by filling all the required details you can create the new cart price rule.
 
 ![](../../.gitbook/assets/cashback\_createcart.png)
 
@@ -96,24 +96,24 @@ The grid will have following columns/information:-
 
 ![](../../.gitbook/assets/cashback\_transactions.jpg)
 
-* <mark style="color:orange;">**Applied Cashback Details on the Order View Page -**</mark>** ** You can view the applied cashback discount at **Admin > Sales > Orders > select Order > View.**
+* <mark style="color:orange;">**Applied Cashback Details on the Order View Page -**</mark> You can view the applied cashback discount at **Admin > Sales > Orders > select Order > View.**
 
 ![](../../.gitbook/assets/cashback\_applied.jpg)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 
-* <mark style="color:orange;">**Cashback Qualifying Message on the Checkout Page -**</mark>** ** You can define qualifying message from **Admin > Stores > Configuration > Scommerce Configuration > Cashback Qualifying Message - " "**, the message will be shown on the checkout page.
-* <mark style="color:orange;">**Cashback Discount Option on the Checkout Page -**</mark>** ** When you enable the module and if there is any cash back discount available then it shows "Apply cash back discount" option on the checkout page and by checking this option you can apply for cash back discount.
+* <mark style="color:orange;">**Cashback Qualifying Message on the Checkout Page -**</mark> You can define qualifying message from **Admin > Stores > Configuration > Scommerce Configuration > Cashback Qualifying Message - " "**, the message will be shown on the checkout page.
+* <mark style="color:orange;">**Cashback Discount Option on the Checkout Page -**</mark> When you enable the module and if there is any cash back discount available then it shows "Apply cash back discount" option on the checkout page and by checking this option you can apply for cash back discount.
 
 ![CashbackDiscountCheckBoxOnTheCheckoutPage\_006.png](<../../.gitbook/assets/8 (17)>)
 
-* <mark style="color:orange;">**Applied Cashback Discount on the Checkout Page -**</mark>** ** You can see the applied cash back discount on the checkout page under "Order Summary" section.
+* <mark style="color:orange;">**Applied Cashback Discount on the Checkout Page -**</mark> You can see the applied cash back discount on the checkout page under "Order Summary" section.
 
 ![](../../.gitbook/assets/cashback\_summary.jpg)
 
 
 
-* <mark style="color:orange;">**Auto Apply Discount -**</mark>** ** To apply discount automatically and hide checkbox on checkout, set ‘Auto apply discount’ to ‘Yes’ from **Admin > Stores > Configuration > Scommerce Configuration > Cash Back > Auto apply discount – “Yes/No”.**
+* <mark style="color:orange;">**Auto Apply Discount -**</mark> To apply discount automatically and hide checkbox on checkout, set ‘Auto apply discount’ to ‘Yes’ from **Admin > Stores > Configuration > Scommerce Configuration > Cash Back > Auto apply discount – “Yes/No”.**
 
 ![](../../.gitbook/assets/cashback\_auto.jpg)
 
@@ -137,4 +137,4 @@ The grid will have following columns/information:-
 
 ![](../../.gitbook/assets/cashback\_invoice.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-next-order-discount.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

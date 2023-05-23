@@ -22,9 +22,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Facebook Tracking</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -46,31 +46,31 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Trac
 
 ![](../../.gitbook/assets/m1fb\_general2.png)
 
-* <mark style="color:orange;">**Analyze Data with Facebook Events Manager –**</mark>** ** Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
+* <mark style="color:orange;">**Analyze Data with Facebook Events Manager –**</mark> Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/2 (53)>)
 
-* <mark style="color:orange;">**Facebook Events Manager Graph –**</mark>** ** You can view the event log and graph in Facebook business manager with all the events view details.
+* <mark style="color:orange;">**Facebook Events Manager Graph –**</mark> You can view the event log and graph in Facebook business manager with all the events view details.
 
 ![A picture containing water, colorful, large, man  Description automatically generated](<../../.gitbook/assets/3 (71)>)
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Category Page –**</mark>** ** The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Category Page –**</mark> The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
 
 ![](<../../.gitbook/assets/4 (11)>)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Product Page –**</mark>** ** When a product page is viewed
+* <mark style="color:orange;">**Facebook Pixel Tag on the Product Page –**</mark> When a product page is viewed
 
 e.g. landing on a product detail page, then it provides detailed product information (such as Prices, SKU’s, Currencies and Categories) for Dynamic Product Ads. You can enable dynamic product ads from **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conversion Tracking > Dynamic Product Ads Enabled – “Yes”.**
 
 ![](<../../.gitbook/assets/5 (45)>)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Cart Page –**</mark>** ** When a product is added to the shopping cart, then it tracks the cart event.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Cart Page –**</mark> When a product is added to the shopping cart, then it tracks the cart event.
 
 ![](<../../.gitbook/assets/6 (64)>)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Checkout Page –**</mark>** ** It tracks checkout, when a user clicks on checkout button.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Checkout Page –**</mark> It tracks checkout, when a user clicks on checkout button.
 
 ![](<../../.gitbook/assets/7 (2)>)
 
@@ -78,8 +78,8 @@ e.g. landing on a product detail page, then it provides detailed product informa
 
 ![](../../.gitbook/assets/8)
 
-* <mark style="color:orange;">**Facebook Pixel Tag on the Success Page –**</mark>** ** When a purchase is made or checkout flow is completed, e.g. landing on thank you/success page, provides detailed order information such as Order Value and Cart Items.
+* <mark style="color:orange;">**Facebook Pixel Tag on the Success Page –**</mark> When a purchase is made or checkout flow is completed, e.g. landing on thank you/success page, provides detailed order information such as Order Value and Cart Items.
 
 ![](<../../.gitbook/assets/9 (42)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-facebook-conversion-audience-tracking.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

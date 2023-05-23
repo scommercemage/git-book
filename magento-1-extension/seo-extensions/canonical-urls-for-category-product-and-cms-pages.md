@@ -25,9 +25,9 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Disable Compilation Mode:**</mark>** ** To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
+* <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -133,12 +133,12 @@ ALTER TABLE CMS_PAGE DROP COLUMN robots_settings
 
 ![](../../.gitbook/assets/m1can1.jpg)
 
-* <mark style="color:orange;">**Product Canonical Tags –**</mark>** ** To add canonical tag on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags> Product Canonical Enable – Select – “Yes”**
+* <mark style="color:orange;">**Product Canonical Tags –**</mark> To add canonical tag on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags> Product Canonical Enable – Select – “Yes”**
 
 ![](../../.gitbook/assets/m1can2.jpg)
 
-* <mark style="color:orange;">**CMS Canonical Tags –**</mark>** ** You can add canonical tag on the CMS page from **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags> CMS Canonical Enable – Select – “Yes”**
+* <mark style="color:orange;">**CMS Canonical Tags –**</mark> You can add canonical tag on the CMS page from **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags> CMS Canonical Enable – Select – “Yes”**
 
 ![](../../.gitbook/assets/m1can3.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-canonical-urls-for-category-product-and-cms-pages.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-canonical-urls-for-category-product-and-cms-pages.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

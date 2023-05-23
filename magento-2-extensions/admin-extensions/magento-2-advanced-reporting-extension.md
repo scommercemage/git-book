@@ -4,19 +4,19 @@
 
 ### Table of Contents
 
-1. __[_Installation_ ](magento-2-advanced-reporting-extension.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-advanced-reporting-extension.md#\_bookmark0)
    * _Upload Package_&#x20;
    * _Install Extension_&#x20;
-2. __[_Configuration Settings for Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark3)__
+2. [_Configuration Settings for Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Reports of Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark5)__
+3. [_Reports of Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark5)
    * _Sales Detailed Report_&#x20;
    * _Sales Item Detailed Report_&#x20;
    * _Sales Summary Report_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -120,7 +120,7 @@ It shows you the item based report with Item Price, Item Cost, Item Discount and
 
 ![Untitled (2)](../../.gitbook/assets/4.jpeg)
 
-#### <mark style="color:orange;">**Sales Summary Report**</mark>** **&#x20;
+#### <mark style="color:orange;">**Sales Summary Report**</mark>&#x20;
 
 You can see the summary report at **Admin > Reports>Advanced Reports > Sales Summary Report.** Based on date selection you can see the overall order based report with Grand Total and Gross Profit Margin (%, value).
 

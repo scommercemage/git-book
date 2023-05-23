@@ -18,4 +18,4 @@ php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 ```
 
-Please contact **** [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com) **** in case of any queries**.**
+Please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com) in case of any queries**.**

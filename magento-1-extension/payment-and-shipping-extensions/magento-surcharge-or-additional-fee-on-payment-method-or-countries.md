@@ -19,8 +19,8 @@
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
-* <mark style="color:orange;">**Upload Package:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
-* <mark style="color:orange;">**Clear Caches:**</mark>** ** This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
+* <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
+* <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
 ### <mark style="color:blue;">Configuration Settings for Payment Surcharge</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -35,17 +35,17 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Payment Surch
 
 ![](../../.gitbook/assets/m1surcharge\_general.jpg)
 
-* <mark style="color:orange;">**Manage Payment Surcharge -**</mark>** ** Here is the payment surcharge grid:-
+* <mark style="color:orange;">**Manage Payment Surcharge -**</mark> Here is the payment surcharge grid:-
 
 ![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/2 (41)>)
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-* <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark>** ** Here is the image of service fee:-
+* <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark> Here is the image of service fee:-
 
 ![A screenshot of a cell phone  Description automatically generated](../../.gitbook/assets/3)
 
-* <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark>** ** You can see the surcharge fee on the checkout page.
+* <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark> You can see the surcharge fee on the checkout page.
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/4 (50)>)
 
@@ -53,4 +53,4 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Payment Surch
 
 ![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (30)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-pro-payment-surcharge-or-additional-fee.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-pro-payment-surcharge-or-additional-fee.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

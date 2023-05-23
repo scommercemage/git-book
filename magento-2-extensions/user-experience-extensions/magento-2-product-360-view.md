@@ -6,18 +6,18 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-360-view.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-product-360-view.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-product-360-view.md#\_bookmark3)__
+2. [_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-product-360-view.md#\_bookmark3)
    * _General Settings_&#x20;
    * _360 view settings_
-3. __[_Add 360 View Images to a Product_](magento-2-product-360-view.md#add-360-view-images-to-products)__
-4. __[_Frontend_](magento-2-product-360-view.md#frontend)__
+3. [_Add 360 View Images to a Product_](magento-2-product-360-view.md#add-360-view-images-to-products)
+4. [_Frontend_](magento-2-product-360-view.md#frontend)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -76,4 +76,4 @@ Login to admin panel and go to Catalog>Products, select a product then click **e
 
 ![](../../.gitbook/assets/360\_2\_890x.png)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-360-view.html#customfaq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-360-view.html#customfaq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

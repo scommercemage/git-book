@@ -4,23 +4,23 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento2-custom-options-discount.md#\_bookmark0)__
+1. [I_nstallation_ ](magento2-custom-options-discount.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Custom options Discount_ ](magento2-custom-options-discount.md#\_bookmark3)__
+2. [_Configuration Settings for Custom options Discount_ ](magento2-custom-options-discount.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Adding Custom Options to Products_](magento2-custom-options-discount.md#\_bookmark5)__
-4. __[_Adding Cart Price Rules for Custom Options_ ](magento2-custom-options-discount.md#\_bookmark6)__
+3. [_Adding Custom Options to Products_](magento2-custom-options-discount.md#\_bookmark5)
+4. [_Adding Cart Price Rules for Custom Options_ ](magento2-custom-options-discount.md#\_bookmark6)
    * _Apply Cart Rule for all custom options available_&#x20;
    * _Apply cart Rule for specific custom options_&#x20;
-5. __[_Frontend Screengrabs_ ](magento2-custom-options-discount.md#\_bookmark9)__
+5. [_Frontend Screengrabs_ ](magento2-custom-options-discount.md#\_bookmark9)
    * _When “only for selected custom options is set to “Yes”_&#x20;
    * _When “only for selected custom options is set to “No”_&#x20;
    * _When “only for selected custom options is set to “Yes” and Conditions are set_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -87,4 +87,4 @@ Conditions available for custom options are custom options title and custom opti
 
 ![](../../.gitbook/assets/customoptions5.png)
 
-If you have a question related to this extension please check out our [**FAQ Section**](magento2-custom-options-discount.md#installation-and-user-guide-for-magento-2-custom-options-discount) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](magento2-custom-options-discount.md#installation-and-user-guide-for-magento-2-custom-options-discount) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

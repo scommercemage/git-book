@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-product-feed.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-feed.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Product Feed Generator_ ](magento-2-product-feed.md#\_bookmark3)
+2. [_Configuration Settings for Product Feed Generator_ ](magento-2-product-feed.md#\_bookmark3)
    * _General Settings_&#x20;
 3. _Create Data Feeds_&#x20;
    * _General_&#x20;
@@ -22,7 +22,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -108,11 +108,11 @@ The conditions tab allows you to add custom conditions specific to the feed. For
 
 ![Graphical user interface, text, application  Description automatically generated](<../../.gitbook/assets/8 (53)>)
 
-* <mark style="color:orange;">**Facebook Product Feed XML –**</mark>** ** When you click on the feed from **Admin > Scommerce > Manage Feed List > Click “facebook.xml”,** then it opens the product feed.
+* <mark style="color:orange;">**Facebook Product Feed XML –**</mark> When you click on the feed from **Admin > Scommerce > Manage Feed List > Click “facebook.xml”,** then it opens the product feed.
 
 ![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/9 (41)>)
 
-* <mark style="color:orange;">**Google Product Feed XML –**</mark>** ** To generate Google feed go to **Admin > Scommerce > Manage Feed List > Click “google.xml”,** it opens the product feed.
+* <mark style="color:orange;">**Google Product Feed XML –**</mark> To generate Google feed go to **Admin > Scommerce > Manage Feed List > Click “google.xml”,** it opens the product feed.
 
 ![](<../../.gitbook/assets/10 (18)>)
 
@@ -120,7 +120,7 @@ The conditions tab allows you to add custom conditions specific to the feed. For
 
 ![Text, application  Description automatically generated](<../../.gitbook/assets/11 (13)>)
 
-* <mark style="color:orange;">**Facebook Product Feed CSV –**</mark>** ** Here is the Facebook product feed in CSV format.
+* <mark style="color:orange;">**Facebook Product Feed CSV –**</mark> Here is the Facebook product feed in CSV format.
 
 ![Text, application  Description automatically generated](<../../.gitbook/assets/12 (15)>)
 
@@ -134,4 +134,4 @@ In the below image you can see that attribute **“SKU”** added under conditio
 
 ![Graphical user interface, application, Word  Description automatically generated](<../../.gitbook/assets/14 (15)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-feed-manager.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-feed-manager.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

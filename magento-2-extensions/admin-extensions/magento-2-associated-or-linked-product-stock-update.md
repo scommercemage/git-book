@@ -4,24 +4,24 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_&#x20;
-2. __[_Configuration Settings for Associated Product_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark3)__
+2. [_Configuration Settings for Associated Product_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Product Association at Product Level_&#x20;
    * _Product Association for Simple Product_&#x20;
    * _Product Association for Configurable/Child Product_&#x20;
    * _Product Grid at Product Level_&#x20;
    * _Associated or Linked Product Stock Update_&#x20;
-3. __[_Fix Product Associations_](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)__
-4. __[_Import / Export_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)__
+3. [_Fix Product Associations_](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)
+4. [_Import / Export_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)
    * _Import_&#x20;
    * _Export_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -48,7 +48,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 
 
-* <mark style="color:orange;">**Product Association at Product Level –**</mark>** ** You can associate products from **Admin > Catalog > Products > Select Product > Product Association > Click “AddProduct”.**
+* <mark style="color:orange;">**Product Association at Product Level –**</mark> You can associate products from **Admin > Catalog > Products > Select Product > Product Association > Click “AddProduct”.**
 
 ### <mark style="color:blue;">Product Association for Simple Product</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
@@ -58,11 +58,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 ![](<../../.gitbook/assets/3 (27)>)
 
-* <mark style="color:orange;">**Product Grid at Product Level –**</mark>** ** You can add products from **Admin > Catalog> Products > Select Product > Product Association >** Click **“Add Product” > Product Grid > Select Products > Click “Add Selected Products”.**
+* <mark style="color:orange;">**Product Grid at Product Level –**</mark> You can add products from **Admin > Catalog> Products > Select Product > Product Association >** Click **“Add Product” > Product Grid > Select Products > Click “Add Selected Products”.**
 
 ![](<../../.gitbook/assets/4 (62)>)
 
-* <mark style="color:orange;">**Associated or Linked Product Stock Update -**</mark>** ** Associated product stock/quantity will be updated based on the main product, which you can see in the below screen grab. It supports multiple linking where one product can have multiple associated products.
+* <mark style="color:orange;">**Associated or Linked Product Stock Update -**</mark> Associated product stock/quantity will be updated based on the main product, which you can see in the below screen grab. It supports multiple linking where one product can have multiple associated products.
 
 ![](<../../.gitbook/assets/5 (62)>)
 
@@ -89,8 +89,8 @@ To import associated products go **system > Data transfer > Import**. Then selec
 
 ![](<../../.gitbook/assets/7 (39)>)
 
-* <mark style="color:orange;">**Export –**</mark>** ** Go to **System > Data Transfer > Export**. Select product associated in the entity type dropdown list. You should see the export menu popup on your screen as shown in the image below: -
+* <mark style="color:orange;">**Export –**</mark> Go to **System > Data Transfer > Export**. Select product associated in the entity type dropdown list. You should see the export menu popup on your screen as shown in the image below: -
 
 ![](<../../.gitbook/assets/8 (41)>)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-associated-or-linked-product-stock-update.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-associated-or-linked-product-stock-update.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

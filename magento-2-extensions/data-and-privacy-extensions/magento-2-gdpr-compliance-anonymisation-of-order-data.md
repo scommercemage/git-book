@@ -4,28 +4,28 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for GDPR_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark3)__
+2. [_Configuration Settings for GDPR_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Order and Quote Anonymisation Settings_&#x20;
    * _Privacy Settings_&#x20;
-3. __[_Configuration Settings for Cookie Popup_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark7) __&#x20;
+3. [_Configuration Settings for Cookie Popup_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark7)&#x20;
    * _General Settings_&#x20;
    * _Popup Styling_&#x20;
    * _Additional Tabs_&#x20;
-4. __[_Admin Configuration for Manage Cookie Choices_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark11)__
+4. [_Admin Configuration for Manage Cookie Choices_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark11)
    * _Manage Choice List_&#x20;
    * _Add New Cookie Choice_&#x20;
-5. [_Customers Details in Privacy Policy Consent_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark20)__
-6. __[_Anonymize Orders from Admin Section_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark21)__
-7. __[_Newsletter Subscription_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark22)__
-8. __[_Enable / Disable Tracking Without GTM_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark23)__
+5. [_Customers Details in Privacy Policy Consent_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark20)
+6. [_Anonymize Orders from Admin Section_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark21)
+7. [_Newsletter Subscription_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark22)
+8. [_Enable / Disable Tracking Without GTM_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark23)
    * _Using Module_
    * _Manually Adding Code_
-9. __[_Integrate Cookies with GTM Pro Tracking_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)__
-10. __[_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)__
+9. [_Integrate Cookies with GTM Pro Tracking_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
+10. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)
     * _Front-end Site View - Integrate Cookies with GTM Pro Tracking_&#x20;
     * _Cookie Pop-up- Cookie Accept_&#x20;
     * _Cookie Preferences_&#x20;
@@ -37,7 +37,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Confirmation Email Template -** Select confirmation email template.
 * **Delete Confirmation Email Template -** Select template for delete confirmation email.
 * **Enable Cookie Message -**This allow you to enable or disable the module.
-* **Block access to site until cookie policy is accepted -** If set to “Yes” then **** customer access to site will be blocked until cookie policy is accepted. If set to “No” then just normal cookie message block will be shown until cookie policy is accepted, but the access to the site will be allowed.
+* **Block access to site until cookie policy is accepted -** If set to “Yes” then customer access to site will be blocked until cookie policy is accepted. If set to “No” then just normal cookie message block will be shown until cookie policy is accepted, but the access to the site will be allowed.
 * **Page Wrapper Css Class - Add** the page wrapper Css class.
 * **Cookie text message -** Enter cookie text message, if you want to display message in cookie policy area.
 * **Information Page -** Use this page to learn about cookie settings.
@@ -168,7 +168,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 ![](../../.gitbook/assets/gdpr\_integratecookies.jpg)
 
-* <mark style="color:orange;">**Add New Cookie Choice -**</mark>** ** To create a new cookie choice, click on the “Add New Cookie Choice” button from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Add New Cookie Choice**, it redirects on "New Choice" page, by providing all the below configuration details you can create the cookie choice.
+* <mark style="color:orange;">**Add New Cookie Choice -**</mark> To create a new cookie choice, click on the “Add New Cookie Choice” button from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Add New Cookie Choice**, it redirects on "New Choice" page, by providing all the below configuration details you can create the cookie choice.
   * **Choice Name -** Enter the choice name. This is the text which represents the type of the cookie you are using under it.
   * **Cookie Name -** Define the cookie name. Cookie name will be used to enable/disable your relevant trackings. To explore more about Cookies, please check the [Privacy and Cookie Policy ](http://magento2.scommerce-mage.co.uk/privacy-policy-cookie-restriction-mode/)section.
   * **Store View -** Select store view.
@@ -337,4 +337,4 @@ You can delete the account from **Front-end > My Account > Delete Account sectio
 
 ![](../../.gitbook/assets/gdpr\_front10.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-gdpr.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-gdpr.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

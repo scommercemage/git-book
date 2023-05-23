@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-product-scheduler.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-product-scheduler.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Scheduler_ ](magento-2-product-scheduler.md#\_bookmark3)__
+2. [_Configuration Settings for Product Scheduler_ ](magento-2-product-scheduler.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Timer/Label Settings_&#x20;
    * _Cron Settings_&#x20;
    * _Start and End Date set up with product_&#x20;
-3. [_Front-end Site View_ ](magento-2-product-scheduler.md#\_bookmark8)__
+3. [_Front-end Site View_ ](magento-2-product-scheduler.md#\_bookmark8)
    * _"Launching Soon" Text for the New Product on the Category Page_&#x20;
    * _Launching Soon Timer on the Product Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -76,8 +76,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Sched
 
 ![](../../.gitbook/assets/launchinsoon1.jpg)
 
-* <mark style="color:orange;">**Launching Soon Timer on the Product Page -**</mark>** ** To show launching soon timer on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Product Scheduler > Timer /Label Settings > Show Timer/Label Before Launch Date -** Select **"Yes".**
+* <mark style="color:orange;">**Launching Soon Timer on the Product Page -**</mark> To show launching soon timer on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Product Scheduler > Timer /Label Settings > Show Timer/Label Before Launch Date -** Select **"Yes".**
 
 ![](../../.gitbook/assets/launchingsoon2.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-scheduler.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-scheduler.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

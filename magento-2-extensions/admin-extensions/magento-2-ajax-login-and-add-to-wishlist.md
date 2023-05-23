@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Ajax Login & Wishlist_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark3)__
+2. [_Configuration Settings for Ajax Login & Wishlist_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Front-end site view_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark5)__
+3. [_Front-end site view_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark5)
    * _Ajax Add to Wishlist - Ajax SignIn Popup_&#x20;
    * _Ajax Add to Wishlist – Ajax Create an Account Popup_&#x20;
    * _Ajax Add to Wishlist – Mini Cart Drop-Down Slider_&#x20;
@@ -20,7 +20,7 @@
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -98,4 +98,4 @@ All the products added to the wishlist should be visible under your account unde
 
 ![](../../.gitbook/assets/ajax\_front.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-ajax-login-add-to-wishlist.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-ajax-login-add-to-wishlist.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

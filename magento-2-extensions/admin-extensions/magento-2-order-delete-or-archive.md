@@ -4,23 +4,23 @@
 
 **Table Of Contents**
 
-1. __[_Installation_ ](magento-2-order-delete-or-archive.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-order-delete-or-archive.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Order Delete or Archive_ ](magento-2-order-delete-or-archive.md#\_bookmark3)__
+2. [_Configuration Settings for Order Delete or Archive_ ](magento-2-order-delete-or-archive.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Order Archive Settings_&#x20;
    * _Order Delete Settings_&#x20;
-3. __[_Order Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark7)__
+3. [_Order Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark7)
    * _Archive or Delete Orders from Order View Page_&#x20;
-4. __[_Archive Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark9)__
+4. [_Archive Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark9)
    * _Restore_&#x20;
    * _Restore Orders From Archived Order View Page_&#x20;
-5. __[_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12) __&#x20;
+5. [_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12)&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -73,12 +73,12 @@ php bin/magento setup:static-content:deploy
 
 When you enable the "Order Archive" and "Order Delete" settings from **Admin > Stores > Configuration > Scommerce Configuration > Archive Orders > Order Archive / Order Delete Settings > Enabled - "Yes"** , then it adds two additional options "Archive" and "Delete " under the "Actions" drop-down at **Admin > Sales > Order > Actions.**
 
-* <mark style="color:orange;">**Archive -**</mark>** ** It moves/archives order(s) to another storage(archive grid) instead of deleting them. This action can be restored from the archive order view page.
-* <mark style="color:orange;">**Delete -**</mark>** ** It deletes order(s) permanently. The "Delete" action cannot be reversed and erases all order(s) and related information.
+* <mark style="color:orange;">**Archive -**</mark> It moves/archives order(s) to another storage(archive grid) instead of deleting them. This action can be restored from the archive order view page.
+* <mark style="color:orange;">**Delete -**</mark> It deletes order(s) permanently. The "Delete" action cannot be reversed and erases all order(s) and related information.
 
 ![](../../.gitbook/assets/order\_grid.png)
 
-* <mark style="color:orange;">**Archive or Delete Orders from Order View Page -**</mark>** ** You can delete and archive order(s) from, **Admin > Sales > Orders > Select Order > View**. The order view page will have two additional options "Delete" and "Archive" and using these two buttons you can perform "Delete" and "Archive" actions. Buttons will only be visible when the module is enabled and the administrator has right role to archive/delete order(s).
+* <mark style="color:orange;">**Archive or Delete Orders from Order View Page -**</mark> You can delete and archive order(s) from, **Admin > Sales > Orders > Select Order > View**. The order view page will have two additional options "Delete" and "Archive" and using these two buttons you can perform "Delete" and "Archive" actions. Buttons will only be visible when the module is enabled and the administrator has right role to archive/delete order(s).
 
 ![](../../.gitbook/assets/order\_archiveordeleteorders.jpg)
 
@@ -86,7 +86,7 @@ When you enable the "Order Archive" and "Order Delete" settings from **Admin > S
 
 To view archived orders, go to **Admin > Sales > Archive Orders**. This grid will have an additional option "Restore "under "Actions" drop-down to restore the archived orders.
 
-* <mark style="color:orange;">**Restore -**</mark>** ** By selecting "**Restore**" from **Admin > Sales > Archive Orders> Actions** drop-down you can easily restore archived order(s).
+* <mark style="color:orange;">**Restore -**</mark> By selecting "**Restore**" from **Admin > Sales > Archive Orders> Actions** drop-down you can easily restore archived order(s).
 
 ![ArchiveOrders\_02.png](<../../.gitbook/assets/6 (61)>)
 
@@ -100,4 +100,4 @@ To view archived orders, go to **Admin > Sales > Archive Orders**. This grid wil
 
 When you enable the module and define the number of days for "Retention Period" from, **Admin > Stores > Configuration > Scommerce Configuration > Archive Orders > Order Archive Settings,** then it automatically archives order(s) older than defined days. After each successful order archival process, it sends an email to an administrator with details like how many numbers of orders being archived etc..
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-delete-or-archive-order.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-delete-or-archive-order.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

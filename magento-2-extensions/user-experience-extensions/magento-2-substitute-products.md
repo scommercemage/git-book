@@ -6,19 +6,19 @@
 
 **Table of Contents**
 
-1. __[_Installation_ ](magento-2-substitute-products.md#\_bookmark0)__
+1. [_Installation_ ](magento-2-substitute-products.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for S_ubstitute Products](magento-2-substitute-products.md#\_bookmark3)__
+2. [_Configuration Settings for S_ubstitute Products](magento-2-substitute-products.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_A_ssigning Substitute Products](magento-2-substitute-products.md#\_bookmark5)
+3. [_A_ssigning Substitute Products](magento-2-substitute-products.md#\_bookmark5)
    * _Add Substitute Products_
    * _Order Placed with Substitute Product_
-4. __[_Front-End View_](magento-2-substitute-products.md#front-end-view)__
+4. [_Front-End View_](magento-2-substitute-products.md#front-end-view)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade

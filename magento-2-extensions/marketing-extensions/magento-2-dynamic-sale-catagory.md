@@ -4,20 +4,20 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento-2-dynamic-sale-catagory.md#\_bookmark0)__
+1. [I_nstallation_ ](magento-2-dynamic-sale-catagory.md#\_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. __[_Configuration Settings for Dynamic Sale Category_ ](magento-2-dynamic-sale-catagory.md#\_bookmark3)__
+2. [_Configuration Settings for Dynamic Sale Category_ ](magento-2-dynamic-sale-catagory.md#\_bookmark3)
    * _General Settings_&#x20;
-3. __[_Product Special Price Set up_ ](magento-2-dynamic-sale-catagory.md#product-special-price-set-up)__
+3. [_Product Special Price Set up_ ](magento-2-dynamic-sale-catagory.md#product-special-price-set-up)
    * _Products Assigned to Sale Category in the Back-end_&#x20;
-4. __[_Command to Force Run Sale Category Products_ ](magento-2-dynamic-sale-catagory.md#command-to-force-run-sale-category-products)__
-5. __[_Front-end Site View_ ](magento-2-dynamic-sale-catagory.md#\_bookmark8)__
+4. [_Command to Force Run Sale Category Products_ ](magento-2-dynamic-sale-catagory.md#command-to-force-run-sale-category-products)
+5. [_Front-end Site View_ ](magento-2-dynamic-sale-catagory.md#\_bookmark8)
    * _Sale Products on the Category Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
-* <mark style="color:orange;">**Installation via app/code:**</mark>** ** Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
+* <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
 php bin/magento setup:upgrade
@@ -60,11 +60,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale 
 
 ### <mark style="color:blue;">**Product Special Price Set up**</mark>&#x20;
 
-&#x20;**** As soon as any product is set with valid special product it automatically gets assigns to category set up for sale/offers in configurations. You can set special price from **Admin > Catalog > Products > Select Product > Advanced Pricing >** Set **"Special Price" .** There is a cron job which runs midnight and checks for any product set up under offer.
+&#x20;As soon as any product is set with valid special product it automatically gets assigns to category set up for sale/offers in configurations. You can set special price from **Admin > Catalog > Products > Select Product > Advanced Pricing >** Set **"Special Price" .** There is a cron job which runs midnight and checks for any product set up under offer.
 
 ![](../../.gitbook/assets/dynamicsaleenhance.jpg)
 
-* <mark style="color:orange;">**Products Assigned to Sale Category in the Back-end -**</mark>** ** You can see the Sale Products in the back-end under "Sale/Offers" categories, from **Admin > Catalog > Categories >** Select Category **"Offers" >** Click on **"Products in category" .**
+* <mark style="color:orange;">**Products Assigned to Sale Category in the Back-end -**</mark> You can see the Sale Products in the back-end under "Sale/Offers" categories, from **Admin > Catalog > Categories >** Select Category **"Offers" >** Click on **"Products in category" .**
 
 ![](../../.gitbook/assets/dynamicsaleenhance3.jpg)
 
@@ -76,8 +76,8 @@ Run the below refresh command to show the products under sale category.
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
-* <mark style="color:orange;">**Sale Products on the Category Page -**</mark>** ** The products with special price will be shown on the category page under the category you have selected from **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale Category - "Sale"** or **"Offer",** along with the sale ends date.
+* <mark style="color:orange;">**Sale Products on the Category Page -**</mark> The products with special price will be shown on the category page under the category you have selected from **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale Category - "Sale"** or **"Offer",** along with the sale ends date.
 
 ![](../../.gitbook/assets/dynamicsaleenhance4.jpg)
 
-If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-dynamic-sale-category.html#faq) **** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-dynamic-sale-category.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
