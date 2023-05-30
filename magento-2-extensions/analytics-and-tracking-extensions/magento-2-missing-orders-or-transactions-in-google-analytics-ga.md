@@ -26,7 +26,8 @@
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
-composer require google/apiclient
+composer require google/apiclient:^2.9
+composer require google/analytics-data:^0.8.1
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
