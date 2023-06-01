@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Social Login*
 * **Show Social Login Buttons on –** Select where all you want to show the social login options.
 * **Use Popup Login –** Set yes or no to enable/disable the popup.
 * **Popup Links Selector –** Comma-seperated. Compatible: Etheme\_YourStore \[ dropdown-menu.dropdown-menu—xs-full ]
-* **Pop effect –** Select pop up appearing effect.
+* **Popup effect –** Select pop up appearing effect.
 * **Style Management –** Select color for the popup.
 * **Custom CSS –** Enter your Custom CSS.
 
