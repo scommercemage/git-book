@@ -41,7 +41,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge**
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
-* **Label –** This label text gets used in the frontend of the website which will be shown on basket, review, invoice, order, shipment, email confirmation and refund.
+* **Surcharge Label –** This label text gets used in the frontend of the website which will be shown on basket, review, invoice, order, shipment, email confirmation and refund.
 * **Surcharge Amount Type –** This option allows you to choose fixed amount or percentage value. Percentage value gets calculated based on the grand total or subtotal attribute been selected.
 * **Surcharge Percentage or Fixed Amount –** This is the surcharge or additional fee which will be shown to the customer based on surcharge amount type (fixed to percentage)
 * **Surcharge Percentage or Fixed Amount per payment method or payment method and country -** Fixed or Percentage amount, additional fee will be applied based on grand or subtotal attribute been selected per payment method or payment method and country. Example checkmo:3;cashondelivery:2 or checkmo:3:FR;checkmo:5:GB
