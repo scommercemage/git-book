@@ -74,7 +74,7 @@ Go to _Admin > Catalog > Categories > Select Category > Primary Category Setting
 
 ### <mark style="color:blue;">Run the script to setup primary category of one or all products together</mark> <a href="#_toc_250001" id="_toc_250001"></a>
 
-We have included a PHP script that can be utilized to set primary category for one or all products together. Simply run the script in the url and the primary categories will get updated for the set products.
+We have included a PHP script that can be utilized to set primary category for one or all products together. Simply run the script in the url and the primary categories will get updated for the set products.&#x20;
 
 * <mark style="color:orange;">**For one product –**</mark> Run the script given and refer to the image below to update the primary category of a single product.
 
@@ -88,6 +88,14 @@ We have included a PHP script that can be utilized to set primary category for o
 
 ![](<../../.gitbook/assets/6 (32)>)
 
+If the script doesen't work in the URL then make sure to place the script inside PUB directory and change line number 6 as follows:-&#x20;
+
+```
+require realpath(__DIR__) . '/../app/bootstrap.php';
+```
+
+Once updated, please run the script again.
+
 ### <mark style="color:blue;">Set Primary Categories</mark>
 
 You can use a script provided with the extension to automatically add primary categories for products. Admin can exclude certain categories from primary category and also prioritise one category over the other to be picked as the primary category.
@@ -96,13 +104,7 @@ Go to Admin>Catalog>Categories select a category then scroll down to find the op
 
 ![](<../../.gitbook/assets/1 (3) (1).png>)
 
-To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
-
-```
-scommerce:seo-base:set-primary-category
-```
-
-_<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
+_<mark style="color:red;">**N.B -**</mark>_ R_<mark style="color:red;">un the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
 
