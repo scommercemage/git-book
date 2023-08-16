@@ -114,15 +114,15 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 * <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark> To include or exclude categories, go to _Admin > Catalog > Manage Categories > Select category (you want to exclude from site map) > General > Exclude from Sitemap: Set to “Yes/No”_
 
-![](<../../.gitbook/assets/3 (10)>)
+![](<../../.gitbook/assets/3 (58)>)
 
 * <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
 
-![](<../../.gitbook/assets/4 (30)>)
+![](<../../.gitbook/assets/4 (52)>)
 
 * <mark style="color:orange;">**Exclude CMS Pages from Sitemap –**</mark> To exclude CMS pages from sitemap, go to _Admin > CMS > Pages > Select CMS Page (you want to exclude from site map) > General > Exclude from Sitemap: Set to “Yes/No”_
 
-![](<../../.gitbook/assets/5 (19)>)
+![](<../../.gitbook/assets/5 (67)>)
 
 * <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
 
@@ -130,11 +130,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 * <mark style="color:orange;">**Add new Sitemap -**</mark> You can create new site map from, _Admin > Marketing > Sitemap > Click ''Add Sitemap''_, it redirects to New Site Map page and by providing all the required details you can create Site Map.
 
-![](<../../.gitbook/assets/7 (13)>)
+![](<../../.gitbook/assets/7 (29)>)
 
 * <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark> To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
 
-![](<../../.gitbook/assets/8 (45)>)
+![](<../../.gitbook/assets/8 (47)>)
 
 ### <mark style="color:blue;">**Google Sitemap XML**</mark>&#x20;
 
@@ -142,11 +142,11 @@ Google site map shows all the included Products, Categories**,** and CMS Pages l
 
 * <mark style="color:orange;">**Category Link in Sitemap XML -**</mark> You can see the category link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/10 (4)>)
+![](<../../.gitbook/assets/10 (32)>)
 
 * <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/11 (14)>)
+![](<../../.gitbook/assets/11 (23)>)
 
 * <mark style="color:orange;">**Product Link in Sitemap XML -**</mark> You can see the product link in the Google Sitemap XML.
 
@@ -167,13 +167,13 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Catalog URL_
 
 Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category_ . The drop down will show all the categories selected for the product from where you can select the primary category of the product.
 
-![](<../../.gitbook/assets/13 (27)>)
+![](<../../.gitbook/assets/13 (2)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
 
 * <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
-![](<../../.gitbook/assets/14 (26)>)
+![](<../../.gitbook/assets/14 (23)>)
 
 ### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#_toc_250023" id="_toc_250023"></a>
 
@@ -314,29 +314,29 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 * <mark style="color:orange;">**Home Page Markup Code -**</mark> You can add structured data/markup code on home page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._ To test structured data, go to _Structured Data Testing Tool > Provide Home Page URL > Click "Run Test" button._
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 * <mark style="color:orange;">**Category Page Markup Code -**</mark> You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
 
-![](<../../.gitbook/assets/8 (19)>)
+![](<../../.gitbook/assets/8 (36)>)
 
 * <mark style="color:orange;">**Product Page Markup Code**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> To add structured data markup code on product page, set "Enable" to "Yes" from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet._
 
-![](<../../.gitbook/assets/9 (53)>)
+![](<../../.gitbook/assets/9 (11)>)
 
 ### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
 
 * <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
-![](<../../.gitbook/assets/10 (43)>)
+![](<../../.gitbook/assets/10 (17)>)
 
 * <mark style="color:orange;">**Facebook Open Graph -**</mark> Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
-![](<../../.gitbook/assets/11 (32)>)
+![](<../../.gitbook/assets/11 (31)>)
 
 * <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
-![](<../../.gitbook/assets/12 (35)>)
+![](<../../.gitbook/assets/12 (10)>)
 
 
 
@@ -430,7 +430,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 

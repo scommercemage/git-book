@@ -51,20 +51,20 @@ Once the discount is set up then on the front-end it can be applied using the be
 2. **Discount Code –** Discount code as set up in discount
 3. **Returning Site URL –** This is optional parameter, If defined, user will be redirected to this URL after successful application of the discount code, If not defined then User will be redirected to the Home page.
 
-![](<../../.gitbook/assets/3 (17)>)
+![](<../../.gitbook/assets/3 (39)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
 * <mark style="color:orange;">**Successful Applied Discount Message on the Front-end –**</mark> The message set from **Admin > Configuration > Auto Apply Coupon Code > Message After Applying Code**, will be shown on the front-end homepage.
 
-![](<../../.gitbook/assets/4 (75)>)
+![](<../../.gitbook/assets/4 (10)>)
 
 * <mark style="color:orange;">**Successful Applied Discount Message on the Cart Page -**</mark>
 
-![](<../../.gitbook/assets/5 (53)>)
+![](<../../.gitbook/assets/5 (29)>)
 
 * <mark style="color:orange;">**Coupon Code on the Checkout Page –**</mark> Applied discount coupon code will be shown on the front-end checkout page under “Order Summary” section.
 
-![](<../../.gitbook/assets/6 (49)>)
+![](<../../.gitbook/assets/6 (13)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-apply-coupon-via-link.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

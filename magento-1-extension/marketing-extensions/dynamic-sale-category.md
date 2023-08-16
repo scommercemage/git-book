@@ -44,16 +44,16 @@ will then only show sale products and will ignore any other products set up dire
 
 As soon as any product is set with valid special price it automatically assigned to category set up for sale/offers in configurations. You can set special price from **Admin > Catalog > Manage Products > Select Product > Prices > Special Price.**
 
-![](<../../.gitbook/assets/2 (55)>)
+![](<../../.gitbook/assets/2 (24)>)
 
 * <mark style="color:orange;">**Product Assigned to Sale Category in the Back-end –**</mark> You can see the Sale Products in the back-end under “Sale/Offers” categories from **Admin > Catalog > Manage Categories** > Select Category **“Sales”** > Click on **“Products in Category”**
 
-![](<../../.gitbook/assets/3 (87)>)
+![](<../../.gitbook/assets/3 (10)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
 * <mark style="color:orange;">**Sale Products on the Category Page –**</mark> The products with special price will be shown under the category which you have selected from **Admin > Stores > Configuration > Sale / Offers category- “Sale”**.
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/4 (77)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/4 (16)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-dynamic-sale-category.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

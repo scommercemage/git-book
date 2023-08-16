@@ -77,31 +77,31 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 * **Default Stock Message -** You can select default stock message from the drop- down, which will be shown on the frontend and replace availability (In Stock / Out Stock) message.
 * **Apply Stock Quantity Ranges:** You can enable it by turning "On" this option. If it is enabled then it shows below grid where you can define stock ranges and corresponding status.
 
-![](<../../.gitbook/assets/9 (19)>)
+![](<../../.gitbook/assets/9 (15)>)
 
 ### <mark style="color:blue;">Add New Stock Status Rules - Admin Site View</mark>
 
-![](<../../.gitbook/assets/10 (31)>)
+![](<../../.gitbook/assets/10 (13)>)
 
 * <mark style="color:orange;">**Custom Stock Status and Rule Name at Product Level -**</mark> You can view the associated rule to product from **Admin > Catalog > Products > Select product.**
 
-![](<../../.gitbook/assets/11 (10)>)
+![](<../../.gitbook/assets/11 (41)>)
 
 * <mark style="color:orange;">**Salable Quantity -**</mark> On product save it updates the stock status message based on the salable quantity and the quantity rule. To view salable quantity go to **Admin > Catalog> products > Select Product > Product Salable Quantity.**
 
-![](<../../.gitbook/assets/12 (12)>)
+![](<../../.gitbook/assets/12 (7)>)
 
 #### <mark style="color:orange;">Assign Custom Stock Status Rule to Products Automatically or Manually</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 
 * <mark style="color:blue;">**Manually -**</mark> You can assign rules to product manually from **Admin > Catalog> Products > Select Product > Rule Name -** Select rule from the “Rule Name” drop-down list.
 
-![](<../../.gitbook/assets/13 (2)>)
+![](<../../.gitbook/assets/13 (18)>)
 
 * <mark style="color:blue;">**Automatically on Cron Run -**</mark> You can schedule the Cron job from **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock Status**, on cron run the rule will be automatically assigned to products based on the matched condition and set the correct message.
 
 <mark style="color:orange;">**Multi Websites Selection -**</mark> It fully supports multi-store and websites, you can select websites from **Admin > Catalog > Products > Select Product > Product in Websites-** check websites.
 
-![](<../../.gitbook/assets/14 (6)>)
+![](<../../.gitbook/assets/14 (17)>)
 
 * <mark style="color:orange;">**Custom Stock Status Product Attribute -**</mark> You can add values to custom stock status product attribute from **Admin > Store >Attribute > Product> Product Attribute>Select - custom\_stock\_status > Properties > Add option**, the added values will be populated in the default /custom stock status message drop-down.
 
@@ -111,21 +111,21 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 * <mark style="color:orange;">**Custom Stock Message on the Category & Search Pages –**</mark> In the below image you can see the stock message for the products.
 
-![](<../../.gitbook/assets/16 (5)>)
+![](<../../.gitbook/assets/16 (19)>)
 
-![](<../../.gitbook/assets/17 (15)>)
+![](<../../.gitbook/assets/17 (9)>)
 
 * <mark style="color:orange;">**Custom Stock Message for Simple Product**</mark><mark style="color:orange;">s</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**on the Product Page –**</mark> It displays stock status message for simple product based on salable qty and quantity ranges rule.
 
-![](<../../.gitbook/assets/18 (10)>)
+![](<../../.gitbook/assets/18 (6)>)
 
 * #### <mark style="color:orange;">Custom Stock Message for Configurable Products on the Product Page :-</mark> For configurable product it displays stock status based on variant selection. <a href="#_bookmark17" id="_bookmark17"></a>
 
-![](<../../.gitbook/assets/19 (11)>)
+![](<../../.gitbook/assets/19 (3)>)
 
 * <mark style="color:orange;">**Custom Stock Message on the Cart & Checkout Pages –**</mark> You can see the stock status message on cart and checkout pages.
 
-![](<../../.gitbook/assets/20 (7)>)
+![](<../../.gitbook/assets/20 (18)>)
 
 * <mark style="color:orange;">**Custom Stock Message on Related, Cross-sells and Up-sells Products –**</mark> When you select “Yes” for “**Custom Stock Message on Related Product / Up-Sells/ Cross- Sells**” from **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock Status,** then it shows stock status message on related/up-sells/cross- sells products.
 

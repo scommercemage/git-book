@@ -71,7 +71,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 * **Rule Apply On -** Select "Grand Total/Subtotal" to apply the free shipping bar rule.
 * **Cart Goal -** Enter qualifying amount for cart goal.
 
-![Configuration   Settings   Stores   Magento Admin (1).png](<../../.gitbook/assets/3 (75)>)
+![Configuration   Settings   Stores   Magento Admin (1).png](<../../.gitbook/assets/3 (71)>)
 
 #### <mark style="color:orange;">New Shipping Bar - Websites & Customers Groups</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -84,7 +84,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 * **Allowed Countries -** Select allowed shipping countries.
 
-![New Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/5 (68)>)
+![New Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/5 (30)>)
 
 #### <mark style="color:orange;">New Shipping Bar - Display Options</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -95,7 +95,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 * **Show Customize Icon -** Select “Yes/No” option. If set to “Yes” then “Upload Icon” option will be shown.
 * **Upload Icon -** This will be an option for user to upload an icon (visible when "Show Customize Icon" set to "Yes")
 
-![DisplayOptionsNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/6 (56)>)
+![DisplayOptionsNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/6 (60)>)
 
 #### <mark style="color:orange;">New Shipping Bar - Content</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
@@ -104,7 +104,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 * **Achieved Message -** Provide achieved message (A customer will get it, when the cart total achieves the needed amount to get a free shipping).
 * **Free Shipping Terms Content -** Provide shipping terms or other important information. (This will be a fill in the message to provide customers with shipping terms or other important information right on the bar).
 
-![ContentNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/7 (4)>)
+![ContentNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/7 (38)>)
 
 #### <mark style="color:orange;">New Shipping Bar - Design</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
@@ -114,7 +114,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 * **Background Color -** Enter background color
 * **Custom CSS -** Provide custom CSS (.classname {background- color:{color:#FFFFFF})
 
-![DesignNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/8 (47)>)
+![DesignNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/8 (4)>)
 
 * <mark style="color:orange;">**Free Shipping Discount -**</mark> The extension only implements the bar display and actual shipping discount needs to be set separately in Magento out of the box.
 
@@ -122,18 +122,18 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 * <mark style="color:orange;">**Free Shipping Bar on the Homepage with Generic Message -**</mark> You can set generic message for free shipping bar from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Initial Message**
 
-![Untitled (2)](<../../.gitbook/assets/9 (27)>)
+![Untitled (2)](<../../.gitbook/assets/9 (20)>)
 
 * <mark style="color:orange;">**Free Shipping Bar on the Category Page with Generic Message / Bar Position Bottom Fixed -**</mark> You can set bar position by selecting bar options from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Display Options Bar Position.**
 
-![Untitled (2)](<../../.gitbook/assets/10 (2)>)
+![Untitled (2)](<../../.gitbook/assets/10 (6)>)
 
 * <mark style="color:orange;">**Free Shipping Bar with Remaining Amount -**</mark> You can inform customers about the remaining amount left for free shipping by providing in progress message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > In Progress Message**
 
-![Untitled (2)](<../../.gitbook/assets/11 (31)>)
+![Untitled (2)](<../../.gitbook/assets/11 (14)>)
 
 * <mark style="color:orange;">**Free Shipping Bar on the Cart Page with Success Message -**</mark> You can set success message from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Achieved Message**
 
-![Untitled (2)](<../../.gitbook/assets/12 (4)>)
+![Untitled (2)](<../../.gitbook/assets/12 (31)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-free-shipping-bar.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

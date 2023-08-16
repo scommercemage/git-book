@@ -61,7 +61,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Catalog URL_
 
 Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category_ . The drop down will show all the categories selected for the product from where you can select the primary category of the product.
 
-![](<../../.gitbook/assets/13 (27)>)
+![](<../../.gitbook/assets/13 (2)>)
 
 ### <mark style="color:blue;">Primary Category settings for Category</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 
@@ -70,7 +70,7 @@ Go to _Admin > Catalog > Categories > Select Category > Primary Category Setting
 * <mark style="color:orange;">**Exclude from Primary Category (Yes/No) -**</mark> Select Yes/No whether you want this category to excluded from the primary category or not.
 * <mark style="color:orange;">**Exclude Root Categories –**</mark> Set the priority for the category, the highest priority will be selected as the primary category.
 
-![](<../../.gitbook/assets/4 (20)>)
+![](<../../.gitbook/assets/4 (77)>)
 
 ### <mark style="color:blue;">Run the script to setup primary category of one or all products together</mark> <a href="#_toc_250001" id="_toc_250001"></a>
 
@@ -80,13 +80,13 @@ We have included a PHP script that can be utilized to set primary category for o
 
 `{{Website_URL}}/SetPrimaryCategoryM2.php?deleteSku s=MH01`
 
-![](<../../.gitbook/assets/5 (44)>)
+![](<../../.gitbook/assets/5 (3)>)
 
 * <mark style="color:orange;">**For all Products –**</mark> Run the script given and refer to the image below to update the primary category of all products.
 
-`{{Website_URL}}/SetPrimaryCategoryM2.php?deleteSku s=all`
+`{{Website_URL}}/SetPrimaryCategoryM2.php?deleteSkus=all`
 
-![](<../../.gitbook/assets/6 (32)>)
+![](<../../.gitbook/assets/6 (29)>)
 
 If the script doesen't work in the URL then make sure to place the script inside PUB directory and change line number 6 as follows:-&#x20;
 
@@ -102,7 +102,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 _<mark style="color:red;">**N.B -**</mark>_ R_<mark style="color:red;">un the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
@@ -110,12 +110,12 @@ _<mark style="color:red;">**N.B -**</mark>_ R_<mark style="color:red;">un the sc
 
 * <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
-![](<../../.gitbook/assets/14 (26)>)
+![](<../../.gitbook/assets/14 (23)>)
 
 ### &#x20;<a href="#_toc_250023" id="_toc_250023"></a>
 
 * <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark> We have assigned “**Strive Shoulder Pack**” product to “**Gear**” Category and the URL stays the same when we access the product from the search or category page
 
-![](<../../.gitbook/assets/8 (51)>)
+![](<../../.gitbook/assets/8 (19)>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-seo-unique-product-url.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

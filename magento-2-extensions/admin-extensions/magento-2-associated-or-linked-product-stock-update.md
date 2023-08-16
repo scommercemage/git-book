@@ -52,19 +52,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 ### <mark style="color:blue;">Product Association for Simple Product</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
-![](<../../.gitbook/assets/2 (3)>)
+![](<../../.gitbook/assets/2 (16)>)
 
 ### <mark style="color:blue;">Product Association for Configurable/Child Product</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (27)>)
+![](<../../.gitbook/assets/3 (16)>)
 
 * <mark style="color:orange;">**Product Grid at Product Level –**</mark> You can add products from **Admin > Catalog> Products > Select Product > Product Association >** Click **“Add Product” > Product Grid > Select Products > Click “Add Selected Products”.**
 
-![](<../../.gitbook/assets/4 (62)>)
+![](<../../.gitbook/assets/4 (4)>)
 
 * <mark style="color:orange;">**Associated or Linked Product Stock Update -**</mark> Associated product stock/quantity will be updated based on the main product, which you can see in the below screen grab. It supports multiple linking where one product can have multiple associated products.
 
-![](<../../.gitbook/assets/5 (62)>)
+![](<../../.gitbook/assets/5 (59)>)
 
 ### <mark style="color:blue;">Fix Product Associations</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -85,12 +85,12 @@ php bin/magento scommerce:associatedproducts:fixassociations -f
 
 To import associated products go **system > Data transfer > Import**. Then select product association from the drop down list. You will see the importing menu opening on your screen as shown in the image below. Select the import file and add import behavior settings as per your preferences. Lastly click on check data button on the right corner of your screen.
 
-![](<../../.gitbook/assets/6 (44)>)
+![](<../../.gitbook/assets/6 (49)>)
 
-![](<../../.gitbook/assets/7 (39)>)
+![](<../../.gitbook/assets/7 (36)>)
 
 * <mark style="color:orange;">**Export –**</mark> Go to **System > Data Transfer > Export**. Select product associated in the entity type dropdown list. You should see the export menu popup on your screen as shown in the image below: -
 
-![](<../../.gitbook/assets/8 (41)>)
+![](<../../.gitbook/assets/8 (55)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-associated-or-linked-product-stock-update.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

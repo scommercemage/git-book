@@ -43,6 +43,6 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Perfect Audie
 
 You can add perfect audience tracking tag from **Admin > Stores > Configuration > Scommerce Configuration > Perfect Audience > Tracking Tag ID.**
 
-![](<../../.gitbook/assets/2 (34)>)
+![](<../../.gitbook/assets/2 (5)>)
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

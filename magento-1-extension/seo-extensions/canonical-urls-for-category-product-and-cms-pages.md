@@ -83,7 +83,7 @@ Go to **Admin > Catalog > Categories > Manage Categories > Choose Category (for 
   * **No Index, Follow**
   * **Index, No Follow**
 
-![](<../../.gitbook/assets/6 (66)>)
+![](<../../.gitbook/assets/6 (12)>)
 
 #### <mark style="color:orange;">Product set up for Canonical URL</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
@@ -104,7 +104,7 @@ Go to **Admin > Catalog > CMS > Pages > Choose Page (for which you want to set C
   * **No Index, Follow**
   * **Index, No Follow**
 
-![](<../../.gitbook/assets/8 (9)>)
+![](<../../.gitbook/assets/8 (42)>)
 
 #### <mark style="color:orange;">Rollback Plan:</mark> <a href="#_bookmark13" id="_bookmark13"></a>
 

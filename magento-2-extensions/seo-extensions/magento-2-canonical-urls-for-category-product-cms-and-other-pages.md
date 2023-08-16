@@ -80,7 +80,7 @@ Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 
 * **CMS Canonical Enable –** Set it to yes, if you want canonical tag on cms pages.
 
-![](../../.gitbook/assets/cms.png)
+![](<../../.gitbook/assets/cms (1).png>)
 
 #### <mark style="color:orange;">Others Pages Canonical Tags</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -107,7 +107,7 @@ Go to _Admin > Catalog > Products > Select Product (for which you want to set Ca
 * **Override Canonical URL –** Enter text here to be used as canonical tag URL.
 * **Robot Settings –** Select the robot settings from dropdown.
 
-![Untitled (2)](<../../.gitbook/assets/11 (5)>)
+![Untitled (2)](<../../.gitbook/assets/11 (26)>)
 
 #### <mark style="color:orange;">**Category set up for Canonical URL**</mark> <a href="#_bookmark13" id="_bookmark13"></a>
 
@@ -117,7 +117,7 @@ Go to _Admin > Catalog> Category > select category (for which you want to set ca
 * **Override Canonical Tag –** Enter text here to be used as canonical tag URL.
 * **Robot Settings –** Select the robot settings from dropdown.
 
-![Untitled 1 (2)](<../../.gitbook/assets/12 (7)>)
+![Untitled 1 (2)](<../../.gitbook/assets/12 (5)>)
 
 #### <mark style="color:orange;">CMS set up for Canonical URL</mark> <a href="#_bookmark14" id="_bookmark14"></a>
 
@@ -126,7 +126,7 @@ Go to _Admin > Content > Pages > Choose page (for which you want to set canonica
 * **Override Canonical URL –** Enter text here to be used as canonical tag URL.
 * **Robot Settings –** Select the robot settings from dropdown.
 
-![Untitled (2)](<../../.gitbook/assets/13 (15)>)
+![Untitled (2)](../../.gitbook/assets/13)
 
 ### <mark style="color:blue;">Set Primary Categories</mark>
 
@@ -134,7 +134,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 
@@ -148,15 +148,15 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 * <mark style="color:orange;">**Category Canonical Tag -**</mark> You can enable canonical tag on the category page from **Admin> Stores > Configuration > Scommerce Configuration > Canonical Tags > Category Canonical Enable - Select "Yes".**
 
-![](<../../.gitbook/assets/14 (4)>)
+![](<../../.gitbook/assets/14 (27)>)
 
 * <mark style="color:orange;">**Product Canonical Tag -**</mark> To add canonical tag on the product page, go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Product Canonical Enable - Select "Yes"**&#x20;
 
-![](<../../.gitbook/assets/15 (11)>)
+![](<../../.gitbook/assets/15 (9)>)
 
 * <mark style="color:orange;">**CMS Canonical Tag -**</mark> You can add canonical tag on any page from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags >CMS Canonical Enable - Select "Yes".**
 
-![](<../../.gitbook/assets/16 (16)>)
+![](<../../.gitbook/assets/16 (9)>)
 
 * <mark style="color:orange;">**Other Pages Canonical Tags-**</mark> You can add canonical tag on the CMS pages from **Admin> Stores > Configuration >Scommerce Configuration > Canonical Tags > Other Page Canonical Enabled "Yes"** and under **Custom Canonical Tag Links** click on add and add the full route name of the page for eg:- when visiting the checkout page your URL will look something like [http://demo2.scommerce-](http://demo2.scommerce-mage.co.uk/contact/)[mage.co.uk/contact/.](http://demo2.scommerce-mage.co.uk/contact/) Here “contact” is your full route name. Lastly, enter the **Canonical tag link** that you want to send with the URL.
 

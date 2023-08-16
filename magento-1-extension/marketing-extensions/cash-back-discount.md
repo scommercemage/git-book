@@ -75,27 +75,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 
 **For example ,** in system configuration of cash back, if you have specified expiry date is on **30/05/2020** and validity month is 1 month then To Date should be **30/06/2020**, this will allow customers to redeem their offer in next 30 days especially those who have placed their first order on **30/05/2020**
 
-![](<../../.gitbook/assets/3 (78)>)
+![](<../../.gitbook/assets/3 (26)>)
 
 #### <mark style="color:orange;">Conditions</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
-![](<../../.gitbook/assets/4 (66)>)
+![](<../../.gitbook/assets/4 (31)>)
 
 #### <mark style="color:orange;">Actions</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 
-![](<../../.gitbook/assets/5 (9)>)
+![](<../../.gitbook/assets/5 (60)>)
 
 #### <mark style="color:orange;">Labels</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
-![](<../../.gitbook/assets/6 (54)>)
+![](<../../.gitbook/assets/6 (7)>)
 
 #### <mark style="color:orange;">Manage Coupon Codes</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
-![](<../../.gitbook/assets/7 (30)>)
+![](<../../.gitbook/assets/7 (21)>)
 
 #### <mark style="color:orange;">Applied Cashback Details on the order view page</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
-![](<../../.gitbook/assets/8 (50)>)
+![](<../../.gitbook/assets/8 (20)>)
 
 #### <mark style="color:orange;">**Theme Changes**</mark>&#x20;
 
@@ -124,6 +124,6 @@ app/design/frontend/default/default/template/email/order/items.phtml
 
 #### <mark style="color:orange;">Cashback Discount Option on the Checkout Page</mark> <a href="#_bookmark15" id="_bookmark15"></a>
 
-![](<../../.gitbook/assets/9 (39)>)
+![](<../../.gitbook/assets/9 (8)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

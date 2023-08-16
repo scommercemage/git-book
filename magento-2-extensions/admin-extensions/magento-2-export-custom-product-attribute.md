@@ -37,7 +37,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Export Produc
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 * **Allowed Attributes –** Select the porduct attributes that you want to list in separate columns while exporting the catalog products.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Exporting Custom Product Attributes</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -45,19 +45,19 @@ Make sure the custom attributes that you want to import are selected under **Adm
 
 **Step 1:-** Go to Admin>System>Export
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (4).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:-** Select product from the 'Entity Type' dropdown list and select the attributes that you want to exclude from the export.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:-** Click on continue and when the cron runs the export will be generated and added in the list below
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;**Step 4:-** Finally, download the export file from the select dropdown.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:-** You can see in the export file that our custom attributes new and sale are present in separate columns.
 

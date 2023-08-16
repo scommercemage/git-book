@@ -67,23 +67,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Infinite Scro
 
 * <mark style="color:orange;">**Infinite Scroll with ‘Load More Button’ on the Category Page –**</mark> You can display the “Load More Button” on the category page by selecting “Load with Button” option from **Admin > Stores > Configuration > Infinite Scrolling > Loading Type**.
 
-![](<../../.gitbook/assets/3 (80)>)
+![](<../../.gitbook/assets/3 (25)>)
 
 * <mark style="color:orange;">**Infinite Scroll with Auto Loading on the Category and Search Pages –**</mark> You can implement auto loading on the category and search pages by selecting the option "Load Automatically" from **Admin > Stores > Configuration > Infinite Scrolling > Loading Type**.
 * <mark style="color:orange;">**Auto Loading on the Category Page**</mark>
 
 ### &#x20;<a href="#_toc_250001" id="_toc_250001"></a>
 
-![](<../../.gitbook/assets/4 (15)>)
+![](<../../.gitbook/assets/4 (73)>)
 
 * <mark style="color:orange;">**Auto Loading on the Search Page**</mark>
 
 
 
-![](<../../.gitbook/assets/5 (70)>)
+![](<../../.gitbook/assets/5 (54)>)
 
 * <mark style="color:orange;">**Infinite Scroll with ‘Load More Button’ and Page Number –**</mark> To display Load More Button with page numbers on category and search pages first select option “Load with Button” from **Admin > Stores > Configuration > Infinite Scrolling > Loading Type** and then select “Yes “ from **Admin > Stores > Configuration > Infinite Scrolling > Display Page Numbers**. This will display page numbers with Load More Button as shown in screen grab below.
 
-![](<../../.gitbook/assets/6 (62)>)
+![](<../../.gitbook/assets/6 (34)>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-infinite-scroll.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

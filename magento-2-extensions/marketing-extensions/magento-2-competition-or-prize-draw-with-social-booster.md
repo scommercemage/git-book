@@ -96,7 +96,7 @@ You can create, update and delete custom fields from **Admin > Competition > Cus
 * **Field Type –** This will be custom field type.
 * **Action –** Edit/Delete
 
-![](<../../.gitbook/assets/8 (26)>)
+![](<../../.gitbook/assets/8 (7)>)
 
 * <mark style="color:orange;">**View Custom Field Screen -**</mark> Click on "Add New Custom Field" will redirect you to detailed view custom field page and by filling all the required details you can create a new custom field. It will have below tabs: -
 
@@ -121,9 +121,9 @@ You can create, update and delete custom fields from **Admin > Competition > Cus
   * Delete/Remove (action)
 * **Answer (text box) –** This will be an optional field for adding answer. If the type is date picker then the date format for answer should be correct.
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/9 (48)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/9 (12)>)
 
-![A picture containing screenshot  Description automatically generated](<../../.gitbook/assets/10 (19)>)
+![A picture containing screenshot  Description automatically generated](<../../.gitbook/assets/10 (36)>)
 
 ### <mark style="color:blue;">Create/Edit Competition</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -160,7 +160,7 @@ You can update, delete and create a new competition from **Admin > Competition >
 * Competition End Date – Date picker
 * Competition form Submit Button Label
 
-![](<../../.gitbook/assets/12 (32)>)
+![](<../../.gitbook/assets/12 (22)>)
 
 * <mark style="color:orange;">**Add Fields in Competition Form -**</mark> To add fields in competition form go to **Admin > Competition > Competitions > Add Fields in Competition Form.** It will have the fields: -
   * ID
@@ -169,7 +169,7 @@ You can update, delete and create a new competition from **Admin > Competition >
   * Action
   * Sort Order
 
-![](<../../.gitbook/assets/13 (5)>)
+![](<../../.gitbook/assets/13 (10)>)
 
 * <mark style="color:orange;">**Add Custom Fields -**</mark> You can add fields from **Admin > Competition > Competitions > Add Fields in Competition Form >** Click on **"Add Fields**" **>** Select fields and Click on "**Add Selected Fields"**. This screen will have all the available custom fields in a grid form and user will be able to select fields to add to the competition form.
   * Checkbox to select fields
@@ -178,13 +178,13 @@ You can update, delete and create a new competition from **Admin > Competition >
   * Field Type
   * Field Position – This will be editable numeric field and will decide the display position for the competition form. This is specific to competition form.
 
-![](<../../.gitbook/assets/14 (28)>)
+![](<../../.gitbook/assets/14 (10)>)
 
 * <mark style="color:orange;">**Design -**</mark> This tab will display two drop downs with all the static block where user will be able to select static block for the competition entry page and success page from **Admin > Competition > Competitions > Add Fields in Competition Form > Design.**
   * **Static block for Competition Entry Page –** Please select static block for competition entry page on front end.
   * **Static block for Competition Entry Thank you page –** Please select static block for competition entry page on the front end.
 
-![](<../../.gitbook/assets/15 (9)>)
+![](<../../.gitbook/assets/15 (4)>)
 
 * <mark style="color:orange;">**Facebook Settings –**</mark> This tab will only be visible, if enabled from **Admin > Stores > Configuration > Scommerce Configuration > Competition > Social Booster-Facebook settings**
   * **Enabled (yes/no) –** Please select “Yes” or “No” for Facebook sharing for the competition.
@@ -200,14 +200,14 @@ You can update, delete and create a new competition from **Admin > Competition >
   * **Twitter Text –** Please add description of your promotion which appears on the sharing popup.
   * **Hashtags –** Please add hashtag of your promotion which appears on the sharing popup at the end of the description.
 
-![](<../../.gitbook/assets/17 (17)>)
+![](<../../.gitbook/assets/17 (10)>)
 
 * <mark style="color:orange;">**Email Template for Competition Entry Email –**</mark> This will be a dropdown to select default competition level competition entry email template from the available list of templates. If nothing selected, then it will pick up template defined in section **Admin > Stores > Configuration > Scommerce Configuration > Email**.
 * <mark style="color:orange;">**Choose Winner –**</mark> It generates winners only when the competition has ended. This will be determined by competition end date and will have below two elements.
   * **Number of winners –** Please add number of winners you would like to generate for the competition.
   * **Generate Winner Button –** To generate a winner, click on "Generate Winner" button. It resets manually generated winners and selects a new winner randomly. This is a random process, and doesn't validate any answer or entries.
 
-![](<../../.gitbook/assets/18 (11)>)
+![](<../../.gitbook/assets/18 (7)>)
 
 ### <mark style="color:blue;">**Competition Entrants**</mark>&#x20;
 
@@ -221,11 +221,11 @@ You can generate winner manually from Entrants grid by selecting "Mark Winner" u
 * Date Entered
 * Action
 
-![](<../../.gitbook/assets/19 (18)>)
+![](<../../.gitbook/assets/19 (2)>)
 
 * <mark style="color:orange;">**View Entrants –**</mark> To view entrants details go to **Admin > Competition > Entrants> Select "View",** it opens View Entrants page from where you can select winner ma by selecting "**Yes**" from Mark Winner drop-down. It selects winner manually and it doesn't validate any answer or entries.
 
-![](<../../.gitbook/assets/20 (17)>)
+![](<../../.gitbook/assets/20 (4)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark21" id="_bookmark21"></a>
 

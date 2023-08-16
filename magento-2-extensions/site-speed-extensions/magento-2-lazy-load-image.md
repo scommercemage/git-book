@@ -68,22 +68,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading*
 
 * <mark style="color:orange;">**Lazy Loading on the Homepage –**</mark> To implement lazy loading on the homepage, enable the module from **Admin > Stores > Configuration > Lazy Loading- Enable "Yes".**
 
-![](<../../.gitbook/assets/9 (14)>)
+![](<../../.gitbook/assets/9 (3)>)
 
 * <mark style="color:orange;">**Home Page Excluded from Lazy Loading –**</mark> You can exclude homepage images from lazy loading by selecting option "Home Page" from **Admin > Stores > Configuration > Lazy Loading > Exclude Pages .**
 
-![](<../../.gitbook/assets/10 (25)>)
+![](<../../.gitbook/assets/10 (23)>)
 
 * <mark style="color:orange;">**Lazy Loading on the Category Page –**</mark> To implement lazy loading on the category page, enable the module from **Admin > Stores > Configuration > Lazy Loading - Enable "Yes"**.
 
-![](<../../.gitbook/assets/11 (28)>)
+![](<../../.gitbook/assets/11 (30)>)
 
 * <mark style="color:orange;">**Lazy Loading on the Search Page –**</mark> You can implement lazy loading on search page from **Admin > Stores > Configuration > Lazy Loading - Enable** "**Yes**".
 
-![](<../../.gitbook/assets/12 (11)>)
+![](<../../.gitbook/assets/12 (28)>)
 
 * <mark style="color:orange;">**Lazy Loading on the Cart Page –**</mark> You can implement lazy loading on the cart page by enabling the module from **Admin > Stores > Configuration > Lazy Loading- Enable "Yes".**
 
-![](<../../.gitbook/assets/13 (9)>)
+![](<../../.gitbook/assets/13 (30)>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-lazy-load-image-extension.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

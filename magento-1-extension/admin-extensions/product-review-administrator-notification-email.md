@@ -36,10 +36,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Revie
 
 * <mark style="color:orange;">**Email Template –**</mark> Default “Product Review Administrator Email” template will be created under **Admin > System > Transaction Emails**. This can be customised as required. The Email displays number of variable information “**Custom Nick Name”, “store name”, “Review Title”, “Review Detail“, “Logo URL”, “Product Name”, “Product SKU”, etc.**
 
-![](<../../.gitbook/assets/2 (31)>)
+![](<../../.gitbook/assets/2 (60)>)
 
 #### <mark style="color:orange;">Customer Review</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (74)>)
+![](<../../.gitbook/assets/3 (70)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-product-review-notification-email.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

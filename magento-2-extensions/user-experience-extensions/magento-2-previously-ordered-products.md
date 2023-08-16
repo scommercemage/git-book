@@ -63,13 +63,13 @@ To hide one or multiple columns from the previous purchases grid please go to **
 
 Go to the website and login to your account then navigate to **My Account** section and from the left menu click on My Previous Products. This grid shows detailed information about all off your previous purchases. You can easily navigate through the list with the help of pagination and selectors. The previous purchases grid will open as shown in the image below:-
 
-![](<../../.gitbook/assets/3 (58)>)
+![](<../../.gitbook/assets/3 (63)>)
 
 #### <mark style="color:orange;">Hide Columns in the Previous Purchase Grid</mark> <a href="#_toc_250001" id="_toc_250001"></a>
 
 Please go to **Admin> Stores> Configuration> Scommerce Configuration >Previous Products** and select the columns in **Hidden Columns** that you want to hide. For eg:- we have selected Thumbnail, QTY, Last Order Price(Incl taxes) and Last Order Price(Excl Taxes). You can see in the image below that these columns are now hidden in the grid.
 
-![](<../../.gitbook/assets/4 (44)>)
+![](<../../.gitbook/assets/4 (43)>)
 
 #### <mark style="color:orange;">Add One or Multiple Products to Cart Directly from the Grid</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 

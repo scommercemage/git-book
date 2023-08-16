@@ -61,17 +61,17 @@ Go to **Marketing > Promotions > Cart Price Rules** and click on Add New Rule.
 
 Create your Cart Price Rule Normally. Then scroll down to **Actions** dropdown. Make sure **Only for selected Custom Option?** Is set to “Yes”. This option will enable the cart price rule to be applied on the custom options. Make sure there are no conditions set.
 
-![](<../../.gitbook/assets/4 (52)>)
+![](<../../.gitbook/assets/4 (60)>)
 
 #### <mark style="color:orange;">Apply cart Rule for specific custom options</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
 To create cart price rule for specific custom options you will need to add conditions in the Actions Column. For eg: - we have added a condition to apply discount only on the custom option that has custom options title as “Gift Wrap”. So now the discount will only be available for the Gift wrap custom option. Similarly, you can create conditions based on custom options SKU and create your custom options discount.
 
-![](<../../.gitbook/assets/5 (5)>)
+![](<../../.gitbook/assets/5 (58)>)
 
 Conditions available for custom options are custom options title and custom options SKU.
 
-![](<../../.gitbook/assets/6 (2)>)
+![](<../../.gitbook/assets/6 (8)>)
 
 ### <mark style="color:blue;">Frontend Screengrabs</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 

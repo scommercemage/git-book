@@ -117,7 +117,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 
@@ -143,8 +143,8 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 * <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark> Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes". Go to Admin > content > Pages_ select the about us page for each store view and go into _Search Engine Optimization. Put the same identifier if you want interlinking between various languages of the same about us page._
 
-![](<../../.gitbook/assets/4 (2).png>)
+![](../../.gitbook/assets/4.png)
 
-![](<../../.gitbook/assets/3 (2).png>)
+![](<../../.gitbook/assets/3 (1).png>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-hreflang.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

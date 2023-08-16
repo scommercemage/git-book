@@ -70,18 +70,18 @@ Go to **Admin > Stores > Configuration > Scommerce  > Diamond Search**
 
 * <mark style="color:orange;">**Delivery Instruction Section on the Checkout page -**</mark> When you enable the module and select the "Enable Delivery Date" to "Yes" from **Admin > Stores > Configuration > Scommerce Configuration > Delivery Instruction > Configuration Settings**, then it shows Delivery Date, Delivery Time under Delivery Instruction section on the checkout page.
 
-![Untitled (2)](<../../.gitbook/assets/4 (73)>)
+![Untitled (2)](<../../.gitbook/assets/4 (34)>)
 
 * <mark style="color:orange;">**Delivery Time Selection -**</mark> You can add time slots from, **Admin > Stores > Configuration > Scommerce Configuration > Delivery Instruction > Configuration Settings > Timeslots**, and added time slots will be shown on the checkout page from where you can choose the convenient time slot for delivery.
 
-![](<../../.gitbook/assets/5 (38)>)
+![](<../../.gitbook/assets/5 (24)>)
 
 * <mark style="color:orange;">**Delivery Date Selection -**</mark> To show delivery date on the checkout page, select "Enable Delivery Date" to "Yes" from **Admin > Stores > Configuration > Scommerce Configuration > Delivery Instruction > Configuration Settings**.
 
-![](<../../.gitbook/assets/6 (16)>)
+![](<../../.gitbook/assets/6 (45)>)
 
 * <mark style="color:orange;">**Delivery Instructions Details in Order Confirmation Emails -**</mark> It sends delivery instructions details in order confirmation emails, which you can see in the below screengrab.
 
-![](<../../.gitbook/assets/7 (40)>)
+![](<../../.gitbook/assets/7 (37)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-delivery-date-and-instructions.html#faq') first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -47,13 +47,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Order Tagger*
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license key for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Order Tags Grid</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 Go to **Admin>Sales>Scommerce Order Tagger>Order Tags**
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 * **Name–** Enter the name of the tag.
 * **Type–** Select “Static” or “Dynamic” or "Predefined". Static tags can be manually assigned and dynamic tags can be assigned using conditions. Predefined tags already have conditions set so you only to select the predefined tag type.
@@ -61,7 +61,7 @@ Go to **Admin>Sales>Scommerce Order Tagger>Order Tags**
 * **Text Color–** Add the text color for the tag.
 * **Background Color–** Add the background color for the tag
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 **Conditions–** Add the conditions using order or address attributes.
 
@@ -73,7 +73,7 @@ Go to **Admin>Sales>Scommerce Order Tagger>Order Tags Logs**
 
 The logs keep track of all the dynamic tags that are assigned to orders. It has its own set of filters which can be used to identify a specific assigned tag.
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Types of Tags</mark> <a href="#_bookmark3" id="_bookmark3"></a>
 
@@ -83,19 +83,19 @@ There are three of tags within the extension static, dynamic, and predefined tag
 
 After creation, these types of tags are added manually via Magento order grid. Conditions are not added in these types of tags. They are not shown in order tags logs.
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Dynamic Tags</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 After creation, these types of tags are added automatically to the orders applicable.Conditions are added in these types of tags.They are shown in the Order tags logs.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Predefined Tags</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 After creation, these types of tags are added automatically to the orders applicable.Conditions are not added in these types of tags as they are already set. They are shown in the Order tags logs Irrespective of the name, only one type of tag can be created for one 'Predefined' field.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 There are five types of predefined tags to choose from:-
 
@@ -127,12 +127,12 @@ Dynamic Tags are automatically assigned based on the conditions set while creati
 
 The Tags are displayed in the order grid in a separate column. Multiple tags can be assigned and displayed for a single order.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Filter Order Grid</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 Orders can be filtered based on the tags. New filter option can be found in the filters where orders can be sorted based on the tags selected. Go to **Admin>Sales>Filters** and click on the Tags dropdown to select the tags.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-order-tagger.html#customfaq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

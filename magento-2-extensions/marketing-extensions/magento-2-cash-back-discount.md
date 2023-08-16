@@ -49,7 +49,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cash Back**
 * **Module Enable -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
 
-![](<../../.gitbook/assets/1 (32)>)
+![](<../../.gitbook/assets/1 (55)>)
 
 #### <mark style="color:orange;">Cash Back</mark> <a href="#_bookmark5" id="_bookmark5"></a>
 
@@ -105,7 +105,7 @@ The grid will have following columns/information:-
 * <mark style="color:orange;">**Cashback Qualifying Message on the Checkout Page -**</mark> You can define qualifying message from **Admin > Stores > Configuration > Scommerce Configuration > Cashback Qualifying Message - " "**, the message will be shown on the checkout page.
 * <mark style="color:orange;">**Cashback Discount Option on the Checkout Page -**</mark> When you enable the module and if there is any cash back discount available then it shows "Apply cash back discount" option on the checkout page and by checking this option you can apply for cash back discount.
 
-![CashbackDiscountCheckBoxOnTheCheckoutPage\_006.png](<../../.gitbook/assets/8 (17)>)
+![CashbackDiscountCheckBoxOnTheCheckoutPage\_006.png](<../../.gitbook/assets/8 (18)>)
 
 * <mark style="color:orange;">**Applied Cashback Discount on the Checkout Page -**</mark> You can see the applied cash back discount on the checkout page under "Order Summary" section.
 

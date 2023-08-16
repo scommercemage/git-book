@@ -41,27 +41,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sitemap**
 
 * <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark> To include or exclude categories, go to **Admin > Catalog > Manage Categories > Select Category** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
 
-![](<../../.gitbook/assets/2 (72)>)
+![](<../../.gitbook/assets/2 (2)>)
 
 * <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to **Admin > Catalog > Manage Products > Select Product** (you want to exclude from site map) > General > **Exclude from Sitemap:** Set to **“Yes/No”.**
 
-![](<../../.gitbook/assets/3 (30)>)
+![](<../../.gitbook/assets/3 (52)>)
 
 * <mark style="color:orange;">**Exclude CMS from Sitemap –**</mark> To exclude CMS pages from sitemap, go to **Admin > CMS > Pages > Select CMS Page** (you want to exclude from site map**) > General > Exclude from Sitemap:** Set to **“Yes/No”.**
 
-![](<../../.gitbook/assets/4 (8)>)
+![](<../../.gitbook/assets/4 (67)>)
 
 * <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to **Admin > Catalog > Google Sitemap >** Click **“Generate Sitemap”.**
 
-![](<../../.gitbook/assets/5 (16)>)
+![](<../../.gitbook/assets/5 (69)>)
 
 * <mark style="color:orange;">**Add new Sitemap –**</mark> You can create a new site map from **Admin > Catalog > Google Sitemap >** Click **“Add Sitemap”**, it redirects to New Site Map page**,** and by providing all the required details you can create Site Map.
 
-![](<../../.gitbook/assets/6 (23)>)
+![](<../../.gitbook/assets/6 (6)>)
 
 * <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path –**</mark> To include category path in product URLs in sitemap.xml, go to **Admin > System > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs**: Set to **“Yes”.**
 
-![](<../../.gitbook/assets/7 (47)>)
+![](<../../.gitbook/assets/7 (58)>)
 
 ### <mark style="color:blue;">**Google Sitemap XML**</mark>&#x20;
 
@@ -69,14 +69,14 @@ Google site map shows all the Included Products, Categories, and CMS Page links 
 
 * <mark style="color:orange;">**Product Link in Sitemap XML –**</mark> You can see the product link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/8 (13)>)
+![](<../../.gitbook/assets/8 (30)>)
 
 * <mark style="color:orange;">**Category Link in Sitemap XML –**</mark> You can see the category link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/9 (32)>)
+![](<../../.gitbook/assets/9 (53)>)
 
 * <mark style="color:orange;">**CMS Page Link in Sitemap XML –**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
-![](../../.gitbook/assets/10)
+![](<../../.gitbook/assets/10 (5)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-site-map-exclusion.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

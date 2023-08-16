@@ -178,7 +178,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
   * **GTM-** Set this to "Yes" if you want to control GTM using this cookie. GTM will only be enabled when this cookie is accepted.
   * **Set by Default -** Select default status "Yes" or "No". If set to "Yes" then by default the cookie choice will be selected.
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Customers Details in Privacy Policy Consent</mark> <a href="#_bookmark20" id="_bookmark20"></a>
 
@@ -186,7 +186,7 @@ When customers check the privacy policy agreement checkbox in the process of reg
 
 ### Privacy Policy Consent
 
-![](<../../.gitbook/assets/gdpr\_privacy (1).jpg>)
+![](../../.gitbook/assets/gdpr\_privacy.jpg)
 
 ### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#_bookmark21" id="_bookmark21"></a>
 
@@ -208,7 +208,7 @@ You can enable or disable GTM tracking using cookies. We have provided an additi
 
 Go to Customers>Manage Cookie Choices then create a new cookie or edit the existing one and set GTM to 'Yes'.
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Manually Adding Code</mark>
 

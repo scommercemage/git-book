@@ -44,14 +44,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Update Order 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
-![](<../../.gitbook/assets/1 (45)>)
+![](../../.gitbook/assets/1)
 
 * <mark style="color:orange;">**Update Email Address from Order Detail View Page -**</mark> You can update email address from **Admin > Sales > Orders > Select Order >** Click on "**Change**" then add new email address **>** Click "**Save**".
 
-![](<../../.gitbook/assets/2 (66)>)
+![](<../../.gitbook/assets/2 (81)>)
 
 * <mark style="color:orange;">**Updated Email Address Visible on the Order Detail View Page -**</mark> The updated email address will be shown on the order detail view page under "Account Information" section.
 
-![](<../../.gitbook/assets/3 (67)>)
+![](<../../.gitbook/assets/3 (74)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-ajax-login-add-to-wishlist.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

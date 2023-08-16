@@ -32,10 +32,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Variab
 
 #### <mark style="color:orange;">Custom Variables Anywhere (Default)</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
-![](<../../.gitbook/assets/2 (33)>)
+![](<../../.gitbook/assets/2 (7)>)
 
 #### <mark style="color:orange;">Custom Variable</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (1)>)
+![](<../../.gitbook/assets/3 (7)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-custom-variable-anywhere.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

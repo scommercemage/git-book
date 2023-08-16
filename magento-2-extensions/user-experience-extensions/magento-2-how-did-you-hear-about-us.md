@@ -47,15 +47,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Where did you
 * **Other Label –** Please add the label for other option.
 * **Field Is Required On Customer Registration-** Select "yes" to set the Where did you heard about us feild as required during signup.
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Selected WDYHAU Option in Orders Grid -**</mark> You can see the selected "Where did you hear about us?" option at **Admin > Sales > Orders** grid.
 
-![](<../../.gitbook/assets/2 (16)>)
+![](<../../.gitbook/assets/2 (41)>)
 
 * <mark style="color:orange;">**WDYHAU Details at Customers Level -**</mark> To see the "Where did you hear about us?" option at customers level go to **Admin > Customers > All Customers > Select Customer > Account Information > Where did you hear about us?**
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/3 (23)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/3 (83)>)
 
 * <mark style="color:orange;">**WDYHAU Details on the Sales Order View Page -**</mark> The selected WDYHAU option will be shown on order view page under "**Account Information**" section from **Admin > Sales > Select Order > View.**
 
@@ -73,20 +73,20 @@ For eg:- [https://staging.scommerce-mage.com/?referral\_source=SCOMMAG](https://
 
 A session cookie named referral\_source is created in the browser with value SCOMMAG. Please refer to the image below:-
 
-<figure><img src="../../.gitbook/assets/21321 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21321.png" alt=""><figcaption></figcaption></figure>
 
 Once the order is placed the cookie value is captured against the order in the sales order grid. Please refer to the image below:-
 
-<figure><img src="../../.gitbook/assets/21321.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21321 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 
 * <mark style="color:orange;">**WDYHAU Option on the Registration Page -**</mark> You can define the "Where did you hear about us?" drop-down options from **Admin > Stores > Configuration> Scommerce Configuration > Where did you hear about us? - Google; Twitter; Facebook; YouTube; Others,** which will be shown on the registration page.
 
-![](<../../.gitbook/assets/6 (35)>)
+![](<../../.gitbook/assets/6 (41)>)
 
 * <mark style="color:orange;">**WDYHAU option on the Checkout Page -**</mark> You can see the "Where did you hear about us?" option on the checkout page.
 
-![](<../../.gitbook/assets/7 (55)>)
+![](<../../.gitbook/assets/7 (23)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](magento-2-how-did-you-hear-about-us.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

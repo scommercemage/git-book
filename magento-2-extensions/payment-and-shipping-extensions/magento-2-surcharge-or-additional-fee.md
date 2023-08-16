@@ -68,32 +68,32 @@ Please select the Payment Method, surcharge will be applied only for the selecte
 * <mark style="color:orange;">**View Surcharge on the Order Details View Page -**</mark> You can see the applied surcharge on the order details view page from **Admin > Sales > Orders > Select Order > Edit** , under "Order Totals" section.
 * <mark style="color:orange;">**Surcharge for Admin Orders -**</mark> In the below image you can see the added surcharge value for the order placed from the admin panel, **Admin > Sales > Orders > Create New Order > Select User > Select Product > Add Product.**
 
-![](<../../.gitbook/assets/3 (50)>)
+![](<../../.gitbook/assets/3 (45)>)
 
-![](<../../.gitbook/assets/4 (63)>)
+![](<../../.gitbook/assets/4 (3)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
 * <mark style="color:orange;">**Surcharge Percentage/Fixed Amount Per Payment Method and Country**</mark> When you set "Surcharge Percentage or Fixed Amount per payment method and country" to "**checkmo:3:FR**" from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Surcharge Percentage or Fixed Amount per payment method,** then the fixed or Percentage amount, additional fee will be applied based on grand or subtotal attribute been selected per payment method or payment method and country.
 * <mark style="color:orange;">**checkmo:3:FR -**</mark> It will add 3% additional fee on "Subtotal Including Tax" , will be applied for shipping country **France** and payment method **Check Money order.**
 
-![](<../../.gitbook/assets/5 (20)>)
+![](<../../.gitbook/assets/5 (70)>)
 
 * <mark style="color:orange;">**checkmo:5:GB -**</mark> It will add 5% additional fee on "Subtotal Including Tax" , will be applied for shipping country **UK** and payment method **Check Money order.**
 
-![](<../../.gitbook/assets/6 (34)>)
+![](<../../.gitbook/assets/6 (27)>)
 
 * <mark style="color:orange;">**checkmo:3 -**</mark> It will add 3% additional fee on "Subtotal Including Tax", and will be applied only for **Check Money Order** payment method and shipping countries selected from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Shipping Countries** .
 
-![](<../../.gitbook/assets/7 (5)>)
+![](<../../.gitbook/assets/7 (4)>)
 
 * <mark style="color:orange;">**Set Different Surcharge for Countries -**</mark> You can set different surcharge for countries from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Surcharge Percentage or Fixed Amount per payment method -** checkmo:3:FR;checkmo:5:GB.
 * <mark style="color:orange;">**View Surcharge on the Checkout Page -**</mark> When you select "Surcharge Amount Type" to "**Percentage**" , " Surcharge Percentage or Fixed Amount " to "**10**" and " Payment Method " to "**Cash On Delivery**"/"**Check Money order**" from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge,** then it adds 10 % additional fee on "Subtotal Including Tax" based on selected payment method and shipping countries. To add shipping countries go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Shipping Countries -** Select Shipping Countries from the drop-down list**.**
 
-![](<../../.gitbook/assets/8 (39)>)
+![](<../../.gitbook/assets/8 (53)>)
 
 * <mark style="color:orange;">**Surcharge with the Free Shipping -**</mark> You can skip surcharge for the free shipping orders from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Skip with Free Shipping - "Yes".** This option can be used if you don’t want to charge additional fee when the shipping price is zero.
 
-![](<../../.gitbook/assets/9 (31)>)
+![](<../../.gitbook/assets/9 (35)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-surcharge-or-additional-fee.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

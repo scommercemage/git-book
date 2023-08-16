@@ -65,7 +65,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 
 * <mark style="color:orange;">**Noths Order Import -**</mark> You can view imported Noths order(s) from **Admin > Sales> Orders.** This grid will have "Dispatch Note " and "Noths Id".
 
-![A screenshot of a computer screen  Description automatically generated](<../../.gitbook/assets/3 (48)>)
+![A screenshot of a computer screen  Description automatically generated](<../../.gitbook/assets/3 (22)>)
 
 * <mark style="color:orange;">**Noths Order Details on Order View Page -**</mark> You can view Noths order details at **Admin > Sales > Select Order > View.**
 

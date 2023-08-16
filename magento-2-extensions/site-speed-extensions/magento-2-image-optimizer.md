@@ -67,14 +67,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Image Optimis
 
 * <mark style="color:orange;">**Compress/Optimize Product Images -**</mark> You can compress product images by enabling module from **Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading -** Select **"Product ".**
 
-![](<../../.gitbook/assets/8 (15)>)
+![](<../../.gitbook/assets/8 (52)>)
 
 * <mark style="color:orange;">**Compress/Optimize Category Images -**</mark> You can compress category images by enabling module from **Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading -** Select **"Category ".**
 
-![](<../../.gitbook/assets/9 (22)>)
+![](<../../.gitbook/assets/9 (31)>)
 
 * <mark style="color:orange;">**Compress/Optimize CMS Images -**</mark> You can compress CMS images by enabling module from **Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading -** Select **"CMS ".**
 
-![](<../../.gitbook/assets/10 (29)>)
+![](<../../.gitbook/assets/10 (28)>)
 
 If you have a question related to this extension please check out our  [**FAQ section**](https://www.scommerce-mage.com/magento-2-image-optimizer.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

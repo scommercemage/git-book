@@ -42,7 +42,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Antispam Cata
 * **Disallow URLs–** Select "no" to enter URL's in your website's search and "yes" to allow.
 * **Disallow Foreign Words–** Use this setting to define whether users can enter Foreign words in the search or not.
 
-![](../../.gitbook/assets/anti1.png)
+![](<../../.gitbook/assets/anti1 (1).png>)
 
 
 
@@ -52,7 +52,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Antispam Cata
 * **Number of repeated characters -** Enter the maximum allowed number of repeated characters
 * **Message for invalid searches–** Enter the message to be displayed when an invalid search is made by the customer.&#x20;
 
-![](../../.gitbook/assets/diallowss.png)
+![](<../../.gitbook/assets/diallowss (1).png>)
 
 #### <mark style="color:orange;">Rate Limiter</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -71,11 +71,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Antispam Cata
 
 When an user searches with diallowed character then the warning message appears on the frontend as shown below:-
 
-![](<../../.gitbook/assets/1 (3).png>)
+![](<../../.gitbook/assets/1 (6).png>)
 
 #### <mark style="color:orange;">Rate Limiter</mark>
 
 When an user exceeds the search limit then the IP block message appears as shown below:-
 
-![](<../../.gitbook/assets/2 (2).png>)
+![](<../../.gitbook/assets/2 (3).png>)
 

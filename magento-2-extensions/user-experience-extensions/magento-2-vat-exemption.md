@@ -72,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Vat Exempt Se
 * **Cancel button text-** SUse this setting to change text for “Cancel VAT exempt” button on the checkout page.
 * **More info area-** Set "Yes" to add more information about VAT exemption for your customers
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">VAT Exempt - Reasons</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
@@ -93,43 +93,43 @@ You can create and manage reasons for VAT Exemption from the backend, **Admin > 
 
 * <mark style="color:orange;">**VAT Exemption Details on Order View Page -**</mark> In the screen grab you can see the Vat exempted amount under **''Order Totals’’ section**.
 
-![\_000000144   Orders   Operations   Sales   Magento Admin (2).png](<../../.gitbook/assets/11 (4)>)
+![\_000000144   Orders   Operations   Sales   Magento Admin (2).png](<../../.gitbook/assets/11 (34)>)
 
 * <mark style="color:orange;">**VAT Exemption Option for Admin Orders -**</mark> For admin orders you can apply for Vat exemption by checking “Apply Vat Exempt” option from **Sales > Orders > Create New Order > Select Customer > Add Products > Vat Exemption** – check “**Apply Vat Exempt”.**
 
-![](<../../.gitbook/assets/12 (3)>)
+![](<../../.gitbook/assets/12 (1)>)
 
 ### <mark style="color:blue;">Enable VAT Exemption for Products</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
 * <mark style="color:orange;">**Include or Exclude Product -**</mark> To include/exclude store products for the VAT exemption, go to **Catalog > Product > Select Product > Edit > VAT Exempt - ''Yes/No''**.
 
-![](<../../.gitbook/assets/13 (28)>)
+![](<../../.gitbook/assets/13 (23)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark13" id="_bookmark13"></a>
 
 * <mark style="color:orange;">**VAT Exempt Option on the Cart Page -**</mark> Apply for Vat Exempt option appears on the cart page and when user opts for this option, then it opens the form on the checkout page after the shipping details to add the required information.
 
-![](<../../.gitbook/assets/14 (9)>)
+![](<../../.gitbook/assets/14 (2)>)
 
 * <mark style="color:orange;">**VAT Exempt Message on the Cart Page –**</mark> You can display VAT exempt message on the cart page from **Admin > Stores > Configuration > Scommerce Configuration > Vat Exempt Settings > Basket VAT Exempt Message –** add message, the added message will be shown on the cart page.
 
-![](<../../.gitbook/assets/15 (8)>)
+![](<../../.gitbook/assets/15 (5)>)
 
 * <mark style="color:orange;">**VAT Exempt Form on the Checkout Page -**</mark> When the user enables the module and adds a VAT exempted product to cart then "**Apply for Vat Exempt**" option appears on the checkout page and check on this option opens the form. On the form “**Apply VAT Exempt**” and once applied, “**Cancel VAT Exempt**” buttons are available for VAT exemption claim.
 
-![vatExemptForm.png](<../../.gitbook/assets/16 (6)>)
+![vatExemptForm.png](<../../.gitbook/assets/16 (21)>)
 
 * <mark style="color:orange;">**VAT Exempt Discount -**</mark> You can see the exempted amount on the checkout page under **''Order Summary''** section.
 
-![](<../../.gitbook/assets/17 (19)>)
+![](<../../.gitbook/assets/17 (8)>)
 
 * <mark style="color:orange;">**Shipping Vat -**</mark> You can enable shipping Vat exempt by selecting “Yes” for “Shipping VAT Exempt” from **Admin > Stores > Configuration > Scommerce Configuration> Vat Exempt Settings > Shipping VAT Exempt - “Yes”.** In the below image you can see the exempted Vat is **£** 3.05 (Shipping Tax (.41) + Tax (2.64)).
 
-![](<../../.gitbook/assets/18 (9)>)
+![](<../../.gitbook/assets/18 (2)>)
 
 * <mark style="color:orange;">**VAT Exempt Discount on the Front-end -**</mark> You can view the VAT exemption information on the front-end under **''My Orders''** section.
 
-![VATExemptionDiscountOnFrontendMyAccountViewOrderSection\_03.png](<../../.gitbook/assets/19 (17)>)
+![VATExemptionDiscountOnFrontendMyAccountViewOrderSection\_03.png](<../../.gitbook/assets/19 (12)>)
 
 #### <mark style="color:orange;">VAT Exempt Declaration Statement on the Front-end - My Account -</mark> <a href="#_bookmark17" id="_bookmark17"></a>
 

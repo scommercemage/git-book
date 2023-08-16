@@ -37,20 +37,20 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Payment Surch
 
 * <mark style="color:orange;">**Manage Payment Surcharge -**</mark> Here is the payment surcharge grid:-
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/2 (41)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/2 (37)>)
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
 * <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark> Here is the image of service fee:-
 
-![A screenshot of a cell phone  Description automatically generated](../../.gitbook/assets/3)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/3 (6)>)
 
 * <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin –**</mark> You can see the surcharge fee on the checkout page.
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/4 (50)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/4 (61)>)
 
 * <mark style="color:orange;">**Pro Payment Surcharge or Additional Fee Admin**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">–</mark> You can see the service fee under items ordered section:-
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (30)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (6)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-pro-payment-surcharge-or-additional-fee.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -54,7 +54,7 @@ php bin/magento setup:static-content:deploy
 
 No more waiting to be redirected to the Sign In page. When you click on Sign in a pop-up will appear on your screen and you will be able to login to the site without reloading the page. It is great for ease of access as well as saves time. Also, it does not matter which page you are browsing the pop-up will work with most pages. To enable the Ajax login feature first login to your admin panel.
 
-![](<../../.gitbook/assets/7 (59)>)
+![](<../../.gitbook/assets/7 (8)>)
 
 #### <mark style="color:orange;">Ajax Add to Wishlist – Ajax Create an Account Popup</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
@@ -62,7 +62,7 @@ Enables users to create an account or register on the website via a pop-up. Init
 
 You can toggle this feature on or off by loggin into your admin panel and then going to the path **Stores > Configuration > Scommerce Configuration > Ajax Login & Wishlist**. There will be flag named Enable Ajax Login you can select “Yes” or “No” from the drop-down that will turn this feature on or off.
 
-![](<../../.gitbook/assets/8 (20)>)
+![](<../../.gitbook/assets/8 (14)>)
 
 #### <mark style="color:orange;">Ajax Add to Wishlist – Mini Cart Drop-Down Slider</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -76,7 +76,7 @@ Enable slide down mini cart, from the drop-down menu select “Yes/No” to Enab
 
 Also, you can limit the quantity of products to show in the cart slider. You can do that by going into **Stores > Configuration > Sales > Checkout > Shopping cart sidebar**. There you will see an option named Number of items to display scrollbar. Here enter your quantity and the scrollbar will appear after that many number of products are added to the cart.
 
-![](<../../.gitbook/assets/9 (33)>)
+![](<../../.gitbook/assets/9 (52)>)
 
 #### <mark style="color:orange;">Ajax Add to Wishlist – Ajax Add to Wishlist Popup</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -84,13 +84,13 @@ Generally, when a product is added to the wishlist you are redirected to another
 
 or disabled by log in to your admin panel then going to the path **Stores > Configuration > Scommerce Configuration > Ajax Login & Wishlist.** Here you will see an option named Enable Ajax Wish List, from the drop-down select Yes/No to Enable/Disable this functionality.
 
-![](<../../.gitbook/assets/10 (5)>)
+![](<../../.gitbook/assets/10 (33)>)
 
 #### <mark style="color:orange;">Ajax Add to Wishlist – Ajax Add to Wishlist Confirmation Message</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
 While this option is enabled when any product is added to the cart you will receive a pop-up message on the screen showing your product has been successfully added to the wishlist. Keep in mind you need to be logged in to add products to wishlist.
 
-![](<../../.gitbook/assets/11 (24)>)
+![](<../../.gitbook/assets/11 (12)>)
 
 #### <mark style="color:orange;">Ajax Add to Wishlist – Wishlist Products Under my Account – My Wishlist Section</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 

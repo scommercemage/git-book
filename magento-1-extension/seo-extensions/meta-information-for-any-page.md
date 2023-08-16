@@ -34,16 +34,16 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Meta Informat
 
 **Manage Meta Information**
 
-![](<../../.gitbook/assets/2 (78)>)
+![](<../../.gitbook/assets/2 (35)>)
 
 #### <mark style="color:orange;">Add Meta Information</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (3)>)
+![](<../../.gitbook/assets/3 (53)>)
 
 ### <mark style="color:blue;">Front-end site view</mark>
 
 * <mark style="color:orange;">**Meta Information**</mark>
 
-![](<../../.gitbook/assets/4 (13)>)
+![](<../../.gitbook/assets/4 (57)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-meta-information-for-any-page.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

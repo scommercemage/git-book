@@ -43,13 +43,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Label
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license key for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Product Label Grid</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 Go to **Admin>Catalog>Scommerce Product Labels>Product Labels**
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Add New Product Label</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -76,7 +76,7 @@ Go to **Admin>Catalog>Scommerce Product Labels>Product Labels>Add New Product La
     * {STOCK} - product qty (for product view page)
 * **Upload Label Image–** Upload the product label image
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 * **Hide From Category–** Select “Yes” or “No” to hide or show the label on Category page.
 * **Hide From Product–** Select “Yes” or “No” to hide or show the label on product page.
@@ -84,7 +84,7 @@ Go to **Admin>Catalog>Scommerce Product Labels>Product Labels>Add New Product La
 * **Priority–** Add the priority of the label with 0 being the highest priority. Product with multiple labels assigned will display the lable with highest priority.
 * **Conditions–** Add conditions for the label as per your requirement&#x20;
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 * **Text Size–** Enter the text size for the product label.
 * **Text Color–** Enter the text color for the product label.
@@ -92,7 +92,7 @@ Go to **Admin>Catalog>Scommerce Product Labels>Product Labels>Add New Product La
 * **Label Position–** Enter the label position for the product label.
 * **Custom CSS–** Enter the custom CSS for the product label.
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark9" id="_bookmark9"></a>
 
@@ -102,7 +102,7 @@ Go to **Admin>Catalog>Scommerce Product Labels>Product Labels>Add New Product La
 
 * <mark style="color:orange;">**Product label on Product Page**</mark>&#x20;
 
-<figure><img src="../../.gitbook/assets/productpage (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/productpage.png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Product label on Search Page**</mark>&#x20;
 

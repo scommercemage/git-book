@@ -60,7 +60,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Brand Attribute –** Please select brand attribute, if you have one otherwise put your brand name in the below input box.
 * **Use Base Currency -** Set ‘Yes’ if you want to send base order data and ‘No’ to send store order data to Google. Set this ‘No’ only when you have multicurrency and you want to send different currency data to Google.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (2).png>)
 
 * **Product Price Include Tax-** Set “Yes” then VAT will be included in the price.
 * **Order Total Include VAT –** Set “Yes” then VAT will be included in order total.
@@ -68,7 +68,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Category Attribute-** Please select category attribute if you have one otherwise put your brand name in the below input box. **Attribute should be available for product listing 'Storefront Properties -> Used in Product Listing = Yes'**
 * **Is Category ID-** Set "Yes" if "Category Attribute" is ID of the category, "No" if it is plain value
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2.png)
 
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **Default List-** Enter the default list name if the product impression is not found
@@ -127,7 +127,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 * <mark style="color:orange;">**Backend Order Google Analytics Source/Medium -**</mark> To track/add Campaign Source and Medium for backend orders, add campaign source and medium from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Backend Campaign Source - "phone" > Campaign Medium -"admin".**
 
-![](<../../.gitbook/assets/4 (9)>)
+![](<../../.gitbook/assets/4 (51)>)
 
 * <mark style="color:orange;">**Google Analytics Checkout Behaviour -**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details.
 
@@ -158,27 +158,27 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 **Step 3:-** Choose the account settings and acknowledge the service aggreements and click on lets go on the next screen upon which a popup window will appear.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Enter the name and URL of the store then select the experience and click on create.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:-** In the next window scroll down and click on Link Analytics.
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6:-** Select the analytics property that you want to link and then click on the link button
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6:-** Click on view instructions which will reveal the optimize code that we will add in the configuration to finish the setup.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 **Step 7:-** Copy the code from the above screen then go to stores>configuration>Scommerce confguration>Global Site Tag(gtag.js) then enter the ID in optimize container ID as shown below. Once done your Google optimize and Google Analytics accounts are now linked.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
@@ -188,7 +188,7 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 * <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – UA – 33387561-8, AW- 12345678.
 
-![](<../../.gitbook/assets/11 (20)>)
+![](<../../.gitbook/assets/11 (28)>)
 
 * <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand Name – “TestScommerce”.**
 

@@ -64,23 +64,23 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cancel Order*
 
 * <mark style="color:orange;">**Cancel Order from My Account Section -**</mark> When you enable the module then it shows "Cancel Order" link on the front-end **My Account > My Orders section.**
 
-![](<../../.gitbook/assets/3 (18)>)
+![](<../../.gitbook/assets/3 (77)>)
 
 * <mark style="color:orange;">**Cancel Order Popup -**</mark> When you click "Cancel Order" button from **My Account > My Orders** section, it displays a pop up, from where you can add/select your own reasons of order cancellation and by clicking "Cancel Order" button you can cancel order.
 
-![](<../../.gitbook/assets/4 (1)>)
+![](<../../.gitbook/assets/4 (24)>)
 
 * <mark style="color:orange;">**Notification Message for Cancel Order -**</mark> After the order cancellation it shows notification message on the front-end.
 
-![](<../../.gitbook/assets/5 (24)>)
+![](<../../.gitbook/assets/5 (16)>)
 
 * <mark style="color:orange;">**Cancel Order status (Cancelled) -**</mark> When you cancel the order then it automatically updates the order status from Pending to Cancelled.
 
-![](<../../.gitbook/assets/6 (6)>)
+![](<../../.gitbook/assets/6 (20)>)
 
 * <mark style="color:orange;">**Order Cancellation Email -**</mark> After the successful order cancellation, it sends an email notification to the administrator and the customer, below is the sample email for the same.
 
-![Confirmation for your order cancellation - jatinnayyar1999 gmail com - Gmail (2)](<../../.gitbook/assets/7 (7)>)
+![Confirmation for your order cancellation - jatinnayyar1999 gmail com - Gmail (2)](<../../.gitbook/assets/7 (54)>)
 
 * **Guest Form -** The guest user can cancel order by submitting the Orders and Returns form. Here is the link to access the form [Orders and Returns](http://demo2.scommerce-mage.co.uk/sales/guest/form/). The form will have the following fields: -
 * **Order ID -** enter the order Id, you want to cancel.
@@ -88,14 +88,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cancel Order*
 * **Find Order By -** select the Email / ZIP code.
 * **Email -** enter the email address.
 
-![](<../../.gitbook/assets/8 (2)>)
+![](<../../.gitbook/assets/8 (38)>)
 
 * <mark style="color:orange;">**Order Information Page -**</mark> After filling the Orders and Returns form when you click “Continue” button, it redirects on order information page, from where you can cancel the order by clicking “Cancel Order” button.
 
-![](<../../.gitbook/assets/9 (44)>)
+![](<../../.gitbook/assets/9 (25)>)
 
 * <mark style="color:orange;">**Cancel Order Successfully -**</mark> Once the order is cancelled, it displays the successful cancellation message.
 
-![](<../../.gitbook/assets/10 (15)>)
+![](<../../.gitbook/assets/10 (31)>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-cancel-order.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

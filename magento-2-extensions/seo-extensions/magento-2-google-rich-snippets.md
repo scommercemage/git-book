@@ -113,7 +113,7 @@ Some settings are only available on the website level for eg:- Region/State.
 * **Region/State –** It determines which state within the selected country will have free shipping for the selected website
 * **Base Currency -** Added as a part of free shipping schema, set 'YES' to allow use of base currency of the website otherwise the currency chosen by the customer.
 
-![](../../.gitbook/assets/richsn.png)
+![](<../../.gitbook/assets/richsn (1).png>)
 
 
 
@@ -121,11 +121,11 @@ Some settings are only available on the website level for eg:- Region/State.
 
 * <mark style="color:orange;">**Home Page Markup Code -**</mark> You can add structured data/markup code on home page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._ To test structured data, go to _Structured Data Testing Tool > Provide Home Page URL > Click "Run Test" button._
 
-![](<../../.gitbook/assets/7 (37)>)
+![](<../../.gitbook/assets/7 (3)>)
 
 * <mark style="color:orange;">**Category Page Markup Code -**</mark> You can add markup code, breadcrumbs on category page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._
 
-![](<../../.gitbook/assets/8 (19)>)
+![](<../../.gitbook/assets/8 (36)>)
 
 * <mark style="color:orange;">**Product Page Markup Code**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> To add structured data markup code on product page, set "Show free shipping" to "Yes" from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet>Free Shipping._
 
@@ -139,15 +139,15 @@ Some settings are only available on the website level for eg:- Region/State.
 
 * <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
-![](<../../.gitbook/assets/10 (43)>)
+![](<../../.gitbook/assets/10 (17)>)
 
 * <mark style="color:orange;">**Facebook Open Graph -**</mark> Enable Facebook Open Graph from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
-![](<../../.gitbook/assets/11 (32)>)
+![](<../../.gitbook/assets/11 (31)>)
 
 * <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Results -**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
-![](<../../.gitbook/assets/12 (35)>)
+![](<../../.gitbook/assets/12 (10)>)
 
 ### <mark style="color:blue;">Set Primary Categories</mark>
 
@@ -155,7 +155,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 

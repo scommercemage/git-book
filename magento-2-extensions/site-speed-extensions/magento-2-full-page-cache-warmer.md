@@ -61,27 +61,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Can Regenerate Cache Manually -** Please select " Yes" or "No". If set to "Yes" then you can regenerate cache manually from cache warmer grid.
 * **Generate Log -** Select "Yes" to generate the log.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 * **Generation order -** Select which page will be generated first by adding the generation order alognside the page type. 1 is the highest priority.
 * **Allow bestsellers products to be cached first -** Select "Yes" to give best seller products the highest priority in cache generation.
 * **Bestseller Frequency -** Choose the range of bestleer products monthly/yearly. Based on your selection these products will be cached.
 * **Website priority -** In multi website structures change the website in order to prioritize which will be cached first. 1 is highest priority.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Cron Settings</mark> <a href="#_toc_250003" id="_toc_250003"></a>
 
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#_toc_250002" id="_toc_250002"></a>
 
 When you enable the module and set **General Settings > Can Regenerate Cache Manually >** to **"Yes"** then it adds an additional option "Regenerate" under the "**Actions > Select**" drop-down at **Admin > System > Cache Warmer > Actions.** This grid will have Id, Reference Id, Processed Time, Request Path, Page URL, Last Cache - (Date, Time ), Status - (Cached/Un-cached), Page Type - (Home, Product, Category, CMS), Store View, and Action- (Regenerate, Delete).
 
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Regenerate -**</mark> It regenerates cache manually for Category/Product/CMS page(s). By clicking "Regenerate" action you can regenerate cache manually for a specific URL.
 
@@ -95,28 +95,28 @@ You can regenerate cache for Product/Category/CMS page(s) by running the followi
 
 &#x20;**`scommerce:cachewarmer:category`**
 
-![](<../../.gitbook/assets/6 (4)>)
+![](<../../.gitbook/assets/6 (18)>)
 
 * <mark style="color:orange;">**Product Page -**</mark> To regenerate cache for the product page(s), execute the below command.
 
 &#x20;**`scommerce:cachewarmer:product`**
 
-![](<../../.gitbook/assets/7 (46)>)
+![](<../../.gitbook/assets/7 (51)>)
 
 * <mark style="color:orange;">**CMS Page -**</mark> To regenerate cache for CMS page, run the below command.
 
 &#x20;**`scommerce:cachewarmer:cmspage`**
 
-![](<../../.gitbook/assets/8 (7)>)
+![](<../../.gitbook/assets/8 (49)>)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250000" id="_toc_250000"></a>
 
 * <mark style="color:orange;">**Cache Hit for the Category Page After the Execution of Category Page Command -**</mark> When you execute the command for category page then it regenerates the cache and on the front-end you check the status "Hit" or "Miss" using browser tool (Inspect element) at **Network > Select Page URL > Header > X- Magento-Cache-Debug : HIT**
 
-![](<../../.gitbook/assets/9 (28)>)
+![](<../../.gitbook/assets/9 (19)>)
 
 * <mark style="color:orange;">**Cache Miss for the Category Page -**</mark> Flush the cache by executing the command, **c:f** and then check cache using browser tool at, **Network > Select Page URL > Header > X-Magento-Cache-Debug : MISS**
 
-![](<../../.gitbook/assets/10 (17)>)
+![](<../../.gitbook/assets/10 (34)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-full-page-cache-warmer.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

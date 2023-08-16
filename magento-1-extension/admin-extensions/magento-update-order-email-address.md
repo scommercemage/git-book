@@ -32,10 +32,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Update Order 
 
 * <mark style="color:orange;">**Update Order Email Address from Order Detail View Page –**</mark> You can update email address from **Admin > Sales > Orders > Select Orders >** Click on **“Change”** then add new email address **>** Click **“Save”.**
 
-![](<../../.gitbook/assets/2 (37)>)
+![](<../../.gitbook/assets/2 (22)>)
 
 * <mark style="color:orange;">**Updated Email Address on the Order Detail View Page –**</mark> The updated email address will be shown on the order detail view page under “Account Information” section.
 
-![](<../../.gitbook/assets/3 (31)>)
+![](<../../.gitbook/assets/3 (13)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-update-order-email-address.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

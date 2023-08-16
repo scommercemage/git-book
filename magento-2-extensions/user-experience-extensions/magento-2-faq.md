@@ -58,13 +58,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 * **Category –** Category for FAQ
 * **Sort Order –** To define sort order for FAQ
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/10 (45)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/10 (16)>)
 
 <mark style="color:blue;">**Add FAQ Answer:**</mark> To add answer go to **Admin > FAQ > Manage FAQ's > Add new FAQ > Answer > Save FAQ.**
 
 * **Answer –** Add answer to the FAQ
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/11 (25)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/11 (1)>)
 
 <mark style="color:blue;">**Add Meta Description /Keywords for FAQ's:**</mark> You can add meta description/keywords from **Admin > FAQ > Manage FAQ's > Add new FAQ > Search Engine Optimization.**
 
@@ -72,13 +72,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 * **Meta Keywords –** Keywords for FAQ
 * **Meta Description –** Description for FAQ
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/12 (23)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/12 (15)>)
 
 <mark style="color:blue;">**Add Websites:**</mark> To add websites go to, **Admin > FAQ > Manage FAQ's > Add new FAQ > Websites.**
 
 * **Stores view –** Select stores where FAQ will be visible
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/13 (4)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/13 (17)>)
 
 <mark style="color:blue;">**Select Products for FAQ:**</mark> You can select product from **Admin > FAQ > Manage FAQ's > Add new FAQ > Selected Products > Save FAQ.**
 
@@ -95,7 +95,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 * **Category Icon –** Icon for Category
 * **Sort Order –** To define sort order for FAQ
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/15 (10)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/15 (1)>)
 
 <mark style="color:blue;">**Add Meta Description/Keywords for FAQ Category:**</mark> You can add meta description/keywords from **Admin > FAQ > Manage FAQ's > Add new FAQ Category > Search Engine Optimization.**
 
@@ -103,13 +103,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 * **Meta Keywords –** Keywords for FAQ Category
 * **Meta Description –** Description for FAQ Category
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/16 (23)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/16 (8)>)
 
 <mark style="color:blue;">**FAQ Category in Websites:**</mark> To add websites go to, **Admin > FAQ > Manage FAQ's > Add new Category > FAQ Category in Websites.**
 
 * **Stores view –** Select stores where FAQ will be visible.
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/17 (24)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/17 (13)>)
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 

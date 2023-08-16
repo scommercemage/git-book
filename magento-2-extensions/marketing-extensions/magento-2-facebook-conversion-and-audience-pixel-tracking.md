@@ -53,9 +53,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 * **Force decline –** If you set this to yes then FACEBOOK tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website
 * **GDPR Cookie Key –**  You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **marketing\_cookie** but if you are using other GDPR extension then please check with extension developer
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Analyze Data with Facebook Events Manager -**</mark> Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
 
@@ -71,7 +71,7 @@ The module is GDPR compliant which can work with both our/third party GDPR modul
 
 To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Facebook Conversion Tracking** and set 'Enable GDPR cookie check' to 'Yes' then set 'Force decline' to 'Yes' and provide the GDPR cookie name in the 'GDPR Cookie Key' inputbox. If you are using our GDPR module then the cookie name is 'marketing\_cookie' but if you are using other GDPR extension then please check with extension developer. Once the setting is complete unless the customer accepts the cookie the facebook tracking won't fire.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 

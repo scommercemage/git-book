@@ -182,7 +182,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 **Cookie Choice**
 
-![](<../../.gitbook/assets/9 (16)>)
+![](<../../.gitbook/assets/9 (2)>)
 
 * <mark style="color:orange;">**Add new Cookie Choice –**</mark> To create a new cookie choice, click on the “Add New Cookie Choice” button from Admin > Customers > Cookie Choice > Add new Cookie Choice, it redirects on “New Cookie” page, by providing all the below configuration details you can create the cookie choice.
   * **Choice Name –** Enter the choice name. This is the text which represents the type of the cookie you are using under it.
@@ -195,9 +195,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 flew Cookie Choice
 
-![](<../../.gitbook/assets/10 (3)>)
+![](<../../.gitbook/assets/10 (37)>)
 
-![](<../../.gitbook/assets/11 (12)>)
+![](<../../.gitbook/assets/11 (40)>)
 
 Choice Name ” CocKie Name ” Store Vie'.\*, “
 
@@ -207,9 +207,9 @@ Created b,’ List ”
 
 Required Record Set B Default
 
-![](<../../.gitbook/assets/12 (25)>)
+![](<../../.gitbook/assets/12 (24)>)
 
-![](<../../.gitbook/assets/13 (12)>)
+![](<../../.gitbook/assets/13 (7)>)
 
 All Store Views Main Website
 
@@ -217,21 +217,21 @@ Madison Island
 
 English French German
 
-![](<../../.gitbook/assets/14 (24)>)
+![](<../../.gitbook/assets/14 (16)>)
 
-![](<../../.gitbook/assets/15 (18)>)![](<../../.gitbook/assets/16 (2)>)No No
+![](<../../.gitbook/assets/15 (27)>)![](<../../.gitbook/assets/16 (2)>)No No
 
 ### <mark style="color:blue;">Customers Detail in Privacy Policy Consents</mark> <a href="#_bookmark30" id="_bookmark30"></a>
 
 When customer check the privacy policy agreement checkbox in the process of registration then it saves the details of the customers in backend privacy policy consents at **Admin > Customers > Privacy Policy Consents**
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/17 (1)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/17 (3)>)
 
 ### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#_bookmark31" id="_bookmark31"></a>
 
 When you select action “Anonymise Orders” from **Admin > Sales > Orders > Actions> Anonymisation Order > Click on Submit Button**, then it anonymise customers data, which can’t be reversed. Before “Submit” it asks for confirmation and displays a message popup says “Are you sure you want to anonymise selected transaction data because of this action can’t be reversed?”
 
-![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/18 (22)>)
+![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/18 (3)>)
 
 ### <mark style="color:blue;">Newsletter Subscription</mark> <a href="#_bookmark32" id="_bookmark32"></a>
 
@@ -239,7 +239,7 @@ To see newsletter subscription records go to **Admin > Marketing > Newsletter Su
 
 **Newsletter Subscription**
 
-![](<../../.gitbook/assets/19 (3)>)
+![](<../../.gitbook/assets/19 (10)>)
 
 ### <mark style="color:blue;">Enable / Disable Tracking</mark> <a href="#_bookmark33" id="_bookmark33"></a>
 
@@ -298,7 +298,7 @@ You can integrate cookies with GTM Pro by following the below steps in GTM: -
 
 Cookies are used to improve the experience for user. Once you accept, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as as individual.
 
-![A close up of a device  Description automatically generated](<../../.gitbook/assets/20 (11)>)
+![A close up of a device  Description automatically generated](<../../.gitbook/assets/20 (10)>)
 
 #### <mark style="color:orange;">Cookie Preferences</mark> <a href="#_bookmark37" id="_bookmark37"></a>
 

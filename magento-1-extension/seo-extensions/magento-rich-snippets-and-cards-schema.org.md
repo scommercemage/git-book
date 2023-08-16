@@ -87,28 +87,28 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 * <mark style="color:orange;">**Home Page Markup Code –**</mark> You can add structured data/markup code on homepage from **Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”**. To test structured data, go to **Structured Data Testing Tool > Provide Home Page URL** > Click **“Run Test”**.
 
-![](<../../.gitbook/assets/6 (43)>)
+![](<../../.gitbook/assets/6 (47)>)
 
 * <mark style="color:orange;">**Category Page Markup Code –**</mark> You can add markup code, breadcrumbs on category page from Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”.
 
-![](<../../.gitbook/assets/7 (44)>)
+![](<../../.gitbook/assets/7 (50)>)
 
 * <mark style="color:orange;">**Product Page Markup Code –**</mark> To add structured data markup code on product page, set “Enable” to “Yes” from **Admin > Configuration > Rich Snippet** .
 
-![](<../../.gitbook/assets/8 (37)>)
+![](<../../.gitbook/assets/8 (33)>)
 
 #### <mark style="color:orange;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_bookmark14" id="_bookmark14"></a>
 
 * **Tw**<mark style="color:orange;">**itter Code –**</mark> You can enable Twitter from **Admin > Stores > Configuration> Rich Snippet > Twitter > Enable – “Yes”**
 
-![](<../../.gitbook/assets/9 (20)>)
+![](<../../.gitbook/assets/9 (16)>)
 
 * <mark style="color:orange;">**Facebook Open Graph –**</mark> Enable Facebook Open Graph from **Admin > Stores> Configuration > Rich Snippet > Facebook Open Graph > Enable – “Yes”**
 
-![](<../../.gitbook/assets/10 (41)>)
+![](<../../.gitbook/assets/10 (22)>)
 
 * <mark style="color:orange;">**Increased and Optimized Page Ranking in Search Result –**</mark> In the below image you can see the increased and optimized page ranking in search results.
 
-![](<../../.gitbook/assets/11 (23)>)
+![](<../../.gitbook/assets/11 (10)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-rich-snippets-for-google-microsoft-yahoo.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

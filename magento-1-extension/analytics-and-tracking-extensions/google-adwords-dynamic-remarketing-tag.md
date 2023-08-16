@@ -38,14 +38,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Remark
 
 * <mark style="color:orange;">**Dynamic Remarketing Tag, Code Snippets on the Homepage –**</mark> To view remarketing tag and code snippets go to **Homepage > View Source**. In the below image you can see the conversion ID and Custom variable. You can add conversion Id from **Admin > Stores > Configuration > Google Remarketing > Google Conversion Id.**
 
-![](<../../.gitbook/assets/2 (10)>)
+![](<../../.gitbook/assets/2 (68)>)
 
 * <mark style="color:orange;">**Dynamic Remarketing Tag/Code Snippets with Product Details –**</mark> In the code snippet you can see the product details with Product ID and Google conversion id. You can select Product Id attribute from **Admin > Stores > Configuration > Google Remarketing > Product Id attribute** – Select **“SKU”.**
 
-![](<../../.gitbook/assets/3 (25)>)
+![](<../../.gitbook/assets/3 (79)>)
 
 * <mark style="color:orange;">**Dynamic Remarketing Ad –**</mark> When you enable the dynamic remarketing from **Admin > Stores > Configuration > Google Remarketing > Enable dynamic remarketing tags**, then it shows ads to people who have previously visited your website.
 
-![](<../../.gitbook/assets/4 (60)>)
+![](<../../.gitbook/assets/4 (71)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-adwords-dynamic-remarketing-tag.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

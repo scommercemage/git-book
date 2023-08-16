@@ -63,9 +63,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Enable UA data layer –** Set “yes” to enable the Universal Analytics data layer.
 * **Affiliation –** Enter the affiliation to be sent with GA4 events.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
@@ -84,15 +84,15 @@ To import JSONS provided with extension package follow below steps:
 * Log into GTM and navigate to your Account and container
 * In the top navigation, click through the Admin
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/2 (26)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/2 (54)>)
 
 * Under the container options, click on Import Container
 
-![](<../../.gitbook/assets/3 (8)>)
+![](<../../.gitbook/assets/3 (59)>)
 
 * Choose the JSON file which you would like to import
 
-![](<../../.gitbook/assets/4 (34)>)
+![](<../../.gitbook/assets/4 (6)>)
 
 * Choose to either Overwrite or Merge
   * Overwriting the existing container will remove all your existing tags, triggers, and variables, and will replace them with those in the imported container. A new container version will be created before the import.
@@ -101,7 +101,7 @@ To import JSONS provided with extension package follow below steps:
 * **Rename –** If a variable, tag, or trigger in the new container has the same name but the contents are different, keep the old one and rename the new one.
 * **Click Continue**. You’ll see a preview of changes, showing how many tags, triggers, and variables will be added, modified, or deleted. You can also click the link to View Detailed Changes to see which tags, triggers, and variables are being added, modified, or deleted.
 
-![](<../../.gitbook/assets/5 (28)>)
+![](<../../.gitbook/assets/5 (50)>)
 
 * Once you’re satisfied with the changes, click _Confirm_.
 
@@ -109,25 +109,25 @@ To import JSONS provided with extension package follow below steps:
 
 Once the GTM container file has been imported, you need to change variable information with correct value corresponding to the site. To access variables, go to workspace where you have imported the JSONs and click on variables on left hand side navigation.
 
-![](<../../.gitbook/assets/6 (51)>)
+![](<../../.gitbook/assets/6 (65)>)
 
 #### <mark style="color:orange;">Variables Created with JSON’s</mark>
 
 * **GA ID –** This variable is created when GTM-UniversalAnalytics.json is imported and it holds value for Google Analytics Id for the site. Click on the GA ID and change it to correct value.
 
-![](<../../.gitbook/assets/7 (14)>)
+![](<../../.gitbook/assets/7 (30)>)
 
 * <mark style="color:orange;">**conversionID -**</mark> This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
 
-![](<../../.gitbook/assets/8 (8)>)
+![](<../../.gitbook/assets/8 (50)>)
 
 * <mark style="color:orange;">**facebookPixelID -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
 
-![](<../../.gitbook/assets/9 (34)>)
+![](<../../.gitbook/assets/9 (48)>)
 
 * <mark style="color:orange;">**currencyCode -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
 
-![](<../../.gitbook/assets/10 (35)>)
+![](<../../.gitbook/assets/10 (25)>)
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
@@ -135,7 +135,7 @@ Once all set up is done and verified, need to Publish the tags to make it live o
 
 **Step 1** − Click the SUBMIT button at the top right corner of the screen. It will show the following screen.
 
-![](<../../.gitbook/assets/11 (35)>)
+![](<../../.gitbook/assets/11 (42)>)
 
 **Step 2** − Enter an identifiable Version name so that it can be easily understood for the changes made.
 
@@ -162,7 +162,7 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * Optionally, enter labels for the checkout steps that you have defined in your Magento steps configuration. Please see screenshots below for reference
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/12 (31)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/12 (21)>)
 
 * Click Submit.
 
@@ -209,7 +209,7 @@ Function gaRemoveFromCart(){jQuery.cookie.json = true;var productOutBasket = jQu
 
 * <mark style="color:orange;">**Back-end/Admin Tracking -**</mark> When you enable the **"**Send Phone or Admin Orders **"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro Tracking,** then it tracks admin orders. To see admin order go to **GA > Conversion > Ecommerce > Sales Performance.**
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/13 (8)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/13 (28)>)
 
 ### <mark style="color:blue;">Set Primary Categories</mark>
 
@@ -217,7 +217,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 
@@ -286,11 +286,11 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 2:-** Go to your GTM container then click on admin>Import Container.
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:-** Click on Choose container file and choose the JSON file acquired in step 1 then select the workspace new/existing. Also select Merge>Rename conflicting tags, triggers, and variables so that no crucial setting is lost.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 

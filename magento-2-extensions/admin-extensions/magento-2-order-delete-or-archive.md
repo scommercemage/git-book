@@ -88,7 +88,7 @@ To view archived orders, go to **Admin > Sales > Archive Orders**. This grid wil
 
 * <mark style="color:orange;">**Restore -**</mark> By selecting "**Restore**" from **Admin > Sales > Archive Orders> Actions** drop-down you can easily restore archived order(s).
 
-![ArchiveOrders\_02.png](<../../.gitbook/assets/6 (61)>)
+![ArchiveOrders\_02.png](<../../.gitbook/assets/6 (35)>)
 
 * <mark style="color:orange;">**Restore Orders From Archived Order View Page -**</mark> You can restore archived orders from **Admin > Sales > Archive Orders > Select Order > View >** Click **"Restore".**
 

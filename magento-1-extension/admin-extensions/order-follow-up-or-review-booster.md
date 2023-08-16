@@ -42,7 +42,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Follow up**
 
 #### <mark style="color:orange;">Product Review</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (83)>)
+![](<../../.gitbook/assets/3 (28)>)
 
 #### <mark style="color:orange;">Rollback Plan:</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 

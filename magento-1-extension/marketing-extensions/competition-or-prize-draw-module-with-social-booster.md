@@ -79,7 +79,7 @@ You can find static blocks at Admin **> CMS > Static.** Below are the static blo
 
 **Static Blocks**
 
-![](<../../.gitbook/assets/5 (4)>)
+![](<../../.gitbook/assets/5 (18)>)
 
 ### <mark style="color:blue;">Competition URL</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
@@ -89,26 +89,26 @@ For demo please check our demo site URL: [http://demo.scommerce-](http://demo.sc
 
 You can give the link for competition anywhere on the site
 
-![](<../../.gitbook/assets/6 (39)>)
+![](../../.gitbook/assets/6)
 
 ### <mark style="color:blue;">Competition Entries Report</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
 Go to **Admin > Reports > Get Competition CSV**. This will give you a CSV report for all the competition entries
 
-![](<../../.gitbook/assets/7 (8)>)
+![](<../../.gitbook/assets/7 (41)>)
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
 * <mark style="color:orange;">**Competition Form –**</mark> When you hit the competition URL it opens the competition on the front-end and by entering the email address you can enter into the competition.
 
-![](<../../.gitbook/assets/8 (6)>)
+![](<../../.gitbook/assets/8 (41)>)
 
 * <mark style="color:orange;">**Social Sharing Links on the Form –**</mark> After entering into the competition when you share the competition on the social sites, it increases the possibility to win the competition. It allows you to enter five entries in the same prize draw competition by following / liking / sharing the prize draw or competition on Facebook and Twitter, also you can enable/disable the social sharing options from the back-end.
 
-![](<../../.gitbook/assets/9 (24)>)
+![](<../../.gitbook/assets/9 (38)>)
 
 * <mark style="color:orange;">**Competition Entry Confirmation Email –**</mark> It sends an email to users to confirm their entry into the prize draw or competition.
 
-![](<../../.gitbook/assets/10 (37)>)
+![](<../../.gitbook/assets/10 (38)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-competition-module-with-social-booster.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

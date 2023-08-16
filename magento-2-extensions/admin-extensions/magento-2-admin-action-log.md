@@ -70,7 +70,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 * **Admin User -** Select “Yes” to enable. It will log all users activities.
 * **SEO -** Select “Yes” or “No” to Enable / Disable.
 
-![](<../../.gitbook/assets/8 (4)>)
+![](<../../.gitbook/assets/8 (37)>)
 
 * <mark style="color:orange;">**Admin Activity Logger -**</mark> You can view admin activity logger from, **Admin > System > Scommerce Admin Activity Logger > Admin Activity / Login Activity.**
 
@@ -96,7 +96,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 * <mark style="color:orange;">**Admin Logger Detailed View for Admin Activities -**</mark> To get more details about each particular action simply click on the 'View' link from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > General, to view all the detailed data.**
   * You can view all the general details of the user’s activity in the general tab.
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/11 (39)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/11 (16)>)
 
 * <mark style="color:orange;">**Admin Logger Detailed View for Item Info -**</mark> You can view the item details from **Admin > System > Admin Activity Logger > Select Log > Click on 'View' > Items info.**
   * This section contains all granular information. For instance if you place an order from the admin panel then all the details of the order such as price, store, etc. Are visible in this section.

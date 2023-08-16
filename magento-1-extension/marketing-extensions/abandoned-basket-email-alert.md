@@ -36,10 +36,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Abandoned Car
 
 #### <mark style="color:orange;">Abandoned Cart Email Template</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
-![](<../../.gitbook/assets/2 (63)>)
+![](<../../.gitbook/assets/2 (83)>)
 
 #### <mark style="color:orange;">Abandoned Basket Email Alert</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
-![](<../../.gitbook/assets/3 (79)>)
+![](<../../.gitbook/assets/3 (24)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://scommerce-mage.com/magento-abandoned-cart-or-basket-alert.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

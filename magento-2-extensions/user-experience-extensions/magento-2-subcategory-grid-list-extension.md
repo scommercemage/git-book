@@ -51,13 +51,13 @@ php bin/magento setup:static-content:deploy
 
 Subcategories widget will allow you to display subcategories in a Grid/list view on any page. Navigate to **Content > Pages,** edit the page that where you want to display the subcategories. Go into Content and then simply click on insert widget and you will have options such as widget type where you have to select the widget named “Subcategories List” then select the category and the number of columns you want to display the subcategories in. Then Lastly click on insert widget.
 
-![](<../../.gitbook/assets/7 (17)>)
+![](<../../.gitbook/assets/7 (59)>)
 
 #### <mark style="color:orange;">Display Mode Selection Drop-down “Subcategories Only”</mark> <a href="#_bookmark6" id="_bookmark6"></a>
 
 Go to any of the categories page where you want to display subcategories on by navigating to **Catalog > Categories**. Next go to display settings where you can select the display mode as “subcategories only” so that the page can display subcategories instead of products
 
-![](<../../.gitbook/assets/8 (42)>)
+![](<../../.gitbook/assets/8 (56)>)
 
 #### <mark style="color:orange;">Sub-categories Settings Dropdown</mark> <a href="#_bookmark7" id="_bookmark7"></a>
 
@@ -69,7 +69,7 @@ Go to any of the categories pages where you can select the settings by going int
 * **Sub-category Short Description –** You can add a short description here.
 * **Number of columns –** Select the number of columns you want to display your subcategories in.
 
-![](<../../.gitbook/assets/9 (43)>)
+![](<../../.gitbook/assets/9 (26)>)
 
 ### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_bookmark8" id="_bookmark8"></a>
 
@@ -83,6 +83,6 @@ After successfully enabling subcategories you can see them listed in a Grid view
 
 Navigate to **Catalog > Categories**, select the category, and then scroll down to **Sub-Categories settings.** You can select the number of columns here. Similarly display the subcategories in a list view by selecting the number of columns as “1”. See the image below for reference.
 
-![](<../../.gitbook/assets/11 (15)>)
+![](<../../.gitbook/assets/11 (9)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-subcategory-grid.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

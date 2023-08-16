@@ -53,7 +53,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys are dev/staging sites then please email us at [core@scommerce-mage.com](file:///C:/Users/jatin/OneDrive/Documents/core%40scommerce-mage.com)
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 ### <mark style="color:blue;">Configuration Settings for SEO Sitemap Exclusion</mark> <a href="#_toc_250029" id="_toc_250029"></a>
 
@@ -67,15 +67,15 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 * <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark> To include or exclude categories, go to _Admin > Catalog > Manage Categories > Select category (you want to exclude from site map) > General > Exclude from Sitemap: Set to “Yes/No”_
 
-![](<../../.gitbook/assets/3 (10)>)
+![](<../../.gitbook/assets/3 (58)>)
 
 * <mark style="color:orange;">**Exclude Products from Sitemap –**</mark> To exclude products from sitemap, go to _Admin > Catalog > Manage Products > Select product (you want to exclude from sitemap) > General > Exclude from Sitemap: Set to ”Yes/No”._
 
-![](<../../.gitbook/assets/4 (30)>)
+![](<../../.gitbook/assets/4 (52)>)
 
 * <mark style="color:orange;">**Exclude CMS Pages from Sitemap –**</mark> To exclude CMS pages from sitemap, go to _Admin > CMS > Pages > Select CMS Page (you want to exclude from site map) > General > Exclude from Sitemap: Set to “Yes/No”_
 
-![](<../../.gitbook/assets/5 (19)>)
+![](<../../.gitbook/assets/5 (67)>)
 
 * <mark style="color:orange;">**How to Generate Sitemap –**</mark> To generate the site map from the admin panel go to, _Admin > Marketing > Sitemap > Click ''Generate Sitemap''._
 
@@ -83,11 +83,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 * <mark style="color:orange;">**Add new Sitemap -**</mark> You can create new site map from, _Admin > Marketing > Sitemap > Click ''Add Sitemap''_, it redirects to New Site Map page and by providing all the required details you can create Site Map.
 
-![](<../../.gitbook/assets/7 (13)>)
+![](<../../.gitbook/assets/7 (29)>)
 
 * <mark style="color:orange;">**Magento Out of the Box Functionality to set the Category Path -**</mark> To include category path in product URLs in sitemap.xml, go to _Admin > System > Configuration > Catalog > Catalog > Search Engine Optimizations > Use Categories Path for Product URLs: Set to "yes"._
 
-![](<../../.gitbook/assets/8 (45)>)
+![](<../../.gitbook/assets/8 (47)>)
 
 ### <mark style="color:blue;">**Set Path Priority**</mark>
 
@@ -133,7 +133,7 @@ You can use a script provided with the extension to automatically add primary ca
 
 Go to Admin>Catalog>Categories select a category then scroll down to find the option "Primary Category Settings". Here click on "Exclude From Primary Category" to exclude this category from primary category or enter the priority 0 being the highes. The highest priority category will be picked first for the primary category.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 To automatically assingn primary category for all products run the command given below by going into the root directory of your store.
 
@@ -149,11 +149,11 @@ Google site map shows all the included Products, Categories**,** and CMS Pages l
 
 * <mark style="color:orange;">**Category Link in Sitemap XML -**</mark> You can see the category link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/10 (4)>)
+![](<../../.gitbook/assets/10 (32)>)
 
 * <mark style="color:orange;">**CMS Pages Link in Sitemap XML -**</mark> In the below screen grab you can see the about-us page link in the Google Sitemap XML.
 
-![](<../../.gitbook/assets/11 (14)>)
+![](<../../.gitbook/assets/11 (23)>)
 
 * <mark style="color:orange;">**Product Link in Sitemap XML -**</mark> You can see the product link in the Google Sitemap XML.
 

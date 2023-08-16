@@ -81,7 +81,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Affiliation-** Enter the affiliation name which you want to send with the GA4 data layers.
 * **Use Base Currency -** Set ‘Yes’ if you want to send base order data and ‘No’ to send store order data to Google. Set this ‘No’ only when you have multicurrency and you want to send different currency data to Google.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 * **Product Price Include Tax-** Set “Yes” then VAT will be included in the price.
 * **Order Total Include VAT –** Set “Yes” then VAT will be included in order total.
@@ -89,7 +89,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Category Attribute-** Please select category attribute if you have one otherwise put your brand name in the below input box. **Attribute should be available for product listing 'Storefront Properties -> Used in Product Listing = Yes'**
 * **Is Category ID-** Set "Yes" if "Category Attribute" is ID of the category, "No" if it is plain value
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2.png)
 
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **List Name with full path-** Choose whether you want to send the full path of the category or not. When 'yes' The breadcrumbs are broken into separate categories and sent as item\_category1, item\_category2 etc. Set 'No' to send the lowest level category. for ex:- Men>Tops>Jackets, when 'yes' Men, tops, jackets all three categories will be sent. When 'no' only jackets is sent.&#x20;
@@ -101,7 +101,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Product Impression on Scroll -** Enable this feature when you have loads of products on product listing / category pages.
 * **Category Ajax Enabled –** Enable this feature if you have third party ajax enabled extension on your category page.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
@@ -286,7 +286,7 @@ To setup Google Adwords Conversion, please make sure you add **GTM-google\_ads\_
 * Conversion Linker Tag&#x20;
 * Google Ads Conversion Tracking
 
-![](<../../.gitbook/assets/image (12) (1).png>)
+![](<../../.gitbook/assets/image (61).png>)
 
 <mark style="color:red;">**Please note: If you have GA4 enabled but UA disabled in Magento admin configuration then you need to change the following variables in GTM for Google Ads Conversion Tracking**</mark>
 
@@ -302,11 +302,11 @@ From&#x20;
 
 **From**
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (66).png>)
 
 To &#x20;
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
 ### <mark style="color:blue;">Setup Enhanced Conversion</mark>  <a href="#_bookmark16" id="_bookmark16"></a>
 
@@ -330,7 +330,7 @@ To enable enhanced conversions we first need to enable enhanced conversions in G
 
 Go to **Stores>Configuration>Scommerce Configuration>Tracking Base** and set "Enable Enhanced Conversion" to "Yes". This will enable user data collection from the store which will be sent to Google Adwords as part of the the Enhanced Conversion.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_tracking.json" provided with the extension(data folder) in your GTM container .  Change the 'conversion label' and 'conversion ID' in the "Google Ads Conversion Tracking" tag. Finally publish the changes to finish the setup.
 
@@ -409,11 +409,11 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 2:-** Go to your GTM container then click on admin>Import Container.
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:-** Click on Choose container file and choose the JSON file acquired in step 1 then select the workspace new/existing. Also select Merge>Rename conflicting tags, triggers, and variables so that no crucial setting is lost.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 

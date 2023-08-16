@@ -92,7 +92,7 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * Optionally, enter labels for the checkout steps that you have defined in your Magento steps configuration. Please see screenshot below for reference
 
-![](<../../.gitbook/assets/15 (16)>)
+![](<../../.gitbook/assets/15 (11)>)
 
 * Click Submit.
 
@@ -100,25 +100,25 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * <mark style="color:orange;">**Real Time Event -**</mark> You can view the tracked events from **GA > Realtime > Events.**
 
-![](<../../.gitbook/assets/16 (8)>)
+![](<../../.gitbook/assets/16 (12)>)
 
 * <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark> You can track admin orders by selecting "Yes" for **"Send Phone or Admin Orders"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enabled Enhanced Ecommerce - "Yes".**
 
-![](<../../.gitbook/assets/17 (4)>)
+![](<../../.gitbook/assets/17 (19)>)
 
 * <mark style="color:orange;">**Shopping Behaviour**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> You can see the shopping behaviour from **GA > Conversion >Ecommerce >Shopping Behaviour.**
 
-![](<../../.gitbook/assets/18 (20)>)
+![](<../../.gitbook/assets/18 (9)>)
 
 * <mark style="color:orange;">**Checkout Behaviour -**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversion**
 
 **> Ecommerce > Checkout Behaviour.**
 
-![](<../../.gitbook/assets/19 (20)>)
+![](<../../.gitbook/assets/19 (6)>)
 
 * <mark style="color:orange;">**Product Performance -**</mark> To view the product performance go to **GA > Conversion > Ecommerce > Product Performance.**
 
-![](<../../.gitbook/assets/20 (3)>)
+![](<../../.gitbook/assets/20 (12)>)
 
 * <mark style="color:orange;">**Sales Performance -**</mark> To view tracked sales performance go to **GA > Conversion > Ecommerce > Sales Performance.**
 * <mark style="color:orange;">**Product List Performance by Category -**</mark> You can view the product list performance from **GA > Conversion >Ecommerce >Product List Performance.**

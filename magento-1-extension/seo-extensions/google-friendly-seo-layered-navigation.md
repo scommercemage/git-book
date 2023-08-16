@@ -40,10 +40,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Layered Navig
 
 * <mark style="color:orange;">**Search Engine Optimization of Layered Navigation -**</mark> See the image below for Layered Navigation view.
 
-![](<../../.gitbook/assets/3 (15)>)
+![](<../../.gitbook/assets/3 (42)>)
 
 * <mark style="color:orange;">**Custom View of Layered Navigation –**</mark> Here is the custom view of the Layered Navigation
 
-![](<../../.gitbook/assets/4 (5)>)
+![](<../../.gitbook/assets/4 (50)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/google-friendly-layered-navigation.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -55,7 +55,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Testimonials*
 
 **Testimonial Manager**
 
-![](<../../.gitbook/assets/3 (34)>)
+![](<../../.gitbook/assets/3 (5)>)
 
 * <mark style="color:orange;">**Testimonial Details –**</mark> Clicking on any testimonials from Grid will show details of that particular testimonial.
   * **Store view –** Store for which testimonial has been added.
@@ -67,28 +67,28 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Testimonials*
   * **Side bar display:Yes/No –** Yes will show the review on side navigation
   * **Testimonial content –** Content added for testimonial
 
-![](<../../.gitbook/assets/4 (32)>)
+![](<../../.gitbook/assets/4 (9)>)
 
 * <mark style="color:orange;">**Adding Testimonial –**</mark> Clicking on add testimonial from Grid will take you to form for adding new Testimonial.
 
-![](<../../.gitbook/assets/5 (46)>)
+![](../../.gitbook/assets/5)
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark10" id="_bookmark10"></a>
 
 #### <mark style="color:orange;">Home Page</mark> <a href="#_bookmark11" id="_bookmark11"></a>
 
-![](<../../.gitbook/assets/6 (25)>)
+![](<../../.gitbook/assets/6 (4)>)
 
 * <mark style="color:orange;">**Side Navigation –**</mark> Side navigation will show all testimonials set to be displayed on sidebar.
 
-![](<../../.gitbook/assets/7 (38)>)
+![](<../../.gitbook/assets/7 (47)>)
 
 * <mark style="color:orange;">**Show all Testimonial –**</mark> This will show all approved testimonials.
 
-![](<../../.gitbook/assets/8 (5)>)
+![](<../../.gitbook/assets/8 (39)>)
 
 * <mark style="color:orange;">**Testimonial Form –**</mark> To submit new testimonial for the site.
 
-![](<../../.gitbook/assets/9 (25)>)
+![](<../../.gitbook/assets/9 (39)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-testimonials.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

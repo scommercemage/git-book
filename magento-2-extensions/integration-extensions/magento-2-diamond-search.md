@@ -214,19 +214,19 @@ In the final step a bundled product is created using the first two selections wh
 
 **Multiple currencies** can be added/selected from Admin > Stores Configuration > General > Currency Setup – Allowed Currencies – Select currencies
 
-![](<../../.gitbook/assets/1 (4).png>)
+![](../../.gitbook/assets/1.png)
 
 **Currency rates** can be configured against base currency from Admin > Stores > Currency > Currency Rates
 
-![](../../.gitbook/assets/2.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 **Base currency** can be defined from Admin > Stores Configuration > General > Currency Setup > Base Currency – Select currency
 
-![](<../../.gitbook/assets/3 (1) (1).png>)
+![](<../../.gitbook/assets/3 (2).png>)
 
 #### Currency Switcher Frontend
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](<../../.gitbook/assets/4 (2).png>)
 
 ### <mark style="color:blue;">Setup 360 view and Certificate</mark>
 
@@ -239,15 +239,15 @@ Please follow the steps provided below in order to setup 360 view and certificat
 
 **Test URL** - [![](https://diamondsearch.scommerce-mage.co.uk/static/version1651246469/frontend/Magento/luma/en\_US/Magento\_Theme/favicon.ico)Choose a diamond](https://diamondsearch.scommerce-mage.co.uk/diamondsearch/#!/93072712)
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (73).png>)
 
 #### <mark style="color:orange;">Certificate</mark>
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (71).png>)
 
 #### <mark style="color:orange;">360 view</mark>
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (92).png>)
 
 ### <mark style="color:blue;">Frontend</mark>
 

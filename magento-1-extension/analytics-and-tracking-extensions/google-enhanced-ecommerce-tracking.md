@@ -93,19 +93,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 
 * <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark> You can track admin orders by selecting “Yes” for **“Send Phone or Admin Orders”** from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Enable Enhanced Ecommerce – “Yes”.**
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (17)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (71)>)
 
 * <mark style="color:orange;">**Shopping Behaviour –**</mark> You can see the shopping behaviour from **GA > Conversion > Ecommerce > Shopping Behaviour.**
 
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/6 (19)>)
+![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/6 (64)>)
 
 * <mark style="color:orange;">**Checkout Behaviour –**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details from **GA > Conversions> Ecommerce > Checkout Behaviour.**
 
-![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/7 (33)>)
+![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/7 (28)>)
 
 * <mark style="color:orange;">**Product Performance –**</mark> To view the product performance go to **GA > Conversion> Ecommerce > Product Performance.**
 
-![A screen shot of a computer  Description automatically generated](<../../.gitbook/assets/8 (49)>)
+![A screen shot of a computer  Description automatically generated](<../../.gitbook/assets/8 (5)>)
 
 * <mark style="color:orange;">**Sales Performance –**</mark> To view tracked sales performance go to **GA > Conversion> Ecommerce > Sales Performance.**
 
@@ -115,10 +115,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 
 * <mark style="color:orange;">**Home Page with Tags –**</mark> In Tag Assistant tool you can see the fired tags.
 
-![](<../../.gitbook/assets/10 (10)>)
+![](<../../.gitbook/assets/10 (21)>)
 
 * <mark style="color:orange;">**GA – UA Tracking Code –**</mark> In the below image you can see the UA tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics > Account Id** – UA – 33387561-7.
 
-![](<../../.gitbook/assets/11 (30)>)
+![](<../../.gitbook/assets/11 (20)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-google-enhanced-ecommerce-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

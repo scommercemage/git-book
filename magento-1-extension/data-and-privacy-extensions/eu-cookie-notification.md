@@ -36,6 +36,6 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > EU Cookie Not
 
 * <mark style="color:orange;">**EU Cookie Notification Message –**</mark> It displays the cookie notification message when you enabled the module from **Admin > Stores > Configuration > Scommerce Configuration > EU Cookie Notification > Enabled – “Yes”.**
 
-![](<../../.gitbook/assets/2 (35)>)
+![](<../../.gitbook/assets/2 (21)>)
 
 f you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-eu-cookie-compliance.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

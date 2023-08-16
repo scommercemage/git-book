@@ -67,7 +67,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 * <mark style="color:orange;">**Backend Order Tracking - Source/Medium –**</mark> To add campaign Source and Medium for backend orders go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “phone” > Admin Medium – “admin”.**
 
-![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (1)>)
+![A screenshot of a cell phone  Description automatically generated](<../../.gitbook/assets/5 (10)>)
 
 * <mark style="color:orange;">**Google Analytics Checkout Behaviour –**</mark> You can view the checkout behaviour in GA tool under **Conversions > Ecommerce > Checkout Behaviour.**
 
@@ -75,11 +75,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 * <mark style="color:orange;">**Google Analytics Shopping Behaviour –**</mark> You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Shopping Behaviour.**
 
-![](<../../.gitbook/assets/7 (51)>)
+![](<../../.gitbook/assets/7 (46)>)
 
 * <mark style="color:orange;">**Google Analytics Sales Performance –**</mark> You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Sales Performance.**
 
-![](<../../.gitbook/assets/8 (28)>)
+![](<../../.gitbook/assets/8 (29)>)
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
 
@@ -89,10 +89,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 * <mark style="color:orange;">**Gtag.js Code –**</mark> In the below image you can see the **UA** and **AW** tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id > Click on “Add Account”** – UA - 33387561-3, AW – 123456789.
 
-![](<../../.gitbook/assets/10 (11)>)
+![](<../../.gitbook/assets/10 (45)>)
 
 * <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand name – “TestScommerce”**
 
-![](<../../.gitbook/assets/11 (2)>)
+![](<../../.gitbook/assets/11 (4)>)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
