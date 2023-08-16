@@ -30,6 +30,8 @@
    * _Retrieve all Batches using API_&#x20;
    * _Retrieve Date of Batch using ID 1 Using API_&#x20;
    * _Delete Batch with ID 1 Using API_&#x20;
+   * _Update Batch with Batch Code 'xyz' Using API_
+   * _Update Batch with Batch ID 'xyz' Using API_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
