@@ -244,4 +244,64 @@ Authorization: Bearer \{{auth\_token\}}
 
 }
 
+#### <mark style="color:orange;">Update Batch with Batch code 'xyz' Using API: -</mark> <a href="#_bookmark25" id="_bookmark25"></a>
+
+#### Parameters: -
+
+* Authorization token
+* Batch Qty
+* Batch Status
+* Batch\_expiry
+* Product\_sku
+
+You can several other parameters that you want to update.&#x20;
+
+**POST URL:-** http://baseurl/index.php/rest/V1/productbatches/updatebatchByCode/\{{batch\_code\}}
+
+Content-Type: application/json
+
+Authorization: Bearer \{{auth\_token\}}&#x20;
+
+{&#x20;
+
+"batch\_qty": "10",
+
+"batch\_status": "1",&#x20;
+
+"batch\_expiry": "2020-12-06",
+
+"product\_sku": "MH0001"&#x20;
+
+}
+
+#### <mark style="color:orange;">Update Batch with ID 1 Using API: -</mark> <a href="#_bookmark25" id="_bookmark25"></a>
+
+#### Parameters: -
+
+* Authorization token
+* Batch Qty
+* Batch Status
+* Batch\_expiry
+* Product\_sku
+
+You can several other parameters that you want to update.&#x20;
+
+**POST URL:-** http://baseurl/index.php/rest/V1/productbatches/updatebatchById/\{{batch\_ID\}}
+
+Content-Type: application/json
+
+Authorization: Bearer \{{auth\_token\}}&#x20;
+
+{&#x20;
+
+"batch\_qty": "10",
+
+"batch\_status": "1",&#x20;
+
+"batch\_expiry": "2020-12-06",
+
+"product\_sku": "MH0001"&#x20;
+
+}
+
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-shelf-life.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
