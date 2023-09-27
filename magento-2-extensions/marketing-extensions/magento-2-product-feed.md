@@ -18,7 +18,8 @@
    * _Google Product Feed XML_&#x20;
    * _Google Product Feed CSV_&#x20;
    * _Facebook Product Feed CSV_&#x20;
-   * _Make attribute visible in the Google Feed under Rule Conditions_&#x20;
+   * _Make attribute visible in the Google Feed under Rule Conditions_
+   * _Product Feed with Swatches_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
@@ -133,5 +134,19 @@ You can add from **Admin > Stores > Attributes > Product > Select Product Attrib
 In the below image you can see that attribute **“SKU”** added under conditions.
 
 ![Graphical user interface, application, Word  Description automatically generated](<../../.gitbook/assets/14 (12)>)
+
+#### <mark style="color:orange;">Product Feed with Swatches</mark>  <a href="#_bookmark14" id="_bookmark14"></a>
+
+To allow colour and size to be auto selected on product page, the URL needs to be created like show below.
+
+**attribute name and value of the attribute**
+
+**for example - size=s\&color=red**
+
+
+
+```
+https://magento2.scommerce-mage.co.uk/orion-two-tone-fitted-jacket.html?size=s&color=red
+```
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-product-feed-manager.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
