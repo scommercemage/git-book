@@ -115,7 +115,14 @@ Some settings are only available on the website level for eg:- Region/State.
 
 ![](<../../.gitbook/assets/richsn (1).png>)
 
+#### <mark style="color:orange;">Price Valid Until</mark> <a href="#_toc_250010" id="_toc_250010"></a>
 
+Send Price valid until with the offers markup code for products.
+
+* **Start Month-** Select the starting month from where the priceValidUntil field will be calculated. for example:- if you select the month of January then the calculations for the field will start from january.
+* **Time Interval-** Select "quarterly", "Six-monthly", or "Yearly" based upon the selection the price valid until date will be calculated. Example:- if the start month is January and the current date is 23-11-2023 and the time interval selected is "Six-monthly" then the first six-monthly is between 01-01-2023 to 31-06-2023 and the second six-monthly period is between 01-07-2023 to 31-12-2023 hence the priceValidUntil will be 31-12-2023 as our date lies in this period.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_toc_250007" id="_toc_250007"></a>
 
@@ -133,7 +140,11 @@ Some settings are only available on the website level for eg:- Region/State.
 
 <mark style="color:orange;">**Shipping Markup Code**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> To add structured data markup code on product page, set "Enable" to "Yes" from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet._
 
-![](../../.gitbook/assets/shippinggg.png)
+<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Price Valid Until**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> To add the price valid until date with the structured data markup code on the product page, Set the "Start Month" and the "Time Interval" from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Price Valid Until._
+
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
 
