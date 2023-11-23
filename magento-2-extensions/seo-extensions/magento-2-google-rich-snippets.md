@@ -15,6 +15,8 @@
    * _Twitter Card Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Pinterest Rich Pins Settings_&#x20;
+   * _Free Shipping (Website Level)_
+   * _Price Valid Until_
 4. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-google-rich-snippets.md#\_toc\_250001)
    * _Home Page Markup Code_&#x20;
    * _Category Page Markup Code_&#x20;
