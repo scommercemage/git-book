@@ -17,14 +17,17 @@
 4. [_Integration Modes_](magento-2-diamond-search.md#integration-modes)
    * _Local_
    * _RapNet_
-5. [_Ring Builder_](magento-2-diamond-search.md#ring-builder)
+5. [_Custom Attribute Set_](magento-2-diamond-search.md#custom-attribute-set)
+   * _Settings_
+   * _Diamonds_
+6. [_Ring Builder_](magento-2-diamond-search.md#ring-builder)
    * _Choosing a Diamond_
    * _Choosing a Setting_
    * _Review Complete Ring_
-6. [_Setup 360 view and Certificate_](magento-2-diamond-search.md#setup-360-view-and-certificate)
+7. [_Setup 360 view and Certificate_](magento-2-diamond-search.md#setup-360-view-and-certificate)
    * _Certificate_
    * _360 view_
-7. [_Frontend_](magento-2-diamond-search.md#frontend)
+8. [_Frontend_](magento-2-diamond-search.md#frontend)
 
 ### <mark style="color:blue;">Prerequisites( module installed previously )</mark> <a href="#_bookmark0" id="_bookmark0"></a>
 
@@ -80,14 +83,14 @@ Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 #### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
 
 * **Enable Module –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
-* **Source:-** Select the source from where the products are pulled. Rapnet/Demo pulls product via Rapnet API where Rapnet is live. "Local" pulls products from magento.
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL-specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **Source:-** Select the source from where the products are pulled. Rapnet/Demo pulls products via Rapnet API where Rapnet is live. "Local" pulls products from Magento.
 *   **API Key (RapNet):-** Enter the API key provided by RapNet here. •         [http://technet.rapaport.com/ProgrammaticAccess/Keys.aspx](http://technet.rapaport.com/ProgrammaticAccess/Keys.aspx) <mark style="color:red;">The following key works only “localhost” domain:</mark> <mark style="color:red;"></mark>_<mark style="color:red;">8EC95570ABE6411290197CB28845A6FF</mark>_
 
     _<mark style="color:red;">Please note - “localhost” means domain. Not IP- address like “127.0.0.1”, not other domain matched to local IP, “localhost” means domain. So this test API-key used only for local site running via “</mark>_[_<mark style="color:red;">http://localhost</mark>_](http://localhost/)_<mark style="color:red;">”. Not for “</mark>_[_<mark style="color:red;">http://127.0.0.1</mark>_](http://127.0.0.1/)_<mark style="color:red;">”, not for “</mark>_[_<mark style="color:red;">http://my-domain-resolved-to-local-ip.tld</mark>_](http://my-domain-resolved-to-local-ip.tld/)_<mark style="color:red;">”, only for</mark>_ [_<mark style="color:red;">“h</mark>_](http://localhost/)_<mark style="color:red;">t</mark>_[_<mark style="color:red;">tp://localhost</mark>_](http://localhost/)_<mark style="color:red;">”</mark>_
-* **Theme Color:-** Enter the colour code for the entire diamond search theme
+* **Theme Color:-** Enter the color code for the entire diamond search theme
 * **Diamond Image Type:-** Choose between two image types schematic or photo for diamonds that appear in the list
-* **Settings Attribute Set:-** Attribute Set used to select products on Settings step(step 2) in Ring Builder (eg:- something like "Rings")
+* **Settings Attribute Set:-** Attribute Set used to select products on Settings step(step 2) in Ring Builder (eg:- something like "Rings"). If you are creating a custom attribute set for rings then include critical **Settings** attributes which are **Shape, Size from, and Size To,** and these attributes must have values against them for everything to work correctly on the front end as these values get used to select the correct Ring.
 * **Diamond Search Category:-** Diamond Search Category used to show Settings on Step 2(choose a setting)
 * **Show Dropdown filters:-** If set then filters will be dropdowned. If not set then filters will be always displayed
 
@@ -177,6 +180,64 @@ When mode is set to local you can create your diamond products directly from Mag
 #### <mark style="color:orange;">RapNet</mark>
 
 RapNet brings millions of dollars in diamond product to your Magento store, without the cost of owning the physical diamonds. All diamonds and attributes should be configured directly from RapNet admin panel. RapNet provides data and pricing in real time. Once the customer places the order using the ring builder the product gets automatically created in Magento catalog. [https://www.rapnet.com/](https://www.rapnet.com/)
+
+### <mark style="color:blue;">Custom Attribute Set</mark>
+
+By default, the module adds two attribute sets i.e. Settings and Diamonds. These contain essential attributes for the module to work. If you want to create a custom attribute set, you need to include the attributes from these existing sets in order for your custom attribute set to work properly and the functional flow to be correct. We will go through each of these attribute sets and the attributes contained within them.
+
+#### <mark style="color:orange;">Settings</mark>
+
+If you want to use a custom attribute set for "Rings" aside from settings then include critical **Settings** attributes which are **Shape, Size from and Size To** and these attributes must have values against them for everything to work correctly on frontend as these values get used to select correct Ring. All the attributes included in this attribute set are as follows:-
+
+* ds\_size\_min
+* ds\_size\_max
+* ds\_shape
+* ds\_is\_paired
+
+#### <mark style="color:orange;">Rings</mark>
+
+All the attributes included in this attribute set are as follows:-
+
+* mdiamond\_id
+* mshape
+* msize
+* mcolor
+* mfancy\_color\_dominant\_color
+* mfancy\_color\_secondary\_color
+* mfancy\_color\_overtone
+* mfancy\_color\_intensity
+* mclarity
+* mcut
+* msymmetry
+* mpolice
+* mdepth\_percent
+* mtable\_percent
+* mmeas\_length
+* mmeas\_width
+* mmeas\_depth
+* mgirdle\_min
+* mgirdle\_max
+* mgirdle\_condition
+* mculet\_size
+* mculet\_condition
+* mfluor\_color
+* mfluor\_intensity
+* mhas\_cert\_file
+* mcountry
+* mcity
+* mlab
+* mtotal\_purchase\_price
+* mtotal\_sales\_price
+* mcurrency\_code
+* mcurrency\_symbol
+* mtotal\_sales\_price\_in\_currency
+* mcert\_num
+* mstock\_num
+* mhas\_sarineloupe
+* msarineloupe\_url
+* mis\_fancyColor
+* ds\_is\_paired
+* mis\_lab\_diamond
 
 ### <mark style="color:blue;">Ring Builder</mark>
 
