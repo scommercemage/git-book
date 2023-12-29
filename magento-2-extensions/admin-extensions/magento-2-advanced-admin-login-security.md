@@ -1,22 +1,22 @@
-# Magento 2 Advanced Login Security
+# Magento 2 Advanced Admin Login Security
 
-### <mark style="color:blue;">Installation and User Guide for Magento 2 Advanced Login Security Extension</mark>
+### <mark style="color:blue;">Installation and User Guide for Magento 2 Advanced Admin Login Security Extension</mark>
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-advanced-login-security.md#\_bookmark0)
+1. [_Installation_ ](magento-2-advanced-admin-login-security.md#\_bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for_ ](magento-2-advanced-login-security.md#\_bookmark3)[_Security Base_](magento-2-advanced-login-security.md#\_toc\_250003)
+2. [_Configuration Settings for_ ](magento-2-advanced-admin-login-security.md#\_bookmark3)[_Security Base_](magento-2-advanced-admin-login-security.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Advanced Login Security_](magento-2-advanced-login-security.md#\_bookmark3)
-4. [_Scommerce Admin Login Security_](magento-2-advanced-login-security.md#\_toc\_250003-1)
+3. [_Configuration Settings for Advanced Login Security_](magento-2-advanced-admin-login-security.md#\_bookmark3)
+4. [_Scommerce Admin Login Security_](magento-2-advanced-admin-login-security.md#\_toc\_250003-1)
    * _Admin Login Attempts_
    * _Blacklist_
    * _Whitelist_
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Download Extension:**</mark> Once you have placed the order from our site then go to the Account section, click on My Downloadable Products, and download the extension package.
 
@@ -36,22 +36,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Security Base</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Configuration Settings for Security Base</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Base**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL-specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 16.31.46.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Configuration Settings for Admin Login Security</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Admin Login Security</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Login Security**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled Admin Login Security –** Select “Yes” or “No” to enable or disable the module.
 * **Failed Attempts Limit :-** Set the attempt limit for admin login. Once exceeded the account will be locked out or blacklisted as per further configuration. Make sure this limit is less than default Magento configuration.
@@ -88,11 +88,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Login S
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 17.29.33.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Scommerce Admin Login Security</mark>  <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Scommerce Admin Login Security</mark>  <a href="#toc_250003" id="toc_250003"></a>
 
 Go to **Admin > System > Scommerce Admin Login Security>**
 
-#### <mark style="color:orange;">Admin Login Attempts</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">Admin Login Attempts</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 The Admin Login Attempts grid keeps a record of every login attempt made to the admin panel with various key details such as:-
 
@@ -106,7 +106,7 @@ The grid is completely filterable with various columns such as ID, IP Address, A
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 17.48.08.png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Blacklist</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">Blacklist</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 The blacklist records grid contains information about all the blacklist users with several details such as ID, IP Address, Admin Username, Valid till, Created At, and Action. This grid is completely filterable. Each of the record can be deleted or edited from the Action column.
 
@@ -116,7 +116,7 @@ Go to **Action>Edit** and you can change various details for each of the records
 
 <figure><img src="../../.gitbook/assets/edit_blacklist_records.png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Whitelist</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">Whitelist</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 The Whitelist records grid contains information about all the blacklist users with several details such as ID, IP Address, Admin Username, Created At, and Action. This grid is completely filterable. Each of the records can be deleted or edited from the Action column.
 
