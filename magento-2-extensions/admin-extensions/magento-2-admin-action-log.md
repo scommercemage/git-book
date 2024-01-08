@@ -16,8 +16,9 @@
    * _Admin Logger Detailed View for Admin Activities_&#x20;
    * _Admin Logger Detailed View for Item Info_
    * _Login Activity Grid_&#x20;
+   * _Active Sessions Grid_
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Download Extension:**</mark> Once you have placed the order from our site then go to Account section and click on My Downloadable Products and download the extension package.
 
@@ -39,11 +40,11 @@ php bin/magento setup:static-content:deploy
 
 {% embed url="https://www.youtube.com/watch?v=sJ_Kj6n_mUo" %}
 
-### <mark style="color:blue;">Configuration Settings for Admin Activity Logger</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Admin Activity Logger</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activity Logger**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
@@ -54,7 +55,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 ![](../../.gitbook/assets/activity\_general.jpg)
 
-#### <mark style="color:orange;">Modules Activity Logger</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Modules Activity Logger</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Order -** Select “Yes” to enable. It will log order related activities.
 * **Product -** Select “Yes” to enable. It will log product related activities.
@@ -74,7 +75,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 * <mark style="color:orange;">**Admin Activity Logger -**</mark> You can view admin activity logger from, **Admin > System > Scommerce Admin Activity Logger > Admin Activity / Login Activity.**
 
-![](../../.gitbook/assets/adminactivity.jpg)
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-01-08 at 13.50.45.png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Admin Activity Grid -**</mark> In the back-end under Admin Activity Logger grid you can view all the admin activities details from **Admin > System > Admin Activity Logger**. This grid will have, Admin Username, Name, Activity Type, Store View, Module, Full Action, IP, Item, Revert and Action columns.
   * **Date: -** The exact date and time of the activity performed.
@@ -103,7 +104,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
 
 ![](../../.gitbook/assets/activity\_details.jpg)
 
-* <mark style="color:orange;">**Login Activity Grid -**</mark> You can view login activities from **Admin > System > Login Activity > Login Activity Logger**. It logs details of each and every single activity along with what value being changed by who and when. This section contains following information: -
+* <mark style="color:orange;">**Login Activity Grid -**</mark> You can view login activities from **Admin > System > Scommerce Admin Activity Logger > Active Sessions**. It logs details of each and every single activity along with what value being changed by who and when. This section contains following information: -
   * **Date: -** The precise date and time of the log.
   * **Type: -** whether logged in or logged out.
   * **Username: -** Username of the person is stored here.
@@ -113,5 +114,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Activit
   * **Status: -** If the login fails then the status will show FAILED and if the login or logout is successful then it shows SUCCESS
 
 ![](../../.gitbook/assets/loginactivity\_logger.jpg)
+
+* <mark style="color:orange;">**Active Sessions Grid-**</mark> You can view Active Sessions from **Admin > System > Login Activity > Login Acti**. It logs details of every active admin session on the store. The active session is listed with various useful details. Also, it gives the admin the option to terminate any active admin session through the "Terminate" button under the action column. Once terminated that admin will be logged out of the account automatically.  Furthermore, the grid is completely filterable using various columns. This section contains the following information: -
+  * **Id: -** A Unique ID for each active session.
+  * **Admin Username: -** Username of the admin of that particular active session.
+  * **IP: -** IP address of the admin of that session.
+  * **Last Action: -** Last action performed by the admin of this session.
+  * **User Agent: -** Various platform, device, and browser information of the admin of this session.
+  * **Action: -** Contains the option to terminate this particular session.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-01-08 at 13.53.45.png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-admin-action-log.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
