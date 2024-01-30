@@ -71,13 +71,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Chec
 
 <figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Scommerce Security Checklist Report</mark> <a href="#toc_250003" id="toc_250003"></a>
+### <mark style="color:blue;">Security Checklist Report</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to **Admin > System > Scommerce Security> Security Checklist**
 
 #### <mark style="color:orange;">Security Checklist Report</mark> <a href="#toc_250002" id="toc_250002"></a>
 
-The Security checklist grid for several distinctions for various checks: Warning, error and Success
+The Security checklist grid has several distinctions for various checks: Warning, Error and Success
 
 * **Admin password Protection:** - For Admin password protection, if a password change is not forced, the user will see an error. If the lifetime is more than 90 days, the user will see a warning. If a password change is forced and the lifetime is less than 90 days, then the user will see success.
 * **Magento version check**: - For a Magento version check, if the version is outdated, the user will see an error. Otherwise, the user will see success.
