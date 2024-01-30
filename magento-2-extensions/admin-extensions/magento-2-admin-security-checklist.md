@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. Installation
+1. [_Installation_](magento-2-admin-security-checklist.md#\_bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. _Configuration Settings for Security Base_
+2. [_Configuration Settings for_ ](magento-2-admin-security-checklist.md#\_bookmark3)[_Security Base_](magento-2-admin-security-checklist.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. _Configuration Settings for Security Checklist_
-4. _Scommerce Security Checklist Report_
+3. [_<mark style="color:blue;">Configuration Settings for</mark>_](magento-2-admin-security-checklist.md#toc\_250003) _<mark style="color:blue;">Security Checklist</mark>_
+4. [_Security_](magento-2-admin-security-checklist.md#toc\_250003-1) _<mark style="color:blue;">Checklist Report</mark>_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
