@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_](magento-2-admin-security-checklist.md#\_bookmark0)
+1. [_Installation_](magento-2-admin-security-checklist.md#installation-and-user-guide-for-magento-2-security-checklist-extension)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for_ ](magento-2-admin-security-checklist.md#\_bookmark3)[_Security Base_](magento-2-admin-security-checklist.md#\_toc\_250003)
+2. [_Configuration Settings for_ ](magento-2-admin-security-checklist.md#toc\_250003)[_Security Base_](magento-2-admin-security-checklist.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. [_<mark style="color:blue;">Configuration Settings for</mark>_](magento-2-admin-security-checklist.md#toc\_250003) _<mark style="color:blue;">Security Checklist</mark>_
-4. [_Security_](magento-2-admin-security-checklist.md#toc\_250003-1) _<mark style="color:blue;">**Checklist Report**</mark>_
+3. [_<mark style="color:blue;">Configuration Settings for</mark>_](magento-2-admin-security-checklist.md#bookmark3) _<mark style="color:blue;">Security Checklist</mark>_
+4. [_Security_](magento-2-admin-security-checklist.md#toc\_250003-1) _<mark style="color:blue;">Checklist Report</mark>_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -89,6 +89,6 @@ The Security checklist grid has several distinctions for various checks: Warning
 * **Admin users activity check**: - For Admin admin user activity check, if the account is unused, the user will see a warning. Otherwise, success.
 * **Check for static scripts inserted from Config and CMS Pages**: - For Static scripts in Configuarion, CMS Blocks, and CMS Pages, if a text field has a static script, the user will see a warning. Otherwise, success.
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
