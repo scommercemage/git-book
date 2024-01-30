@@ -1,6 +1,6 @@
 # Magento 2 Admin Security Checklist
 
-### <mark style="color:blue;">Installation and User Guide for Magento 2 Admin Security Checklist Extension</mark>
+### <mark style="color:blue;">Installation and User Guide for Magento 2 Security Checklist Extension</mark>
 
 **Table of Contents**
 
@@ -10,11 +10,8 @@
    * _Installation via Composer_
 2. [_Configuration Settings for_ ](magento-2-admin-security-checklist.md#\_bookmark3)[_Security Base_](magento-2-admin-security-checklist.md#\_toc\_250003)
    * _General Settings_&#x20;
-3. [_<mark style="color:blue;">Configuration Settings for A</mark>_](magento-2-admin-security-checklist.md#\_bookmark3)_<mark style="color:blue;">dmin Security Checklist</mark>_
-4. [_Scommerce Admin Login Security_](magento-2-admin-security-checklist.md#\_toc\_250003-1)
-   * _Admin Login Attempts_
-   * _Blacklist_
-   * _Whitelist_
+3. [_<mark style="color:blue;">Configuration Settings for</mark>_ ](magento-2-admin-security-checklist.md#\_bookmark3)_<mark style="color:blue;">Security Checklist</mark>_
+4. [_<mark style="color:blue;">Scommerce</mark>_ ](magento-2-admin-security-checklist.md#\_toc\_250003-1)_<mark style="color:blue;">Security Checklist Report</mark>_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -47,83 +44,51 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Base
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 16.31.46.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Configuration Settings for Admin Login Security</mark> <a href="#bookmark3" id="bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Security Checklist</mark> <a href="#bookmark3" id="bookmark3"></a>
 
-Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Login Security**
+Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Checklist**
 
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
-* **Enabled Admin Login Security –** Select “Yes” or “No” to enable or disable the module.
-* **Failed Attempts Limit :-** Set the attempt limit for admin login. Once exceeded the account will be locked out or blacklisted as per further configuration. Make sure this limit is less than default Magento configuration.
-* **Apply Action On Exceed Limit:-** Choose the penalty for exceeding the failed attempt limit, between "Lockout" or "Blacklist. **Lockout** - When the number of failed attempts exceeds, the IP will remain blacklisted until the ‘Valid till' time limit. The 'Valid till' limit can be defined by the configuration 'Locked out period (in hours)'\
-  **Blacklist** - This action will be applied when the 'Failed Attempts Limit’ is exceeded and the IP will be blacklisted until it is manually removed.
-* **Locked out period (in hours):-** Set the “Valid Till” limit for the Lockout feature. The accounts will be locked out for period entered in this configuration.
-* **Block Email Enabled:-** Enable Emails when any lockout or blacklist occurs. The email is sent to the Store Owner as well as the blacklisted/locked-out user.
+* **Enabled Security Checklist –** This setting will be used to enable or disable admin security checklist
+* **Enable Database prefix check :-** This setting will be used to enable or disable check for DB prefix. Database prefix added in **app/etc/env.php** file, to make it work you also need to make changes in database.
+* **Enable FE Captcha check:-** This setting will be used to enable or disable checks for Frontend Captcha. Go to **Stores > Configuration > Security > Google reCAPTCHA** Storefront in order to verify it.w
+* **Enable BE Captcha check:-** This setting will be used to enable or disable checks for Backend Captcha. Go to Stores > **Configuration > Security > Google reCAPTCHA** Admin Panel and **Stores > Configuration > Admin > CAPTCHA** Storefront in order to verify it.
+* **Enable Magento version check-** This setting will be used to enable or disable check for Magento Version and latest security patches.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 16.44.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
-* **IP Block Email Template:-** Select the email template to be used to send the email when a lockout/blacklist occurs.
-* **Block And Lock Event Email Sender:-** Select the sender email from your Default Magento configuration in case of lockout or blacklist.
-* **Recipient Block Email:-** Add the email (store owner) which will get emails about each and every lockout/blacklist. Whenever a lockout/blacklist happens the email will be sent to this address as well as the user.
-* **Enabled Clear Login Attempts Logs Cron Job:-** Set "Yes" or "No" to enable or disable clear logs cron job.
-* **Clear Login Attempts Logs Cron Schedule:-** Set the cron job to define how often you want to clear Login Attempts logs
+* **Enable Admin Users check-:-** This setting will be used to enable or disable check for Admin Users Security. Especially usernames, password lifetime policy and login activity. **Go to Stores > Configuration > Advanced > Admin > Security** Or **Go to System > Permission > All users to manage admin users**
+* **Admin Usernames Stop List:-** You can add list of usernames that shouldn't be used for admin accounts. Comma separated.
+* **Enabled Admin Path Check:-** This setting will be used to enable or disable check for Admin Path Security. Admin Path is configured in **app/etc/env.php** file or go to **Advanced > Admin > Admin Base URL > Use Custom Admin Path** to change it
+* **Admin Path Stop List:-** You can add list of paths that shouldn't be used for admin. Comma separated.
+* **Enable Content Script Check:-** This setting will be used to enable or disable check for scripts added in your content or configuration
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 16.44.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
-* **Clear Login Attempts Logs Older Than X Days:-** Set the number of days based on which the Login attempts Logs will be cleared based which are older than the set days. For eg:- if set 2, any login attempts logs older than 2 days will be cleared.
-* **Enabled Clear Lockouts Cron Job:-** Set "Yes" or "No" to enable or disable clear of not active lockouts by cron job
-* **Clear Lockouts Cron Schedule:-** Set the cron job to define schedule how often you want to clear logs
-* **Allowed Countries:-** Block users from one or multiple countries. If no country is selected, all countries are allowed.
+* **Enabled Checklist Check Cron Job:-** This setting will be used to enable or disable checklist cron job
+* **Checklist Cron Schedule:-** This will allow you to define schedule how often you want to clear Login Attempts logs cron.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 17.27.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
-* **Enabled Whitelist:-** Set "Yes" or "No" to enable or disable whitelisting for an IP. If enabled, the user won't be allowed to log in until the IP is whitelisted.
-* **Whitelist Email Enabled:-** Set "Yes" or "No" to enable or disable whitelist Email. If this is enabled, the user will be sent an email with a link that allows them to either approve or deny the login.\
-  **Approve** - By approving, the IP will be added to the whitelist.\
-  **Deny** - The IP will be added to the blacklist if denied.
-* **Whitelist request lifetime:-** Set the request lifetime to define how long whitelist request will be valid in hours By default 1 hour.
-* **IP Whitelist Email Template:-** Select the email template for the login approval email that is sent to the user, based on the approval the user is whitelisted or blacklisted.
-* **Whitelist Event Email Sender:-** Select the sender email to be used to send out the User approval/whitelist email to the user.
-* **Recipient Email:-** Add the email (store owner) which will get emails about User approval/Whitelist emails. Whenever a user-approval/whitelist  happens the email will be sent to this address as well as the user so store owner can also approve or deny the user from the email.
+### <mark style="color:blue;">Scommerce Security Checklist Report</mark> <a href="#toc_250003" id="toc_250003"></a>
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 17.29.33.png" alt=""><figcaption></figcaption></figure>
+Go to **Admin > System > Scommerce Security> Security Checklist**
 
-### <mark style="color:blue;">Scommerce Admin Login Security</mark>  <a href="#toc_250003" id="toc_250003"></a>
+#### <mark style="color:orange;">Security Checklist Report</mark> <a href="#toc_250002" id="toc_250002"></a>
 
-Go to **Admin > System > Scommerce Admin Login Security>**
+The Security checklist grid for several distinctions for various checks: Warning, error and Success
 
-#### <mark style="color:orange;">Admin Login Attempts</mark> <a href="#toc_250002" id="toc_250002"></a>
+* **Admin password Protection:** - For Admin password protection, if a password change is not forced, the user will see an error. If the lifetime is more than 90 days, the user will see a warning. If a password change is forced and the lifetime is less than 90 days, then the user will see success.
+* **Magento version check**: - For a Magento version check, if the version is outdated, the user will see an error. Otherwise, the user will see success.
+* **Database Prefix check**: - For the Database prefix check, if the table prefix is not set in the configuration file, the user will see an error. Otherwise, the user will see success.
+* **Frontend ReCaptcha Protection** - For Frontend ReCaptchaProtection, if all frontend forms are protected with recaptcha, the user will see a success. When some forms are protected, the user will see a warning. If none of the forms are protected, the user will see an error.
+* **Admin Captcha Protection**:- For Admin Captcha protection, if all backend forms are protected with Captcha, the user will see a success. When some forms are protected, the user will see a warning. If none of the forms are protected, the user will see an error.
+* **Admin path protection**: - For Admin path protection, if the user's admin path doesn't contain words from the stop list, doesn't contain numbers or capital letters, and is at least 15 characters long, the user will see a success. If any of the criteria mentioned are not fulfilled, the user will see a warning.
+* **Admin usernames check**:- For Admin usernames check, if the username contains words from the stop list or if the username contains numbers, the user will see a warning. Otherwise, success.
+* **Admin users activity check**: - For Admin admin user activity check, if the account is unused, the user will see a warning. Otherwise, success.
+* **Check for static scripts inserted from Config and CMS Pages**: - For Static scripts in Configuarion, CMS Blocks, and CMS Pages, if a text field has a static script, the user will see a warning. Otherwise, success.
 
-The Admin Login Attempts grid keeps a record of every login attempt made to the admin panel with various key details such as:-
-
-* ID
-* IP Address
-* Success
-* Admin Username
-* Created At
-
-The grid is completely filterable with various columns such as ID, IP Address, Admin Username, Created At etc.
-
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-29 at 17.48.08.png" alt=""><figcaption></figcaption></figure>
-
-#### <mark style="color:orange;">Blacklist</mark> <a href="#toc_250002" id="toc_250002"></a>
-
-The blacklist records grid contains information about all the blacklist users with several details such as ID, IP Address, Admin Username, Valid till, Created At, and Action. This grid is completely filterable. Each of the record can be deleted or edited from the Action column.
-
-<figure><img src="../../.gitbook/assets/blacklist_records.png" alt=""><figcaption></figcaption></figure>
-
-Go to **Action>Edit** and you can change various details for each of the records such as IP Address, Username, and Valid till date.
-
-<figure><img src="../../.gitbook/assets/edit_blacklist_records.png" alt=""><figcaption></figcaption></figure>
-
-#### <mark style="color:orange;">Whitelist</mark> <a href="#toc_250002" id="toc_250002"></a>
-
-The Whitelist records grid contains information about all the blacklist users with several details such as ID, IP Address, Admin Username, Created At, and Action. This grid is completely filterable. Each of the records can be deleted or edited from the Action column.
-
-<figure><img src="../../.gitbook/assets/whitelist_records.png" alt=""><figcaption></figcaption></figure>
-
-Go to **Action>Edit** and you can change various details for each of the records such as IP Address, and Username.
-
-<figure><img src="../../.gitbook/assets/edit_whitelist_records.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
