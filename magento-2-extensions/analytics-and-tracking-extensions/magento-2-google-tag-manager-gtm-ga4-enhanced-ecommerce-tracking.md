@@ -36,7 +36,7 @@
     * _Send Parent Category_&#x20;
     * _Primary Category_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -64,15 +64,21 @@ composer require hyva-themes/magento2-scommerce-googletagmanagerpro
 composer require scommerce/breeze-googletagmanagerpro
 ```
 
-### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enable Enhanced Ecommerce –** Select ‘Yes’ to enable this module. Please make sure this feature is enabled in Google Analytics first before enabling in Magento2.
 * **Enable Enhanced Conversion:-** Set "Yes" to enable enhanced conversion to send PII data to Google Adwords to target actual customers. You need to turn on enhanced conversions in Google Adwords. [Click here for more information](https://support.google.com/google-ads/answer/10172785)
+* **Enable Consent mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
+* **Cookie mapping -** This setting defines the mapping between user preference cookies and the corresponding Google Consent Mode parameters **ad\_storage**, **ad\_user\_data**, **ad\_personalization**, **analytics\_storage**\
+  Cookie preference cookie could be set using our [GDPR extension](https://www.scommerce-mage.com/magento-2-gdpr.html) or any Consent Management Platform (CMP).
+
+<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+
 * **Product ID Attribute –** Select the attribute which you have submitted in your Google base feed. For e.g. SKU
 * **Brand Attribute –** Please select brand attribute, if you have one otherwise put your brand name in the below input box.
 * **Primary Category Attribute –** When a product is in more than one category then the primary category attribute will be sent to Google.&#x20;
@@ -103,7 +109,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Add Carrier Title:-** Use this to add carrier title to the shipping step. Set "Yes" to send _carrier\_code::carrier\_title_. Ex. flatrate::Flat Rate
 * **Add Payment Title :-** Use this to add payment method title to payment step. Set "Yes" to send _method::title_. Ex. checkmo::Check / Money Order
@@ -114,11 +120,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ![](../../.gitbook/assets/5.png)
 
-### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 #### Go to Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
@@ -137,7 +143,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 <figure><img src="../../.gitbook/assets/gt2.png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Cookies From Query Params</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Cookies From Query Params</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Configuration –** Use this setting to create cookies by entering cookie parameter, cookie name, and cookie value.
@@ -145,7 +151,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ![](../../.gitbook/assets/cookies.png)
 
-### <mark style="color:blue;">JSONs/Script provided with extension package</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">JSONs/Script provided with extension package</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 The extension package contains JSONs which can be imported in GTM to set
 
@@ -162,9 +168,9 @@ up required Tags, Triggers and Variables. Go to the extension file m2-google-tag
 * **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration)
 * **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
 
-<mark style="color:red;"><mark style="color:orange;">**Note:-**<mark style="color:orange;"></mark> _<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file. Also if you have 'Send Product Impression on Scroll ' enabled in Admin>Stores>Configuration>Scommerce Configuration>Tracking Base**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**then use the Pinterest GA4 JSON file as well**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**otherwise you can use the original Pinterest JSON file.**</mark>_&#x20;
+<mark style="color:red;">**Note:-**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file. Also if you have 'Send Product Impression on Scroll ' enabled in Admin>Stores>Configuration>Scommerce Configuration>Tracking Base**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**then use the Pinterest GA4 JSON file as well**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**otherwise you can use the original Pinterest JSON file.**</mark>_&#x20;
 
-### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 To import JSONS provided with extension package follow below steps:
 
@@ -192,7 +198,7 @@ To import JSONS provided with extension package follow below steps:
 
 * Once you’re satisfied with the changes, click _Confirm_.
 
-### <mark style="color:blue;">Setting variable information in GTM</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+### <mark style="color:blue;">Setting variable information in GTM</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 Once the GTM container file has been imported, you need to change variable information with correct value corresponding to the site. To access variables, go to workspace where you have imported the JSONs and click on variables on left hand side navigation.
 
@@ -216,7 +222,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 ![](../../.gitbook/assets/gtm\_variable5.jpg)
 
-### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 Once all set up is done and verified, need to Publish the tags to make it live on the website.&#x20;
 
@@ -234,7 +240,7 @@ With the version description, you can be as elaborate as possible on the changes
 
 **Step 5 −** Click PUBLISH and you will be presented with a summary for this version.
 
-### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 <mark style="color:orange;">**To turn on Enhanced E-commerce for a view, and label your checkout steps:**</mark>
 
@@ -252,7 +258,7 @@ With the version description, you can be as elaborate as possible on the changes
 
 Finally, Click Submit.
 
-### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * Go to Analytics and select the website on which you want to implement GA4 alongside universal analytics.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen.
@@ -279,7 +285,7 @@ Finally, Click Submit.
 
 * Now for the final step import our Google Analytics 4 JSON file in your GTM to get all the configurations for GA4. Once done you will see data flowing into Google Analytics 4. Learn more about [Google Analytics 4](https://www.scommerce-mage.com/blog/integrate-magento-2-with-google-analytics-4ga4.html).
 
-### <mark style="color:blue;">Set up Google Adwords Conversion</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Set up Google Adwords Conversion</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 To setup Google Adwords Conversion, please make sure you add **GTM-google\_ads\_conversion\_tracking.json (data folder of the extension)** file in your GTM container and add **Conversion Label** and **Conversion ID** which you should be able to get from Google Adwords account under Conversion section. This import will create the following tags -:
 
@@ -308,7 +314,7 @@ To &#x20;
 
 ![](<../../.gitbook/assets/image (69).png>)
 
-### <mark style="color:blue;">Setup Enhanced Conversion</mark>  <a href="#_bookmark16" id="_bookmark16"></a>
+### <mark style="color:blue;">Setup Enhanced Conversion</mark>  <a href="#bookmark16" id="bookmark16"></a>
 
 To enable enhanced conversions we first need to enable enhanced conversions in Google Adwords then complete the extension setup.
 
@@ -340,7 +346,7 @@ Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_t
 
 ![](../../.gitbook/assets/gtm\_backend.jpg)
 
-### <mark style="color:blue;">Cookies From Query Params</mark> <a href="#_bookmark16" id="_bookmark16"></a>
+### <mark style="color:blue;">Cookies From Query Params</mark> <a href="#bookmark16" id="bookmark16"></a>
 
 Cookies from query Params configuration can be used to create new cookie parameters which can be stored in the users browser as per the valid time configured. for eg:- We have created a clickref cookie in the configuration. Now if the cookie parameter is passwed with the URL then that cookie will be created in the browser.
 
@@ -350,7 +356,7 @@ Cookies from query Params configuration can be used to create new cookie paramet
 
 
 
-### <mark style="color:blue;">Upgrading the Module From 3.0.1 and Below</mark> <a href="#_bookmark16" id="_bookmark16"></a>
+### <mark style="color:blue;">Upgrading the Module From 3.0.1 and Below</mark> <a href="#bookmark16" id="bookmark16"></a>
 
 If you are using an older version of the extension(3.0.1 and below) where a common data layer is used to populate data to both UA and GA4 then upon updating to the latest version you need to make the following changes in GTM.
 
@@ -417,39 +423,39 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 
-### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_bookmark16" id="_bookmark16"></a>
+### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#bookmark16" id="bookmark16"></a>
 
-#### <mark style="color:orange;">Order Total of Product without VAT</mark> <a href="#_bookmark17" id="_bookmark17"></a>
+#### <mark style="color:orange;">Order Total of Product without VAT</mark> <a href="#bookmark17" id="bookmark17"></a>
 
 Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll down to option **Order Total Include Vat** and toggle it to ‘No’. When turned ‘No’ the total order value data sent to Google analytics will not include VAT.
 
 ![](../../.gitbook/assets/gtm\_front1.jpg)
 
-#### <mark style="color:orange;">Order Total of Product with VAT</mark> <a href="#_bookmark18" id="_bookmark18"></a>
+#### <mark style="color:orange;">Order Total of Product with VAT</mark> <a href="#bookmark18" id="bookmark18"></a>
 
 Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll down to option **Order Total Include Vat** and toggle it to ‘Yes’. When turned ‘Yes’ the total order value data sent to Google analytics will also include VAT.
 
 ![](../../.gitbook/assets/gtm\_front2.jpg)
 
-#### <mark style="color:orange;">Send SKU of Child Product</mark> <a href="#_bookmark19" id="_bookmark19"></a>
+#### <mark style="color:orange;">Send SKU of Child Product</mark> <a href="#bookmark19" id="bookmark19"></a>
 
 Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll down to the option **Always Send Parent SKU** and toggle it to ‘No’. When turned ‘No’ if the customer selects a configurable product then the SKU data sent to Google analytics will be of the child product.
 
 ![](../../.gitbook/assets/gtm\_front3.jpg)
 
-#### <mark style="color:orange;">Send SKU of Parent Product Only</mark> <a href="#_bookmark20" id="_bookmark20"></a>
+#### <mark style="color:orange;">Send SKU of Parent Product Only</mark> <a href="#bookmark20" id="bookmark20"></a>
 
 Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll down to the option **Always Send Parent SKU** and toggle it to ‘Yes’. When turned ‘Yes’ if the customer selects a configurable product then only the SKU of the parent product will be sent to Google analytics.
 
 ![](../../.gitbook/assets/gtm\_front4.jpg)
 
-#### <mark style="color:orange;">Send Parent Category</mark> <a href="#_bookmark21" id="_bookmark21"></a>
+#### <mark style="color:orange;">Send Parent Category</mark> <a href="#bookmark21" id="bookmark21"></a>
 
 Go to **Stores > Configuration > Scommerce > Google Tag Manager Pro**. Scroll down to the option **Send Parent Category** and toggle it to ‘Yes’. When turned ‘Yes’ if the customer selects a product then it will send the entire category path to the analytics if “No” then it will only send the category name.
 
 ![](../../.gitbook/assets/gtm\_front5.jpg)
 
-#### <mark style="color:orange;">Primary Category</mark> <a href="#_bookmark22" id="_bookmark22"></a>
+#### <mark style="color:orange;">Primary Category</mark> <a href="#bookmark22" id="bookmark22"></a>
 
 Go to **Catalog > Products** and select any product. Then Scroll down to the option Primary Category.
 
