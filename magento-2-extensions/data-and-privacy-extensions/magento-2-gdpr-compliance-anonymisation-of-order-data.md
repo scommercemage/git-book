@@ -35,7 +35,7 @@
     * _Privacy Policy Checkbox on Registration and Checkout Page_&#x20;
     * _Delete Account from My Account Section_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -51,11 +51,11 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for GDPR</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for GDPR</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
@@ -80,7 +80,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr\_general2.jpg)
 
-### <mark style="color:blue;">Order and Quote Anonymisation Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Order and Quote Anonymisation Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Order anonymisation after (days) -** Enter the number of days to anonymize personal data in order related tables. Leave it blank, if you don’t want to anonymize any personal data automatically.
 * **Chunk of order to anonymize –** If you have a huge amount of transactions in the system, then you should limit the number of transactions to be anonymized when the cron job runs every hour.
@@ -89,7 +89,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr\_orderquotesettings.jpg)
 
-### <mark style="color:blue;">Privacy Settings</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+### <mark style="color:blue;">Privacy Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enable Privacy Setting –** This will enable privacy agreement checkbox on pages where you collect personal data.
 * **Privacy Setting Text –** This text will appear next to privacy agreement checkbox.
@@ -100,11 +100,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr\_privacysettings.jpg)
 
-### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Modal Title -** Enter name of the modal title, this will be shown on the frontend cookie popup modal. We’ve set modal title as “Cookie preferences”.
@@ -120,7 +120,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 ![](../../.gitbook/assets/gdpr\_cookiepopupgeneral.jpg)
 
-### <mark style="color:blue;">Popup Styling</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+### <mark style="color:blue;">Popup Styling</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * **Modal Border -** Select "Yes", if you want to set modal border. If "Yes" then you can set border color for the settings Modal box.
 * **Popup Border Color -** Enter popup border color. We've set the popup border color white, which you can see in the screenshot.
@@ -152,7 +152,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 ![](../../.gitbook/assets/gdpr\_popupstyling2.jpg)
 
-### <mark style="color:blue;">Additional Tabs</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Additional Tabs</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 * **First Tab Title -** Provide title of the first tab you want to display on the frontend cookie pop up. This tab will be shown first before cookie choices. Both Title and Text should be set to appears on the Modal box
 * **First Tab Text -** Enter first tab text. The text will be shown on the Modal box on click of first tab. We've set first tab as "Your Privacy ".
@@ -161,12 +161,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 ![](../../.gitbook/assets/gdpr\_additionaltabs.jpg)
 
-### <mark style="color:blue;">Admin Configuration for Manage Cookie Choices</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+### <mark style="color:blue;">Admin Configuration for Manage Cookie Choices</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * **Manage Choice List -** To create and manage cookie choices, go to **Admin**
 * **Customers > Manage Cookie Choices > Manage Choice List**. If you need to make some modifications in the cookie choices information, you should click “Edit” in the Action column. The grid includes the following columns: -
 
-![](../../.gitbook/assets/gdpr\_integratecookies.jpg)
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Add New Cookie Choice -**</mark> To create a new cookie choice, click on the “Add New Cookie Choice” button from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Add New Cookie Choice**, it redirects on "New Choice" page, by providing all the below configuration details you can create the cookie choice.
   * **Choice Name -** Enter the choice name. This is the text which represents the type of the cookie you are using under it.
@@ -180,7 +180,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Customers Details in Privacy Policy Consent</mark> <a href="#_bookmark20" id="_bookmark20"></a>
+### <mark style="color:blue;">Customers Details in Privacy Policy Consent</mark> <a href="#bookmark20" id="bookmark20"></a>
 
 When customers check the privacy policy agreement checkbox in the process of registration then it saves the details of the customers in backend privacy policy consents at **Admin > Customers > Privacy Policy Consent.**
 
@@ -188,19 +188,19 @@ When customers check the privacy policy agreement checkbox in the process of reg
 
 ![](../../.gitbook/assets/gdpr\_privacy.jpg)
 
-### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#_bookmark21" id="_bookmark21"></a>
+### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#bookmark21" id="bookmark21"></a>
 
 When you select action "Anonymise order" from **Admin > Sales > Orders > Actions > Anonymise Order > Click on Submit button**, then it anonymise customers data, which can't be reversed. Before "Submit" it asks for confirmation and displays a message popup says "Are you sure you want to anonymise selected transaction data because of this action can't be reversed?".
 
 ![](../../.gitbook/assets/gdpr\_anonymizeorders.jpg)
 
-### <mark style="color:blue;">Newsletter Subscription</mark> <a href="#_bookmark22" id="_bookmark22"></a>
+### <mark style="color:blue;">Newsletter Subscription</mark> <a href="#bookmark22" id="bookmark22"></a>
 
 To see newsletter subscription records go to **Admin > Marketing > Newsletter Subscription.**
 
 ![](../../.gitbook/assets/gdpr\_newslettersub.jpg)
 
-### <mark style="color:blue;">Enable / Disable Tracking Without GTM</mark> <a href="#_bookmark23" id="_bookmark23"></a>
+### <mark style="color:blue;">Enable / Disable Tracking Without GTM</mark> <a href="#bookmark23" id="bookmark23"></a>
 
 #### <mark style="color:orange;">Using Module</mark>
 
@@ -268,9 +268,9 @@ You can integrate cookies with GTM Pro by following the below steps in GTM:-
 
 **Step 5-** Associate the trigger created in Step 4 with any of the existing tags and that tag will only fire when customer accepts the cookie on your website.
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark25" id="_bookmark25"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark25" id="bookmark25"></a>
 
-#### <mark style="color:orange;">Front-end Site View - Integrate Cookies with GTM Pro Tracking</mark> <a href="#_bookmark26" id="_bookmark26"></a>
+#### <mark style="color:orange;">Front-end Site View - Integrate Cookies with GTM Pro Tracking</mark> <a href="#bookmark26" id="bookmark26"></a>
 
 Let us see how it works on the front-end.
 
@@ -286,13 +286,13 @@ Let us see how it works on the front-end.
 
 ![](../../.gitbook/assets/gdpr\_front3.jpg)
 
-#### <mark style="color:orange;">Cookie Pop-up- Cookie Accept</mark> <a href="#_bookmark27" id="_bookmark27"></a>
+#### <mark style="color:orange;">Cookie Pop-up- Cookie Accept</mark> <a href="#bookmark27" id="bookmark27"></a>
 
 Cookies are used to improve the experience for user. Once you accept, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual.
 
 ![](../../.gitbook/assets/gdpr\_front4.jpg)
 
-#### <mark style="color:orange;">Cookie Preferences</mark> <a href="#_bookmark28" id="_bookmark28"></a>
+#### <mark style="color:orange;">Cookie Preferences</mark> <a href="#bookmark28" id="bookmark28"></a>
 
 You can configure cookie choices from **Admin > Customers > Manage Cookie Choices > Manage Choice List, configured cookie choice** will be shown on the front-end under "Cookies Settings " section. By clicking on the "Cookie Settings" link, a customer will open a Cookie Preferences pop up, from where a user can Accept or Decline cookies. Below is the description under each cookies category that clarifies how the cookies it contains are used.
 
@@ -303,7 +303,7 @@ You can configure cookie choices from **Admin > Customers > Manage Cookie Choice
 
 ![](../../.gitbook/assets/gdpr\_front5.jpg)
 
-#### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#_bookmark29" id="_bookmark29"></a>
+#### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark29" id="bookmark29"></a>
 
 You can check the value of the accepted cookies by using developer tool (F12). Here is the path to check, **Press F12 > Network > Storage > Cookies >** Click on **site URL >** Check the cookies status/value under **"Value"** column.
 
@@ -315,23 +315,23 @@ You can check the value of the accepted cookies by using developer tool (F12). H
 
 ![](../../.gitbook/assets/gdpr\_front7.jpg)
 
-#### <mark style="color:orange;">Visibility of "Accept All" Button on the Cookie Popup</mark> <a href="#_bookmark30" id="_bookmark30"></a>
+#### <mark style="color:orange;">Visibility of "Accept All" Button on the Cookie Popup</mark> <a href="#bookmark30" id="bookmark30"></a>
 
 The "Accept All" button will be shown on the cookie popup, if all cookie choices are not required and "Set by Default" for cookie choices set to "No" from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Select Cookie Choice > Edit >Set by Default - "Yes/No".** If set to "Yes" then "Accept All" won't appear.
 
-#### <mark style="color:orange;">Newsletter Subscription</mark> <a href="#_bookmark31" id="_bookmark31"></a>
+#### <mark style="color:orange;">Newsletter Subscription</mark> <a href="#bookmark31" id="bookmark31"></a>
 
 Once Enable Newsletter is configured from **Admin > Stores > Configuration > Scommerce Configuration > GDPR > Privacy Settings > Enable Newsletter - "Yes"** , then you can see the privacy agreement checkbox on the newsletter subscription. This is a mandatory option. Click on "Privacy Policy" link redirects to privacy policy page.
 
 ![](../../.gitbook/assets/gdpr\_front8.jpg)
 
-#### <mark style="color:orange;">Privacy Policy Checkbox on Registration and Checkout Page</mark> <a href="#_bookmark32" id="_bookmark32"></a>
+#### <mark style="color:orange;">Privacy Policy Checkbox on Registration and Checkout Page</mark> <a href="#bookmark32" id="bookmark32"></a>
 
 The privacy policy checkbox will be shown on the registration and checkout page.
 
 ![](../../.gitbook/assets/gdpr\_front9.jpg)
 
-#### <mark style="color:orange;">Delete Account from My Account Section</mark> <a href="#_bookmark33" id="_bookmark33"></a>
+#### <mark style="color:orange;">Delete Account from My Account Section</mark> <a href="#bookmark33" id="bookmark33"></a>
 
 You can delete the account from **Front-end > My Account > Delete Account section.**
 
