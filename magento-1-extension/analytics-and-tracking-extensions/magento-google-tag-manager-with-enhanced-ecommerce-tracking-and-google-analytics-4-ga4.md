@@ -28,21 +28,25 @@
 10. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
 11. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System>Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro Tracking</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro Tracking</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro Tracking**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 * **Container Id –** Enter your Google Tag Manager Container Id.
+* **Server Side Tagging** - This setting allows you to enable or disable server-side tagging, which is a method that shifts part of the tag processing and data sending workload from the user's device to a server that you control. \
+  **Please don’t turn this on unless you understand what this setting does.**
+* **Custom server side URL** - This setting allows you to enter the URL of your server that hosts the server-side GTM container. This URL will replace the default GTM code URL on the frontend of your website.
+* **Custom JS File Name** - Default - **gtm.js**. This setting allows you to enter the name of the JavaScript file that contains the server-side GTM code. This file name will replace the default GTM JS file name on the frontend of your website.
 * **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce
 * **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
 * **PII Data Format –** Set “data layer” to push the PII data directly into the data layer ( this requires you to map the data in GTM as per your use. Set "Global Javascript" to store the PII data in a global javascript variable. Use the GTM json file which automatically maps this data into the Enhanced Conversion tag.
@@ -62,12 +66,25 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Enable GA4 data layer –** Set “yes” to enable the GA4 data layer.
 * **Enable UA data layer –** Set “yes” to enable the Universal Analytics data layer.
 * **Affiliation –** Enter the affiliation to be sent with GA4 events.
+* **Enable Consent Mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
+* **Enable GDPR country check** - This setting enables you to specify a list of countries whose users will be able to choose which consent parameters to be sent to Google as 'granted' or 'denied'
+* **Select GDPR countries** - This setting allows you to select a list of EEA and UK countries whose users will be able to choose which consent parameters to be sent to Google as ‘granted' or 'denied'. Users from countries not included on the list will always send consent parameters as 'granted’ to Google.
+* **Consent Mode Config** - This setting defines the mapping between user preference cookies and the corresponding Google Consent Mode parameters **ad\_storage, ad\_user\_data, ad\_personalization, analytics\_storage**
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+Cookie preference cookie could be set using our [GDPR extension](https://www.scommerce-mage.com/magento1-gdpr-compliance.html) or any Consent Management Platform (CMP).\
+**Consent param** - **ad\_storage, analytics\_storage, ad\_user\_data, ad\_personalization, personalization\_storage, functionality\_storage, security\_storage**\
+\
+**Default value** - **denied** or **granted**. Will be set in content initialization\
+\
+**Cookie Name** - **cookie** associated with parameter
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;<a href="#bookmark6" id="bookmark6"></a>
+
+### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 The extension package contains JSONs which can be imported in GTM to set up required Tags, Triggers and Variables. The JSONs can be used to set up
 
@@ -77,7 +94,7 @@ The extension package contains JSONs which can be imported in GTM to set up requ
 * Google Analytics 4
 * Google Ads Enhanced Conversion Tracking
 
-### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 To import JSONS provided with extension package follow below steps:
 
@@ -105,7 +122,7 @@ To import JSONS provided with extension package follow below steps:
 
 * Once you’re satisfied with the changes, click _Confirm_.
 
-### <mark style="color:blue;">Setting variable information in GTM</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+### <mark style="color:blue;">Setting variable information in GTM</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 Once the GTM container file has been imported, you need to change variable information with correct value corresponding to the site. To access variables, go to workspace where you have imported the JSONs and click on variables on left hand side navigation.
 
@@ -129,7 +146,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 ![](<../../.gitbook/assets/10 (25)>)
 
-### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 Once all set up is done and verified, need to Publish the tags to make it live on the website.
 
@@ -145,7 +162,7 @@ With the version description, you can be as elaborate as possible on the changes
 
 **Step 4** − Click PUBLISH and you will be presented with a summary for this version.
 
-### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 #### <mark style="color:orange;">**To turn on Enhanced E-commerce for a view, and label your checkout steps:**</mark>
 
@@ -166,7 +183,7 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * Click Submit.
 
-### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * Go to Analytics and select the website on which you want to implement GA4 alongside universal analytics.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen.
@@ -191,17 +208,17 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * Now for the final step import our Google Analytics 4 JSON file in your GTM to get all the configurations for GA4. Once done you will see data flowing into Google Analytics 4. Learn more about [Google Analytics 4](https://www.scommerce-mage.com/blog/integrate-magento-2-with-google-analytics-4ga4.html).
 
-### <mark style="color:blue;">AJAX Add to Basket or Remove from Basket</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">AJAX Add to Basket or Remove from Basket</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 Add the following two functions in your ajax add to basket js file and call **gaAddToCart** on success of Ajax add to basket and **gaRemoveFromCart** on success of Ajax remove from basket function.
 
-#### <mark style="color:orange;">AJAX Add to Basket</mark> <a href="#_bookmark15" id="_bookmark15"></a>
+#### <mark style="color:orange;">AJAX Add to Basket</mark> <a href="#bookmark15" id="bookmark15"></a>
 
 ```
 Function gaAddToCart(){jQuery.cookie.json = true;var productToBasket = jQuery.cookie(“productToBasket”);var productlist = jQuery.cookie(“productlist”);if (productToBasket!= undefined){manipulationOfCart(productToBasket,’add’,productlist);jQuery.remo veCookie(“productToBasket” , { path: ‘/’, domain: ‘.’ + document.domain});}}
 ```
 
-#### <mark style="color:orange;">AJAX Remove from Basket</mark> <a href="#_bookmark16" id="_bookmark16"></a>
+#### <mark style="color:orange;">AJAX Remove from Basket</mark> <a href="#bookmark16" id="bookmark16"></a>
 
 ```
 Function gaRemoveFromCart(){jQuery.cookie.json = true;var productOutBasket = jQuery.cookie(“productOutBasket”);if (productOutBasket != undefined){manipulationOfCart(productOutBasket, ‘remove’, “);jQuery.removeCookie(“productOutBasket” , { path: ‘/’ , domain: ‘.’ + document.domain});}}
@@ -227,7 +244,7 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Upgrading the Module From 0.0.35 and Below</mark> <a href="#_bookmark16" id="_bookmark16"></a>
+### <mark style="color:blue;">Upgrading the Module From 0.0.35 and Below</mark> <a href="#bookmark16" id="bookmark16"></a>
 
 If you are using an older version of the extension(0.0.35 and below) where a common data layer is used to populate data to both UA and GA4 then upon updating to the latest version you need to make the following changes in GTM.
 
