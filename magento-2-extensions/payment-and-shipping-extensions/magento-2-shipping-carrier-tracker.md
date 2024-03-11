@@ -15,7 +15,7 @@
    * _My Account Section_
    * _Shipment Email_
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -31,18 +31,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Surcharge</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Surcharge</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Shipping Methods</mark>  <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Shipping Methods</mark>  <a href="#bookmark4" id="bookmark4"></a>
 
 * **URLs –** Enter the shipping method and the URL. The URL should contain the {number} parameter which will be used to pass the tracking number to the shipping carriers tracking site where the shipment can be tracked.
 * **Additional Carriers-** Add the additional carriers which will be available in the carrier selector dropdown list while creating a shipment.&#x20;
@@ -51,11 +51,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Tracking Links</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Tracking Links</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a shipment. Scroll down to find shipping information then select the shipping carrier from the carrier dropdown list and enter the tracking number for that carrier. Select email copy of shipment checkbox then generate the shipment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Admin Panel:-**</mark> Once the shipment is generated you can go to the order then from the left menu select shipments and view the generated shipment. You should see the tracking number consists a link, and once you link on that link it will take you to the shipping carriers tracking site with your tracking number.
 

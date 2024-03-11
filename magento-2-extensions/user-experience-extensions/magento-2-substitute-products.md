@@ -16,7 +16,7 @@
    * _Order Placed with Substitute Product_
 4. [_Front-End View_](magento-2-substitute-products.md#front-end-view)
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -32,18 +32,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Substitute Products</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Substitute Products</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Products**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](file:///C:/Users/KoshleshDange/Downloads/Microsoft.SkypeApp\_kzf8qxf38zg5c!App/All/core%40scommerce-mage.com)
 
 ![](../../.gitbook/assets/shelf\_general.jpg)
 
-### <mark style="color:blue;">Assigning Substitute Products</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Assigning Substitute Products</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 The substitute product should have exactly same configurations as the main product only the SKU will be different. You can create a duplicate product of the main product while creating a new substitute product.&#x20;
 
@@ -51,7 +51,7 @@ The substitute product should have exactly same configurations as the main produ
 
 Go to **Admin>Catalog>Products**, navigate to your product from the list and click on Edit from the action column. Scroll down to find the **Subsitute Products** tab. Please refer to the image below:-
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 Click on **Enabled** to enable the substitute products for this main product. Add the SKU of the product that you want to add as a substitute of this product and add the priority. In case of multiple substitute products you can set the priortiy highest being 0 so that whenever products are out of stock, upon order placement the SKU will be chosen based on the priority set.&#x20;
 
