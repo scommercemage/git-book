@@ -110,6 +110,7 @@
     * [Google Enhanced Ecommerce Tracking](magento-1-extension/analytics-and-tracking-extensions/google-enhanced-ecommerce-tracking.md)
     * [Magento Google Tag Manager with Enhanced Ecommerce Tracking and Google Analytics 4(GA4)](magento-1-extension/analytics-and-tracking-extensions/magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md)
     * [Magento 1 Google Global Site Tag (gtag.js)](magento-1-extension/analytics-and-tracking-extensions/magento-1-google-global-site-tag-gtag.js.md)
+    * [Magento 1 Consent mode's setup guide](magento-1-extension/analytics-and-tracking-extensions/magento-1-consent-modes-setup-guide.md)
   * [Payment and Shipping Extensions](magento-1-extension/payment-and-shipping-extensions/README.md)
     * [Magento Delivery Instructions or Order Comments](magento-1-extension/payment-and-shipping-extensions/magento-delivery-instructions-or-order-comments.md)
     * [Surcharge or Additional Fee](magento-1-extension/payment-and-shipping-extensions/surcharge-or-additional-fee.md)
