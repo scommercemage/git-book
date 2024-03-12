@@ -45,8 +45,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Container Id –** Enter your Google Tag Manager Container Id.
 * **Server Side Tagging** - This setting allows you to enable or disable server-side tagging, which is a method that shifts part of the tag processing and data sending workload from the user's device to a server that you control. \
   **Please don’t turn this on unless you understand what this setting does.**
-* **Custom server side URL** - This setting allows you to enter the URL of your server that hosts the server-side GTM container. This URL will replace the default GTM code URL on the frontend of your website.
-* **Custom JS File Name** - Default - **gtm.js**. This setting allows you to enter the name of the JavaScript file that contains the server-side GTM code. This file name will replace the default GTM JS file name on the frontend of your website.
+* **GTM code HTML** - This setting allows you to enter the HTML code of server-side GTM container. This HTML code will replace the default GTM code on the frontend of your website.
+* **GTM noscript HTML** - This setting allows you to enter noscript part of server-side GTM code. This noscript code will replace the default noscript GTM on the frontend of your website.
 * **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce
 * **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
 * **PII Data Format –** Set “data layer” to push the PII data directly into the data layer ( this requires you to map the data in GTM as per your use. Set "Global Javascript" to store the PII data in a global javascript variable. Use the GTM json file which automatically maps this data into the Enhanced Conversion tag.
@@ -78,15 +78,15 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 \
 **Cookie Name** - **cookie** associated with parameter
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;<a href="#bookmark6" id="bookmark6"></a>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
