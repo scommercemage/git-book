@@ -36,6 +36,7 @@
     * [Magento 2 Google Tag Manager (GTM) GA4 Enhanced Ecommerce Tracking](magento-2-extensions/analytics-and-tracking-extensions/magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md)
     * [Magento 2 Google Tag Manager Tracking](magento-2-extensions/analytics-and-tracking-extensions/magento-2-google-tag-manager-tracking.md)
     * [Magento 2 missing orders or transactions in Google Analytics (GA)](magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga.md)
+    * [Magento 2 Consent mode's setup guide](magento-2-extensions/analytics-and-tracking-extensions/magento-2-consent-modes-setup-guide.md)
   * [Payment and Shipping Extensions](magento-2-extensions/payment-and-shipping-extensions/README.md)
     * [Magento 2 Delivery Instructions and Delivery Date](magento-2-extensions/payment-and-shipping-extensions/magento-2-delivery-instructions-and-delivery-date.md)
     * [Magento 2 Product Handling or Additional Fee](magento-2-extensions/payment-and-shipping-extensions/magento-2-product-handling-or-additional-fee.md)
