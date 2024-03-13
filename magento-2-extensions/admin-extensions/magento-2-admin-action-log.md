@@ -1,6 +1,6 @@
 # Magento 2 Admin Action Log
 
-### <mark style="color:blue;">Installation and User Guide for Magento 2 Admin Activity Logger Extension</mark>
+<mark style="color:blue;">Installation and User Guide for Magento 2 Admin Activity Logger Extension</mark>
 
 **Table of Contents**
 
@@ -8,7 +8,9 @@
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#\_bookmark3)
+2. [_Configuration Settings for_ ](magento-2-admin-action-log.md#\_bookmark3)[_Security Base_](magento-2-admin-action-log.md#\_toc\_250003)
+   * _General Settings_&#x20;
+3. [_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#\_bookmark3)
    * _General Settings_&#x20;
    * _Modules Activity Logger_&#x20;
    * _Admin Activity Logger_&#x20;
@@ -39,6 +41,17 @@ php bin/magento setup:static-content:deploy
 {% endcontent-ref %}
 
 {% embed url="https://www.youtube.com/watch?v=sJ_Kj6n_mUo" %}
+
+### <mark style="color:blue;">Configuration Settings for Security Base</mark> <a href="#toc_250003" id="toc_250003"></a>
+
+Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Base**
+
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250002" id="toc_250002"></a>
+
+* **Enabled –** Select “Yes” or “No” to enable or disable the module.
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL-specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+
+<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Configuration Settings for Admin Activity Logger</mark> <a href="#bookmark3" id="bookmark3"></a>
 
