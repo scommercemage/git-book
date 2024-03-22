@@ -75,6 +75,7 @@
     * [Magento 2 Advanced Admin Login Security](magento-2-extensions/admin-extensions/magento-2-advanced-admin-login-security.md)
     * [Magento 2 Admin Security Checklist](magento-2-extensions/admin-extensions/magento-2-admin-security-checklist.md)
     * [Magento 2 Security Suite](magento-2-extensions/admin-extensions/magento-2-security-suite.md)
+    * [Magento 2 AI Content Generator](magento-2-extensions/admin-extensions/magento-2-ai-content-generator.md)
   * [Data & Privacy Extensions](magento-2-extensions/data-and-privacy-extensions/README.md)
     * [Magento 2 Not On The High Street Integration](magento-2-extensions/data-and-privacy-extensions/magento-2-not-on-the-high-street-integration.md)
     * [Magento 2 GDPR Compliance: Anonymisation of order data](magento-2-extensions/data-and-privacy-extensions/magento-2-gdpr-compliance-anonymisation-of-order-data.md)

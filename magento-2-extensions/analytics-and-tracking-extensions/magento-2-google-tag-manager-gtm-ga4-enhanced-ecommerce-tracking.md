@@ -107,7 +107,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Product Impression on Scroll -** Enable this feature when you have loads of products on product listing / category pages.
 * **Category Ajax Enabled –** Enable this feature if you have third party ajax enabled extension on your category page.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 

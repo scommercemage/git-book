@@ -26,7 +26,7 @@
    * _Gtag.js Code_&#x20;
    * _Gtag.js Brand Name_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -48,11 +48,11 @@ php bin/magento setup:static-content:deploy
 composer require hyva-themes/magento2-scommerce-gtag
 ```
 
-### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Tracking Base</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enable Enhanced Ecommerce –** Select ‘Yes’ to enable this module. Please make sure this feature is enabled in Google Analytics first before enabling in Magento2.
@@ -80,7 +80,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ![](../../.gitbook/assets/tbase\_890x.png)
 
-#### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Add Carrier Title:-** Use this to add carrier title to the shipping step. Set "Yes" to send _carrier\_code::carrier\_title_. Ex. flatrate::Flat Rate
 * **Add Payment Title :-** Use this to add payment method title to payment step. Set "Yes" to send _method::title_. Ex. checkmo::Check / Money Order
@@ -91,11 +91,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ![](../../.gitbook/assets/5.png)
 
-### <mark style="color:blue;">Configuration Settings for Global Site Tag (gtag.js)</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Global Site Tag (gtag.js)</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js)**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
@@ -119,7 +119,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 ![](../../.gitbook/assets/gtag2.png)
 
-### Backend Tracking <a href="#_bookmark5" id="_bookmark5"></a>
+### Backend Tracking <a href="#bookmark5" id="bookmark5"></a>
 
 * <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark> You can track admin orders by selecting "Yes" for " **Enabled Backend Tracking**" from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Enabled Backend Tracking - "Yes".** In the below image you can see the tracked admin orders in Google analytics.
 
@@ -139,14 +139,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 * <mark style="color:orange;">**Google Analytics Sales Performance -**</mark> Placed order details in GA, with Transaction ID, Tax, Shipping, Refund Amount and Quantity details.
 
-### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * Go to Analytics and select the website on which you want to implement GA4 alongside universal analytics.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen
 
 ![](../../.gitbook/assets/gtag\_ga41.jpg)
 
-### <mark style="color:blue;">Link Google Optimize with Google Analytics Account</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Link Google Optimize with Google Analytics Account</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 If the optimize is enabled in the extension then you need link the Google optimize account with the Google analytics account otherwise the data won't be tracked in GA. Once the optimize setup is complete you need to add the optimizer ID in the Gtag configuration to enable linking. Please follow the steps below to link the optimizer account with Google Analytics account.&#x20;
 
@@ -162,7 +162,7 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 **Step 4:-** Enter the name and URL of the store then select the experience and click on create.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:-** In the next window scroll down and click on Link Analytics.
 
@@ -180,7 +180,7 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 * <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see all the fired tags.
 

@@ -78,17 +78,17 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 \
 **Cookie Name** - **cookie** associated with parameter
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;<a href="#bookmark6" id="bookmark6"></a>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#bookmark6" id="bookmark6"></a>
 

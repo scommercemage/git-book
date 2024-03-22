@@ -18,7 +18,7 @@
    * _Reviews on CMS Pages_
    * _Reviews on Category Pages_
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -34,19 +34,19 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Substitute Products</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Substitute Products</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Products**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](file:///C:/Users/KoshleshDange/Downloads/Microsoft.SkypeApp\_kzf8qxf38zg5c!App/All/core%40scommerce-mage.com)
 * **Email Field Enabled -**Set "Yes" to enable the email field in the product review form and set "No" to disable the email field.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Creating New Review Sliders</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Creating New Review Sliders</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * Go to 'Marketing'->'Product Review Slider'
 * Click on 'Add New Slider'&#x20;
@@ -63,9 +63,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Pro
 
 * You can add this review slider to any category page, CMS page and CMS block
 
-### <mark style="color:blue;">Adding Review Sliders</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Adding Review Sliders</mark> <a href="#bookmark5" id="bookmark5"></a>
 
-#### <mark style="color:orange;">Category Page</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Category Page</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 To see reviews under category page.&#x20;
 
@@ -75,7 +75,7 @@ To see reviews under category page.&#x20;
 
 <figure><img src="../../.gitbook/assets/image_2023_02_20T10_19_21_659Z.png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">CMS Pages</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">CMS Pages</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 To see reviews under CMS page(e.g.->home page)&#x20;
 
@@ -94,19 +94,19 @@ _**Note:-** Similary you add product reviews slider in Blocks using widgets._
 
 ### <mark style="color:blue;">Front-End View</mark>
 
-#### <mark style="color:orange;">Email Feild in Review Form</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Email Feild in Review Form</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Once Email field is enabled from the configuration this field is visible in the Product review form:-
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Reviews on CMS Pages</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Reviews on CMS Pages</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 We had assigned product reviews slider to the What's New Page the review slider can be seen on the product page.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Reviews on Category Pages</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Reviews on Category Pages</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to the frontend to that category and reviews will be seen at the bottom of the page.
 
