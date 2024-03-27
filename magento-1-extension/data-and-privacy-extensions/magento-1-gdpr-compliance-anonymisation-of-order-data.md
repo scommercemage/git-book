@@ -52,31 +52,26 @@
     * Privacy Policy Checkbox on Registration and Checkout Page&#x20;
     * Delete Account from my Account Section&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System>Tools > Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for GDPR Compliance</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for GDPR Compliance</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
-* **Enable Customer Account Deletion / Anonymisation –** If true then customer can delete his/her account on frontend from my account section.
-* **Attention Message –** The message shown to customers on the front before deleting their account.
-* **Success Message –** The message shown to customers on the frontend after deleting their account. (leave blank for default)
-* **Order anonymization after (days) –** Number of days to anonymize personal data in order related tables. Leave it blank for not anonymising any personal data automatically. Please note: Anonymised data can’t be restored so please test this on your test site before enabling on production.
-* **Chunk of Orders to anonymize –** If you have huge amount of transactions in the system then you should limit the number of transactions to be anonymised when cron jobs runs every hour. This will have less impact on the performance of your system.
-* **Quote expires after (days) –** Number of days after which quote personal data will be to null.
-* **Enable Debugging –** If set to “yes” it will log debugging data in log file under **`var/log/anonymisation.log`**
+* **Enable GDPR country check** - This setting enables you to specify a list of countries whose users will be able to choose which consent parameters to be sent to Google as 'granted' or 'denied'
+* **Select GDPR countries** - This setting allows you to select a list of EEA and UK countries whose users will be able to choose which consent parameters to be sent to Google as ‘granted' or 'denied'. Users from countries not included on the list will always send consent parameters as 'granted’ to Google.
 
-![](../../.gitbook/assets/gdpr1\_general.jpg)
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Cookie Notification Message</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Cookie Notification Message</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enable Cookie Message –** If set to “yes” then cookie message will be shown to customers on the frontend.
 * **Block access to site until cookie policy is accepted –** If set to “yes” then customer access to site will be blocked until cookie policy is accepted. If set to “no” then just normal cookie message block will be shown until cookie policy is accepted, but the access to the site will be allowed.
@@ -91,7 +86,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr1\_cookienotification.jpg)
 
-#### <mark style="color:orange;">Cookie Notification Message</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Cookie Notification Message</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Email Sender –** This email address gets used to send link to customers to delete their account as well as send deletion confirmation email to customers.
 * **Enable Sending email communication to customers –** If set to Yes then customers will receive email related to their account deletion.
@@ -101,7 +96,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr1\_emailnotification.jpg)
 
-#### <mark style="color:orange;">Privacy Settings</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">Privacy Settings</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Enable Privacy Setting –** This will enable privacy agreement checkbox on pages where you collection personal information.
 * **Privacy Setting Text –** This text will appear next to privacy agreement checkbox.
@@ -112,25 +107,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 ![](../../.gitbook/assets/gdpr1\_privacy.jpg)
 
-### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Modal Title -** Enter name of the modal title, this will be shown on the frontend cookie popup modal. We’ve set modal title as “Cookie preferences”.
 * **Save Choice Button Text -** Enter the title of the save choice button. Click on this button will save the cookies choice. Whatever the current cookie choice is there it will save that choice.
 * **Allow All Button Text -** Enter title of the allow all button**.** We've set title as "Allow All". When you click on "ALLOW All" then cookies will allow the provision of enhance functionality, it will keep track of how many people have visited website, and how they interact with the site. All the information used is aggregated and completely anonymous. If you do not allow cookies, then functionalities may not function properly.
+* **Decline All Button Text -** Enter title of the decline all button**.** We've set title as "Decline All". When you click on "Decline All" then none of the cookies will be accepted and the funtionality attached to them will not work for customers such as tracking information.
 * **Accept Button Text -** Enter button title for accepting cookies on the cookie message, it will accept all cookies.
+* **Decline Button Text -** Enter button title for declining cookies on the cookie message, it will decline all cookies.
 * **Cookies List Header -** Title of the block for the "Used by" list. Cookies name will be shown under this cookies list header. You can see "Used by" list on the frontend Cookie popup.
 * **Cookie Settings Link Text -** This link will be shown on the frontend cookies message to show Cookie Popup Settings. Click on this link will open Cookie popup.
 * **Use Data Layers -** Select "Yes/No". If set to "Yes" then Data Layers will be used, instead of cookies for GTM. If set to "No", then it won't add Data Layers.
 * **Show if not all accepted -** Select “Yes/No”. If set to “Yes” then Cookie notice message will appear if not all cookie accepted.
 
-![](../../.gitbook/assets/cookie1\_general.jpg)
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Popup Styling</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">Popup Styling</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * **Modal Border -** Select "Yes", if you want to set modal border. If "Yes" then you can set border color for the settings Modal box.
 * **Popup Border Color -** Enter popup border color. We've set the popup border color white, which you can see in the screenshot.
@@ -154,14 +151,16 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 * **Notice Height -** Set min height of the Cookie Message. E.g. 80
 * **Accept Button Background Color -** Enter Background color of the "Accept" button on the Cookie Message.
 * **Accept Button Text Color -** Enter text color of the "Accept" button on the Cookie Message
+* **Decline Button Background Color -** Enter Background color of the "Decline" button on the Cookie Message.
+* **Decline Button Text Color -** Enter text color of the "Decline" button on the Cookie Message
 * **Required cookie option text -** Set to "Always Active", this text will replace checkbox for mandatory cookies
 * **Custom CSS -** Provide CSS code for custom style.
 
-![](../../.gitbook/assets/popup1\_1.jpg)
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/popup1\_2.jpg)
+<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Additional Tabs</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+#### <mark style="color:orange;">Additional Tabs</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 * **First Tab Title -** Provide title of the first tab you want to display on the frontend cookie pop up. This tab will be shown first before cookie choices. Both Title and Text should be set to appears on the Modal box
 * **First Tab Text -** Enter first tab text. The text will be shown on the Modal box on click of first tab. We've set first tab as "Your Privacy ".
@@ -170,7 +169,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 ![](../../.gitbook/assets/additionaltabs.jpg)
 
-### <mark style="color:blue;">Admin Configuration for Cookie Choice</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+### <mark style="color:blue;">Admin Configuration for Cookie Choice</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 * <mark style="color:orange;">**Manage Cookie Choice List –**</mark> To create and manage cookie choices, go to **Admin > Customers > Cookie Choice.** If you need to make some modifications in the cookie choices information, you should click “Edit” in the Action column. The grid includes the following columns: -
   * ID
@@ -193,47 +192,21 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
   * **Required Record –** Select “Yes” to make cookie essential, else select “No”. If set to “Yes” then the cookie choice will always be selected and you can’t turn “Off” it.
   * **Set by Default –** Select default status “Yes” or “No”. If set to “Yes” then by default the cookie choice will be selected.
 
-flew Cookie Choice
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/10 (37)>)
-
-![](<../../.gitbook/assets/11 (40)>)
-
-Choice Name ” CocKie Name ” Store Vie'.\*, “
-
-Choice Description'
-
-Created b,’ List ”
-
-Required Record Set B Default
-
-![](<../../.gitbook/assets/12 (24)>)
-
-![](<../../.gitbook/assets/13 (7)>)
-
-All Store Views Main Website
-
-Madison Island
-
-English French German
-
-![](<../../.gitbook/assets/14 (16)>)
-
-![](<../../.gitbook/assets/15 (27)>)![](<../../.gitbook/assets/16 (2)>)No No
-
-### <mark style="color:blue;">Customers Detail in Privacy Policy Consents</mark> <a href="#_bookmark30" id="_bookmark30"></a>
+### <mark style="color:blue;">Customers Detail in Privacy Policy Consents</mark> <a href="#bookmark30" id="bookmark30"></a>
 
 When customer check the privacy policy agreement checkbox in the process of registration then it saves the details of the customers in backend privacy policy consents at **Admin > Customers > Privacy Policy Consents**
 
 ![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/17 (3)>)
 
-### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#_bookmark31" id="_bookmark31"></a>
+### <mark style="color:blue;">Anonymize Orders from Admin Section</mark> <a href="#bookmark31" id="bookmark31"></a>
 
 When you select action “Anonymise Orders” from **Admin > Sales > Orders > Actions> Anonymisation Order > Click on Submit Button**, then it anonymise customers data, which can’t be reversed. Before “Submit” it asks for confirmation and displays a message popup says “Are you sure you want to anonymise selected transaction data because of this action can’t be reversed?”
 
 ![A screenshot of a computer  Description automatically generated](<../../.gitbook/assets/18 (3)>)
 
-### <mark style="color:blue;">Newsletter Subscription</mark> <a href="#_bookmark32" id="_bookmark32"></a>
+### <mark style="color:blue;">Newsletter Subscription</mark> <a href="#bookmark32" id="bookmark32"></a>
 
 To see newsletter subscription records go to **Admin > Marketing > Newsletter Subscription**
 
@@ -241,7 +214,7 @@ To see newsletter subscription records go to **Admin > Marketing > Newsletter Su
 
 ![](<../../.gitbook/assets/19 (10)>)
 
-### <mark style="color:blue;">Enable / Disable Tracking</mark> <a href="#_bookmark33" id="_bookmark33"></a>
+### <mark style="color:blue;">Enable / Disable Tracking</mark> <a href="#bookmark33" id="bookmark33"></a>
 
 If you are using any of our tracking extension or any other third party extensions and you don’t want to send information to Google then you need to check for the cookie name e.g. “statistics\_cookie” and this will be set to 1 for “accept” and 0 for “decline” , based on cookie value it will enable or disable the tracking.
 
@@ -292,15 +265,15 @@ You can integrate cookies with GTM Pro by following the below steps in GTM: -
 
 **Step 3 –** Associate the trigger created in Step 2 ie.. “**Acceptance Cookie**” with any existing tag and that tag will only fire when customers accept the cookie on your website
 
-### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark35" id="_bookmark35"></a>
+### <mark style="color:blue;">Front-end site view</mark> <a href="#bookmark35" id="bookmark35"></a>
 
-#### <mark style="color:orange;">Cookie Popup – Cookie Accept</mark> <a href="#_bookmark36" id="_bookmark36"></a>
+#### <mark style="color:orange;">Cookie Popup – Cookie Accept</mark> <a href="#bookmark36" id="bookmark36"></a>
 
 Cookies are used to improve the experience for user. Once you accept, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as as individual.
 
 ![A close up of a device  Description automatically generated](<../../.gitbook/assets/20 (10)>)
 
-#### <mark style="color:orange;">Cookie Preferences</mark> <a href="#_bookmark37" id="_bookmark37"></a>
+#### <mark style="color:orange;">Cookie Preferences</mark> <a href="#bookmark37" id="bookmark37"></a>
 
 You can configure cookie choices from **Admin > Customers > Manage Cookie Choices > Manage Choice list**, configured cookie choice will be shown on the front-end under “Cookies Settings” link, a customer will open a Cookie Preferences pop up, from where a user can Accept or Decline cookies. Below is the description under each cookies category that clarifies how the cookies it contains are used.
 
@@ -309,7 +282,7 @@ You can configure cookie choices from **Admin > Customers > Manage Cookie Choice
 * **Statistics Cookies –** These cookie gets used by Google Analytics to collect statistics to optimize site functionality, and deliver content tailored to your interests.
 * **Marketing Cookies –** Marketing cookies are used to track visitors across websites. The intention is to displays ads that are relevant and engaging for the individual customers and thereby more valuable for publishers and third party advertisers.
 
-#### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#_bookmark42" id="_bookmark42"></a>
+#### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark42" id="bookmark42"></a>
 
 You can check the value of the accepted cookies by using developer tool (F12). Here is the path to check, **Press F12 > Network > Storage > Cookies >** Click on **site URL** > Check the cookies status/value under **“Value”** column.
 
@@ -317,21 +290,21 @@ You can check the value of the accepted cookies by using developer tool (F12). H
 
 **When you “decline” cookies, the value will be set to “0”**
 
-#### <mark style="color:orange;">Visibility of “Accept all” Button on the Cookie Popup</mark> <a href="#_bookmark43" id="_bookmark43"></a>
+#### <mark style="color:orange;">Visibility of “Accept all” Button on the Cookie Popup</mark> <a href="#bookmark43" id="bookmark43"></a>
 
 The “Accept All” button will shown on the cookie popup, if all cookie choices are
 
 Not required and “Set by Default” for cookie choices set to “No” from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Select Cookie Choice > Edit > Set by Default** – “Yes/No”. If set to “Yes” then “Accept All” won’t appear.
 
-#### <mark style="color:orange;">Newsletter Subscription</mark> <a href="#_bookmark44" id="_bookmark44"></a>
+#### <mark style="color:orange;">Newsletter Subscription</mark> <a href="#bookmark44" id="bookmark44"></a>
 
 Once Enable Newsletter is configured from **Admin > Stores > Configuration > Scommerce Configuration > GDPR > Privacy Settings > Enable Newsletter** – “Yes”, then you can see the privacy agreement checkbox on the newsletter “Privacy Policy” link redirects to privacy policy page.
 
-#### <mark style="color:orange;">Privacy Policy Checkbox on Registration and Checkout Page</mark> <a href="#_bookmark45" id="_bookmark45"></a>
+#### <mark style="color:orange;">Privacy Policy Checkbox on Registration and Checkout Page</mark> <a href="#bookmark45" id="bookmark45"></a>
 
 The privacy policy checkbox will be shown on the registration and checkout page.
 
-#### <mark style="color:orange;">Delete Account from my Account Section</mark> <a href="#_bookmark46" id="_bookmark46"></a>
+#### <mark style="color:orange;">Delete Account from my Account Section</mark> <a href="#bookmark46" id="bookmark46"></a>
 
 You can delete the account from **Front-end > My Account > Delete Account** section
 
