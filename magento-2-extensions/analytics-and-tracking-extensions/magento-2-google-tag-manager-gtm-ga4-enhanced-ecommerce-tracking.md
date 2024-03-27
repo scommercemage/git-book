@@ -230,11 +230,11 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Google Ads Conversion Tracking -**</mark> Add Conversion ID and Conversion Label in the Google Ads Conversion Tracking tag before publishing the container. These IDs can be found in your Google Ads account.
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https:%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FR4PQzey5x7bNSwpCHPlK%252Fimage.png%3Falt=media%26token=a344eb97-8c16-4d37-8f1a-e788c10fc7a0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1809937588ab1463a39696df5e8dd92e07595fd26dd63910c39d5cf19b2cedad" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https:%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FNDzyRn7B5WQ6Cpy0gYSe%252Fimage.png%3Falt=media%26token=28fba5bf-ac47-46d9-9a21-18cd44ba2c5c&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=dae33bfc95cb99d1507ce5a581309650d9c93fa0513329e2a0b17cdb9c983739" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
