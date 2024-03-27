@@ -84,11 +84,11 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 ### &#x20;<a href="#bookmark6" id="bookmark6"></a>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -98,7 +98,9 @@ The extension package contains JSONs which can be imported in GTM to set up requ
 * Facebook Pixel
 * Adwords Dynamic Remarketing
 * Google Analytics 4
-* Google Ads Enhanced Conversion Tracking
+* Google Ads Enhanced Conversion Tracking with Javascript variable
+* Google Ads Enhanced Conversion Tracking with Data layer
+* Microsoft UET Tracking (Bing Ads Tracking)
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#bookmark10" id="bookmark10"></a>
 
@@ -151,6 +153,14 @@ Once the GTM container file has been imported, you need to change variable infor
 * <mark style="color:orange;">**currencyCode -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
 
 ![](<../../.gitbook/assets/10 (25)>)
+
+<mark style="color:orange;">**Google Ads Conversion Tracking -**</mark> Add Conversion ID and Conversion Label in the Google Ads Conversion Tracking tag before publishing the container. These IDs can be found in your Google Ads account.&#x20;
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account. &#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
