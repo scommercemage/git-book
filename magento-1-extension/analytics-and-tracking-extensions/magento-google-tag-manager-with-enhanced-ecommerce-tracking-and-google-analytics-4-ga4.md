@@ -317,4 +317,14 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 
+### <mark style="color:blue;">Set up Consent Mode V2 with GTM</mark> <a href="#bookmark13" id="bookmark13"></a>
+
+Please follow the below guide to set up consent mode v2 with GTM, also you would need to have both GTM and GDPR modules to complete this setup.
+
+**GDPR:-** [https://www.scommerce-mage.com/magento1-gdpr-compliance.html](https://www.scommerce-mage.com/magento1-gdpr-compliance.html)
+
+{% content-ref url="magento-1-consent-modes-setup-guide.md" %}
+[magento-1-consent-modes-setup-guide.md](magento-1-consent-modes-setup-guide.md)
+{% endcontent-ref %}
+
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
