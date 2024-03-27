@@ -35,6 +35,7 @@
     * _Send SKU of Parent Product Only_&#x20;
     * _Send Parent Category_&#x20;
     * _Primary Category_&#x20;
+16. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-4)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -73,13 +74,17 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enable Enhanced Ecommerce –** Select ‘Yes’ to enable this module. Please make sure this feature is enabled in Google Analytics first before enabling in Magento2.
 * **Enable Enhanced Conversion:-** Set "Yes" to enable enhanced conversion to send PII data to Google Adwords to target actual customers. You need to turn on enhanced conversions in Google Adwords. [Click here for more information](https://support.google.com/google-ads/answer/10172785)
+* **Send Conversion Data using data layer:-** Set "Yes" to push the Conversion PII data as a data layer and set "No" to push Conversion PII data as a Javascript variable.
 * **Enable Consent mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
+
+<figure><img src="../../.gitbook/assets/111.png" alt=""><figcaption></figcaption></figure>
+
 * **Cookie mapping -** This setting defines the mapping between user preference cookies and the corresponding Google Consent Mode parameters **ad\_storage**, **ad\_user\_data**, **ad\_personalization**, **analytics\_storage**\
   Cookie preference cookie could be set using our [GDPR extension](https://www.scommerce-mage.com/magento-2-gdpr.html) or any Consent Management Platform (CMP).
-
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
-
 * **Product ID Attribute –** Select the attribute which you have submitted in your Google base feed. For e.g. SKU
+
+<figure><img src="../../.gitbook/assets/222.png" alt=""><figcaption></figcaption></figure>
+
 * **Brand Attribute –** Please select brand attribute, if you have one otherwise put your brand name in the below input box.
 * **Primary Category Attribute –** When a product is in more than one category then the primary category attribute will be sent to Google.&#x20;
 * **Brand Attribute –** Please
@@ -87,18 +92,18 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Affiliation-** Enter the affiliation name which you want to send with the GA4 data layers.
 * **Use Base Currency -** Set ‘Yes’ if you want to send base order data and ‘No’ to send store order data to Google. Set this ‘No’ only when you have multicurrency and you want to send different currency data to Google.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/333.png" alt=""><figcaption></figcaption></figure>
 
 * **Product Price Include Tax-** Set “Yes” then VAT will be included in the price.
 * **Order Total Include VAT –** Set “Yes” then VAT will be included in order total.
 * **Always Send Parent SKU –** Set “Yes” then it always send parent sku instead of child sku to GA during checkout.
 * **Category Attribute-** Please select category attribute if you have one otherwise put your brand name in the below input box. **Attribute should be available for product listing 'Storefront Properties -> Used in Product Listing = Yes'**
 * **Is Category ID-** Set "Yes" if "Category Attribute" is ID of the category, "No" if it is plain value
-
-![](../../.gitbook/assets/2.png)
-
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **List Name with full path-** Choose whether you want to send the full path of the category or not. When 'yes' The breadcrumbs are broken into separate categories and sent as item\_category1, item\_category2 etc. Set 'No' to send the lowest level category. for ex:- Men>Tops>Jackets, when 'yes' Men, tops, jackets all three categories will be sent. When 'no' only jackets is sent.&#x20;
+
+<figure><img src="../../.gitbook/assets/444.png" alt=""><figcaption></figcaption></figure>
+
 * **Send 'Default List'-** When customers land on the product page directly then 'default' list' will be sent as list name when set to 'Yes'. When 'No' list name/ list ID will be removed.&#x20;
 * **Default List-** Enter the default list name if the product impression is not found
 * **Send Admin Orders to Google–** Select “Yes” to track orders created in admin
@@ -107,7 +112,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Product Impression on Scroll -** Enable this feature when you have loads of products on product listing / category pages.
 * **Category Ajax Enabled –** Enable this feature if you have third party ajax enabled extension on your category page.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/555.png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -165,8 +170,9 @@ up required Tags, Triggers and Variables. Go to the extension file m2-google-tag
 * **GTM-Pinterest.json:-** Pinterest tracking
 * **GTM-Pinterest-GA4.json:-** Use this file if you are using only GA4 and not UA
 * **GTM-Partnerize.json:-** Partnerize
-* **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration)
-* **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
+* **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration and also ensure that "send conversion data using data layer is set to "No" in tracking base configuration)
+* **GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json -** If you have set "send conversion data using data layer is set to "Yes" in tracking base configuration then import this JSON file which utilizes data layer push to populate the conversion PII data.
+* #### **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
 
 <mark style="color:red;">**Note:-**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**Please import only one Pinterest JSON file depending upon the extension configuration you are using. If you are only using GA4 and no UA then you can use the Pinterest GA4 JSON file. Also if you have 'Send Product Impression on Scroll ' enabled in Admin>Stores>Configuration>Scommerce Configuration>Tracking Base**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**then use the Pinterest GA4 JSON file as well**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**otherwise you can use the original Pinterest JSON file.**</mark>_&#x20;
 
@@ -221,6 +227,14 @@ Once the GTM container file has been imported, you need to change variable infor
 * <mark style="color:orange;">**currencyCode -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for currency used on site. Click on the currencyCode and change it to correct value.
 
 ![](../../.gitbook/assets/gtm\_variable5.jpg)
+
+<mark style="color:orange;">**Google Ads Conversion Tracking -**</mark> Add Conversion ID and Conversion Label in the Google Ads Conversion Tracking tag before publishing the container. These IDs can be found in your Google Ads account.
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https:%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FR4PQzey5x7bNSwpCHPlK%252Fimage.png%3Falt=media%26token=a344eb97-8c16-4d37-8f1a-e788c10fc7a0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1809937588ab1463a39696df5e8dd92e07595fd26dd63910c39d5cf19b2cedad" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https:%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FNDzyRn7B5WQ6Cpy0gYSe%252Fimage.png%3Falt=media%26token=28fba5bf-ac47-46d9-9a21-18cd44ba2c5c&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=dae33bfc95cb99d1507ce5a581309650d9c93fa0513329e2a0b17cdb9c983739" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
@@ -464,5 +478,15 @@ Go to **Catalog > Products** and select any product. Then Scroll down to the opt
 Here you can set the primary category for any product. If you do not wish to send the assigned category to analytics, then you select which category path or name you want to send.
 
 ![](../../.gitbook/assets/gtm\_front7.jpg.jpg)
+
+### <mark style="color:blue;">Set up Consent Mode V2 with GTM</mark> <a href="#bookmark16" id="bookmark16"></a>
+
+Please follow the below guide to set up consent mode v2 with GTM, also you would need to have both GTM and GDPR modules to complete this setup.
+
+**GDPR:-** [https://www.scommerce-mage.com/magento-2-gdpr.html](https://www.scommerce-mage.com/magento-2-gdpr.html)
+
+{% content-ref url="magento-2-consent-modes-setup-guide.md" %}
+[magento-2-consent-modes-setup-guide.md](magento-2-consent-modes-setup-guide.md)
+{% endcontent-ref %}
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-google-tag-manager.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
