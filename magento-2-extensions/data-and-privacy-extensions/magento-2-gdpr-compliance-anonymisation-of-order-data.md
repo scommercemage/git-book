@@ -66,6 +66,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Confirmation Email Template -** Select confirmation email template.
 * **Delete Confirmation Email Template -** Select template for delete confirmation email.
 * **Enable Cookie Message -**This allow you to enable or disable the module.
+
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+
 * **Block access to site until cookie policy is accepted -** If set to “Yes” then customer access to site will be blocked until cookie policy is accepted. If set to “No” then just normal cookie message block will be shown until cookie policy is accepted, but the access to the site will be allowed.
 * **Page Wrapper Css Class - Add** the page wrapper Css class.
 * **Cookie text message -** Enter cookie text message, if you want to display message in cookie policy area.
@@ -76,9 +79,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Cookie background color -** Background color of cookie policy area.
 * **Message Position -** Select position "Top/Bottom" of the cookie notification message.
 
-![](../../.gitbook/assets/gdpr\_general.jpg)
-
-![](../../.gitbook/assets/gdpr\_general2.jpg)
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Order and Quote Anonymisation Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -87,7 +88,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Quote expires after (days) –** Enter number of days to set personal data to NULL in sales\_flat\_quote table.
 * **Enable Debugging –** If set to “Yes” it will log debugging data related to quote and order anonymisation in the log file under var/log/anonymisation log.
 
-![](../../.gitbook/assets/gdpr\_orderquotesettings.jpg)
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Privacy Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -98,7 +99,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Enable Contact us –** If set to “Yes” then privacy agreement checkbox will appear for customers to confirm before submitting the contact us form.
 * **Enable Checkout –** If set to “Yes” then privacy agreement checkbox will appear for customers to confirm before submitting the billing form.
 
-![](../../.gitbook/assets/gdpr\_privacysettings.jpg)
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#bookmark7" id="bookmark7"></a>
 
@@ -109,16 +110,20 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Modal Title -** Enter name of the modal title, this will be shown on the frontend cookie popup modal. We’ve set modal title as “Cookie preferences”.
 * **Save Choice Button Text -** Enter the title of the save choice button. Click on this button will save the cookies choice. Whatever the current cookie choice is there it will save that choice.
-* **Allow All Button Text -** Enter title of the allow all button**.** We've set title as "Allow All". When you click on "ALLOW All" then cookies will allow the provision of enhance functionality, it will keep track of how many people have visited website, and how they interact with the site. All the information used is aggregated and completely anonymous. If you do not allow cookies, then functionalities may not function properly.
-* **Accept Button Text -** Enter button title for accepting cookies on the cookie message, it will accept all cookies.
+* **Accept All Button Text Popup-** Enter title for cookie popup accept all button.
+* **Decline All Button Text Popup-** Enter title for cookie popup Decline all button. Leave the field empty to hide this button in the cookie popup.
+* **Accept Button Text banner-** Enter title for cookie banner accept button.
+* **Decline Button Text banner-** Enter title for cookie banner Decline button. Leave the field empty to hide this button in the cookie popup.
 * **Cookies List Header -** Title of the block for the "Used by" list. Cookies name will be shown under this cookies list header. You can see "Used by" list on the frontend Cookie popup.
 * **Cookie Settings Link Text -** This link will be shown on the frontend cookies message to show Cookie Popup Settings. Click on this link will open Cookie popup.
+
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+
 * **Cookie Message Settings Link Text -** Please add the cookie message link text
-* **GTM -** Select "Yes" or "No" to enable disable the GTM.
 * **Use Data Layers -** Select "Yes/No". If set to "Yes" then Data Layers will be used, instead of cookies for GTM. If set to "No", then it won't add Data Layers.
 * **Show if not all accepted -** Select “Yes/No”. If set to “Yes” then Cookie notice message will appear if not all cookie accepted.
 
-![](../../.gitbook/assets/gdpr\_cookiepopupgeneral.jpg)
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Popup Styling</mark> <a href="#bookmark9" id="bookmark9"></a>
 
@@ -132,25 +137,31 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 * **Footer Background Color -** Enter footer background color.
 * **Footer Font Color -** Enter footer font color.
 * **Footer Top Border -** Select "Yes", if you want to set footer top border. If “Yes” then top border of the footer of the Modal Box will be shown.
+
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+
 * **Footer Top Border Color -** Enter footer top border color.
 * **Header Logo -** Choose logo for the modal header. It will be shown in the left top corner in header.
 * **Close Image -** Upload close image.
 * **Active Tab Background Color -** It will highlight the selected choice text.
 * **Number Tabs -** Select "Yes", if you want number tabs on cookie modal.
-* **Tab Active Color -** Enter active tab color.
 * **Tab Header Color -** Enter tab header color.
+* **Tab Active Color -** Enter active tab color.
 * **Custom Button Style -** Select "Yes", if you want to style button.
 * **Custom Checkbox -** Select "Yes", if you want to show cookie choice button.
 * **Font Family -** Enter base font family for the Modal Box. Should be string e.g. Arial. Font should be available on the site.
 * **Accept Button Text Color -** Enter text color of the "Accept" button on the Cookie Message
+
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+
 * **Accept Button Background Color -** Enter Background color of the "Accept" button on the Cookie Message.
+* **Decline Button Text Color -** Enter text color of the "Decline" button on the Cookie Message.
+* **Decline Button Background Color -** Enter Background color of the "Decline" button on the Cookie Message.
 * **Notice Height -** Set min height of the Cookie Message. E.g. 80
 * **Required cookie option text -** Set to "Always Active", this text will replace checkbox for mandatory cookies
 * **Custom CSS -** Provide CSS code for custom style.
 
-![](../../.gitbook/assets/gdpr\_popupstyling.jpg)
-
-![](../../.gitbook/assets/gdpr\_popupstyling2.jpg)
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Additional Tabs</mark> <a href="#bookmark10" id="bookmark10"></a>
 
@@ -159,7 +170,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 * **More Information Title -** Provide more information title. This will be shown after all cookie choices as a last tab. Both title and link should be set to appears on the Modal box
 * **More Information Link -** Provide link where you want to redirect it. Click on this link will redirect you to Information page.
 
-![](../../.gitbook/assets/gdpr\_additionaltabs.jpg)
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Admin Configuration for Manage Cookie Choices</mark> <a href="#bookmark11" id="bookmark11"></a>
 
