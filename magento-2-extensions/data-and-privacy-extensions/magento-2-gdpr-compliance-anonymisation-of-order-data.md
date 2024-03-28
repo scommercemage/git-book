@@ -287,7 +287,7 @@ Let us see how it works on the front-end.
 
 * Visit the store and go to cookie settings on the pop-up. In the cookie preferences:- -- select your cookie. In this case we have created statistics cookie. -- Next from the top right corner select the checkbox to enable the cookie and save your choice.
 
-![](../../.gitbook/assets/gdpr\_front1.jpg)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next check the inspector of your browser to verify whether your cookie is enabled/disabled. If you have enabled the cookie then the value will be 1 and if it is disabled then the value will be 0. Refer to the image below.
 
@@ -301,18 +301,7 @@ Let us see how it works on the front-end.
 
 Cookies are used to improve the experience for user. Once you accept, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual.
 
-![](../../.gitbook/assets/gdpr\_front4.jpg)
-
-#### <mark style="color:orange;">Cookie Preferences</mark> <a href="#bookmark28" id="bookmark28"></a>
-
-You can configure cookie choices from **Admin > Customers > Manage Cookie Choices > Manage Choice List, configured cookie choice** will be shown on the front-end under "Cookies Settings " section. By clicking on the "Cookie Settings" link, a customer will open a Cookie Preferences pop up, from where a user can Accept or Decline cookies. Below is the description under each cookies category that clarifies how the cookies it contains are used.
-
-* **Strictly Necessary Cookies -** These cookies are essential for the website to function and they cannot be turned off. They are usually only set in response to actions made by you on our site, such as logging in, adding items to your cart or filling in forms. If you browse our website, you accept these cookies.
-* **Performance Cookies -** These cookies are essential for the website performance
-* **Statistics Cookies -** This cookie gets used by Google Analytics to collect statistics to optimize site functionality, and deliver content tailored to your interests
-* **Marketing Cookies -** Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual customers and thereby more valuable for publishers and third party advertisers.
-
-![](../../.gitbook/assets/gdpr\_front5.jpg)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark29" id="bookmark29"></a>
 
