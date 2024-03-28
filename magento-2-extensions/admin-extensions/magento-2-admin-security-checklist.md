@@ -90,7 +90,14 @@ The Security checklist grid has several distinctions for various checks: Warning
 * **Admin usernames check**:- For Admin usernames check, if the username contains words from the stop list or if the username contains numbers, the user will see a warning. Otherwise, success.
 * **Admin users activity check**: - For Admin admin user activity check, if the account is unused, the user will see a warning. Otherwise, success.
 * **Check for static scripts inserted from Config and CMS Pages**: - For Static scripts in Configuarion, CMS Blocks, and CMS Pages, if a text field has a static script, the user will see a warning. Otherwise, success.
+* **Check for static scripts inserted from Product Attributes**: - For Static scripts inserted by any product attributes the user will see a warning with the name of the attribute otherwise, success.
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/s1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/s2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/s3.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/s4.png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
