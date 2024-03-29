@@ -68,10 +68,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Security Chec
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
+* **Enabled Checklist Check Cron Job:-** IF enabled the security checklist also checks whether admin 2FA is enabled or not.
 * **Enabled Checklist Check Cron Job:-** This setting will be used to enable or disable checklist cron job
 * **Checklist Cron Schedule:-** This will allow you to define schedule how often you want to clear Login Attempts logs cron.
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Security Checklist Report</mark> <a href="#toc_250003" id="toc_250003"></a>
 
@@ -91,6 +92,7 @@ The Security checklist grid has several distinctions for various checks: Warning
 * **Admin users activity check**: - For Admin admin user activity check, if the account is unused, the user will see a warning. Otherwise, success.
 * **Check for static scripts inserted from Config and CMS Pages**: - For Static scripts in Configuarion, CMS Blocks, and CMS Pages, if a text field has a static script, the user will see a warning. Otherwise, success.
 * **Check for static scripts inserted from Product Attributes**: - For Static scripts inserted by any product attributes the user will see a warning with the name of the attribute otherwise, success.
+* **Check for Admin 2FA**: - It also checks whether admin 2FA is enabled or not.
 
 <figure><img src="../../.gitbook/assets/s1.png" alt=""><figcaption></figcaption></figure>
 
@@ -98,6 +100,6 @@ The Security checklist grid has several distinctions for various checks: Warning
 
 <figure><img src="../../.gitbook/assets/s3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/s4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-29 124949.png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
