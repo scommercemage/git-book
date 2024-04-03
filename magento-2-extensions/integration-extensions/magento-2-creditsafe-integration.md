@@ -85,12 +85,12 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 * **Fail Email Template –** Select the template to be used for fail emails (failed credit safe application).
 * **Fail Email Sender –** Select the Email Sender, the email to be used to send the failure emails.&#x20;
 * **Fail Email Recipient –** You can add an additional email where the failure emails will be sent alongside the applicant.
-* **Admin Fail Email Template –** Please add the
-* **Admin Fail Email Sender –** Please add the
-* **Admin Fail Email Recipient –** Please add the
-* **Admin API Result Email Template –** Please add the
-* **Admin API Result Email Sender –** Please add the
-* **Admin API Result Email Recipient –** Please add the
+* **Admin Fail Email Template –** Select the template to be used for fail emails (failed credit safe application) to admin.
+* **Admin Fail Email Sender –** Select the Email Sender, the email to be used to send the failure emails to admin.&#x20;
+* **Admin Fail Email Recipient –** You can add an additional email where the failure emails will be sent alongside the admin.
+* **Admin API Result Email Template –** Select the template to be used for API results to admin.
+* **Admin API Result Email Sender –** Select the Email Sender, the email to be used to send API results to admin.&#x20;
+* **Admin API Result Email Recipient –** You can add an additional email where the API results will be sent alongside the admin.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.18.41.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,10 +103,8 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 * **Email Sender –** Select the email sender which will be used to send out applicant verification emails
 * **Verification Success Email Template –** Select the Email template to be used for successfull applicant verification.
 * **Verification Rejected Email Template –** Select the Email template to be used for failed applicant verification.
-* **Failed Credit Limit Message  –** Please add the
-* **Failed Credit Limit (retries left)  –** Please add the
-* **Failed Credit Limit Message  –** Please add the
-* **Failed Credit Limit (no retries)  –** Please add the
+* **Failed Credit Limit Message  –** Enter the message that will be displayed to customer when their credit check failed.
+* **Failed Credit Limit (retries left)  –** Enter the message that will be displayed to customer when their credit check failed but they have retries available.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.19.28.png" alt=""><figcaption></figcaption></figure>
 
