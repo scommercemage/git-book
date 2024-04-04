@@ -28,6 +28,7 @@
 10. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)
     * _Front-end Site View - Integrate Cookies with GTM Pro Tracking_&#x20;
     * _Cookie Pop-up- Cookie Accept_&#x20;
+    * _Cookie Pop-up- Cookie Accept for different store views_
     * _Cookie Preferences_&#x20;
     * _Check the Value of the Accepted Cookies on the Front-end_&#x20;
     * _Visibility of "Accept All" Button on the Cookie Popup_&#x20;
@@ -176,8 +177,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 * **Manage Choice List -** To create and manage cookie choices, go to **Admin**
 * **Customers > Manage Cookie Choices > Manage Choice List**. If you need to make some modifications in the cookie choices information, you should click “Edit” in the Action column. The grid includes the following columns: -
+* Cookies can be created for specific store views and these cookies are only available in that particular store view.
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Add New Cookie Choice -**</mark> To create a new cookie choice, click on the “Add New Cookie Choice” button from **Admin > Customers > Manage Cookie Choices > Manage Choice List > Add New Cookie Choice**, it redirects on "New Choice" page, by providing all the below configuration details you can create the cookie choice.
   * **Choice Name -** Enter the choice name. This is the text which represents the type of the cookie you are using under it.
@@ -302,6 +304,18 @@ Let us see how it works on the front-end.
 Cookies are used to improve the experience for user. Once you accept, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:orange;">Cookie Pop-up- Cookie Accept for different store views</mark> <a href="#bookmark27" id="bookmark27"></a>
+
+Cookies are used to improve the experience for user. As we created different cookies for different store views we will see their behaviour on the frontend.
+
+* Accept cookie for default store view:-
+
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+
+* Accept cookie for German Store view
+
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark29" id="bookmark29"></a>
 
