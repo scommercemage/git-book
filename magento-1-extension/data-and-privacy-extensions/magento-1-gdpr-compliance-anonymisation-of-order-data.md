@@ -4,53 +4,54 @@
 
 **Table of Contents**
 
-1. [Installation ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)
-   * Disable Compilation Mode&#x20;
-   * Upload Package&#x20;
-   * Clear Caches&#x20;
-2. [Configuration Settings for GDPR Compliance ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
-   * General Settings&#x20;
-   * Cookie Notification Message&#x20;
-   * Cookie Notification Message&#x20;
-   * Privacy Settings&#x20;
-3. [Configuration Settings for Cookie Popup ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
-   * General Settings&#x20;
-   * Popup Styling&#x20;
-   * Additional Tabs&#x20;
-4. [Admin Configuration for Cookie Choice ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark13)
-   * Manage Cookie Choice List&#x20;
-     * ID&#x20;
-     * Choice Name&#x20;
-     * Cookie Name&#x20;
-     * Store view&#x20;
-     * Required&#x20;
-     * Default State&#x20;
-   * Cookie Choice&#x20;
-   * Add new Cookie Choice&#x20;
-   * Choice Name&#x20;
-   * Cookie Name
-   * Store view&#x20;
-   * Choice Description&#x20;
-   * Created by List&#x20;
-   * Required Record&#x20;
-   * Set by Default&#x20;
-5. [Customers Detail in Privacy Policy Consents ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark30)
-6. [Anonymize Orders from Admin Section ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark31)
-7. [Newsletter Subscription ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark32)
-8. [Enable / Disable Tracking ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark33)
-9. [Integrate Cookies with GTM Pro Tracking ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
-10. [Front-end site view ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark35)
-    * Cookie Popup – Cookie Accept&#x20;
-    * Cookie Preferences&#x20;
-    * Strictly Necessary Cookies&#x20;
-    * Performance Cookies&#x20;
-    * Statistics Cookies&#x20;
-    * Marketing Cookies&#x20;
-    * Check the Value of the Accepted Cookies on the Front-end&#x20;
-    * Visibility of “Accept all” Button on the Cookie Popup&#x20;
-    * Newsletter Subscription&#x20;
-    * Privacy Policy Checkbox on Registration and Checkout Page&#x20;
-    * Delete Account from my Account Section&#x20;
+1. [_Installation_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)
+   * _Disable Compilation Mode_&#x20;
+   * _Upload Package_&#x20;
+   * _Clear Caches_&#x20;
+2. [_Configuration Settings for GDPR Compliance_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
+   * _General Settings_&#x20;
+   * _Cookie Notification Message_&#x20;
+   * _Cookie Notification Message_&#x20;
+   * _Privacy Settings_&#x20;
+3. [_Configuration Settings for Cookie Popup_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
+   * _General Settings_&#x20;
+   * _Popup Styling_&#x20;
+   * _Additional Tabs_&#x20;
+4. [_Admin Configuration for Cookie Choice_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark13)
+   * _Manage Cookie Choice List_&#x20;
+     * _ID_&#x20;
+     * _Choice Name_&#x20;
+     * _Cookie Name_&#x20;
+     * _Store view_&#x20;
+     * _Required_&#x20;
+     * _Default State_&#x20;
+   * _Cookie Choice_&#x20;
+   * _Add new Cookie Choice_&#x20;
+   * _Choice Name_&#x20;
+   * _Cookie Name_
+   * _Store view_&#x20;
+   * _Choice Description_&#x20;
+   * _Created by List_&#x20;
+   * _Required Record_&#x20;
+   * _Set by Default_&#x20;
+5. [_Customers Detail in Privacy Policy Consents_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark30)
+6. [_Anonymize Orders from Admin Section_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark31)
+7. [_Newsletter Subscription_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark32)
+8. [_Enable / Disable Tracking_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark33)
+9. [_Integrate Cookies with GTM Pro Tracking_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
+10. [_Front-end site view_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark35)
+    * _Cookie Popup – Cookie Accept_&#x20;
+    * _Cookie Preferences_&#x20;
+    * _Cookie Preferences for store view_
+    * _Strictly Necessary Cookies_&#x20;
+    * _Performance Cookies_&#x20;
+    * _Statistics Cookies_&#x20;
+    * _Marketing Cookies_&#x20;
+    * _Check the Value of the Accepted Cookies on the Front-end_&#x20;
+    * _Visibility of “Accept all” Button on the Cookie Popup_&#x20;
+    * _Newsletter Subscription_&#x20;
+    * _Privacy Policy Checkbox on Registration and Checkout Page_&#x20;
+    * _Delete Account from my Account Section_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -181,7 +182,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 **Cookie Choice**
 
-![](<../../.gitbook/assets/9 (2)>)
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-05 at 18.56.33.png" alt=""><figcaption></figcaption></figure>
+
+Cookie choices can be filtered based on the store view.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-05 at 19.26.03.png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Add new Cookie Choice –**</mark> To create a new cookie choice, click on the “Add New Cookie Choice” button from Admin > Customers > Cookie Choice > Add new Cookie Choice, it redirects on “New Cookie” page, by providing all the below configuration details you can create the cookie choice.
   * **Choice Name –** Enter the choice name. This is the text which represents the type of the cookie you are using under it.
@@ -281,6 +286,14 @@ You can configure cookie choices from **Admin > Customers > Manage Cookie Choice
 * **Performance Cookies –** These cookies are essential for the website performance.
 * **Statistics Cookies –** These cookie gets used by Google Analytics to collect statistics to optimize site functionality, and deliver content tailored to your interests.
 * **Marketing Cookies –** Marketing cookies are used to track visitors across websites. The intention is to displays ads that are relevant and engaging for the individual customers and thereby more valuable for publishers and third party advertisers.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-05 at 19.04.11.png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:orange;">Cookie Preferences for Store view</mark> <a href="#bookmark37" id="bookmark37"></a>
+
+Change cookie preferences based on store view, create cookies accordingly and allows users to accept or deny cookies for a particular store view.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-05 at 19.05.21 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark42" id="bookmark42"></a>
 
