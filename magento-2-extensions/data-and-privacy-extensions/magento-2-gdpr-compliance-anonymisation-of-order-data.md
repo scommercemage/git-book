@@ -24,17 +24,16 @@
 8. [_Enable / Disable Tracking Without GTM_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark23)
    * _Using Module_
    * _Manually Adding Code_
-9. [_Integrate Cookies with GTM Pro Tracking_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
-10. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)
-    * _Front-end Site View - Integrate Cookies with GTM Pro Tracking_&#x20;
-    * _Cookie Pop-up- Cookie Accept_&#x20;
-    * _Cookie Pop-up- Cookie Accept for different store views_
-    * _Cookie Preferences_&#x20;
-    * _Check the Value of the Accepted Cookies on the Front-end_&#x20;
-    * _Visibility of "Accept All" Button on the Cookie Popup_&#x20;
-    * _Newsletter Subscription_&#x20;
-    * _Privacy Policy Checkbox on Registration and Checkout Page_&#x20;
-    * _Delete Account from My Account Section_&#x20;
+9. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)
+   * _Front-end Site View - Integrate Cookies with GTM Pro Tracking_&#x20;
+   * _Cookie Pop-up- Cookie Accept_&#x20;
+   * _Cookie Pop-up- Cookie Accept for different store views_
+   * _Cookie Preferences_&#x20;
+   * _Check the Value of the Accepted Cookies on the Front-end_&#x20;
+   * _Visibility of "Accept All" Button on the Cookie Popup_&#x20;
+   * _Newsletter Subscription_&#x20;
+   * _Privacy Policy Checkbox on Registration and Checkout Page_&#x20;
+   * _Delete Account from My Account Section_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -252,34 +251,6 @@ return true;
 }
 }
 ```
-
-
-
-### <mark style="color:blue;">**Integrate Cookies with GTM Pro Tracking**</mark>&#x20;
-
-You can integrate cookies with GTM Pro by following the below steps in GTM:-
-
-**Step 1 –** The very first step is to create your cookie from the admin panel. To do that please refer to the 4th Part in this guide. The key thing to remember is the name of the cookie that you create in this step.
-
-![](../../.gitbook/assets/gdpr\_integratecookies.jpg)
-
-**Step 2 –** The next step is to verify whether your cookie is working properly. Go on your website and accept or decline the cookie you have created in the begining. Now navigate to the Page inspector of your browser. Next go into application and then on the left navigation go to storage>cookies and then click on your website. A list of cookies will appear before you as you can see in the image. Now suppose you created a cookie named “Statistics\_cookie” in the first step and have accepted it on the website then the value of this cookie will appear as 1. Vice versa if you have declined this cookie then the value will be 0.
-
-![](../../.gitbook/assets/gdpr\_integratecookies2.jpg)
-
-**Step 3 –** Open google tag manager, go into variables section and Create a new variable named "**statistics\_cookie**", variable type should be **1st-Party cookie** and give the name of the cookie as "**statistics\_cookie**". Keep in mind the name of the cookie should be exactly same as you have created in the admin panel. For instance, we created a cookie named “Statistics\_cookie” so we have a variable named exactly same.
-
-![](../../.gitbook/assets/gdpr\_integratecookies3.jpg)
-
-**Step 4 –** Now navigate to triggers in GTM and select a trigger and add a custom event as follows: -
-
-* From first drop-down- select variable name created in Step 1 i.e. "**statistics\_cookie**"
-* From second drop-down- select equals
-* Third Input box- put value 1
-
-![](../../.gitbook/assets/gdpr\_integratecookies4.jpg)
-
-**Step 5-** Associate the trigger created in Step 4 with any of the existing tags and that tag will only fire when customer accepts the cookie on your website.
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark25" id="bookmark25"></a>
 
