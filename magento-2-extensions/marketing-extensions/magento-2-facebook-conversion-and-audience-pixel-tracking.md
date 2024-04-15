@@ -105,4 +105,14 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 <figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
+* <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to Wishlist when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to cart when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
