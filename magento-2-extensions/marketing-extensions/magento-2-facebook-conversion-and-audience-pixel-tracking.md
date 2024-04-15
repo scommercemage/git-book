@@ -20,7 +20,7 @@
    * _Facebook Pixel Tag on the Payment Page_&#x20;
    * _Facebook Pixel Tag on the Success Page_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -36,11 +36,17 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Facebook Conversion Tracking</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+* <mark style="color:orange;">**Installation via Composer(Breeze Theme):**</mark> Go to My Account section then go to Composer Instructions. Run the composer config commands mentioned on the page then run the below command to install the module on hyva theme.&#x20;
+
+```
+composer require scommerce/breeze-googletagmanagerpro
+```
+
+### <mark style="color:blue;">Configuration Settings for Facebook Conversion Tracking</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conversion Tracking**
 
-### General Settings <a href="#_bookmark4" id="_bookmark4"></a>
+### General Settings <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
@@ -65,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 
 ![](../../.gitbook/assets/facebook\_eventsmanager.jpg)
 
-### <mark style="color:blue;">Enable GDPR Support</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Enable GDPR Support</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 The module is GDPR compliant which can work with both our/third party GDPR modules. You can enable the GDPR support within the module so that the tracking doesent work without users consent.&#x20;
 
@@ -73,7 +79,7 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Front-end site view</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Category Page -**</mark> The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
 
@@ -85,18 +91,18 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Cart Page**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">-</mark> When a product is added to the shopping cart, then it tracks the cart event.
 
-![](../../.gitbook/assets/facebookfront3.jpg)
+<figure><img src="../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Checkout page -**</mark> It tracks checkout , when a user clicks on checkout button.
 
-![](../../.gitbook/assets/facebookfront4.jpg)
+<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Payment Page -**</mark> It tracks AddPaymentInfo when a payment information is added in the checkout flow, e.g. click on payment method.
 
-![](../../.gitbook/assets/facebookfront5.jpg)
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Success Page -**</mark> When a purchase is made or checkout flow is completed, e.g. landing on thank you/success page, provides detailed order information such as Order Value and Cart Items.
 
-![](../../.gitbook/assets/facebookfront6.jpg)
+<figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento2-facebook-conversion-audience-tracking.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
