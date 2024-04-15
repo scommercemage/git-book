@@ -73,7 +73,7 @@ The module enables you to pre-launch products with a custom label text such as â
 
 You can add an start and End date to your products based on which a label or a timer or both can be displayed on products and category pages. The time on the timer or the duration in which the label is displayed is calculated from the start date and end date provided in the product scheduler settings by going into **Admin>catalog>Products.**
 
-The product stays disabled until the start date and once the start date arrives it is enabled automatically but without 'Add to cart' button, instead a label and/or timer is displayed informing users of the pre-launch. This label/timer stays throughout the duration of end date and start date.&#x20;
+The product stays disabled until the start date and once the start date arrives it is enabled automatically but without 'Add to cart' button, instead a label and/or timer is displayed informing users of the pre-launch. This label/timer stays throughout the duration of end date and start date. (this scenrio is not applicable in cases where start date and end date are equal/same. In this case the product simply stays disabled and is enabled on the set date)
 
 Once you have set a start/End date to a product, it automatically adds the lable and/or timer to these products which are displayed on products and category pages. Upon the completion of the end date the product is automatically released on the store i.e can be purchased by customers. The products are enabled, disabled and labels are all added when the scheduled cron job runs.
 
