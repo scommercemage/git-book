@@ -230,14 +230,35 @@ Add the following two functions in your ajax add to basket js file and call **ga
 
 #### <mark style="color:orange;">AJAX Add to Basket</mark> <a href="#bookmark15" id="bookmark15"></a>
 
-```
-Function gaAddToCart(){jQuery.cookie.json = true;var productToBasket = jQuery.cookie(“productToBasket”);var productlist = jQuery.cookie(“productlist”);if (productToBasket!= undefined){manipulationOfCart(productToBasket,’add’,productlist);jQuery.remo veCookie(“productToBasket” , { path: ‘/’, domain: ‘.’ + document.domain});}}
+```javascript
+function gaAddToCart() {
+	jQuery.cookie.json = true;
+	var productToBasket = jQuery.cookie("productToBasket");
+	var productlist = jQuery.cookie("productlist");
+	if (productToBasket != undefined) {
+		manipulationOfCart(productToBasket, 'add', productlist);
+		jQuery.removeCookie("productToBasket", {
+			path: '/',
+			domain: '.' + document.domain
+		});
+	}
+}
 ```
 
 #### <mark style="color:orange;">AJAX Remove from Basket</mark> <a href="#bookmark16" id="bookmark16"></a>
 
-```
-Function gaRemoveFromCart(){jQuery.cookie.json = true;var productOutBasket = jQuery.cookie(“productOutBasket”);if (productOutBasket != undefined){manipulationOfCart(productOutBasket, ‘remove’, “);jQuery.removeCookie(“productOutBasket” , { path: ‘/’ , domain: ‘.’ + document.domain});}}
+```javascript
+function gaRemoveFromCart() {
+	jQuery.cookie.json = true;
+	var productOutBasket = jQuery.cookie("productOutBasket");
+	if (productOutBasket != undefined) {
+		manipulationOfCart(productOutBasket, 'remove', '');
+		jQuery.removeCookie("productOutBasket", {
+			path: '/',
+			domain: '.' + document.domain
+		});
+	}
+}
 ```
 
 * <mark style="color:orange;">**Back-end/Admin Tracking -**</mark> When you enable the **"**Send Phone or Admin Orders **"** from **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Manager Pro Tracking,** then it tracks admin orders. To see admin order go to **GA > Conversion > Ecommerce > Sales Performance.**
