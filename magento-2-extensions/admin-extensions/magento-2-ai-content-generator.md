@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Chat GPT versions -** Select the ChatGPT version from the available option that you want to use to generate content.
 * **Chat GPT API Key -** Enter the API key from Chat GPT ([https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key))
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Content Writing using Chat GPT** - Set "No" to configure Google Gemini to be used for content generation.
 * **Content Writing using Gemini** - Set "Yes" to enable Gemini to be used for content generation
@@ -72,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Note:-** Switch store view or website to expose these settings.
 
@@ -84,7 +84,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Short Description Prompt  –** Add the prompt for Short Description on product pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Product Short Description Title. This data can be overwritten or custom prompt can be used at the product level. Google recommendation for Short Description is up to 200 words.
 * **Product Description Prompt  –** Add the prompt for Product Description on product pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Product Description. This data can be overwritten or custom prompt can be used at the product level. Google recommendation for Page Description limit is up to 3600 characters.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Category Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -93,7 +93,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Meta  Keywords Prompt–** Add the prompt for Meta Keywords on category pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Category Meta Keywords. This data can be overwritten or custom prompt can be used at the category level. Google recommendation for Meta keyword limit is up to 10 keyword phrases or 160 characters.
 * **Category Description Prompt  –** Add the prompt for Category Description on category pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Category Page Description. This data can be overwritten or custom prompt can be used at the category level. Google recommendation for Page Description limit is up to 3600 characters.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">CMS Page Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -102,7 +102,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Meta  Keywords Prompt–** Add the prompt for Meta Keywords on CMS Pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Content Meta Keywords. This data can be overwritten or custom prompt can be used at the CMS page level. Google recommendation for Meta keyword limit is up to 10 keyword phrases or 160 characters.
 * **Page Content Prompt  –** Add the prompt for CMS pages content. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Content Page Description. This data can be overwritten or custom prompt can be used at the CMS Page level. Google recommendation for Page Description limit is up to 3600 characters.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">AI Content Generator Settings on Product Pages</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -112,35 +112,35 @@ AI content generator works with the following fields on the product pages. Go to
 
 Click on **Fetch Content** and Based on the prompt set in the configuration the content is generated and populated automatically into this field.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Description</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Edit the description with page builder and when add a HTML element the AI Content Generator options are present. Click on **Fetch Content** and Based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Title</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Product settings>Search Engine Optimization. Click on **Fetch Content** below Meta Title and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Description</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Product settings>Search Engine Optimization. Click on **Fetch Content** below Meta Description and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Keywords</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Product settings>Search Engine Optimization. Click on **Fetch Content** below Meta Keywords and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">AI Content Generator Settings on Category Pages</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -149,25 +149,25 @@ Go to Product settings>Search Engine Optimization. Click on **Fetch Content** be
 Edit the description with page builder and when add a HTML element the AI Content Generator options are present. Click on **Fetch Content** and Based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.\
 
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Title</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Category settings>Search Engine Optimization. Click on **Fetch Content** below Meta Title and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Description</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Category settings>Search Engine Optimization. Click on **Fetch Content** below Meta Description and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Keywords</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Category settings>Search Engine Optimization. Click on **Fetch Content** below Meta Keywords and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">AI Content Generator Settings on CMS Pages</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -176,24 +176,24 @@ Go to Category settings>Search Engine Optimization. Click on **Fetch Content** b
 Edit the content with page builder and when add a HTML element the AI Content Generator options are present. Click on **Fetch Content** and Based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.\
 
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Title</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below Meta Title and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Description</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below Meta Description and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Meta Keywords</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below Meta Keywords and based on the prompt set in the configuration the content is generated and populated automatically into this field. In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

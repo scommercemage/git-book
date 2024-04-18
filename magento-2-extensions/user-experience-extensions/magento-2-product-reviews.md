@@ -44,7 +44,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Pro
 * **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](file:///C:/Users/KoshleshDange/Downloads/Microsoft.SkypeApp\_kzf8qxf38zg5c!App/All/core%40scommerce-mage.com)
 * **Email Field Enabled -**Set "Yes" to enable the email field in the product review form and set "No" to disable the email field.
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Creating New Review Sliders</mark> <a href="#bookmark5" id="bookmark5"></a>
 
