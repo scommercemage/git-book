@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Chat GPT versions -** Select the ChatGPT version from the available option that you want to use to generate content.
 * **Chat GPT API Key -** Enter the API key from Chat GPT ([https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key))
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Content Writing using Chat GPT** - Set "No" to configure Google Gemini to be used for content generation.
 * **Content Writing using Gemini** - Set "Yes" to enable Gemini to be used for content generation
@@ -72,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Note:-** Switch store view or website to expose these settings.
 
@@ -84,7 +84,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Short Description Prompt  –** Add the prompt for Short Description on product pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Product Short Description Title. This data can be overwritten or custom prompt can be used at the product level. Google recommendation for Short Description is up to 200 words.
 * **Product Description Prompt  –** Add the prompt for Product Description on product pages. This prompt setting will be used to extract AI generated content from either ChatGPT or Google Gemini for Product Description. This data can be overwritten or custom prompt can be used at the product level. Google recommendation for Page Description limit is up to 3600 characters.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Category Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 

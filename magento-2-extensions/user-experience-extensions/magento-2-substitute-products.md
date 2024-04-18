@@ -51,7 +51,7 @@ The substitute product should have exactly same configurations as the main produ
 
 Go to **Admin>Catalog>Products**, navigate to your product from the list and click on Edit from the action column. Scroll down to find the **Subsitute Products** tab. Please refer to the image below:-
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Click on **Enabled** to enable the substitute products for this main product. Add the SKU of the product that you want to add as a substitute of this product and add the priority. In case of multiple substitute products you can set the priortiy highest being 0 so that whenever products are out of stock, upon order placement the SKU will be chosen based on the priority set.&#x20;
 
