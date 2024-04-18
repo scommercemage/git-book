@@ -32,6 +32,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Send Base Data –** Select whether you want to send base order data or store order data.
 * **Brand Attribute –** Select a brand attribute to send with brand names
 * **Brand Text box –** Input brand name to send to Google
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 * **Default Landing Page -** This setting allows you to set default landing page value which shows in Google Analytics in case landing page is not available to sent as part of missing transaction.
 * **Cron Schedule –** Schedule specific cron time to run the sync automatically.
 * **Debugging –** Enabling debugging will generate a detailed log report in /var/log directory
@@ -40,6 +43,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Skip Order days –** Enter the number of days that will be skipped before sending to GA4. Please put greater than 0 value. This is done to avoid duplicate transactions. For eg:- Suppose if you enter 2 then orders from 2days ago will be synced today.
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
@@ -55,7 +60,7 @@ Please follow the steps below to create project in Google developer console for 
 
 #### Enter your project name and Location then click on create. <a href="#toc65169385" id="toc65169385"></a>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on Enable APIS and SERVICES <a href="#toc65169386" id="toc65169386"></a>
 
@@ -80,7 +85,7 @@ Please follow the steps below to create project in Google developer console for 
 
 #### In the next window, fill in your service account name and description then click on Create. An email will be automatically created as per your name. We need to add this email in google analytics. We will do it in the steps down below. Your service name will be your Application Name that you will enter in the configuration. <a href="#toc65169390" id="toc65169390"></a>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on continue without selecting a role. <a href="#toc65169391" id="toc65169391"></a>
 
