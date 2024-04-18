@@ -59,7 +59,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable Customer Account Deletion/ Anonymisation -** Set to “Yes” if you want to delete record on the frontend from my account.
 * **Attention Message -** The message shown to customers on the frontend before deleting the account.
 * **Success Message -** The message shown to customers on the frontend after deleting the account.

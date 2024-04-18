@@ -21,24 +21,24 @@
    * Twitter, Facebook Open Graph Social Sharing Code&#x20;
    * Increased and Optimized Page Ranking in Search Result&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Rich Snippet</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Rich Snippet</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/m1rich1.jpg)
 
-#### <mark style="color:orange;">HTML Selectors</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">HTML Selectors</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Product view wrapper –** Main CSS class name for the product wrapper.
 * **Description Attribute –** CSS class name for short description.
@@ -55,7 +55,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](../../.gitbook/assets/m1rich2.jpg)
 
-#### <mark style="color:orange;">Facebook OpenGraph</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Facebook OpenGraph</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Enable –** Set “yes” to enable Facebook open graph tags.
 * **AppId –** Set Facebook app id
@@ -63,7 +63,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](../../.gitbook/assets/m1rich3.jpg)
 
-#### <mark style="color:orange;">Twitter</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">Twitter</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Enable –** Set “yes” to enable twitter.
 * **Sitename –** Set twitter site name (@username for the website used in the card footer)
@@ -71,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](../../.gitbook/assets/m1rich4.jpg)
 
-#### <mark style="color:orange;">Attributes</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+#### <mark style="color:orange;">Attributes</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * **Product Title Attribute –** Select product title attribute you want to send to Google, Facebook, Twitter etc.
 * **Product Description Attribute –** Select product description attribute you want to send to Google, Facebook, Twitter etc.
@@ -83,7 +83,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](../../.gitbook/assets/m1rich5.jpg)
 
-### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 * <mark style="color:orange;">**Home Page Markup Code –**</mark> You can add structured data/markup code on homepage from **Admin > Stores > Configuration > Rich Snippet > Enable – “Yes”**. To test structured data, go to **Structured Data Testing Tool > Provide Home Page URL** > Click **“Run Test”**.
 
@@ -97,7 +97,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet*
 
 ![](<../../.gitbook/assets/8 (33)>)
 
-#### <mark style="color:orange;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+#### <mark style="color:orange;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * **Tw**<mark style="color:orange;">**itter Code –**</mark> You can enable Twitter from **Admin > Stores > Configuration> Rich Snippet > Twitter > Enable – “Yes”**
 

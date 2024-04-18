@@ -26,7 +26,7 @@
    * _View / Edit Subscription Information from the Front-end/ My Account_&#x20;
    * _Subscription Confirmation Email_ &#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -42,14 +42,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Repeat Order Subscription</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Repeat Order Subscription</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order Subscription**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Module Enable -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](file:///C:/Users/jatin/OneDrive/Documents/core%40scommerce-mage.com).
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Subscription Title –** Enter the title of subscription, which will be shown on the front-end.
 * **Subscription Frequency Drop down Title –** Enter the title of subscription frequency.
 * **Subscription Frequency Drop down Options –** Select the frequency option from the dropdown list.
@@ -58,7 +58,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 
 ![](../../.gitbook/assets/repeat\_general.jpg)
 
-#### <mark style="color:orange;">Repeat Order Subscription Email</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Repeat Order Subscription Email</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Email Sender –** Please enter sender/from email address for Repeat Order Confirmation Email.
 * **Email Template –** Select order confirmation email template for repeat order. The template will contain Subscription Id, Order Amount, Discount Subscription Frequency, Subscription Start Date, Billing address, Shipping address, Payment Method, Subscribed items.
@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 
 ![](../../.gitbook/assets/repeat\_confirmationmail.jpg)
 
-#### <mark style="color:orange;">Payment / Order Failed Emailed</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Payment / Order Failed Emailed</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Email Sender –** Please enter sender/from email addresses for Payment order failed email.
 * **Email Template –** Select Order/Payment failure email template for repeat order. The template will contain Subscription Id, Due Order Date (for which payment/order failed).
@@ -74,7 +74,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 
 ![](../../.gitbook/assets/repeat\_paymentfailed.jpg)
 
-#### <mark style="color:orange;">Subscription Status Update Notification</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Subscription Status Update Notification</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Email Sender –** Please enter sender/from email addresses for Subscription status update email.
 * **Email Template for Subscription Pause/Suspend –** Select notification template for subscription pause.
@@ -122,7 +122,7 @@ You can manage subscriptions from, **Admin > Scommerce Mage > Repeat Order > Man
 
 ![](../../.gitbook/assets/repeat\_viewsubpaydetail.jpg)
 
-### Front-end Site View <a href="#_bookmark14" id="_bookmark14"></a>
+### Front-end Site View <a href="#bookmark14" id="bookmark14"></a>
 
 * <mark style="color:orange;">**Subscription Options on the Checkout Page -**</mark> When you enable the module then it shows subscription options on the checkout page, by checking "Yes please I would like to receive future discounts" you can subscribed for the repeat order.
 

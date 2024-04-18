@@ -24,7 +24,7 @@
    * Order Confirmation Email&#x20;
    * Invoice Email&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -47,11 +47,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cash Back**
 #### <mark style="color:orange;">General Settings</mark>
 
 * **Module Enable -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](<../../.gitbook/assets/1 (55)>)
 
-#### <mark style="color:orange;">Cash Back</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Cash Back</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Auto Apply Discount –** Please select “Yes” if you would like to auto apply discount.
 * **Select discount in case of multiple cash back rules are applied –** Please choose whether the customer will get minimum discount or maximum discount, in case there are more than one cashback rules are applicable on cart.
@@ -65,7 +65,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cash Back**
 
 ![](../../.gitbook/assets/cashback\_settings.png)
 
-#### <mark style="color:orange;">Cash Back Reminder</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Cash Back Reminder</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enable (Yes/No) –** This setting will enable or disable module.
 * **Email Sender –** Please select sender/from email address for Cash Back reminder email.
@@ -100,7 +100,7 @@ The grid will have following columns/information:-
 
 ![](../../.gitbook/assets/cashback\_applied.jpg)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * <mark style="color:orange;">**Cashback Qualifying Message on the Checkout Page -**</mark> You can define qualifying message from **Admin > Stores > Configuration > Scommerce Configuration > Cashback Qualifying Message - " "**, the message will be shown on the checkout page.
 * <mark style="color:orange;">**Cashback Discount Option on the Checkout Page -**</mark> When you enable the module and if there is any cash back discount available then it shows "Apply cash back discount" option on the checkout page and by checking this option you can apply for cash back discount.

@@ -41,7 +41,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Container Id –** Enter your Google Tag Manager Container Id.
 * **Server Side Tagging** - This setting allows you to enable or disable server-side tagging, which is a method that shifts part of the tag processing and data sending workload from the user's device to a server that you control. \
   **Please don’t turn this on unless you understand what this setting does.**

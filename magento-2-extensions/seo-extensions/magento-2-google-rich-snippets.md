@@ -25,7 +25,7 @@
    * _Increased and Optimized Page Ranking in Search Results_&#x20;
 5. [_Set Primary Categories_](magento-2-google-rich-snippets.md#set-primary-categories)
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -41,22 +41,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250009" id="_toc_250009"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250009" id="toc_250009"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250008" id="_toc_250008"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250008" id="toc_250008"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_seo.png)
 
-### <mark style="color:orange;">Configuration Settings for Rich Snippets</mark> <a href="#_toc_250007" id="_toc_250007"></a>
+### <mark style="color:orange;">Configuration Settings for Rich Snippets</mark> <a href="#toc_250007" id="toc_250007"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250012" id="_toc_250012"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250012" id="toc_250012"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Description –** Select description/short description from the drop down.
@@ -67,7 +67,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/general\_rich.png)
 
-#### <mark style="color:orange;">Rich Snippets General Settings</mark> <a href="#_toc_250011" id="_toc_250011"></a>
+#### <mark style="color:orange;">Rich Snippets General Settings</mark> <a href="#toc_250011" id="toc_250011"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Description –** Select description/short description from the drop-down.
@@ -77,7 +77,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/richsnippet\_generalsettings.png)
 
-#### <mark style="color:orange;">Twitter Card Settings</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+#### <mark style="color:orange;">Twitter Card Settings</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Card Type –** Select the card type.
@@ -88,7 +88,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/twittercard.png)
 
-#### <mark style="color:orange;">Facebook Open Graph Settings</mark> <a href="#_toc_250009" id="_toc_250009"></a>
+#### <mark style="color:orange;">Facebook Open Graph Settings</mark> <a href="#toc_250009" id="toc_250009"></a>
 
  **Facebook Open Graph Settings**
 
@@ -100,13 +100,13 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/facebookopengraph.png)
 
-#### <mark style="color:orange;">Pinterest Rich Pins Settings</mark> <a href="#_toc_250008" id="_toc_250008"></a>
+#### <mark style="color:orange;">Pinterest Rich Pins Settings</mark> <a href="#toc_250008" id="toc_250008"></a>
 
 * **Enable –** Set “Yes” to enable Pinterest Rich Pins . It uses same tags as Facebook open graph, make sure Facebook Open graph is enabled as well.
 
 ![](../../.gitbook/assets/pinterest\_richpins.png)
 
-#### <mark style="color:orange;">Free Shipping(Website Level)</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+#### <mark style="color:orange;">Free Shipping(Website Level)</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 Some settings are only available on the website level for eg:- Region/State.
 
@@ -117,7 +117,7 @@ Some settings are only available on the website level for eg:- Region/State.
 
 ![](<../../.gitbook/assets/richsn (1).png>)
 
-#### <mark style="color:orange;">Price Valid Until</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+#### <mark style="color:orange;">Price Valid Until</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 Send Price valid until with the offers markup code for products.
 
@@ -126,7 +126,7 @@ Send Price valid until with the offers markup code for products.
 
 <figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_toc_250007" id="_toc_250007"></a>
+### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#toc_250007" id="toc_250007"></a>
 
 * <mark style="color:orange;">**Home Page Markup Code -**</mark> You can add structured data/markup code on home page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._ To test structured data, go to _Structured Data Testing Tool > Provide Home Page URL > Click "Run Test" button._
 
@@ -148,7 +148,7 @@ Send Price valid until with the offers markup code for products.
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
+### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#toc_250006" id="toc_250006"></a>
 
 * <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 

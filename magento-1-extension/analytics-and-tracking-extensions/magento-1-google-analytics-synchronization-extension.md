@@ -31,7 +31,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 #### <mark style="color:orange;">**General Settings**</mark> <a href="#toc65169381" id="toc65169381"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )([ClICK HERE FOR MORE INFO](magento-1-google-analytics-synchronization-extension.md#toc65169382))
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials. ([ClICK HERE FOR MORE INFO](magento-1-google-analytics-synchronization-extension.md#toc65169382))
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.

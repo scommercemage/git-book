@@ -39,7 +39,7 @@ Go to _Admin> Stores> Configuration> Scommerce  > Credit Safe_
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enable Module –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL-specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Show Address Form on Registration –** Set "Yes" to collect billing address from customer on user registration or signup form. If set "No" billing address won't be captured on user registration.
 * **Archiving Log –** Set "Yes" to archive credit safe logs after a certain number of days and set "No" to turn off archiving.
 * **Archive Log After Number Of Days –** Enter the number of days after which the logs will be archived.&#x20;

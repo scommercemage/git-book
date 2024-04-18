@@ -59,7 +59,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Content Writing using Chat GPT** - Set "Yes" to use ChatGPT to generate content and set "No" to configure Google Gemini to be used for content generation.
 * **Chat GPT versions -** Select the ChatGPT version from the available option that you want to use to generate content.
 * **Chat GPT API Key -** Enter the API key from Chat GPT ([https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key))

@@ -15,7 +15,7 @@
 3. [_Add 360 View Images to a Product_](magento-2-product-360-view.md#add-360-view-images-to-products)
 4. [_Frontend_](magento-2-product-360-view.md#frontend)
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -31,18 +31,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Product 360 view</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Product 360 view</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Product 360 view**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/360x\_890x.png)
 
-#### <mark style="color:orange;">360 View Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">360 View Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enable Controls –** Select “Yes” or “No” to enable or disable the navigation controls on 360view image.
 * **Enable Auto Play –** Select “Yes” or “No” to enable or disable automatically spin 360 view image on page load .
@@ -68,11 +68,11 @@ Login to admin panel and go to Catalog>Products, select a product then click **e
 
 ### <mark style="color:blue;">**Frontend**</mark>
 
-#### <mark style="color:orange;">360 View</mark>  <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">360 View</mark>  <a href="#bookmark4" id="bookmark4"></a>
 
 ![](../../.gitbook/assets/360\_1\_890x.png)
 
-#### <mark style="color:orange;">360 View Full Screen Image</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">360 View Full Screen Image</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 ![](../../.gitbook/assets/360\_2\_890x.png)
 

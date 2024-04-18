@@ -18,7 +18,7 @@
    * _Restore Orders From Archived Order View Page_&#x20;
 5. [_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12)&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -34,17 +34,17 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-* ### <mark style="color:blue;">Configuration Settings for Order Delete or Archive</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+* ### <mark style="color:blue;">Configuration Settings for Order Delete or Archive</mark> <a href="#bookmark3" id="bookmark3"></a>
 * Go to **Admin > Stores > Configuration > Scommerce Configuration > Archive Orders**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Module Enable -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -**. Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -**. Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/order\_general.jpg)
 
-#### <mark style="color:orange;">Order Archive Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Order Archive Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled (Yes / No) -** Select "Yes" to archive orders automatically.
 * **Retention Period -** Please define retention period. This setting will automatically archive orders older than specified number of days
@@ -59,7 +59,7 @@ php bin/magento setup:static-content:deploy
 
 ![](../../.gitbook/assets/order\_archive3.jpg)
 
-#### <mark style="color:orange;">Order Delete Settings</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Order Delete Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enabled (Yes / No) -** Please select "Yes" or "No". If set to "Yes" then it will permanently delete orders.
 * **Sender -** Please enter sender/from email address .
@@ -69,7 +69,7 @@ php bin/magento setup:static-content:deploy
 
 ![](../../.gitbook/assets/order\_delete.jpg)
 
-### <mark style="color:blue;">Order Grid</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Order Grid</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 When you enable the "Order Archive" and "Order Delete" settings from **Admin > Stores > Configuration > Scommerce Configuration > Archive Orders > Order Archive / Order Delete Settings > Enabled - "Yes"** , then it adds two additional options "Archive" and "Delete " under the "Actions" drop-down at **Admin > Sales > Order > Actions.**
 
@@ -82,7 +82,7 @@ When you enable the "Order Archive" and "Order Delete" settings from **Admin > S
 
 ![](../../.gitbook/assets/order\_archiveordeleteorders.jpg)
 
-### <mark style="color:blue;">Archive Grid</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+### <mark style="color:blue;">Archive Grid</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 To view archived orders, go to **Admin > Sales > Archive Orders**. This grid will have an additional option "Restore "under "Actions" drop-down to restore the archived orders.
 
@@ -96,7 +96,7 @@ To view archived orders, go to **Admin > Sales > Archive Orders**. This grid wil
 
 ![](../../.gitbook/assets/order\_final.jpg)
 
-### <mark style="color:blue;">Automatically Archive Orders</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Automatically Archive Orders</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 When you enable the module and define the number of days for "Retention Period" from, **Admin > Stores > Configuration > Scommerce Configuration > Archive Orders > Order Archive Settings,** then it automatically archives order(s) older than defined days. After each successful order archival process, it sends an email to an administrator with details like how many numbers of orders being archived etc..
 

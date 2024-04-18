@@ -31,7 +31,7 @@
    * _Retrieve Date of Batch using ID 1 Using API_&#x20;
    * _Delete Batch with ID 1 Using API_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -47,18 +47,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Product Shelf Life Expiration</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Product Shelf Life Expiration</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf Life Expiration**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](file:///C:/Users/KoshleshDange/Downloads/Microsoft.SkypeApp\_kzf8qxf38zg5c!App/All/core%40scommerce-mage.com)
+* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/shelf\_general.jpg)
 
-### Batch Settings <a href="#_bookmark5" id="_bookmark5"></a>
+### Batch Settings <a href="#bookmark5" id="bookmark5"></a>
 
 * **Batch expiry email notification period (number of days) -** Please define batch expiry email notification period. This setting will check the batch expiry date and will send an email notification to the admin for the same.
 * **Batch expiry email notification (Yes/No) -** Please select “Yes” or “No” to “Enable” or “Disable” the email notification regarding batch expiration.
@@ -75,7 +75,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf
 
 ![](../../.gitbook/assets/shelf\_batch2.jpg)
 
-#### <mark style="color:orange;">Product Batches Grid</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Product Batches Grid</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 You can create and manage product batches from, **Admin> Product Batches**. This grid will have all the details about batches like ID, Batch Code, Product SKU, Batch Status, Batch Qty, Batch Expiry, Action/Edit and Source Inventory.
 
@@ -93,13 +93,13 @@ You can create and manage product batches from, **Admin> Product Batches**. This
 
 ![](<../../.gitbook/assets/7 (11)>)
 
-#### <mark style="color:orange;">Product Batches at Product Level</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+#### <mark style="color:orange;">Product Batches at Product Level</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 When user enables the module then Product Batches section appears at, **Admin>Catalog>Product>Select Product>Edit>Product Batches.** From this section, users can add new batch or can associate specific existing batch to a product.
 
 ![A screenshot of a video game  Description automatically generated](<../../.gitbook/assets/8 (31)>)
 
-#### <mark style="color:orange;">Add Specific Batch to Product</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">Add Specific Batch to Product</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 You can also add specific batches to a product from, **Admin > Catalog > Product > Select Product >Edit >Product Batches >**Click**"Add Specific Batch"**. It redirects to **Batch Grid** and by selecting batch **ID** you can associate active batches to a product.
 
@@ -113,7 +113,7 @@ You can also add specific batches to a product from, **Admin > Catalog > Product
 
 ![](<../../.gitbook/assets/11 (36)>)
 
-#### <mark style="color:orange;">Deleting or Un- Associating a Product Batch</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+#### <mark style="color:orange;">Deleting or Un- Associating a Product Batch</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * **Deleting: -**To delete a product batch, go to Catalog>Product Batches then select the product batch that you want to delete. From Action coloumn click Edit. Here you will see the option to delete the Product batch.
 
@@ -139,7 +139,7 @@ You can also add specific batches to a product from, **Admin > Catalog > Product
 
 ![](<../../.gitbook/assets/14 (11)>)
 
-#### <mark style="color:orange;">Import / Export Product Batches</mark> <a href="#_bookmark18" id="_bookmark18"></a>
+#### <mark style="color:orange;">Import / Export Product Batches</mark> <a href="#bookmark18" id="bookmark18"></a>
 
 To import and export product batches, go to **Admin > System >Import / Export**.
 
@@ -162,9 +162,9 @@ To import and export product batches, go to **Admin > System >Import / Export**.
 
 ![Shelf Life Expiration Notification Gmail\_011.png](<../../.gitbook/assets/18 (16)>)
 
-### <mark style="color:blue;">API - Application Programming Interface</mark> <a href="#_bookmark20" id="_bookmark20"></a>
+### <mark style="color:blue;">API - Application Programming Interface</mark> <a href="#bookmark20" id="bookmark20"></a>
 
-#### <mark style="color:orange;">Authentication Token</mark> <a href="#_bookmark21" id="_bookmark21"></a>
+#### <mark style="color:orange;">Authentication Token</mark> <a href="#bookmark21" id="bookmark21"></a>
 
 #### auth\_token can be received using the following: -
 
@@ -181,7 +181,7 @@ To import and export product batches, go to **Admin > System >Import / Export**.
 
 }
 
-#### <mark style="color:orange;">Creating a Batch using API</mark> <a href="#_bookmark22" id="_bookmark22"></a>
+#### <mark style="color:orange;">Creating a Batch using API</mark> <a href="#bookmark22" id="bookmark22"></a>
 
 #### Parameters:-
 
@@ -206,7 +206,7 @@ Authorization: Bearer \{{auth\_token\}}
 
 }
 
-#### <mark style="color:orange;">Retrieve all Batches using API</mark> <a href="#_bookmark23" id="_bookmark23"></a>
+#### <mark style="color:orange;">Retrieve all Batches using API</mark> <a href="#bookmark23" id="bookmark23"></a>
 
 #### Parameters:-
 
@@ -216,7 +216,7 @@ Authorization token
 
 Authorization: Bearer \{{auth\_token\}}
 
-#### <mark style="color:orange;">Retrieve Date of Batch using ID 1 Using API: -</mark> <a href="#_bookmark24" id="_bookmark24"></a>
+#### <mark style="color:orange;">Retrieve Date of Batch using ID 1 Using API: -</mark> <a href="#bookmark24" id="bookmark24"></a>
 
 #### Parameters: -
 
@@ -227,7 +227,7 @@ Authorization: Bearer \{{auth\_token\}}
 
 Authorization: Bearer \{{auth\_token\}}
 
-#### <mark style="color:orange;">Delete Batch with ID 1 Using API: -</mark> <a href="#_bookmark25" id="_bookmark25"></a>
+#### <mark style="color:orange;">Delete Batch with ID 1 Using API: -</mark> <a href="#bookmark25" id="bookmark25"></a>
 
 #### Parameters: -
 

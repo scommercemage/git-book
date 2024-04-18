@@ -25,7 +25,7 @@
    * _Product Canonical Tag_&#x20;
    * _CMS Canonical Tag_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -41,28 +41,28 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to _Admin> Stores> Configuration> Scommerce Configuration> SEOBase_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/license.png)
 
-### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 
 ![](../../.gitbook/assets/general.png)
 
-#### <mark style="color:orange;">Category Canonical Tag</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Category Canonical Tag</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Category Canonical Enable –** Set it to yes, if you want canonical tag on category pages.
 * **Exclude Current Category in Admin –**Set it to “Yes”, if you don’t want the same category to appear in the drop-down selection while choosing canonical category for a category.
@@ -70,26 +70,26 @@ Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 
 ![](../../.gitbook/assets/category.png)
 
-#### <mark style="color:orange;">Product Canonical Tag</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">Product Canonical Tag</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Product Canonical Enable –** Set it to yes, if you want canonical tag on product pages.
 
 ![](../../.gitbook/assets/product.png)
 
-#### <mark style="color:orange;">CMS Canonical Tag</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+#### <mark style="color:orange;">CMS Canonical Tag</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * **CMS Canonical Enable –** Set it to yes, if you want canonical tag on cms pages.
 
 ![](<../../.gitbook/assets/cms (1).png>)
 
-#### <mark style="color:orange;">Others Pages Canonical Tags</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+#### <mark style="color:orange;">Others Pages Canonical Tags</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 * **Other Page Canonical Enabled -** Set it to yes, if you want canonical tag on other page.
 * **Custom Canonical Tag Links –** Add custom canonical tag links.
 
 ![](../../.gitbook/assets/other.png)
 
-#### <mark style="color:orange;">No Index No Follow</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">No Index No Follow</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * **No Index No Follow Enabled –** Set it to yes, if you want to add no index, no follow in the head section.
 * **Action names –** Add action names here to add no index, no follow in the head section for specific page. New route name needs to be added in next line.
@@ -99,7 +99,7 @@ Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 
 
 
-#### <mark style="color:orange;">Product set up for Canonical URL</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+#### <mark style="color:orange;">Product set up for Canonical URL</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 Go to _Admin > Catalog > Products > Select Product (for which you want to set Canonical URL) > Search Engine Optimization Tab_
 
@@ -109,7 +109,7 @@ Go to _Admin > Catalog > Products > Select Product (for which you want to set Ca
 
 ![Untitled (2)](<../../.gitbook/assets/11 (26)>)
 
-#### <mark style="color:orange;">**Category set up for Canonical URL**</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+#### <mark style="color:orange;">**Category set up for Canonical URL**</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 Go to _Admin > Catalog> Category > select category (for which you want to set canonical URL) > Search Engine Optimization Tab_
 
@@ -119,7 +119,7 @@ Go to _Admin > Catalog> Category > select category (for which you want to set ca
 
 ![Untitled 1 (2)](<../../.gitbook/assets/12 (5)>)
 
-#### <mark style="color:orange;">CMS set up for Canonical URL</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+#### <mark style="color:orange;">CMS set up for Canonical URL</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 Go to _Admin > Content > Pages > Choose page (for which you want to set canonical URL) > Search Engine Optimization Tab_
 
@@ -144,7 +144,7 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark15" id="_bookmark15"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark15" id="bookmark15"></a>
 
 * <mark style="color:orange;">**Category Canonical Tag -**</mark> You can enable canonical tag on the category page from **Admin> Stores > Configuration > Scommerce Configuration > Canonical Tags > Category Canonical Enable - Select "Yes".**
 

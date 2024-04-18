@@ -28,7 +28,7 @@
    * _CMS Page_
 7. [_Set Primary Categories_](magento-2-google-site-map-exclusion.md#set-primary-categories)
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -44,22 +44,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250030" id="_toc_250030"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250030" id="toc_250030"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys are dev/staging sites then please email us at [core@scommerce-mage.com](file:///C:/Users/jatin/OneDrive/Documents/core%40scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](<../../.gitbook/assets/image (44).png>)
 
-### <mark style="color:blue;">Configuration Settings for SEO Sitemap Exclusion</mark> <a href="#_toc_250029" id="_toc_250029"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Sitemap Exclusion</mark> <a href="#toc_250029" id="toc_250029"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250028" id="_toc_250028"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250028" id="toc_250028"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 

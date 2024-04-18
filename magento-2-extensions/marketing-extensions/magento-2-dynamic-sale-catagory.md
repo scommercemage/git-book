@@ -15,7 +15,7 @@
 5. [_Front-end Site View_ ](magento-2-dynamic-sale-catagory.md#\_bookmark8)
    * _Sale Products on the Category Page_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -31,14 +31,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Dynamic Sale Category</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Dynamic Sale Category</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale Category**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Sale Category –** Choose the sale category where all the sale products will appear. All products in the current category would be removed, If any assigned. This category will only be populated with products set up for offer through special prices.
 * **Exclude Categories –** Exclude some categories for pulling sale products from them.
 * **Hide Sale Category with no Product –** Set to yes if you want to hide the sale category when no products are in offer.
@@ -74,7 +74,7 @@ Run the below refresh command to show the products under sale category.
 
 &#x20;`scommerce:dynamic-sale-category:refresh`
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * <mark style="color:orange;">**Sale Products on the Category Page -**</mark> The products with special price will be shown on the category page under the category you have selected from **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale Category - "Sale"** or **"Offer",** along with the sale ends date.
 

@@ -26,7 +26,7 @@
    * _Custom Stock Message on Related, Cross-sells and Up-sells Products_&#x20;
    * _Status Message in the Order Confirmation Email_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -42,14 +42,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Custom Stock Status</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Custom Stock Status</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock Status**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Custom Stock Message on Related Product –** Select “Yes” to enable the custom stock message on related product.
 * **Custom Stock Message on Up-Sells Product –** Select “Yes” to enable the custom stock message on Up-sells product.
 * **Custom Stock Message or Cross-Sells Product –** Select “Yes” to enable the custom stock message on Cross-sells product.
@@ -91,7 +91,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 ![](<../../.gitbook/assets/12 (7)>)
 
-#### <mark style="color:orange;">Assign Custom Stock Status Rule to Products Automatically or Manually</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+#### <mark style="color:orange;">Assign Custom Stock Status Rule to Products Automatically or Manually</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * <mark style="color:blue;">**Manually -**</mark> You can assign rules to product manually from **Admin > Catalog> Products > Select Product > Rule Name -** Select rule from the “Rule Name” drop-down list.
 
@@ -107,7 +107,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 ![](../../.gitbook/assets/stock\_front.jpg)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * <mark style="color:orange;">**Custom Stock Message on the Category & Search Pages –**</mark> In the below image you can see the stock message for the products.
 
@@ -119,7 +119,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 ![](<../../.gitbook/assets/18 (6)>)
 
-* #### <mark style="color:orange;">Custom Stock Message for Configurable Products on the Product Page :-</mark> For configurable product it displays stock status based on variant selection. <a href="#_bookmark17" id="_bookmark17"></a>
+* #### <mark style="color:orange;">Custom Stock Message for Configurable Products on the Product Page :-</mark> For configurable product it displays stock status based on variant selection. <a href="#bookmark17" id="bookmark17"></a>
 
 ![](<../../.gitbook/assets/19 (3)>)
 

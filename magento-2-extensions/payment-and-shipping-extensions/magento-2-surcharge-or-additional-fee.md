@@ -17,7 +17,7 @@
    * _View Surcharge on the Checkout Page_&#x20;
    * _Surcharge with the Free Shipping_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -33,14 +33,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Surcharge</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Surcharge</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Surcharge Label –** This label text gets used in the frontend of the website which will be shown on basket, review, invoice, order, shipment, email confirmation and refund.
 * **Surcharge Amount Type –** This option allows you to choose fixed amount or percentage value. Percentage value gets calculated based on the grand total or subtotal attribute been selected.
 * **Surcharge Percentage or Fixed Amount –** This is the surcharge or additional fee which will be shown to the customer based on surcharge amount type (fixed to percentage)
@@ -72,7 +72,7 @@ Please select the Payment Method, surcharge will be applied only for the selecte
 
 ![](<../../.gitbook/assets/4 (3)>)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * <mark style="color:orange;">**Surcharge Percentage/Fixed Amount Per Payment Method and Country**</mark> When you set "Surcharge Percentage or Fixed Amount per payment method and country" to "**checkmo:3:FR**" from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Surcharge Percentage or Fixed Amount per payment method,** then the fixed or Percentage amount, additional fee will be applied based on grand or subtotal attribute been selected per payment method or payment method and country.
 * <mark style="color:orange;">**checkmo:3:FR -**</mark> It will add 3% additional fee on "Subtotal Including Tax" , will be applied for shipping country **France** and payment method **Check Money order.**

@@ -14,20 +14,20 @@
    * Product Review&#x20;
    * Rollback Plan&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Follow up</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Follow up</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Follow up**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Email Sender –** Select sender email address.
 * **Email Template –** Select email template from drop-down if you have created your own version of Follow up email template using system > transaction email section of admin. If not selected it will use default email template provided as part of the module.
 * **Send Alerts (days) –** Enter the number of days you want delay before sending order follow up email alert to customers after shipment.
@@ -40,11 +40,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Follow up**
 
 ![](../../.gitbook/assets/m1orderfollow\_template.jpg)
 
-#### <mark style="color:orange;">Product Review</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Product Review</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 ![](<../../.gitbook/assets/3 (28)>)
 
-#### <mark style="color:orange;">Rollback Plan:</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">Rollback Plan:</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Delete the following folders from FTP**
 

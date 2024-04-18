@@ -25,7 +25,7 @@
    * _Free Shipping Bar with Remaining Amount_&#x20;
    * _Free Shipping Bar on the Cart Page with Success Message_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -41,18 +41,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Free Shipping Bar Rule</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Free Shipping Bar Rule</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Free Shipping Bar Rule**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/general\_freeshipping.png)
 
-### <mark style="color:blue;">Manage Free Shipping Bar Rules</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Manage Free Shipping Bar Rules</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule**
 
@@ -60,7 +60,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 ![](../../.gitbook/assets/fresshippingrid.jpg)
 
-#### <mark style="color:orange;">New Shipping Bar - General Settings</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">New Shipping Bar - General Settings</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Bar Name -** Enter Bar name. This is only for admin use.
 * **Bar Status -** Select "Enable/Disable" bar status.
@@ -73,20 +73,20 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 ![Configuration   Settings   Stores   Magento Admin (1).png](<../../.gitbook/assets/3 (71)>)
 
-#### <mark style="color:orange;">New Shipping Bar - Websites & Customers Groups</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">New Shipping Bar - Websites & Customers Groups</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **Store View -** Select the store view.
 * **Customer Group -** Select customer group.
 
 ![](../../.gitbook/assets/newshipping\_customergroup.jpg)
 
-#### <mark style="color:orange;">New Shipping Bar - Shipping Countries</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+#### <mark style="color:orange;">New Shipping Bar - Shipping Countries</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * **Allowed Countries -** Select allowed shipping countries.
 
 ![New Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/5 (30)>)
 
-#### <mark style="color:orange;">New Shipping Bar - Display Options</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+#### <mark style="color:orange;">New Shipping Bar - Display Options</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 * **Bar Position -** Select the bar position from the dropdown list to show on the front-end.
 * **Pages -** Select the page(s) where you want to show the free shipping bar. If all pages are selected then the bar will be shown on all.
@@ -97,7 +97,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 ![DisplayOptionsNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/6 (60)>)
 
-#### <mark style="color:orange;">New Shipping Bar - Content</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">New Shipping Bar - Content</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * **Initial Message -** Provide initial message (This will be an informative or generic message about free shipping conditions).
 * **In Progress Message -** Provide in progress message (A message to inform customers about the amount left for free shipping).
@@ -106,7 +106,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 ![ContentNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/7 (38)>)
 
-#### <mark style="color:orange;">New Shipping Bar - Design</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+#### <mark style="color:orange;">New Shipping Bar - Design</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 * **Font -** Select font
 * **Font Size -** Enter font size
@@ -118,7 +118,7 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 * <mark style="color:orange;">**Free Shipping Discount -**</mark> The extension only implements the bar display and actual shipping discount needs to be set separately in Magento out of the box.
 
-### Front-end Site View <a href="#_bookmark15" id="_bookmark15"></a>
+### Front-end Site View <a href="#bookmark15" id="bookmark15"></a>
 
 * <mark style="color:orange;">**Free Shipping Bar on the Homepage with Generic Message -**</mark> You can set generic message for free shipping bar from **Admin > Marketing > All Free Shipping Bar Rules > Free shipping Bar Rule >** Click **"Add Free Shipping Bar Rule" > New Shipping Bar > Initial Message**
 

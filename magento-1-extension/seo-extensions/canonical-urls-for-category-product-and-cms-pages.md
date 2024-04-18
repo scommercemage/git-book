@@ -23,23 +23,23 @@
    * Product Canonical Tags&#x20;
    * CMS Canonical Tags&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/m1can\_general.jpg)
 
-#### <mark style="color:orange;">Category Canonical Tags</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Category Canonical Tags</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Category Canonical Enable –** Set it to yes, if you want canonical tag on category pages.
 * **Exclude Current Category in Admin –** Set it to yes, if you don’t want same category to appear in the drop-down selection while choosing canonical category for a category.
@@ -48,20 +48,20 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tag
 
 ![](../../.gitbook/assets/m1can\_category.jpg)
 
-#### <mark style="color:orange;">Product Canonical Tags</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Product Canonical Tags</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Product Canonical Enable –** Set it to yes, if you want canonical tag on product pages.
 * **Include Category Path –** Set it to yes, if you want to include category path in the canonical tag alone with product URL.
 
 ![](../../.gitbook/assets/m1can\_product.jpg)
 
-#### <mark style="color:orange;">CMS Canonical Tags</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">CMS Canonical Tags</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * **CMS Canonical Enable –** Set it to yes, if you want canonical tag on cms pages.
 
 ![](../../.gitbook/assets/m1can\_cms.jpg)
 
-#### <mark style="color:orange;">No Index No Follow</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+#### <mark style="color:orange;">No Index No Follow</mark> <a href="#bookmark9" id="bookmark9"></a>
 
 * **Enable –** Set it to yes, if you want to add noindex, nofollow in the head section.
 * **Action Names –** Add action names here to add noindex, nofollow in the head section for specific page. New route name needs to be added in next line. Action name can be determined using **$this > getAction() > getFullActionName()**
@@ -69,7 +69,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tag
 
 ![](../../.gitbook/assets/m1can\_noindex.jpg)
 
-### <mark style="color:orange;">Category set up for Canonical URL</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:orange;">Category set up for Canonical URL</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 Go to **Admin > Catalog > Categories > Manage Categories > Choose Category (for which you want to set Canonical URL)**
 
@@ -85,7 +85,7 @@ Go to **Admin > Catalog > Categories > Manage Categories > Choose Category (for 
 
 ![](<../../.gitbook/assets/6 (12)>)
 
-#### <mark style="color:orange;">Product set up for Canonical URL</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">Product set up for Canonical URL</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 Go to **Admin > Catalog > Manage Product > Choose Product (for which you want to set Canonical URL)**
 
@@ -94,7 +94,7 @@ Go to **Admin > Catalog > Manage Product > Choose Product (for which you want to
 
 ![](../../.gitbook/assets/m1gen2.jpg)
 
-#### <mark style="color:orange;">CMS set up for Canonical URL</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+#### <mark style="color:orange;">CMS set up for Canonical URL</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 Go to **Admin > Catalog > CMS > Pages > Choose Page (for which you want to set Canonical URL)**
 
@@ -106,7 +106,7 @@ Go to **Admin > Catalog > CMS > Pages > Choose Page (for which you want to set C
 
 ![](<../../.gitbook/assets/8 (42)>)
 
-#### <mark style="color:orange;">Rollback Plan:</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+#### <mark style="color:orange;">Rollback Plan:</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 * **Delete the following folders from FTP**
 
@@ -127,7 +127,7 @@ ALTER TABLE CMS_PAGE DROP COLUMN canonical_url
 ALTER TABLE CMS_PAGE DROP COLUMN robots_settings
 ```
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * <mark style="color:orange;">**Category Canonical Tags –**</mark> You can enable canonical tags on the category page from **Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Category Canonical Enable – Select – “Yes”**
 

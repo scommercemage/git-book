@@ -13,20 +13,20 @@
    * Email Template&#x20;
    * Customer Review&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Product Review Notification</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Product Review Notification</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Review Notification**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Recipients –** Comma separated list of recipients for the notification email.
 * **Email Sender –** From email address for the notification email.
 * **Email Template –** Notification Email Template.
@@ -38,7 +38,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Revie
 
 ![](<../../.gitbook/assets/2 (60)>)
 
-#### <mark style="color:orange;">Customer Review</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Customer Review</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 ![](<../../.gitbook/assets/3 (70)>)
 

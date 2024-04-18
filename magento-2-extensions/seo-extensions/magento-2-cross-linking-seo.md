@@ -23,7 +23,7 @@
    * _Product Page Cross Link Redirecting on Internal Link_&#x20;
    * _Cross Link on CMS Page_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -45,18 +45,18 @@ php bin/magento setup:static-content:deploy
 composer require hyva-themes/magento2-scommerce-crosslinking
 ```
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to _**Admin > Stores > Configuration > Scommerce Configuration > SEO Base**_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_seo.png)
 
-### <mark style="color:blue;">Configuration Settings for Cross Linking</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+### <mark style="color:blue;">Configuration Settings for Cross Linking</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking_
 
@@ -122,7 +122,7 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250000" id="_toc_250000"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#toc_250000" id="toc_250000"></a>
 
 * <mark style="color:orange;">**Cross Link on Category Page -**</mark> You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1_. It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
 

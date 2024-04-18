@@ -20,20 +20,20 @@
    * Facebook Pixel Tag on the Payment Page&#x20;
    * Facebook Pixel Tag on the Success Page&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Facebook Tracking</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Facebook Tracking</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Tracking**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **New Facebook Tracking Enabled –** Set “Yes” to enable Facebook new pixel tracking or Remarketing tag [**https:**//developers.facebook.com/docs/ads-for-websites/tag-api/](https://developers.facebook.com/docs/ads-for-websites/tag-api/)
 * **Audience Pixel Id –** Enter custom Audience Pixel Id. This applies to old as well as new Facebook tracking.
 * **Events –** Select the events which you want to track with new Facebook Tracking. For new pixel tracking it will track all the events outlined here -: [https://developers.facebook.com/docs/marketing-api/facebook-](https://developers.facebook.com/docs/marketing-api/facebook-pixel/v2.6%23standardevents) [pixel/v2.6#standardevents](https://developers.facebook.com/docs/marketing-api/facebook-pixel/v2.6%23standardevents)
@@ -54,7 +54,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Trac
 
 ![A picture containing water, colorful, large, man  Description automatically generated](<../../.gitbook/assets/3 (2)>)
 
-### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Front-end site view</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on the Category Page –**</mark> The extension offers all standard trackers that Facebook uses. When the category page is viewed then it shows page view with event info, which you can see in the below image.
 

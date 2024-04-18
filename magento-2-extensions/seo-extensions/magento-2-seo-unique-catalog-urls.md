@@ -19,7 +19,7 @@
    * _Product Page Unique URL_&#x20;
    * _Search Page / Category Page Unique Catalog Product URL_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250008" id="_toc_250008"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250008" id="toc_250008"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -35,35 +35,35 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250007" id="_toc_250007"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250007" id="toc_250007"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250006" id="_toc_250006"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250006" id="toc_250006"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_seo.png)
 
-### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#_toc_250027" id="_toc_250027"></a>
+### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#toc_250027" id="toc_250027"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Catalog URL_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250026" id="_toc_250026"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250026" id="toc_250026"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Exclude Root Categories –** Exclude some root categories to appear as primary category dropdown against products.
 
 ![](../../.gitbook/assets/general\_catalog.png)
 
-### <mark style="color:blue;">Configuration Path to Set Up Primary Category</mark> <a href="#_toc_250025" id="_toc_250025"></a>
+### <mark style="color:blue;">Configuration Path to Set Up Primary Category</mark> <a href="#toc_250025" id="toc_250025"></a>
 
 Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category_ . The drop down will show all the categories selected for the product from where you can select the primary category of the product.
 
 ![](<../../.gitbook/assets/13 (2)>)
 
-### <mark style="color:blue;">Primary Category settings for Category</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+### <mark style="color:blue;">Primary Category settings for Category</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 Go to _Admin > Catalog > Categories > Select Category > Primary Category Settings._ The drop down will show two primary category settings for the selected category: -
 
@@ -72,7 +72,7 @@ Go to _Admin > Catalog > Categories > Select Category > Primary Category Setting
 
 ![](<../../.gitbook/assets/4 (77)>)
 
-### <mark style="color:blue;">Run the script to setup primary category of one or all products together</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+### <mark style="color:blue;">Run the script to setup primary category of one or all products together</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 We have included a PHP script that can be utilized to set primary category for one or all products together. Simply run the script in the url and the primary categories will get updated for the set products.&#x20;
 
@@ -106,13 +106,13 @@ Go to Admin>Catalog>Categories select a category then scroll down to find the op
 
 _<mark style="color:red;">**N.B -**</mark>_ R_<mark style="color:red;">un the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#toc_250024" id="toc_250024"></a>
 
 * <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
 ![](<../../.gitbook/assets/14 (23)>)
 
-### &#x20;<a href="#_toc_250023" id="_toc_250023"></a>
+### &#x20;<a href="#toc_250023" id="toc_250023"></a>
 
 * <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark> We have assigned “**Strive Shoulder Pack**” product to “**Gear**” Category and the URL stays the same when we access the product from the search or category page
 

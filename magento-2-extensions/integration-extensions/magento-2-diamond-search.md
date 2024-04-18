@@ -29,7 +29,7 @@
    * _360 view_
 8. [_Frontend_](magento-2-diamond-search.md#frontend)
 
-### <mark style="color:blue;">Prerequisites( module installed previously )</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Prerequisites( module installed previously )</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 If you have previously installed this module on your store using **MageInn** Extension then you need to follow the steps below in order to install it again on your site. You will need to remove the module first then proceed with the installation steps in the next section.
 
@@ -60,7 +60,7 @@ php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 ```
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -76,14 +76,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Diamond Search</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Diamond Search</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enable Module –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL-specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Source:-** Select the source from where the products are pulled. Rapnet/Demo pulls products via Rapnet API where Rapnet is live. "Local" pulls products from Magento.
 *   **API Key (RapNet):-** Enter the API key provided by RapNet here. •         [http://technet.rapaport.com/ProgrammaticAccess/Keys.aspx](http://technet.rapaport.com/ProgrammaticAccess/Keys.aspx) <mark style="color:red;">The following key works only “localhost” domain:</mark> <mark style="color:red;"></mark>_<mark style="color:red;">8EC95570ABE6411290197CB28845A6FF</mark>_
 
@@ -96,7 +96,7 @@ Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 
 ![](../../.gitbook/assets/ug1.jpg)
 
-#### <mark style="color:orange;">Widget Filter Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Widget Filter Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Expand filters:-** Select "Yes" to expand widget filters by default and select "No" to keep it hidden
 * **Show Natural / Lab filter:-** Select "Yes" or "no" to show or hide the natural/lab filter for diamonds.
@@ -161,7 +161,7 @@ Go to _Admin> Stores> Configuration> Scommerce  > Diamond Search_
 
 ![](../../.gitbook/assets/diamondmain.png)
 
-#### <mark style="color:orange;">Myo Widget</mark>  <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">Myo Widget</mark>  <a href="#bookmark4" id="bookmark4"></a>
 
 * **Add custom size option to bundle product:-** Set "Yes" or "No" to Add or Remove custom size option to bundle product
 * **Bundle Generated Size Label:-** Bundle Generated Size Label for dropdown with custom options of generated bundle product

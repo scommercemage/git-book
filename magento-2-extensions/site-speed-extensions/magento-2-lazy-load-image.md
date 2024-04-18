@@ -18,7 +18,7 @@
    * _Lazy Loading on the Search Page_&#x20;
    * _Lazy Loading on the Cart Page._&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250005" id="_toc_250005"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250005" id="toc_250005"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -34,22 +34,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimiser Base**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com).
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_speed.png)
 
-### <mark style="color:blue;">Configuration Settings for Lazy Loading</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+### <mark style="color:blue;">Configuration Settings for Lazy Loading</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Loading Icon –** Show a preview image before the real image loads.
@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading*
 
 
 
-### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_toc_250000" id="_toc_250000"></a>
+### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#toc_250000" id="toc_250000"></a>
 
 * <mark style="color:orange;">**Lazy Loading on the Homepage –**</mark> To implement lazy loading on the homepage, enable the module from **Admin > Stores > Configuration > Lazy Loading- Enable "Yes".**
 

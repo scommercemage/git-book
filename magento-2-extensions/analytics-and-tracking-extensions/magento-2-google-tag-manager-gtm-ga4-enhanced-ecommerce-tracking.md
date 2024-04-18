@@ -132,7 +132,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Account Id –** Enter your Google Tag Manager Account Id.
 * **Enable dynamic remarketing tags –** Set “Yes” if you want to enable google dynamic remarketing tags to used for GTM.
 * **Enable tracking for other sites –** Set “Yes” to enable tracking for other sites.

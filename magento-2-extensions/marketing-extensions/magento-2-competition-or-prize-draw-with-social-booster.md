@@ -32,7 +32,7 @@
    * _Newsletter Subscription Confirmation Email_&#x20;
    * _Competition Winner Confirmation Email_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -50,20 +50,20 @@ php bin/magento setup:static-content:deploy
 
 
 
-### <mark style="color:blue;">Configuration Settings for Competition</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Competition</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable Captcha on Competition Form –** Please select “Yes” or “No” to enable/disable captcha on the competition form.
 * **Subscription to Newsletter on Form Submission –** Please select “Yes” or “No” to enable/disable newsletter subscription on the competition form.
 
 ![](../../.gitbook/assets/competition\_general.png)
 
-#### <mark style="color:orange;">Social Booster - Facebook Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Social Booster - Facebook Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enable (Yes/No) –** Please select “Yes” or “No” to Facebook sharing for competitions global level.
 * **Facebook Fan Page –** Please add full URL of your Facebook page for example [www.facebook.com/scommercemage](http://www.facebook.com/scommercemage).
@@ -71,14 +71,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 
 ![](../../.gitbook/assets/competition\_socialsettings.png)
 
-#### <mark style="color:orange;">Social Booster - Twitter Settings</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Social Booster - Twitter Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 ![](../../.gitbook/assets/competition\_socialsettings2.png)
 
 * **Enable (Yes/No) –** Please select “Yes” or “No” to Twitter for competitions on global level.
 * **Twitter Account –** Please add unique id of your twitter account. For example our twitter account is [http://www.twitter.com/scommerce/mage](http://www.twitter.com/scommerce/mage) so you just need to put Scommerce Mage.
 
-#### <mark style="color:orange;">Email</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Email</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Enable (Yes/No) –** Please select “Yes” or “No” for competition email.
 * **Email Sender (Textbox) –** Please add email sender for competition email.
@@ -86,7 +86,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 
 ![](../../.gitbook/assets/competition\_emailsettings.png)
 
-### <mark style="color:blue;">Create/Edit/Delete Custom form fields</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Create/Edit/Delete Custom form fields</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 You can create, update and delete custom fields from **Admin > Competition > Custom Fields.** The grid will have below columns:
 
@@ -125,7 +125,7 @@ You can create, update and delete custom fields from **Admin > Competition > Cus
 
 ![A picture containing screenshot  Description automatically generated](<../../.gitbook/assets/10 (36)>)
 
-### <mark style="color:blue;">Create/Edit Competition</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Create/Edit Competition</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 You can update, delete and create a new competition from **Admin > Competition > Competitions.**
 
@@ -227,7 +227,7 @@ You can generate winner manually from Entrants grid by selecting "Mark Winner" u
 
 ![](<../../.gitbook/assets/20 (4)>)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark21" id="_bookmark21"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark21" id="bookmark21"></a>
 
 * <mark style="color:orange;">**Competition Form -**</mark> When you create a competition from **Admin > Competition > Competitions**, then based on defined URL key it opens the competition on the front-end site with the social sharing options, which you can see in the below screen grab.
 

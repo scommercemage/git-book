@@ -21,20 +21,20 @@
    * Gtag.js Code&#x20;
    * Gtag.js Brand Name&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Google Global Site Tag</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Google Global Site Tag</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global Site Tag**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](file:///C:/Users/ri/Downloads/core%40scommerce-mage.com)
+* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Accounts Id –** You can add multiple account id. It can be analysis, adwords.
   * **Main Account –** Select “Yes” to set your main analytics id as an account id. This account will be used to connect gtag.js.
   * **Use Linker –** If this is enabled (set to “Yes”) then this account will be linked to domains from “Domains to link” field, which is specified below.
@@ -53,7 +53,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 ![](../../.gitbook/assets/m1ua\_general2.jpg)
 
-#### <mark style="color:orange;">Admin Transactions Tracking</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Admin Transactions Tracking</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Send Backend Transactions –** Set “Yes” if you want to send base order data and “No” to send store order data to Google created from admin panel.
 * **Admin Source –** Please add the Campaign source for backend orders.
@@ -81,7 +81,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 ![](<../../.gitbook/assets/8 (29)>)
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 * <mark style="color:orange;">**Home Page with Tags –**</mark> In Tag Assistant tool you can see all the fired tags.
 

@@ -75,7 +75,7 @@
     * _Product Page Cross Link Redirecting on Internal Link_
     * _Cross Link on CMS Page_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250032" id="_toc_250032"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250032" id="toc_250032"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -91,22 +91,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250031" id="_toc_250031"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250031" id="toc_250031"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250030" id="_toc_250030"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250030" id="toc_250030"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys are dev/staging sites then please email us at [core@scommerce-mage.com](file:///C:/Users/jatin/OneDrive/Documents/core%40scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_seo.png)
 
-### <mark style="color:blue;">Configuration Settings for SEO Sitemap Exclusion</mark> <a href="#_toc_250029" id="_toc_250029"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Sitemap Exclusion</mark> <a href="#toc_250029" id="toc_250029"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250028" id="_toc_250028"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250028" id="toc_250028"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 
@@ -152,40 +152,40 @@ Google site map shows all the included Products, Categories**,** and CMS Pages l
 
 ![](../../.gitbook/assets/cat.png)
 
-### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#_toc_250027" id="_toc_250027"></a>
+### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#toc_250027" id="toc_250027"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Catalog URL_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250026" id="_toc_250026"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250026" id="toc_250026"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Exclude Root Categories –** Exclude some root categories to appear as primary category dropdown against products.
 
 ![](../../.gitbook/assets/general\_catalog.png)
 
-### <mark style="color:blue;">Configuration Path to Set Up Primary Category</mark> <a href="#_toc_250025" id="_toc_250025"></a>
+### <mark style="color:blue;">Configuration Path to Set Up Primary Category</mark> <a href="#toc_250025" id="toc_250025"></a>
 
 Go to _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category_ . The drop down will show all the categories selected for the product from where you can select the primary category of the product.
 
 ![](<../../.gitbook/assets/13 (2)>)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250024" id="_toc_250024"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#toc_250024" id="toc_250024"></a>
 
 * <mark style="color:orange;">**Product Page Unique URL -**</mark> You can assign primary category to any product from _Admin > Catalog > Select Product > Search Engine Optimization > Primary Category._ In the below image you can see the assigned category of product Rival Field Messenger is "Gear->Bags"**.**
 
 ![](<../../.gitbook/assets/14 (23)>)
 
-### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#_toc_250023" id="_toc_250023"></a>
+### <mark style="color:blue;">Configuration Settings for Canonical Tags</mark> <a href="#toc_250023" id="toc_250023"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250022" id="_toc_250022"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250022" id="toc_250022"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 
 ![](../../.gitbook/assets/general\_canonical.png)
 
-#### <mark style="color:orange;">Category Canonical Tag</mark> <a href="#_toc_250021" id="_toc_250021"></a>
+#### <mark style="color:orange;">Category Canonical Tag</mark> <a href="#toc_250021" id="toc_250021"></a>
 
 * **Category Canonical Enable –** Set it to yes, if you want canonical tag on category pages.
 * **Exclude Current Category in Admin –** Set it to “Yes”, if you don’t want the same category to appear in the drop-down selection while choosing canonical category for a category.
@@ -193,19 +193,19 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags
 
 ![](../../.gitbook/assets/category\_canonical.png)
 
-#### <mark style="color:orange;">Product Canonical Tag</mark> <a href="#_toc_250020" id="_toc_250020"></a>
+#### <mark style="color:orange;">Product Canonical Tag</mark> <a href="#toc_250020" id="toc_250020"></a>
 
 * **Product Canonical Enable –** Set it to yes, if you want canonical tag on product pages.
 
 ![](../../.gitbook/assets/product\_canonical.png)
 
-#### <mark style="color:orange;">CMS Canonical Tag</mark> <a href="#_toc_250019" id="_toc_250019"></a>
+#### <mark style="color:orange;">CMS Canonical Tag</mark> <a href="#toc_250019" id="toc_250019"></a>
 
 * **CMS Canonical Enable –** Set it to "yes", if you want canonical tag on CMS pages.
 
 ![](../../.gitbook/assets/cms\_canonical.png)
 
-#### <mark style="color:orange;">No Index No Follow</mark> <a href="#_toc_250018" id="_toc_250018"></a>
+#### <mark style="color:orange;">No Index No Follow</mark> <a href="#toc_250018" id="toc_250018"></a>
 
 * **No Index No Follow Enabled –** Set it to yes, if you want to add no index, no follow in the head section.
 * **Action names –** Add action names here to add no index, no follow in the head section for specific page. New route name needs to be added in next line.
@@ -213,7 +213,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags
 
 ![](../../.gitbook/assets/noindex\_canonical.png)
 
-#### <mark style="color:orange;">Product Setup for Canonical URL</mark> <a href="#_toc_250017" id="_toc_250017"></a>
+#### <mark style="color:orange;">Product Setup for Canonical URL</mark> <a href="#toc_250017" id="toc_250017"></a>
 
 Go to _Admin > Catalog > Products > Select Product (for which you want to set Canonical URL) > Search Engine Optimization Tab_
 
@@ -223,7 +223,7 @@ Go to _Admin > Catalog > Products > Select Product (for which you want to set Ca
 
 ![](../../.gitbook/assets/productsetup\_canonical.png)
 
-#### <mark style="color:orange;">Category Setup for Canonical URL</mark> <a href="#_toc_250016" id="_toc_250016"></a>
+#### <mark style="color:orange;">Category Setup for Canonical URL</mark> <a href="#toc_250016" id="toc_250016"></a>
 
 Go to _Admin > Catalog > Category > select category (for which you want to set canonical URL) > Search Engine Optimization Tab._
 
@@ -233,7 +233,7 @@ Go to _Admin > Catalog > Category > select category (for which you want to set c
 
 ![](../../.gitbook/assets/categorysetup\_canonical.png)
 
-#### <mark style="color:orange;">CMS Setup for Canonical URL</mark> <a href="#_toc_250015" id="_toc_250015"></a>
+#### <mark style="color:orange;">CMS Setup for Canonical URL</mark> <a href="#toc_250015" id="toc_250015"></a>
 
 Go to _Admin > Content > Pages > Choose page (for which you want to set canonical URL) > Search Engine Optimization Tab_
 
@@ -242,7 +242,7 @@ Go to _Admin > Content > Pages > Choose page (for which you want to set canonica
 
 ![](../../.gitbook/assets/cmssetup\_canonical.png)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_toc_250014" id="_toc_250014"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#toc_250014" id="toc_250014"></a>
 
 * <mark style="color:orange;">**Canonical Tag on the Category Page -**</mark> You can enable canonical tag on the category page from _Admin > Stores > Configuration > Scommerce Configuration > Canonical Tags > Category Canonical Enable - Select "Yes"._
 
@@ -256,11 +256,11 @@ Go to _Admin > Content > Pages > Choose page (for which you want to set canonica
 
 ![](../../.gitbook/assets/canonicaltag\_cms.png)
 
-### <mark style="color:blue;">Configuration Settings for Rich Snippets</mark> <a href="#_toc_250013" id="_toc_250013"></a>
+### <mark style="color:blue;">Configuration Settings for Rich Snippets</mark> <a href="#toc_250013" id="toc_250013"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250012" id="_toc_250012"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250012" id="toc_250012"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Description –** Select description/short description from the drop down.
@@ -271,7 +271,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/general\_rich.png)
 
-#### <mark style="color:orange;">Rich Snippets General Settings</mark> <a href="#_toc_250011" id="_toc_250011"></a>
+#### <mark style="color:orange;">Rich Snippets General Settings</mark> <a href="#toc_250011" id="toc_250011"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Description –** Select description/short description from the drop-down.
@@ -281,7 +281,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/richsnippet\_generalsettings.png)
 
-#### <mark style="color:orange;">Twitter Card Settings</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+#### <mark style="color:orange;">Twitter Card Settings</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Card Type –** Select the card type.
@@ -292,7 +292,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/twittercard.png)
 
-#### <mark style="color:orange;">Facebook Open Graph Settings</mark> <a href="#_toc_250009" id="_toc_250009"></a>
+#### <mark style="color:orange;">Facebook Open Graph Settings</mark> <a href="#toc_250009" id="toc_250009"></a>
 
  **Facebook Open Graph Settings**
 
@@ -304,13 +304,13 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](../../.gitbook/assets/facebookopengraph.png)
 
-#### <mark style="color:orange;">Pinterest Rich Pins Settings</mark> <a href="#_toc_250008" id="_toc_250008"></a>
+#### <mark style="color:orange;">Pinterest Rich Pins Settings</mark> <a href="#toc_250008" id="toc_250008"></a>
 
 * **Enable –** Set “Yes” to enable Pinterest Rich Pins . It uses same tags as Facebook open graph, make sure Facebook Open graph is enabled as well.
 
 ![](../../.gitbook/assets/pinterest\_richpins.png)
 
-### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#_toc_250007" id="_toc_250007"></a>
+### <mark style="color:blue;">Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool</mark> <a href="#toc_250007" id="toc_250007"></a>
 
 * <mark style="color:orange;">**Home Page Markup Code -**</mark> You can add structured data/markup code on home page from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet > Enable - Select "Yes"._ To test structured data, go to _Structured Data Testing Tool > Provide Home Page URL > Click "Run Test" button._
 
@@ -324,7 +324,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 ![](<../../.gitbook/assets/9 (11)>)
 
-### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#_toc_250006" id="_toc_250006"></a>
+### <mark style="color:blue;">Twitter, Facebook Open Graph Social Sharing Code</mark> <a href="#toc_250006" id="toc_250006"></a>
 
 * <mark style="color:orange;">**Twitter Card -**</mark> You can enable Twitter Card from, _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet >Twitter Card Settings > Enable - "Yes"._
 
@@ -340,11 +340,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Rich Snippet_
 
 
 
-### <mark style="color:blue;">Configuration Settings for Hreflang</mark> <a href="#_toc_250005" id="_toc_250005"></a>
+### <mark style="color:blue;">Configuration Settings for Hreflang</mark> <a href="#toc_250005" id="toc_250005"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **Href UrLS Scope –** Select options from the list.
@@ -357,7 +357,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang_
 
 ![](../../.gitbook/assets/general\_hreflang.png)
 
-#### <mark style="color:orange;">Language and Country Settings</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+#### <mark style="color:orange;">Language and Country Settings</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 * **Select Language –** Select Local or Custom languages from the drop down list.
 * **Add Country –** Select “Yes/No”. If set to “Yes” then only the “Select Country” option will be visible.
@@ -365,7 +365,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang_
 
 ![](../../.gitbook/assets/language\_hreflang.png)
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 * <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark> You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
 
@@ -385,7 +385,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Hreflang_
 
 
 
-### <mark style="color:blue;">Configuration Settings for Cross Linking</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+### <mark style="color:blue;">Configuration Settings for Cross Linking</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking_
 
@@ -440,7 +440,7 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250000" id="_toc_250000"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#toc_250000" id="toc_250000"></a>
 
 * <mark style="color:orange;">**Cross Link on Category Page -**</mark> You can define the replacement limit for category page from _Admin > Stores > Configuration > Scommerce Configuration > Cross Linking > Category Page Replacement Limit - 1._ It determines how many keywords will be replaced on the given page and to define cross link, go to _Admin > Marketing > SEO Cross Linking > Cross Links > Select Link > Replacement Limit -1._
 

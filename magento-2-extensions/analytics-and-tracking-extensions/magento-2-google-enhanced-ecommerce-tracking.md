@@ -22,7 +22,7 @@
    * _Home Page with Tags_&#x20;
    * _GA - UA Tracking Code_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -38,14 +38,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Google Universal Tracking</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Google Universal Tracking</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Universal Analytics**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Account Id –** Enter your Google Account Id.
 * **Anonymize Ip –** Sets the parameter anonymize in tracking. If set to yes, tells Google Analytics to anonymize the information sent by the tracker objects by removing the last octlet of the IP address prior to its storage.
 * **Display Feature –** Enable/Disable the display feature plugin. For more information [click here](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
@@ -60,7 +60,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 
 ![](../../.gitbook/assets/enhanced\_general.png)
 
-#### <mark style="color:orange;">Enhanced Ecommerce</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Enhanced Ecommerce</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enable Enhanced Ecommerce –** Select “Yes” to enable the enhanced ecommerce tracking.
 * **Steps –** You can select multiple steps here, these steps correspond to Magento onepage standard checkout steps. Also make sure you add these same steps in Google Analytics under Ecommerce settings by turning Enhanced E-commerce on.
@@ -77,7 +77,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Univer
 
 ![](../../.gitbook/assets/enhanced\_commerce.png)
 
-### <mark style="color:blue;">To Turn on Enhanced E-commerce for a view, and label your checkout steps:</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+### <mark style="color:blue;">To Turn on Enhanced E-commerce for a view, and label your checkout steps:</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 1. Click Admin at the top of any Analytics page.
 2. Select the view for which you want to enable Enhanced E-commerce reporting.
@@ -123,7 +123,7 @@ You can turn this option off to restore the older category of E-commerce reports
 * <mark style="color:orange;">**Sales Performance -**</mark> To view tracked sales performance go to **GA > Conversion > Ecommerce > Sales Performance.**
 * <mark style="color:orange;">**Product List Performance by Category -**</mark> You can view the product list performance from **GA > Conversion >Ecommerce >Product List Performance.**
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_bookmark14" id="_bookmark14"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#bookmark14" id="bookmark14"></a>
 
 * <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see the fired tags.
 

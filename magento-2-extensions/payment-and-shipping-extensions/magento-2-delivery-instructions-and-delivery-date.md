@@ -17,7 +17,7 @@
    * _Delivery Date Selection_&#x20;
    * _Delivery Instructions Details in Order Confirmation Emails_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -33,18 +33,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Delivery Instruction</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Delivery Instruction</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce  > Diamond Search**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Module Enable -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/delivery\_general.jpg)
 
-### Configuration Settings <a href="#_bookmark5" id="_bookmark5"></a>
+### Configuration Settings <a href="#bookmark5" id="bookmark5"></a>
 
 * **Delivery Instruction Label –** Enter delivery instruction label, this label will be shown on the frontend checkout page under delivery instruction section.
 * **Delivery Date Label –** Enter delivery date label, this label will be shown on the frontend checkout page.
@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce  > Diamond Search**
 
 ![](../../.gitbook/assets/delivery\_payment.jpg)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * <mark style="color:orange;">**Delivery Instruction Section on the Checkout page -**</mark> When you enable the module and select the "Enable Delivery Date" to "Yes" from **Admin > Stores > Configuration > Scommerce Configuration > Delivery Instruction > Configuration Settings**, then it shows Delivery Date, Delivery Time under Delivery Instruction section on the checkout page.
 

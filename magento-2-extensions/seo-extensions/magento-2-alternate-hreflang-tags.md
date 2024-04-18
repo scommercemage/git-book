@@ -24,7 +24,7 @@
    * _Hreflang Tag on the Product Page_&#x20;
    * _Hreflang Tag on the CMS Page_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250006" id="_toc_250006"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250006" id="toc_250006"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -40,22 +40,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#_toc_250005" id="_toc_250005"></a>
+### <mark style="color:blue;">Configuration Settings for SEO Base</mark> <a href="#toc_250005" id="toc_250005"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_seo.png)
 
-### <mark style="color:blue;">Configuration Settings for Alternate Hreflang</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Configuration Settings for Alternate Hreflang</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Hreflang**
 
-### General Settings <a href="#_toc_250002" id="_toc_250002"></a>
+### General Settings <a href="#toc_250002" id="toc_250002"></a>
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 * **X-Default –** Select default store view.
@@ -65,7 +65,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Hreflang**
 
 ![](../../.gitbook/assets/href\_1.png)
 
-#### <mark style="color:orange;">Language and Country Settings</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+#### <mark style="color:orange;">Language and Country Settings</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 * **Select Language –** Select local or custom languages from the drop-down list.
 * **Add Country –** Select “Yes/No”. If set to “Yes” then only the “Select Country” option will be visible.
@@ -127,7 +127,7 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Front-end Site view</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+### <mark style="color:blue;">Front-end Site view</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 * <mark style="color:orange;">**Hreflang Tag on the Home Page -**</mark> You can enable hreflang on the home page by selecting "Yes" for " Hreflang Tags For CMS Pages " from _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages._
 

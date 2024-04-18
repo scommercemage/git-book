@@ -18,7 +18,7 @@
    * _When “only for selected custom options is set to “No”_&#x20;
    * _When “only for selected custom options is set to “Yes” and Conditions are set_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -34,36 +34,36 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Custom options Discount</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Custom options Discount</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 #### Go to Admin > Stores > Configuration > Scommerce Configuration > Custom options Discount
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/customoptions\_general.png)
 
-### <mark style="color:blue;">Adding Custom Options to Products</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+### <mark style="color:blue;">Adding Custom Options to Products</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 Login to your admin panel then go to **Catalog > Products**. Select your product and click edit from the action column. Scroll down to Customizable options. Click on add option to add a new custom option for the selected product.
 
 ![](../../.gitbook/assets/customoptions1.png)
 
-### <mark style="color:blue;">Adding Cart Price Rules for Custom Options</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+### <mark style="color:blue;">Adding Cart Price Rules for Custom Options</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 Go to **Marketing > Promotions > Cart Price Rules** and click on Add New Rule.
 
 ![](../../.gitbook/assets/customoptions2.png)
 
-#### <mark style="color:orange;">Apply Cart Rule for all custom options available</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+#### <mark style="color:orange;">Apply Cart Rule for all custom options available</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 Create your Cart Price Rule Normally. Then scroll down to **Actions** dropdown. Make sure **Only for selected Custom Option?** Is set to “Yes”. This option will enable the cart price rule to be applied on the custom options. Make sure there are no conditions set.
 
 ![](<../../.gitbook/assets/4 (60)>)
 
-#### <mark style="color:orange;">Apply cart Rule for specific custom options</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+#### <mark style="color:orange;">Apply cart Rule for specific custom options</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 To create cart price rule for specific custom options you will need to add conditions in the Actions Column. For eg: - we have added a condition to apply discount only on the custom option that has custom options title as “Gift Wrap”. So now the discount will only be available for the Gift wrap custom option. Similarly, you can create conditions based on custom options SKU and create your custom options discount.
 
@@ -73,17 +73,17 @@ Conditions available for custom options are custom options title and custom opti
 
 ![](<../../.gitbook/assets/6 (8)>)
 
-### <mark style="color:blue;">Frontend Screengrabs</mark> <a href="#_bookmark9" id="_bookmark9"></a>
+### <mark style="color:blue;">Frontend Screengrabs</mark> <a href="#bookmark9" id="bookmark9"></a>
 
-#### <mark style="color:orange;">When “only for selected custom options is set to “Yes”</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+#### <mark style="color:orange;">When “only for selected custom options is set to “Yes”</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 ![](../../.gitbook/assets/customoptions3.png)
 
-#### <mark style="color:orange;">When “only for selected custom options is set to “No”</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">When “only for selected custom options is set to “No”</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 ![](../../.gitbook/assets/customoptions4.png)
 
-#### <mark style="color:orange;">When “only for selected custom options is set to “Yes” and Conditions are set</mark> <a href="#_bookmark12" id="_bookmark12"></a>
+#### <mark style="color:orange;">When “only for selected custom options is set to “Yes” and Conditions are set</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 ![](../../.gitbook/assets/customoptions5.png)
 

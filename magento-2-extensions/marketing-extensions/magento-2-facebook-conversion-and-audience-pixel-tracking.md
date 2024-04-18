@@ -49,7 +49,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 ### General Settings <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **New Facebook Tracking Enabled –** Set yes to enable Facebook new pixel tracking or Remarketing tag [**https://developers.facebook.com/docs/ads-for-websites/tag/api/**](https://developers.facebook.com/docs/ads-for-websites/tag/api/)
 * **Audience Pixel Tag Id –** Enter Custom Audience Pixel Id. This applies to old as well as new Facebook tracking.
 * **Dynamic Product Ads Enabled –** Set yes to enable the Dynamic Product Ads [**http://en-gb.facebook.com/business/help/www/455326144628161**](http://en-gb.facebook.com/business/help/www/455326144628161)

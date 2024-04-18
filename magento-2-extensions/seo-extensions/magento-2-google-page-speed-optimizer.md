@@ -47,7 +47,7 @@
     * _Product Page Mobile_&#x20;
     * _Product Page Desktop_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250024" id="_toc_250024"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250024" id="toc_250024"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -63,35 +63,35 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#_toc_250023" id="_toc_250023"></a>
+### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#toc_250023" id="toc_250023"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Optimiser Base_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250022" id="_toc_250022"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250022" id="toc_250022"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_speed.png)
 
-### <mark style="color:blue;">Configuration Settings for Speed Optimiser</mark> <a href="#_toc_250021" id="_toc_250021"></a>
+### <mark style="color:blue;">Configuration Settings for Speed Optimiser</mark> <a href="#toc_250021" id="toc_250021"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Speed Optimiser_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250020" id="_toc_250020"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250020" id="toc_250020"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 
 ![](../../.gitbook/assets/speed\_general.png)
 
-#### <mark style="color:orange;">Minify HTML</mark> <a href="#_toc_250019" id="_toc_250019"></a>
+#### <mark style="color:orange;">Minify HTML</mark> <a href="#toc_250019" id="toc_250019"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module. If set to “Yes” then the module will remove all the unnecessary comments, line breaks, tabs and spaces from your HTML to reduce its size.
 * **Defer Iframes –** Select “Yes” or “No”. If set to “Yes” then attribute defer will be added to the iframe.
 
 ![](../../.gitbook/assets/speed\_minifyhtml.png)
 
-#### <mark style="color:orange;">Javascript Settings</mark> <a href="#_toc_250018" id="_toc_250018"></a>
+#### <mark style="color:orange;">Javascript Settings</mark> <a href="#toc_250018" id="toc_250018"></a>
 
 Select “Yes” to enable the Defer Iframes
 
@@ -101,7 +101,7 @@ Select “Yes” to enable the Defer Iframes
 
 ![](../../.gitbook/assets/speed\_javascript.png)
 
-#### <mark style="color:orange;">CSS Settings</mark> <a href="#_toc_250017" id="_toc_250017"></a>
+#### <mark style="color:orange;">CSS Settings</mark> <a href="#toc_250017" id="toc_250017"></a>
 
 * **Merge CSS Files –** Select “Yes/No”. If set to “Yes” then it will merge all CSS files into one to reduce the number of queries.
 * **Defer Fonts Loading –** Select “Yes/No”. If set to “Yes” then browser will load the page with system fonts and replace them with your fonts when they are loaded. It makes store pages load faster.
@@ -110,11 +110,11 @@ Select “Yes” to enable the Defer Iframes
 
 ![](../../.gitbook/assets/speed\_css.png)
 
-### <mark style="color:blue;">Configuration Settings for Lazy Loading</mark> <a href="#_toc_250016" id="_toc_250016"></a>
+### <mark style="color:blue;">Configuration Settings for Lazy Loading</mark> <a href="#toc_250016" id="toc_250016"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250015" id="_toc_250015"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250015" id="toc_250015"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Preload Images –** Select “Yes**”** to preload the images.
@@ -147,11 +147,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading_
 
 ![](<../../.gitbook/assets/20 (2)>)
 
-### <mark style="color:blue;">Configuration Settings for Image Optimizer</mark> <a href="#_toc_250014" id="_toc_250014"></a>
+### <mark style="color:blue;">Configuration Settings for Image Optimizer</mark> <a href="#toc_250014" id="toc_250014"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Image Optimizer_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250013" id="_toc_250013"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250013" id="toc_250013"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Compress Images while uploading -** Select available options to enable compression for new images uploaded via Magento admin. We recommend this to be enabled because all the new things will be compressed straight away.
@@ -183,11 +183,11 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Image Optimize
 
 ![](../../.gitbook/assets/compress\_cmsimage.jpg)
 
-### <mark style="color:blue;">Configuration Settings for Cache Warmer</mark> <a href="#_toc_250012" id="_toc_250012"></a>
+### <mark style="color:blue;">Configuration Settings for Cache Warmer</mark> <a href="#toc_250012" id="toc_250012"></a>
 
 Go to _Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer_
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250011" id="_toc_250011"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250011" id="toc_250011"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module
 * **Regenerate cache after page update -** Please select "Yes" or "No" to regenerate cache for updated page.
@@ -197,14 +197,14 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer_
 
 ![](../../.gitbook/assets/cache\_general.png)
 
-#### <mark style="color:orange;">Cron Settings</mark> <a href="#_toc_250010" id="_toc_250010"></a>
+#### <mark style="color:orange;">Cron Settings</mark> <a href="#toc_250010" id="toc_250010"></a>
 
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
 ![](../../.gitbook/assets/cache\_cron.png)
 
-### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#_toc_250009" id="_toc_250009"></a>
+### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#toc_250009" id="toc_250009"></a>
 
 When you enable the module and set _General Settings > Can Regenerate Cache Manually >_ to **"Yes"** then it adds an additional option "Regenerate" under the "Actions ->Select" drop-down at _Admin > System > Cache Warmer > Actions._ This grid will have Id, Page URL, Page Type - (Home, Product, Category, CMS), Status - (Cached/Un-cached), Last Cached - (Date, Time), and Action- (Regenerate, Delete).
 
@@ -214,7 +214,7 @@ When you enable the module and set _General Settings > Can Regenerate Cache Manu
 
 ![](../../.gitbook/assets/cache\_regenrate.png)
 
-### <mark style="color:blue;">Console Commands</mark> <a href="#_toc_250008" id="_toc_250008"></a>
+### <mark style="color:blue;">Console Commands</mark> <a href="#toc_250008" id="toc_250008"></a>
 
 You can regenerate cache for Product/Category/CMS page(s) by running the following console commands: -
 
@@ -230,7 +230,7 @@ You can regenerate cache for Product/Category/CMS page(s) by running the followi
 
 ![](../../.gitbook/assets/console\_cms.png)
 
-### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#_toc_250007" id="_toc_250007"></a>
+### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#toc_250007" id="toc_250007"></a>
 
 * <mark style="color:orange;">**Cache Hit for the category page after the execution of category page command -**</mark> When you run the command for category then it regenerates the cache. On the front-end you can debug the cache and check the status "Hit" or "Miss" using browser tool (Inspect element) under _Network > Select Page URL > Header > Cache Debug: HIT_
 
@@ -256,29 +256,29 @@ scommerce:seo-base:set-primary-category
 
 _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are using older version then run the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
-### <mark style="color:blue;">Google Page Speed Tests</mark> <a href="#_toc_250006" id="_toc_250006"></a>
+### <mark style="color:blue;">Google Page Speed Tests</mark> <a href="#toc_250006" id="toc_250006"></a>
 
-#### <mark style="color:orange;">Home Page Mobile</mark> <a href="#_toc_250005" id="_toc_250005"></a>
+#### <mark style="color:orange;">Home Page Mobile</mark> <a href="#toc_250005" id="toc_250005"></a>
 
 ![](../../.gitbook/assets/gooogle\_home.jpg)
 
-#### <mark style="color:orange;">Home Page Desktop</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+#### <mark style="color:orange;">Home Page Desktop</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 ![](../../.gitbook/assets/google\_homedesk.jpg)
 
-#### <mark style="color:orange;">Category Page Mobile</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+#### <mark style="color:orange;">Category Page Mobile</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 ![](../../.gitbook/assets/google\_catmobile.jpg)
 
-#### <mark style="color:orange;">Category Page Desktop</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">Category Page Desktop</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 ![](../../.gitbook/assets/google\_catdesktop.jpg)
 
-#### <mark style="color:orange;">Product Page Mobile</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+#### <mark style="color:orange;">Product Page Mobile</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 ![](../../.gitbook/assets/google\_prodmobile.jpg)
 
-#### <mark style="color:orange;">Product Page Desktop</mark> <a href="#_toc_250000" id="_toc_250000"></a>
+#### <mark style="color:orange;">Product Page Desktop</mark> <a href="#toc_250000" id="toc_250000"></a>
 
 ![](../../.gitbook/assets/google\_proddesk.jpg)
 

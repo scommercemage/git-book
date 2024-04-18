@@ -27,7 +27,7 @@
    * _VAT Exempt Discount on the Front-end_&#x20;
    * _VAT Exempt Declaration Statement on the Front-end_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -43,18 +43,18 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Vat Exemption</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Vat Exemption</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Vat Exempt Settings**
 
 #### <mark style="color:orange;">General Settings</mark>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com.](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/vat\_general.jpg)
 
-#### <mark style="color:orange;">Vat Exempt Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">Vat Exempt Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Shipping VAT Exempt -** Please Select "Yes/No" to include or exclude shipping from VAT exemption (Default - No).
 * **Declaration Statement -** Please provide declaration statement. This will be shown in admin along with order details and on the frontend checkout page.
@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Vat Exempt Se
 
 ![](../../.gitbook/assets/vat.png)
 
-### <mark style="color:blue;">VAT Exempt - Reasons</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+### <mark style="color:blue;">VAT Exempt - Reasons</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 You can create and manage reasons for VAT Exemption from the backend, **Admin > VAT Exempt > Reasons > Vat Exempt Reasons**. This grid will have columns like, ID, Reason, Status, Action, along with create new button to add new reason.
 
@@ -77,7 +77,7 @@ You can create and manage reasons for VAT Exemption from the backend, **Admin > 
 * Sort Order: Enter sort order
 * Status: Select reason status
 
-### <mark style="color:blue;">Admin Order View Page</mark> <a href="#_bookmark8" id="_bookmark8"></a>
+### <mark style="color:blue;">Admin Order View Page</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 * <mark style="color:orange;">**Declaration Statement on Order View Page -**</mark> You can see the declaration statement and VAT exemption details on the order view page at, **Sales > Orders > Select Order > View**.
 
@@ -91,13 +91,13 @@ You can create and manage reasons for VAT Exemption from the backend, **Admin > 
 
 ![](<../../.gitbook/assets/12 (1)>)
 
-### <mark style="color:blue;">Enable VAT Exemption for Products</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+### <mark style="color:blue;">Enable VAT Exemption for Products</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * <mark style="color:orange;">**Include or Exclude Product -**</mark> To include/exclude store products for the VAT exemption, go to **Catalog > Product > Select Product > Edit > VAT Exempt - ''Yes/No''**.
 
 ![](<../../.gitbook/assets/13 (23)>)
 
-### <mark style="color:blue;">Front-end Site View</mark> <a href="#_bookmark13" id="_bookmark13"></a>
+### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark13" id="bookmark13"></a>
 
 * <mark style="color:orange;">**VAT Exempt Option on the Cart Page -**</mark> Apply for Vat Exempt option appears on the cart page and when user opts for this option, then it opens the form on the checkout page after the shipping details to add the required information.
 
@@ -123,7 +123,7 @@ You can create and manage reasons for VAT Exemption from the backend, **Admin > 
 
 ![VATExemptionDiscountOnFrontendMyAccountViewOrderSection\_03.png](<../../.gitbook/assets/19 (12)>)
 
-#### <mark style="color:orange;">VAT Exempt Declaration Statement on the Front-end - My Account -</mark> <a href="#_bookmark17" id="_bookmark17"></a>
+#### <mark style="color:orange;">VAT Exempt Declaration Statement on the Front-end - My Account -</mark> <a href="#bookmark17" id="bookmark17"></a>
 
 You can see the VAT exempt declaration statement under **My Account > My Order section**.
 

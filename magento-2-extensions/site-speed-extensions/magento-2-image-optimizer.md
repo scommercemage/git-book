@@ -15,7 +15,7 @@
    * _Compress/Optimize Category Images_&#x20;
    * _Compress/Optimize CMS Images_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_toc_250004" id="_toc_250004"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#toc_250004" id="toc_250004"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -31,22 +31,22 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#_toc_250003" id="_toc_250003"></a>
+### <mark style="color:blue;">Configuration Settings for Optimiser Base</mark> <a href="#toc_250003" id="toc_250003"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimiser Base**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250002" id="_toc_250002"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250002" id="toc_250002"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/config\_speed.png)
 
-### <mark style="color:blue;">Configuration Settings for Image Optimiser</mark> <a href="#_toc_250001" id="_toc_250001"></a>
+### <mark style="color:blue;">Configuration Settings for Image Optimiser</mark> <a href="#toc_250001" id="toc_250001"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_toc_250000" id="_toc_250000"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#toc_250000" id="toc_250000"></a>
 
 * **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
 * **Compress Images while uploading (All pages, CMS, Category and Product):** Select available options to enable compression for new images uploaded via Magento admin. We recommend this to be enabled because all the new things will be compressed straight away.

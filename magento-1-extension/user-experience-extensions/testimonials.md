@@ -20,26 +20,26 @@
    * Show all Testimonial.&#x20;
    * Testimonial Form&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Disable Compilation Mode:**</mark> To check that this is disabled, go to **System >Tools> Compilation**. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right hand side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (**System > Cache Management**), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change.
 
-### <mark style="color:blue;">Configuration Settings for Testimonials</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:blue;">Configuration Settings for Testimonials</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Testimonials**
 
-#### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark5" id="_bookmark5"></a>
+#### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Testimonials Title –** Enter the title for the testimonial page
 * **Auto approved –** Select Yes/No for auto approving submitted reviews
 
 ![](../../.gitbook/assets/m1testimonials\_general.jpg)
 
-#### <mark style="color:orange;">Recaptcha</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+#### <mark style="color:orange;">Recaptcha</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the Recaptcha on testimonial form.
 * **Public key –** Enter Recaptcha public key.
@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Testimonials*
 
 ![](../../.gitbook/assets/m1testimonials\_recaptcha.jpg)
 
-### <mark style="color:blue;">Accessing Testimonials</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Accessing Testimonials</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 #### Go to Admin > CMS > Testimonials
 
@@ -73,9 +73,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Testimonials*
 
 ![](../../.gitbook/assets/5)
 
-### <mark style="color:blue;">Front-end site view</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Front-end site view</mark> <a href="#bookmark10" id="bookmark10"></a>
 
-#### <mark style="color:orange;">Home Page</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">Home Page</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 ![](<../../.gitbook/assets/6 (4)>)
 

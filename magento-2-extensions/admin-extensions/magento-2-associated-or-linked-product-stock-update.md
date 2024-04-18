@@ -19,7 +19,7 @@
    * _Import_&#x20;
    * _Export_&#x20;
 
-### <mark style="color:blue;">Installation</mark> <a href="#_bookmark0" id="_bookmark0"></a>
+### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
@@ -35,14 +35,14 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Associated Product</mark> <a href="#_bookmark3" id="_bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Associated Product</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Product**
 
-### <mark style="color:orange;">General Settings</mark> <a href="#_bookmark4" id="_bookmark4"></a>
+### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
 ![](../../.gitbook/assets/associate\_general.png)
 
@@ -50,11 +50,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 * <mark style="color:orange;">**Product Association at Product Level –**</mark> You can associate products from **Admin > Catalog > Products > Select Product > Product Association > Click “AddProduct”.**
 
-### <mark style="color:blue;">Product Association for Simple Product</mark> <a href="#_bookmark6" id="_bookmark6"></a>
+### <mark style="color:blue;">Product Association for Simple Product</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 ![](<../../.gitbook/assets/2 (16)>)
 
-### <mark style="color:blue;">Product Association for Configurable/Child Product</mark> <a href="#_bookmark7" id="_bookmark7"></a>
+### <mark style="color:blue;">Product Association for Configurable/Child Product</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 ![](<../../.gitbook/assets/3 (16)>)
 
@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 ![](<../../.gitbook/assets/5 (59)>)
 
-### <mark style="color:blue;">Fix Product Associations</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Fix Product Associations</mark> <a href="#bookmark10" id="bookmark10"></a>
 
 Product associations can be fixed to make sure the following criterias are met:-
 
@@ -79,9 +79,9 @@ To fix product associations run the command given below:-
 php bin/magento scommerce:associatedproducts:fixassociations -f
 ```
 
-### <mark style="color:blue;">Import / Export</mark> <a href="#_bookmark10" id="_bookmark10"></a>
+### <mark style="color:blue;">Import / Export</mark> <a href="#bookmark10" id="bookmark10"></a>
 
-#### <mark style="color:orange;">Import</mark> <a href="#_bookmark11" id="_bookmark11"></a>
+#### <mark style="color:orange;">Import</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 To import associated products go **system > Data transfer > Import**. Then select product association from the drop down list. You will see the importing menu opening on your screen as shown in the image below. Select the import file and add import behavior settings as per your preferences. Lastly click on check data button on the right corner of your screen.
 
