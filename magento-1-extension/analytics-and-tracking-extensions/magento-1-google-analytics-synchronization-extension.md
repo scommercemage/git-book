@@ -37,14 +37,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
 * **Send Base Data –** Select whether you want to send base order data or store order data.
 * **Brand Attribute –** Select a brand attribute to send with brand names
-* **Brand Text box –** Input brand name to send to Google
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+* **Brand Text box –** Input brand name to send to Google
 * **Default Landing Page -** This setting allows you to set default landing page value which shows in Google Analytics in case landing page is not available to sent as part of missing transaction.
 * **Cron Schedule –** Schedule specific cron time to run the sync automatically.
 * **Debugging –** Enabling debugging will generate a detailed log report in /var/log directory
@@ -54,11 +54,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
@@ -112,9 +108,7 @@ Please follow the steps below to create project in Google developer console for 
 
 </div>
 
-* #### Similarly enable the below API's as well:- <a href="#toc65169389" id="toc65169389"></a>
-  * Google Analytics API&#x20;
-  * Google Analytics Data API (Used to access GA4 report Data) [https://developers.google.com/analytics/devguides/reporting/data/v1?hl=en\_US](https://developers.google.com/analytics/devguides/reporting/data/v1?hl=en\_US)
+* #### Similarly enable the "Google Analytics Reporting API" as well. <a href="#toc65169389" id="toc65169389"></a>
 * #### Click on Credentials from the left window then click on Create Credentials and choose service account. <a href="#toc65169389" id="toc65169389"></a>
 
 <div data-full-width="true">
@@ -148,15 +142,13 @@ Please follow the steps below to create project in Google developer console for 
 
 </div>
 
-* Login to your Google Analytics account. Go to **Admin > User Management**. Add the **email** we got in the steps above with “Read and Analyse” permissions.
-
 #### <mark style="color:orange;">Add Cloud Console Email to Google Analytics 4</mark> <a href="#toc65169394" id="toc65169394"></a>
 
 In the earlier step we created a service account ID which is also the service account email. Alternatively, you can go to the "API & Services" section from the left menu and find your service account email there as shown in screengrab below:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -164,7 +156,7 @@ Now In order for this account to access your GA4 property we are required to add
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -172,7 +164,7 @@ Click on plus sign to add new email:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
