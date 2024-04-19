@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -285,6 +285,14 @@ AI content generator generates content on all Category, Product, CMS Pages. Plea
 <div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/41bbbf38-a466-4913-8c96-fcfe6ac23caf.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:orange;">Meta Keywords</mark> <a href="#bookmark4" id="bookmark4"></a>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
