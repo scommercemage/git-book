@@ -83,7 +83,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
-<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+
+
 
 <mark style="color:orange;">**Select Store View**</mark>&#x20;
 
@@ -107,15 +109,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 <figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">**GA4**</mark> <a href="#toc65169381" id="toc65169381"></a>
+<mark style="color:orange;">**GA4**</mark>
 
 * **Synch GA4 –** Select “Yes” or “No” to enable or disable the GA4 sync.
 * **API Secret –** Enter the API secret key here. API secret key can be created by going into **GA4>Admin>Data Streams>Select website>Measurement Protocol API Secrets>Create enter the name and click on create to get the key.**
@@ -123,7 +123,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**
 
-<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
