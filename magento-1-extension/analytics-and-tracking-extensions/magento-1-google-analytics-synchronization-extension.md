@@ -32,7 +32,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )([ClICK HERE FOR MORE INFO](magento-1-google-analytics-synchronization-extension.md#toc65169382))
+* **Application Name –** It is the project name or the application name that you get from Google console. ( https://console.developers.google.com/ )([ClICK HERE FOR MORE INFO](magento-1-google-analytics-synchronization-extension.md#toc65169382))
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials. ([ClICK HERE FOR MORE INFO](magento-1-google-analytics-synchronization-extension.md#toc65169382))
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
 * **Send Base Data –** Select whether you want to send base order data or store order data.
@@ -40,21 +40,25 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * **Brand Text box –** Input brand name to send to Google
 * **Default Landing Page -** This setting allows you to set default landing page value which shows in Google Analytics in case landing page is not available to sent as part of missing transaction.
 * **Cron Schedule –** Schedule specific cron time to run the sync automatically.
-* **Debugging –** Enabling debugging will generate a detailed log report in /var/log directory
+* **Debugging –** When set Yes, it will generate logs in var/log/ga\_sync.log file otherwise log file will not be generated.
 * **Test Mode-** This setting allows you to check missing transactions before we send the transactions to GA. It helps in validating the data before it gets posted to Google Analytics
 * **API Secret –** Enter the API secret key here. API secret key can be created by going into GA4>Admin>Data Streams>Select website>Measurement Protocol API Secrets>Create enter the name and click on create to get the key.
 * **Skip Order days –** Enter the number of days that will be skipped before sending to GA4. Please put greater than 0 value. This is done to avoid duplicate transactions. For eg:- Suppose if you enter 2 then orders from 2days ago will be synced today.
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
@@ -148,7 +152,7 @@ In the earlier step we created a service account ID which is also the service ac
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -156,7 +160,7 @@ Now In order for this account to access your GA4 property we are required to add
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -164,7 +168,7 @@ Click on plus sign to add new email:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
