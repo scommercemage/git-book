@@ -48,8 +48,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enabled –** Select “Yes” or “No” to enable or disable synchronization with UA(Universal Analytics).
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )&#x20;
-* **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
+* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ ) [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
+* **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials. [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
 * **Google View id –** View Id can be obtained from Google Analytics. Go to Admin>View Settings>View ID.
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
 * **Orders day Skip –** Enter the number of days you want to skip checking. For eg:- Suppose if you enter 2 then orders from 2days ago will be synced today.
@@ -160,30 +160,28 @@ Please follow the steps below to create project in Google developer console for 
 
 #### Click on Credentials from the left window then click on Create Credentials and choose service account. <a href="#toc65169389" id="toc65169389"></a>
 
-![](../../.gitbook/assets/sync7.jpg)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### In the next window, fill in your service account name and description then click on Create. An email will be automatically created as per your name. We need to add this email in google analytics. We will do it in the steps down below. Your service name will be your Application Name that you will enter in the configuration. <a href="#toc65169390" id="toc65169390"></a>
 
-![](../../.gitbook/assets/sync8.jpg)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on continue without selecting a role. <a href="#toc65169391" id="toc65169391"></a>
 
-![](../../.gitbook/assets/sync9.jpg)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-#### Click Continue again without any selection <a href="#toc65169392" id="toc65169392"></a>
-
-![](../../.gitbook/assets/sync10.jpg)
-
+* Click Continue again without any selection
 * Click on Create Key from the image above and select json your key file will be downloaded. **Place this key file in the VAR directory of your website**. Copy the exact name with extension “.json” and input it into **security Key** in the configuration.
-* Login to your Google Analytics account. Go to **Admin > User Management**. Add the **email** we got in the steps above with “Read and Analyse” permissions.
 
-![](../../.gitbook/assets/sync11.jpg)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+* Login to your Google Analytics account. Go to **Admin > User Management**. Add the **email** we got in the steps above with “Analyst” permissions.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Getting View ID</mark> <a href="#toc65169393" id="toc65169393"></a>
 
 Login to Your Google Analytics account and go to **Admin>View Settings**. You will be able to see your **view Id** there. You need to input this into the configuration as well.
-
-![](../../.gitbook/assets/sync12.jpg)
 
 ![](../../.gitbook/assets/sync13.jpg)
 

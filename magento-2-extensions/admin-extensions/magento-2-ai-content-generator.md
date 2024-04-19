@@ -66,7 +66,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -95,7 +95,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -108,7 +108,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -120,7 +120,7 @@ AI content generator works with the following fields on the product pages. Go to
 
 Click on **Fetch Content** and Based on the prompt set in the configuration the content is generated and populated automatically into this field.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147) (1).png" alt=""><figcaption></figcaption></figure>
 
 In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 

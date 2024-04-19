@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Shipping Methods</mark>  <a href="#bookmark4" id="bookmark4"></a>
 
@@ -49,7 +49,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Tracking Links</mark> <a href="#bookmark8" id="bookmark8"></a>
 
