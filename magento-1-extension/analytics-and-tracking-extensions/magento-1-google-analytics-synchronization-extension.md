@@ -50,13 +50,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Debugging –** When set Yes, it will generate logs in var/log/ga\_sync.log file otherwise log file will not be generated.
 * **Test Mode-** This setting allows you to check missing transactions before we send the transactions to GA. It helps in validating the data before it gets posted to Google Analytics
 * **API Secret –** Enter the API secret key here. API secret key can be created by going into GA4>Admin>Data Streams>Select website>Measurement Protocol API Secrets>Create enter the name and click on create to get the key.
-* **Skip Order days –** Enter the number of days that will be skipped before sending to GA4. This should be a numeric value starting from 0. Set the delay for sending transactions to GA4 to at least 2 days to avoid duplicates, as GA4 may take up to 48 hours to process transactions. A value less than 2 days risks sending duplicates.
+*   **Skip Order days –**&#x20;
+
+    Number of Days to Skip Before Sending to GA4:
+
+    * Numeric value starting from 0
+    * Set delay for sending transactions to GA4 to at least 2 days to avoid duplicates (GA4 may take up to 48 hours to process transactions)
+    * A value less than 2 days risks sending duplicates, as GA4 takes 24-48 hours to populate transactions in your reports
+      * If set to 0: Extension compares today's transactions with GA4 and syncs those transactions (may result in duplicates)
+      * If set to 1: Extension compares yesterday's transactions with GA4 and syncs those transactions (may result in duplicates)
+    * Recommended value is 2 or greater to ensure sufficient time for GA4 to process and populate transactions before comparison and syncing
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
