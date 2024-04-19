@@ -48,7 +48,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enabled –** Select “Yes” or “No” to enable or disable synchronization with UA(Universal Analytics).
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )
+* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )&#x20;
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
 * **Google View id –** View Id can be obtained from Google Analytics. Go to Admin>View Settings>View ID.
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
@@ -65,9 +65,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Debugging –** Enabling debugging will generate a detailed log report in /var/log directory
 * **Test Mode-** This setting allows you to check missing transactions before we send the transactions to GA. It helps in validating the data before it gets posted to Google Analytics
 
-![](../../.gitbook/assets/gasyncedit.png)
+<figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/missingnew2.png)
+<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">**GA4**</mark> <a href="#toc65169381" id="toc65169381"></a>
 
@@ -77,13 +83,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
-![](../../.gitbook/assets/synga4.png)
+<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Select Store View**</mark>&#x20;
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enabled –** Select “Yes” or “No” to enable or disable synchronization with UA(Universal Analytics).
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [core@scommerce-mage.com](mailto:core@scommerce-mage.com)
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at&#x20;
 * **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
 * **Google View id –** View Id can be obtained from Google Analytics. Go to Admin>View Settings>View ID.
@@ -99,9 +105,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Brand Text box –** Input brand name to send to Google
 * **Default Landing Page -** This setting allows you to set default landing page value which shows in Google Analytics in case landing page is not available to sent as part of missing transaction.
 
-![](../../.gitbook/assets/gasyncedit2.png)
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/missingnew3.png)
+<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">**GA4**</mark> <a href="#toc65169381" id="toc65169381"></a>
 
@@ -111,7 +123,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**
 
-![](../../.gitbook/assets/synga4.png)
+<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
@@ -119,27 +131,27 @@ Please follow the steps below to create project in Google developer console for 
 
 #### Go to [https://console.developers.google.com/](https://console.developers.google.com/). Click on the dropdown on the left as shown in the image below and a popup will appear on your screen. <a href="#toc65169383" id="toc65169383"></a>
 
-![](<../../.gitbook/assets/sync1 (1).jpg>)
+<figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on New Project <a href="#toc65169384" id="toc65169384"></a>
 
-![](<../../.gitbook/assets/sync2 (1).jpg>)
+<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 #### Enter your project name and Location then click on create. <a href="#toc65169385" id="toc65169385"></a>
 
-![](../../.gitbook/assets/sync3.jpg)
+<figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on Enable APIS and SERVICES <a href="#toc65169386" id="toc65169386"></a>
 
-![](../../.gitbook/assets/sync4.jpg)
+<figure><img src="../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
 #### In the next window search for Google Analytics Reporting API <a href="#toc65169387" id="toc65169387"></a>
 
-![](../../.gitbook/assets/sync5.jpg)
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on Enable to enable the API <a href="#toc65169388" id="toc65169388"></a>
 
-![](../../.gitbook/assets/sync6.jpg)
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 #### Similarly enable the below API's as well:- <a href="#toc65169389" id="toc65169389"></a>
 
