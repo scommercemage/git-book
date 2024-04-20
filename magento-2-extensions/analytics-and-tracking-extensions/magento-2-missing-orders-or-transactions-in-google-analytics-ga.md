@@ -4,22 +4,24 @@
 
 **Table of Contents**
 
-[_1. Installation_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc62151771)
+2[_. Installation_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc62151771)
 
 * _Installation via app/code_&#x20;
 * _Installation via Composer_
 
-[_2. Configuration Settings for Google Analytics Synchronization_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169380)
+2[_. Configuration Settings for Google Analytics Synchronization_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169380)
 
 * _General Settings_
 * _GA4_
 * _Select Store View_
 
-[_3. Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169382)
+3[_. Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 
-[_4. Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169393)
+4[_. Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
 
-[_5. Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#\_toc65169394)
+5[_. Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+
+6[_. Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#toc62151771" id="toc62151771"></a>
 
@@ -181,11 +183,15 @@ Please follow the steps below to create project in Google developer console for 
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Getting View ID</mark> <a href="#toc65169393" id="toc65169393"></a>
+### <mark style="color:blue;">Getting View ID (Universal Analytics)</mark> <a href="#toc65169393" id="toc65169393"></a>
 
 Login to Your Google Analytics account and go to **Admin>View Settings**. You will be able to see your **view Id** there. You need to input this into the configuration as well.
 
-![](../../.gitbook/assets/sync13.jpg)
+<figure><img src="../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:blue;">Getting Property ID (GA4)</mark> <a href="#toc65169394" id="toc65169394"></a>
+
+<figure><img src="../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Command to run the Synch Manually</mark> <a href="#toc65169394" id="toc65169394"></a>
 
