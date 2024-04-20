@@ -146,7 +146,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <figure><img src="../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
-#### In the next window search for Google Analytics Reporting API <a href="#toc65169387" id="toc65169387"></a>
+#### In the next window search for Google Analytics Reporting API, this API gets used for GA4 along with Analytics Data API <a href="#toc65169387" id="toc65169387"></a>
 
 <figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
