@@ -176,7 +176,11 @@ Please follow the steps below to create project in Google developer console for 
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-* Login to your Google Analytics account. Go to **Admin > User Management**. Add the **email** we got in the steps above with “Analyst” permissions.
+* Login to your GA4 account. Go to **Admin -> Property -> Property Access Management**. Add the **email** we got in the steps above with “**Viewer**” or "**Analyst**" permissions.
+
+<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+
+* Login to your Universal Analytics account. Go to **Admin > User Management**. Add the **email** we got in the steps above with “**Viewer**” or "**Analyst**" permissions.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
