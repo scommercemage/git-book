@@ -11,7 +11,7 @@
    * _General Settings_
    * _GA4_
    * _Select Store View_
-3. [_Verify/Test Synced Trasnactions_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#verify-test-synced-transactions)
+3. [_Verify/Test Synced Transactions_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#verify-test-synced-transactions)
    * _GA4 Sync Log grid_
    * _GA4 Sync Log File_
    * _Google Analytics 4 Real Time Reports_
@@ -170,7 +170,7 @@ Next, select realtime from the left menu and under the event name column you can
 
 <mark style="color:orange;">**Google Analytics 4 Custom Reports**</mark>
 
-You can create a transaction report in GA4 using custom reports to verify the transactions received. For more information, please check https://www.scommerce-mage.com/blog/how-to-create-transactions-report-in-google-analytics-4-ga4.html
+You can create a transaction report in GA4 using custom reports to verify the transactions received. For more information, please [**Click Here**](https://www.scommerce-mage.com/blog/how-to-create-transactions-report-in-google-analytics-4-ga4.html)
 
 ### <mark style="color:blue;">Order Tracking Information</mark> <a href="#toc65169382" id="toc65169382"></a>
 
