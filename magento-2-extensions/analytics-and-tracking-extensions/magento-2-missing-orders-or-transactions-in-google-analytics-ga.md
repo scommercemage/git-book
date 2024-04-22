@@ -156,7 +156,7 @@ Go to your Google Analytics 4 Property then from left menu click on reports:-
 
 <div data-full-width="true">
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FfUsoHSdPLCcQVtWNgnO2%252Fimage.png%3Falt%3Dmedia%26token%3Db27d5abd-4ded-4828-bf27-fc7b32db5997&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=cb354ace41da927c1bd6a9658792643b07ebbc00c619e95c83f16387736599cf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -164,7 +164,7 @@ Next, select realtime from the left menu and under the event name column you can
 
 <div data-full-width="true">
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252F46yW4B3lvKaPOIZDZtrY%252Fimage.png%3Falt%3Dmedia%26token%3D62d917d3-19cf-4b79-8473-c81d304d686c&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=31af0d579b47b5b82b789a53724b9b6bbdbffc943d9c93b4f730d167cccd9b4a" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -217,11 +217,11 @@ Please follow the steps below to create project in Google developer console for 
 
 #### Click on Credentials from the left window then click on Create Credentials and choose service account. <a href="#toc65169389" id="toc65169389"></a>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### In the next window, fill in your service account name and description then click on Create. An email will be automatically created as per your name. We need to add this email in google analytics. We will do it in the steps down below. Your service name will be your Application Name that you will enter in the configuration. <a href="#toc65169390" id="toc65169390"></a>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Click on continue without selecting a role. <a href="#toc65169391" id="toc65169391"></a>
 
