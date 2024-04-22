@@ -15,10 +15,15 @@
 * _GA4_
 * _Select Store View_
 
-3. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
-4. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
-5. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
-6. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+3. [_GA Sync Log_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#ga-sync-log)
+
+* Backend Configuration
+* FileZilla
+
+4. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
+5. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
+6. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+7. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#toc62151771" id="toc62151771"></a>
 
@@ -91,8 +96,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enabled –** Select “Yes” or “No” to enable or disable synchronization with UA(Universal Analytics).
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at&#x20;
-* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/ )
-* **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials.
+* **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/) [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
+* **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials. [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
 * **Google View id –** View Id can be obtained from Google Analytics. Go to Admin>View Settings>View ID.
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
 * **Analytics Account Id –** It is your Google Analytics account ID.
@@ -125,6 +130,28 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 <figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
 
+
+### _<mark style="color:blue;">GA Sync Log</mark>_
+
+* <mark style="color:orange;">**Backend Configuration:**</mark> Go to **System>Manage GA Sync Logs>GA Sync Logs**
+
+<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+
+After clicking on "GA Sync Logs", user would see the generated logs.
+
+<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+
+User can also use filters to check a particular log
+
+<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+
+* <mark style="color:orange;">**FileZilla:**</mark> Go to **var/log/ga\_sync.log**
+
+<figure><img src="../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+
+After downloading/viewing the file, user can check the logs.
+
+<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
