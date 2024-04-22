@@ -154,7 +154,7 @@ After downloading/viewing the file, user can check the logs.
 
 <figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Order Tracking Information</mark> <a href="#toc65169382" id="toc65169382"></a>
+### _<mark style="color:blue;">Order Tracking Information</mark>_ <a href="#toc65169382" id="toc65169382"></a>
 
 Based upon the field "Skip Order Days", user can track whether the synced orders has reached the analytics or not by checking the analytics' report.
 
