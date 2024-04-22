@@ -96,13 +96,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enabled –** Select “Yes” or “No” to enable or disable synchronization with UA(Universal Analytics).
-* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at&#x20;
+* **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com)
 * **Application Name –** It is the project name that you get from Google console. ( https://console.developers.google.com/) [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
 * **Security key (JSON) –** Security key JSON file can be obtained from Google Console under account credentials. [Click here for more information](https://docs.scommerce-mage.com/magento-2-extensions/analytics-and-tracking-extensions/magento-2-missing-orders-or-transactions-in-google-analytics-ga#toc65169382)
 * **Google View id –** View Id can be obtained from Google Analytics. Go to Admin>View Settings>View ID.
 * **Exclude order statuses –** You can choose to exclude certain order statues from sync. These orders won’t be synced with Google Analytics.
 * **Analytics Account Id –** It is your Google Analytics account ID.
-* **Orders day Skip –** Enter the number of days you want to skip checking. For eg:- Suppose if you enter 2 then orders from 2days ago will be synced today.
+* **Orders day Skip –** Enter the number of days you want to skip checking. For eg:- Suppose if you enter 2 then orders from 2 days ago will be synced today.
 * **Skip Hours-** This setting works in conjunction with Order days skip" setting. When **Order days skip** is set to 0 then you can add hours here to allow number of hours to skip before considering transaction has been missing and sending it to GA. Default value is 4 and we will recommend to keep it that way because original transaction can take longer to appear in Google Analytics.
 * **Send Base Data –** Select whether you want to send base order data or store order data.
 * **Send Phone or Admin Orders –** Enabling this option will also sync orders placed from admin panel and phone
@@ -134,7 +134,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 ### _<mark style="color:blue;">GA Sync Log</mark>_
 
-* <mark style="color:orange;">**Backend Configuration(GA Sync Grid):**</mark> Go to **System>Manage GA Sync Logs>GA Sync Logs**
+* <mark style="color:orange;">**Backend Configuration(GA Sync Grid):**</mark> Go to **System> Manage GA Sync Logs> GA Sync Logs**
 
 <figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
