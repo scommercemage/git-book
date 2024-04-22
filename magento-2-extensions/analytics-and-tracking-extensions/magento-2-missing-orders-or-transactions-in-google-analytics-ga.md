@@ -148,18 +148,15 @@ After downloading/viewing the file, user can check the logs.
 
 <figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
 
-### _<mark style="color:blue;">Order Tracking Information</mark>_ <a href="#toc65169382" id="toc65169382"></a>
+### <mark style="color:blue;">Order Tracking Information</mark> <a href="#toc65169382" id="toc65169382"></a>
 
-Based upon the field "Skip Order Days", user can track whether the synced orders has reached the analytics or not by checking the analytics' report.
+The order tracking info is captured against each order which is later used to sync the transactions to GA4 attributing them to correct sessions and dates to improve report accuracy. The order tracking info can be viewed by going into Admin>Sales>Order>Edit any order. Please refer to the screengrab below.
 
-* Open GA4
-* Go to "Explore", create a new report. After the creation, report should resemble the below screengrab:
+<div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
 
-* Add the correct date range, dimensions and metrics in order to check the transactions
-
-<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+</div>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
