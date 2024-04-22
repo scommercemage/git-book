@@ -78,17 +78,41 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 \
 **Cookie Name** - **cookie** associated with parameter
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-### &#x20;<a href="#bookmark6" id="bookmark6"></a>
+</div>
+
+<div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+</div>
+
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+</div>
+
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -117,7 +141,11 @@ To import JSONS provided with extension package follow below steps:
 
 * Choose the JSON file which you would like to import
 
-![](<../../.gitbook/assets/4 (6)>)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/4 (6)" alt="">
+
+</div>
 
 * Choose to either Overwrite or Merge
   * Overwriting the existing container will remove all your existing tags, triggers, and variables, and will replace them with those in the imported container. A new container version will be created before the import.
@@ -126,7 +154,11 @@ To import JSONS provided with extension package follow below steps:
 * **Rename –** If a variable, tag, or trigger in the new container has the same name but the contents are different, keep the old one and rename the new one.
 * **Click Continue**. You’ll see a preview of changes, showing how many tags, triggers, and variables will be added, modified, or deleted. You can also click the link to View Detailed Changes to see which tags, triggers, and variables are being added, modified, or deleted.
 
-![](<../../.gitbook/assets/5 (50)>)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/5 (50)" alt="">
+
+</div>
 
 * Once you’re satisfied with the changes, click _Confirm_.
 
@@ -134,17 +166,29 @@ To import JSONS provided with extension package follow below steps:
 
 Once the GTM container file has been imported, you need to change variable information with correct value corresponding to the site. To access variables, go to workspace where you have imported the JSONs and click on variables on left hand side navigation.
 
-![](<../../.gitbook/assets/6 (65)>)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/6 (65)" alt="">
+
+</div>
 
 #### <mark style="color:orange;">Variables Created with JSON’s</mark>
 
 * **GA ID –** This variable is created when GTM-UniversalAnalytics.json is imported and it holds value for Google Analytics Id for the site. Click on the GA ID and change it to correct value.
 
-![](<../../.gitbook/assets/7 (30)>)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/7 (30)" alt="">
+
+</div>
 
 * <mark style="color:orange;">**conversionID -**</mark> This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
 
-![](<../../.gitbook/assets/8 (50)>)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/8 (50)" alt="">
+
+</div>
 
 * <mark style="color:orange;">**facebookPixelID -**</mark> This variable is created when GTM-Facebook.json is imported and it holds value for Facebook pixel Id for the site. Click on the facebookPixelID and change it to correct value.
 
@@ -216,11 +260,19 @@ You can turn this option off to restore the older category of E-commerce reports
 
 * To get the measurement id you need to go to your GA4 view. Go to the admin settings and then data streams. Click on the website url coloured in blue and a popup should open.
 
-![](../../.gitbook/assets/gtm\_ga44.jpg)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/gtm_ga44.jpg" alt="">
+
+</div>
 
 * You will see the Measurement ID listed on the top right corner of this page.
 
-![](../../.gitbook/assets/gtm\_ga45.jpg)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/gtm_ga45.jpg" alt="">
+
+</div>
 
 * Now for the final step import our Google Analytics 4 JSON file in your GTM to get all the configurations for GA4. Once done you will see data flowing into Google Analytics 4. Learn more about [Google Analytics 4](https://www.scommerce-mage.com/blog/integrate-magento-2-with-google-analytics-4ga4.html).
 
