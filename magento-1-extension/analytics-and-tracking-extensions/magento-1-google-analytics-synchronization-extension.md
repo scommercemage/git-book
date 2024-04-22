@@ -237,6 +237,10 @@ Next, select realtime from the left menu  and under the event name column you ca
 
 </div>
 
+#### <mark style="color:orange;">Google Analytics 4 Custom Reports</mark>
+
+You can create a transaction report in GA4 using custom reports to verify the transactions received. For more information, please check https://www.scommerce-mage.com/blog/how-to-create-transactions-report-in-google-analytics-4-ga4.html
+
 ### <mark style="color:blue;">Run GA Synch Manually</mark> <a href="#toc65169394" id="toc65169394"></a>
 
 You can run the synch manually by utilizing the built in frotnend controller to the run the sync. The controller is as follows:-
