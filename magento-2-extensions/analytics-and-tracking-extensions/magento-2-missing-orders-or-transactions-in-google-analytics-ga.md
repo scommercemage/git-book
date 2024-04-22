@@ -5,22 +5,16 @@
 **Table of Contents**
 
 1. [_Installation_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc62151771)
-
-* _Installation via app/code_&#x20;
-* _Installation via Composer_
-
+   * _Installation via app/code_&#x20;
+   * _Installation via Composer_
 2. [_Configuration Settings for Google Analytics Synchronization_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169380)
-
-* _General Settings_
-* _GA4_
-* _Select Store View_
-
+   * _General Settings_
+   * _GA4_
+   * _Select Store View_
 3. [_GA Sync Log_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#ga-sync-log)
-
-* Backend Configuration(GA Sync grid)
-* FileZilla(Log File)
-
-4. [_<mark style="color:blue;">Order Tracking Information</mark>_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
+   * Backend Configuration(GA Sync grid)
+   * FileZilla(Log File)
+4. [_Order Tracking Information_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 6. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
 7. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
