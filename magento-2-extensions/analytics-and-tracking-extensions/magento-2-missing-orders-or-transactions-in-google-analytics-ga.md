@@ -17,13 +17,14 @@
 
 3. [_GA Sync Log_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#ga-sync-log)
 
-* Backend Configuration
-* FileZilla
+* Backend Configuration(GA Sync grid)
+* FileZilla(Log File)
 
-4. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
-5. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
-6. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
-7. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+4. _<mark style="color:blue;">Order Tracking Information</mark>_
+5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
+6. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
+7. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+8. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#toc62151771" id="toc62151771"></a>
 
@@ -133,25 +134,38 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 ### _<mark style="color:blue;">GA Sync Log</mark>_
 
-* <mark style="color:orange;">**Backend Configuration:**</mark> Go to **System>Manage GA Sync Logs>GA Sync Logs**
+* <mark style="color:orange;">**Backend Configuration(GA Sync Grid):**</mark> Go to **System>Manage GA Sync Logs>GA Sync Logs**
 
 <figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
-After clicking on "GA Sync Logs", user would see the generated logs.
+After clicking on "GA Sync Logs", user would see the generated logs in the Sync Log Grid.
 
 <figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
 
-User can also use filters to check a particular log
+User can also use filters to check a particular log in the grid.
 
 <figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
-* <mark style="color:orange;">**FileZilla:**</mark> Go to **var/log/ga\_sync.log**
+* <mark style="color:orange;">**FileZilla(Log File):**</mark> Go to **var/log/ga\_sync.log**
 
 <figure><img src="../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
 After downloading/viewing the file, user can check the logs.
 
 <figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:blue;">Order Tracking Information</mark> <a href="#toc65169382" id="toc65169382"></a>
+
+Based upon the field "Skip Order Days", user can track whether the synced orders has reached the analytics or not by checking the analytics' report.
+
+* Open GA4
+* Go to "Explore", create a new report. After the creation, report should resemble the below screengrab:
+
+<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+
+* Add the correct date range, dimensions and metrics in order to check the transactions
+
+<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
