@@ -20,7 +20,7 @@
 * Backend Configuration(GA Sync grid)
 * FileZilla(Log File)
 
-4. _<mark style="color:blue;">Order Tracking Information</mark>_
+4. [_<mark style="color:blue;">Order Tracking Information</mark>_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 6. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
 7. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
