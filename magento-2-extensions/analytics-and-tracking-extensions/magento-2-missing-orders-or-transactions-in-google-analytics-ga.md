@@ -11,12 +11,14 @@
    * _General Settings_
    * _GA4_
    * _Select Store View_
-3. [_GA Sync Log_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#ga-sync-log)
-   * Backend Configuration(GA Sync grid)
-   * FileZilla(Log File)
+3. [_Verify/Test Synced Trasnactions_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#verify-test-synced-transactions)
+   * _GA4 Sync Log grid_
+   * _GA4 Sync Log File_
+   * _Google Analytics 4 Real Time Reports_
+   * _Google Analytics 4 Custom Reports_
 4. [_Order Tracking Information_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
 5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
-6. [ _Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
+6. [_Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
 7. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
 8. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
 
@@ -124,11 +126,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 <figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
+### <mark style="color:blue;">Verify/Test Synced Transactions</mark>
 
+The synced transactions can be verified in two ways. Either checking the GA Sync logs or by checking the Real time reports in GA4 (as it takes 24 to48 hrs for GA4 to attribute data to reports realtime is the quickest way to verify).
 
-### _<mark style="color:blue;">GA Sync Log</mark>_
-
-* <mark style="color:orange;">**Backend Configuration(GA Sync Grid):**</mark> Go to **System> Manage GA Sync Logs> GA Sync Logs**
+* <mark style="color:orange;">**GA Sync Log Grid:**</mark> Go to **System> Manage GA Sync Logs> GA Sync Logs**
 
 <figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
@@ -140,13 +142,35 @@ User can also use filters to check a particular log in the grid.
 
 <figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
-* <mark style="color:orange;">**FileZilla(Log File):**</mark> Go to **var/log/ga\_sync.log**
+* <mark style="color:orange;">**GA4 Sync Log File:**</mark> The GA Sync logs can be viewed by going into your server>Magento installation directory>Var>log>ga\_sync.log.
 
 <figure><img src="../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
-After downloading/viewing the file, user can check the logs.
+After downloading/viewing the file, user can check the logs. This file contains details of each synced transaction alongwith the order data that was sent, please refer to the image below:-
 
 <figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:orange;">**Google Analytics 4 Real Time Reports**</mark>
+
+Go to your Google Analytics 4 Property then from left menu click on reports:-
+
+<div data-full-width="true">
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FfUsoHSdPLCcQVtWNgnO2%252Fimage.png%3Falt%3Dmedia%26token%3Db27d5abd-4ded-4828-bf27-fc7b32db5997&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=cb354ace41da927c1bd6a9658792643b07ebbc00c619e95c83f16387736599cf" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Next, select realtime from the left menu and under the event name column you can find the purchase event by clicking on that you can verify the transaction ID that was sent through the sync module.
+
+<div data-full-width="true">
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252F46yW4B3lvKaPOIZDZtrY%252Fimage.png%3Falt%3Dmedia%26token%3D62d917d3-19cf-4b79-8473-c81d304d686c&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=31af0d579b47b5b82b789a53724b9b6bbdbffc943d9c93b4f730d167cccd9b4a" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Google Analytics 4 Custom Reports**</mark>
+
+You can create a transaction report in GA4 using custom reports to verify the transactions received. For more information, please check https://www.scommerce-mage.com/blog/how-to-create-transactions-report-in-google-analytics-4-ga4.html
 
 ### <mark style="color:blue;">Order Tracking Information</mark> <a href="#toc65169382" id="toc65169382"></a>
 
