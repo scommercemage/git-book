@@ -69,6 +69,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable GDPR country check** - This setting enables you to specify a list of countries whose users will be able to choose which consent parameters to be sent to Google as 'granted' or 'denied'
 * **Select GDPR countries** - This setting allows you to select a list of EEA and UK countries whose users will be able to choose which consent parameters to be sent to Google as ‘granted' or 'denied'. Users from countries not included on the list will always send consent parameters as 'granted’ to Google.
+* **Enable Customer Account Deletion/ Anonymisation -** Set to “Yes” if you want to delete record on the frontend from my account.
+* **Order anonymisation after (days):-** Number of days to anonymise personal data in order related tables. Leave it blank for not anonymising any personal data automatically.\
+  **Please note: Anonymised data can't be restored so please test this on your test site before enabling**
+* **Chunk of orders to anonymise:-** Enter the number of orders to anonymise in one go. If you have huge amount of transactions in the system then you should limit the number of transactions to be anonymised when cron job runs every hour.
+* **Quote expires after (days):-** Enter the number of days to set personal data to NULL in sales\_flat\_quote table.
+* **Enable Debugging:-** Set "yes" to log debugging data related to quote and order anonymisation in the log file under var/log/anonymisation.log
 
 <figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 

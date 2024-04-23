@@ -61,6 +61,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Product ID Attribute –** Select attribute for Product ID, this should be same attribute as you have in your Google Base Feed.
 * **Enable Google Optimize –** Set “Yes” to add page-hiding snippet code for google optimize.
 * **Enable GDPR cookie check –** If you are using our GDPR Extension or any other GDPR Extension and you want to block sending information to Google then set this to “yes” based on customer preference. Please note this is optional as far as you are not sending any PII to Google this setting needs to be turned off.
+* **Force decline –** If you set this to yes then GTM tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website.
+* **GDPR Cookie Key –** You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **cookie\_accepted** but if you are using other GDPR extension then please check with extension developer
 * **Order Total Include VAT –** If set to “Yes” then VAT will be included in order total.
 * **Order Item Include VAT –** If set to “Yes” then VAT will be included in order item.
 * **Enable GA4 data layer –** Set “yes” to enable the GA4 data layer.
@@ -98,13 +100,13 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

@@ -77,13 +77,21 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Conversion Data using data layer:-** Set "Yes" to push the Conversion PII data as a data layer and set "No" to push Conversion PII data as a Javascript variable.
 * **Enable Consent mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/111.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Cookie mapping -** This setting defines the mapping between user preference cookies and the corresponding Google Consent Mode parameters **ad\_storage**, **ad\_user\_data**, **ad\_personalization**, **analytics\_storage**\
   Cookie preference cookie could be set using our [GDPR extension](https://www.scommerce-mage.com/magento-2-gdpr.html) or any Consent Management Platform (CMP).
 * **Product ID Attribute –** Select the attribute which you have submitted in your Google base feed. For e.g. SKU
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/222.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Brand Attribute –** Please select brand attribute, if you have one otherwise put your brand name in the below input box.
 * **Primary Category Attribute –** When a product is in more than one category then the primary category attribute will be sent to Google.&#x20;
@@ -92,7 +100,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Affiliation-** Enter the affiliation name which you want to send with the GA4 data layers.
 * **Use Base Currency -** Set ‘Yes’ if you want to send base order data and ‘No’ to send store order data to Google. Set this ‘No’ only when you have multicurrency and you want to send different currency data to Google.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/333.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Product Price Include Tax-** Set “Yes” then VAT will be included in the price.
 * **Order Total Include VAT –** Set “Yes” then VAT will be included in order total.
@@ -102,17 +114,28 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **List Name with full path-** Choose whether you want to send the full path of the category or not. When 'yes' The breadcrumbs are broken into separate categories and sent as item\_category1, item\_category2 etc. Set 'No' to send the lowest level category. for ex:- Men>Tops>Jackets, when 'yes' Men, tops, jackets all three categories will be sent. When 'no' only jackets is sent.&#x20;
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/444.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Send 'Default List'-** When customers land on the product page directly then 'default' list' will be sent as list name when set to 'Yes'. When 'No' list name/ list ID will be removed.&#x20;
 * **Default List-** Enter the default list name if the product impression is not found
 * **Send Admin Orders to Google–** Select “Yes” to track orders created in admin
+* **Send Refund On Order Cancellation:-** Set "yes" to send refund event on order cancellation.
 * **Source-**Please add the Campaign Source for backend orders.
 * **Medium-**Please define the Campaign Medium for Backend Orders.
 * **Send Product Impression on Scroll -** Enable this feature when you have loads of products on product listing / category pages.
+* **Product item class on category / product listing page-** Enter the product item class. Make sure this product class item hierarchy is as unique as possible for example for luma theme you can use **div.products ol.product-items li.product-item**
+* **Threshold for Scroll:-** Enter the number of product impressions to be sent with view\_item\_list on scroll.
 * **Category Ajax Enabled –** Enable this feature if you have third party ajax enabled extension on your category page.
 
-<figure><img src="../../.gitbook/assets/555.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -123,7 +146,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
   * **Selector:-** add the selector for the step. Basic selector could be '#customer-email' this is equals to '#customer-email/change' and will send customer email itself
   * **Type:-** choose the step type from the dropdown
 
-![](../../.gitbook/assets/5.png)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/5.png" alt="">
+
+</div>
 
 ### <mark style="color:blue;">Configuration Settings for Google Tag Manager Pro</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -139,14 +166,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Ecom Category Path –**  Set "yes" to send the category path with ecomm\_category.
 * **Enable GDPR Cookie Check –** Select "Yes" or "No" to enable/disable GDPR Cookie Check
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/gt1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Force decline –** If you set this to yes then GTM tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website
 * **GDPR Cookie Key –**  You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **cookie\_accepted** but if you are using other GDPR extension then please check with extension developer
 * **Enable UA data layer –** Select "Yes" to add UA (Universal Analytics) events to the data layer.
 * **Enable GA4 data layer-**Select "Yes" to add GA4(Google Analytics 4) events to the data layer.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/gt2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">Cookies From Query Params</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -154,7 +189,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Configuration –** Use this setting to create cookies by entering cookie parameter, cookie name, and cookie value.
 * **Lifetime –** Enter the lifetime of the cookie. It will be stored in the users browser as per the time defined in this setting.
 
-![](../../.gitbook/assets/cookies.png)
+<div data-full-width="true">
+
+<img src="../../.gitbook/assets/cookies.png" alt="">
+
+</div>
 
 ### <mark style="color:blue;">JSONs/Script provided with extension package</mark> <a href="#bookmark5" id="bookmark5"></a>
 
