@@ -83,12 +83,12 @@ Let us look at how to set up start and end date for products.&#x20;
 
 * <mark style="color:orange;">**Start and End Date Setup at Product Level -**</mark> You can schedule product for launching by selecting ''Start Date'' and ''End Date'' from **Catalog > Products > Select Product > Start Date / End Date**.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Enable Product on Scheduled Date-**</mark> The product gets enabled based on the Start date added in the product settings. If the start date is set 2 days in the future then the product will be enabled/launched exactly after completion of 2days.
 * <mark style="color:orange;">**Display Prelaunch Text and/or Countdown Timer (such as Launching Soon)-**</mark> The prelaunch text/Countdown timer gets displayed based on the Start date added in product settings. The time till which these are displayed are calculated based on the current date/time and the start date/time so Its current date and time minus the start date and time.  It won't be displayed only when start date has already gone by, if its set in the future then it will always be displayed.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Disable Product on Scheduled Date-**</mark> The product get's disabled on the completion of the end date. If no end date is set and this field is left empty then the product will be enabled unless disabled manually from the product settings.&#x20;
 * <mark style="color:orange;">**When Start and End Date is Same-**</mark> Only the Prelaunch text/ Countdown timer will be displayed given that the start date has already gone by i.e its in history. As the start date and end date is same product will be automatically disabled on this day.&#x20;

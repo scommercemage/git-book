@@ -7,14 +7,16 @@
 1. [_Installation_](magento-2-creditsafe-integration.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. _Configuration Settings for Creditsafe Integration_
+2. [_Configuration Settings for Creditsafe Integration_](magento-2-creditsafe-integration.md#bookmark3)
    * _General Settings_&#x20;
    * _API Configuration_
    * _Limits and Messages Configuration_
    * _Limits Configuration_
    * _Emails_
    * _Customer Configuration_
-3. _Frontend_
+3. [_CreditSafe API Logs_](magento-2-creditsafe-integration.md#bookmark3-1)
+4. [_CreditSafe Information Stored Against the Customer_](magento-2-creditsafe-integration.md#bookmark3-2)
+5. [_Frontend_](magento-2-creditsafe-integration.md#bookmark3-3)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -109,5 +111,62 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.19.28.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.19.38.png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:blue;">CreditSafe API Logs</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+All requests and responses with regards to creditsafe endpoints are logged into a grid. You can view the logs by going into **Admin>System>CreditSafe API Logs>Credit Safe Logs**.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+If you further click on any of the entries it contains the information as shown in the image below:-&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### <mark style="color:blue;">CreditSafe Information Stored Against the Customer</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+Our module adds certain fields against the customer to keep track of credit assignment and available credit limits. Following fields are added:-
+
+* CreditSafe Credit Reference
+* Credit Limit
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### <mark style="color:blue;">Frontend</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+#### <mark style="color:orange;">Apply for CreditSafe Application</mark>
+
+Customers can apply for creditsafe application from their My Account section using the button "Apply for Web Credit Account".
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/applyforcreditaccount (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/applyforcreditaccount2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:orange;">CreditSafe Company Application</mark>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/creditsafecompanyapplication.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
