@@ -19,7 +19,6 @@
    * _Multi Websites Selection_&#x20;
    * _Custom Stock Status Product Attribute_&#x20;
 3. [_Front-end Site View_ ](magento-2-custom-stock-status-extension.md#\_bookmark14)
-   * _Custom Stock Message on the Category & Search Pages_&#x20;
    * _Custom Stock Message for Simple Products on the Product Page_&#x20;
    * _Custom Stock Message for Configurable Products on the Product Page_&#x20;
    * _Custom Stock Message on the Cart & Checkout Pages_&#x20;
@@ -75,7 +74,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 * **Priority -** You can add priority (int) for the rule. In case of conflicting rules for a product the lowest number will have highest priority like 0 will be given priority over 1. If no priority defined then any random rule will apply
 * **Conditions -** Add the conditions to match, leave blank for all products
 * **Default Stock Message -** You can select default stock message from the drop- down, which will be shown on the frontend and replace availability (In Stock / Out Stock) message.
-* **Apply Stock Quantity Ranges:** You can enable it by turning "On" this option. If it is enabled then it shows below grid where you can define stock ranges and corresponding status.
+* **Apply Stock Quantity Ranges:** You can enable it by turning "On" this option. If it is enabled then it shows below grid where you can define stock ranges and corresponding status. Please note that if the range is not provided for given stock quantity then the default message will be shown.
 
 ![](<../../.gitbook/assets/9 (15)>)
 
