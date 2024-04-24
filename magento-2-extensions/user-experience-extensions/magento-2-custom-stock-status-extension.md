@@ -85,9 +85,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 * <mark style="color:orange;">**Custom Stock Status and Rule Name at Product Level -**</mark> You can view the associated rule to product from **Admin > Catalog > Products > Select product.**
 
-![](<../../.gitbook/assets/11 (41)>)
-
-* <mark style="color:orange;">**Salable Quantity -**</mark> On product save it updates the stock status message based on the salable quantity and the quantity rule. To view salable quantity go to **Admin > Catalog> products > Select Product > Product Salable Quantity.**
+<mark style="color:orange;">**Salable Quantity -**</mark> On product save it updates the stock status message based on the salable quantity and the quantity rule. To view salable quantity go to **Admin > Catalog> products > Select Product > Product Salable Quantity.**
 
 ![](<../../.gitbook/assets/12 (7)>)
 
@@ -95,7 +93,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 
 * <mark style="color:blue;">**Manually -**</mark> You can assign rules to product manually from **Admin > Catalog> Products > Select Product > Rule Name -** Select rule from the “Rule Name” drop-down list.
 
-![](<../../.gitbook/assets/13 (18)>)
+<figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:blue;">**Automatically on Cron Run -**</mark> You can schedule the Cron job from **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock Status**, on cron run the rule will be automatically assigned to products based on the matched condition and set the correct message.
 
@@ -108,12 +106,6 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Custom Stock 
 ![](../../.gitbook/assets/stock\_front.jpg)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark14" id="bookmark14"></a>
-
-* <mark style="color:orange;">**Custom Stock Message on the Category & Search Pages –**</mark> In the below image you can see the stock message for the products.
-
-![](<../../.gitbook/assets/16 (19)>)
-
-![](<../../.gitbook/assets/17 (9)>)
 
 * <mark style="color:orange;">**Custom Stock Message for Simple Product**</mark><mark style="color:orange;">s</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**on the Product Page –**</mark> It displays stock status message for simple product based on salable qty and quantity ranges rule.
 
