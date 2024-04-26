@@ -16,7 +16,14 @@
    * _Customer Configuration_
 3. [_CreditSafe API Logs_](magento-2-creditsafe-integration.md#bookmark3-1)
 4. [_CreditSafe Information Stored Against the Customer_](magento-2-creditsafe-integration.md#bookmark3-2)
-5. [_Frontend_](magento-2-creditsafe-integration.md#bookmark3-3)
+5. [_Customer Verification Process_](magento-2-creditsafe-integration.md#bookmark3-3)
+6. [_CreditSafe Adjustment Grid_](magento-2-creditsafe-integration.md#bookmark3-4)
+   * _CreditSafe Transactions Grid_
+   * _Import CreditSafe transactions in the Grid_
+7. [_Frontend_](magento-2-creditsafe-integration.md#bookmark3-3)
+   * _Apply for CreditSafe Application_
+   * _CreditSafe Company Application_
+   * _Successful Credit Application_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -118,7 +125,7 @@ All requests and responses with regards to creditsafe endpoints are logged into 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -126,7 +133,7 @@ If you further click on any of the entries it contains the information as shown 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -134,12 +141,67 @@ If you further click on any of the entries it contains the information as shown 
 
 Our module adds certain fields against the customer to keep track of credit assignment and available credit limits. Following fields are added:-
 
-* CreditSafe Credit Reference
-* Credit Limit
+* **CreditSafe Credit Reference:-** Credit reference received from creditsafe upon credit application.
+* **Credit Limit:-** The limit received from creditsafe upon succefull credit application. Maximum limit that can be used by the customer to make purchases. It does not decrease after transactions.
+* **Credit Balance:-** The limit received from creditsafe upon succefull credit application. Maximum limit that can be used by the customer to make purchases. This value get's updated based on transactions made by the customer. for eg:- if they make purchase using the credit limit then that amount will be deducted and reflected here.&#x20;
+* **Credit Limit Verified:-** This toggle turns on when the customer verification is complete, either manual or automatic.&#x20;
+* **Credit Limit Retry Count:-** The number of times a customer has applied for credit application.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/creditagainstcustomer.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### <mark style="color:blue;">Customer Verification Process</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+Based on the "Approval Type" configuration described earlier the customer verification takes place:-
+
+* **Automatic:-** The customer verification is done automatically.
+* **Manual:-** When "manual" verification is selected then it is upon the administrator to verify the customer for eg:- asking for documents via email and verifying them in person. Once verified admin can click on the verify button in the customer page ( go to **Admin>Customers>All Customers>select the customer**). Once verified the "Credit Limit Verified" toggle gets turned on under the account information.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/customerverification.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* **Disabled:-** Customer verification is not required and upon successfull application the credit limits are assigned to customer.
+
+### <mark style="color:blue;">CreditSafe Adjustment Grid</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+#### <mark style="color:orange;">CreditSafe Transactions Grid</mark>
+
+It allows you to track and manage adjustments made to customer credit limits based on their orders and payments. With this system, you can view and manage adjustments made to customer credit limits in a single, easy-to-use grid. Easily Keep track of adjustments made to customer credit limits. Go to **Admin>Sales>Creditsafe>Transactions.**
 
 <div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:orange;">Import CreditSafe transactions in the Grid</mark>
+
+You can import transactions by either going into Admin>System>Import our by going to sales>Orders>Import from CSV. Next select the "Entity Type" as "CreditSafe Transaction Import" from the dropdown.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/creditsafeimporttransactions.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The format of the import file should be as shown in the image. The fields required are as follows:-
+
+* **entity\_id:-** Enter the id of the next transaction as per your CreditSafe Transaction Grid. For eg:- if you have 1-24 transactions then you should start the list from 25..26 and so on.&#x20;
+* **payment\_date:-** Date & time of the payment received or deducted.
+* **adjustment\_amount:-** Enter a positive or negative adjustment amount. adding a positive amount will add the amout in the customers credit balanace wheras for negative amount it will deduct the amount from credit balance.
+* **increment\_id:-** Enter the order id.&#x20;
+* **customer\_email:-** Enter the customer email.
+* **transaction\_description:-** You can add a description of the adjustment which will be reflected in the creditsafe transactions grid.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -166,6 +228,14 @@ Customers can apply for creditsafe application from their My Account section usi
 <div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/creditsafecompanyapplication.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:orange;">Successful Credit Application</mark>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
