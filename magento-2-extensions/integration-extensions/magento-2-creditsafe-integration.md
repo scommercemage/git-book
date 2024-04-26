@@ -68,10 +68,13 @@ Go to _Admin> Stores> Configuration> Scommerce  > Credit Safe_
 
 Create creditsafe rules based on your requirements.
 
-* **Type –** Select the user type either "Buisness" or "Consumer" this rule will be created for the appropriate applicant type.
+* **Type –** Select the user type either "Business" or "Consumer" this rule will be created for the appropriate applicant type.
 * **CS Credit Limit/Score Range -** Enter the credit limit or credit score range for the particular rule.
 * **Limit–** Enter the credit limit to be assigned for this rule based on the score entered previously. If the score is in this range then the entered limit should be provided to the applicant.
-* **Limit Type –** You can choose to define the limit type to be assigned from either an absolute value or the percentage of the Credit Limit/Score.&#x20;
+* **Limit Type –**There are two main credit limit types:&#x20;
+  * **Absolute Limit:** This limit is a fixed amount set by you or your business, regardless of external factors. It's directly entered into the "limit field" you mentioned.&#x20;
+  * **Percentage Limit:** This limit is determined as a percentage of an external creditworthiness score. The external score typically comes from CreditSafe.&#x20;
+  * **The calculation involves:** Credit Limit Received from CreditSafe (e.g., 1000) Limit Specified in the Limit Field (e.g., 50) The final credit limit is the percentage of the CreditSafe limit multiplied by the limit field value. In this example: Final Limit = 50% \* 1000 = 500
 * **Response –** Enter the response shown to the customer when they fullfill the criteria for this rule and the the limit is assigned to them
 * **Response Type –** Choose the response type from either Success or Failure.
 
@@ -88,7 +91,7 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 #### <mark style="color:orange;">Emails</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enable Email –** Select “Yes” or “No” to enable or disable the creditsafe application emails.
-* **Success Email Template –** Select the template to be used for success emails (successfull credit safe application).
+* **Success Email Template –** Select the template to be used for success emails (successful credit safe application).
 * **Success Email Sender –** Select the Email Sender, the email to be used to send the success emails.&#x20;
 * **Success Email Recipient –** You can add an additional email where the success emails will be sent alongside the applicant.&#x20;
 * **Fail Email Template –** Select the template to be used for fail emails (failed credit safe application).
@@ -107,7 +110,7 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 
 #### <mark style="color:orange;">Customer Configuration</mark> <a href="#bookmark4" id="bookmark4"></a>
 
-* **Approval Type  –** Select either "disabled" "manual" or "automatic". If"disabled" is seleceted, the verification will be disabled. If "manual" is selected,the credtisafe applications will be only approved/verified by the magento admin. If "automatic" is selected, the credisafe applications will be automatically approved or denied based on the Credit limits and Messages Configuration.
+* **Approval Type  –** Select either "disabled" "manual" or "automatic". If "disabled" is selected, the verification will be disabled. If "manual" is selected,the credtisafe applications will be only approved/verified by the magento admin. If "automatic" is selected, the credisafe applications will be automatically approved or denied based on the Credit limits and Messages Configuration.
 * **Allow customers to retry –** If set to "Yes", customers will be able to re-apply for creditsafe application. If set to "No", once creditsafe application is submitted they won't be able to retry the application.
 * **Maximum number of retry allowed:-** Enter the maximum number of retries for customers to check their credit limit.&#x20;
 * **Email Sender –** Select the email sender which will be used to send out applicant verification emails
@@ -136,7 +139,7 @@ All requests and responses with regards to creditsafe endpoints are logged into 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -144,7 +147,7 @@ If you further click on any of the entries it contains the information as shown 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -187,7 +190,7 @@ It allows you to track and manage adjustments made to customer credit limits bas
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -212,7 +215,7 @@ The format of the import file should be as shown in the image. The fields requir
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
