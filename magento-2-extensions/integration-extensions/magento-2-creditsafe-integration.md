@@ -109,15 +109,26 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 
 * **Approval Type  –** Select either "disabled" "manual" or "automatic". If"disabled" is seleceted, the verification will be disabled. If "manual" is selected,the credtisafe applications will be only approved/verified by the magento admin. If "automatic" is selected, the credisafe applications will be automatically approved or denied based on the Credit limits and Messages Configuration.
 * **Allow customers to retry –** If set to "Yes", customers will be able to re-apply for creditsafe application. If set to "No", once creditsafe application is submitted they won't be able to retry the application.
+* **Maximum number of retry allowed:-** Enter the maximum number of retries for customers to check their credit limit.&#x20;
 * **Email Sender –** Select the email sender which will be used to send out applicant verification emails
 * **Verification Success Email Template –** Select the Email template to be used for successfull applicant verification.
 * **Verification Rejected Email Template –** Select the Email template to be used for failed applicant verification.
-* **Failed Credit Limit Message  –** Enter the message that will be displayed to customer when their credit check failed.
-* **Failed Credit Limit (retries left)  –** Enter the message that will be displayed to customer when their credit check failed but they have retries available.
+* **Success Credit Limit message (not verified):-** Enter the success credit limit message when credit check was successfull but not verified.&#x20;
+* **Success Credit Limit message (verified)):-** Enter the success credit limit message when credit check was successfull and verified.&#x20;
+* **Failed Credit Limit Message  –** Enter the message that will be displayed to customer when their credit check failedbut they have retries available.
+* **Failed Credit Limit (no retries)  –** Enter the message that will be displayed to customer when their credit check failed and they have no retries available.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.19.28.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.19.38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">CreditSafe API Logs</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -172,7 +183,7 @@ Based on the "Approval Type" configuration described earlier, the customer's ver
 
 #### <mark style="color:orange;">CreditSafe Transactions Grid</mark>
 
-It allows you to track and manage adjustments made to customer credit limits based on their orders and payments. With this system, you can view and manage adjustments made to customer credit limits in a single, easy-to-use grid. Easily Keep track of adjustments made to customer credit limits. Go to **Admin>Sales>Creditsafe>Transactions.**
+It allows you to track and manage adjustments made to customer credit limits based on their orders and payments. With this system, you can view and manage adjustments made to customer credit limits in a single, easy-to-use grid. Easily Keep track of adjustments made to customer credit limits. Go to **Admin>Sales>Creditsafe>Transactions.** The grid reflects both positive and negative adjustments i.e when a customer makes a purchase using their credit limit and when they make the payment of the invoice.&#x20;
 
 <div data-full-width="true">
 
@@ -213,7 +224,7 @@ Customers can apply for creditsafe application from their My Account section usi
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/applyforcreditaccount (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/applyforcreditaccount (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
