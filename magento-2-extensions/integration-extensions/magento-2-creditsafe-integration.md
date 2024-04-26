@@ -94,15 +94,15 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 * **Success Email Template –** Select the template to be used for success emails (successful credit safe application).
 * **Success Email Sender –** Select the Email Sender, the email to be used to send the success emails.&#x20;
 * **Success Email Recipient –** You can add an additional email where the success emails will be sent alongside the applicant.&#x20;
-* **Fail Email Template –** Select the template to be used for fail emails (failed credit safe application).
+* **Fail Email Template –** Select the template to be used for fail emails (failed credit safe application). This email will only be sent to the customer.
 * **Fail Email Sender –** Select the Email Sender, the email to be used to send the failure emails.&#x20;
-* **Fail Email Recipient –** You can add an additional email where the failure emails will be sent alongside the applicant.
-* **Admin Fail Email Template –** Select the template to be used for fail emails (failed credit safe application) to admin.
+* **Fail Email Recipient –** This is optional. You can add an additional email where the failure emails will be sent other than the customer. This email will be exactly same as the one sent to the customer.
+* **Admin Fail Email Template –** Select the template to be used for fail emails (failed credit safe application) to admin. This email template is only sent to the Administrator and not the customer. It contains for details regarding the failure of the credit application.
 * **Admin Fail Email Sender –** Select the Email Sender, the email to be used to send the failure emails to admin.&#x20;
-* **Admin Fail Email Recipient –** You can add an additional email where the failure emails will be sent alongside the admin.
-* **Admin API Result Email Template –** Select the template to be used for API results to admin.
+* **Admin Fail Email Recipient –** This is optional. You can add an additional email where the failure emails will be sent alongside the admin. This failure email will be exactly same as the one sent to administrator.
+* **Admin API Result Email Template –** Select the template to be used for API results to admin. When the credit application occurs the requests and responses from various end points will be sent to the admin via this email template.
 * **Admin API Result Email Sender –** Select the Email Sender, the email to be used to send API results to admin.&#x20;
-* **Admin API Result Email Recipient –** You can add an additional email where the API results will be sent alongside the admin.
+* **Admin API Result Email Recipient –** This is optional You can add an additional email where the API results will be sent alongside the admin. This email will be exactly same as the one sent to administrator contianing requests and responses of various end points hit during the credit application.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-04-03 at 17.18.41.png" alt=""><figcaption></figcaption></figure>
 
@@ -139,7 +139,7 @@ All requests and responses with regards to creditsafe endpoints are logged into 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
