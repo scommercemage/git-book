@@ -107,8 +107,8 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 
 #### <mark style="color:orange;">Customer Configuration</mark> <a href="#bookmark4" id="bookmark4"></a>
 
-* **Approval Type  –** Select either "disabled" "manual" or "automatic", if selected "disabled" the approval will be disabled. if selected "manual" the credtisafe applications will be only approved by the magento admin. If selected "automatic" the credisafe applications will be automatically approved or denied based on the Credit limits and Messages Configuration.
-* **Allow customers to retry –** If set to "Yes" customers will be able to re-apply for creditsafe application. If set to "No" once creditsafe application is submitted they won't be able to retry the application.
+* **Approval Type  –** Select either "disabled" "manual" or "automatic". If"disabled" is seleceted, the verification will be disabled. If "manual" is selected,the credtisafe applications will be only approved/verified by the magento admin. If "automatic" is selected, the credisafe applications will be automatically approved or denied based on the Credit limits and Messages Configuration.
+* **Allow customers to retry –** If set to "Yes", customers will be able to re-apply for creditsafe application. If set to "No", once creditsafe application is submitted they won't be able to retry the application.
 * **Email Sender –** Select the email sender which will be used to send out applicant verification emails
 * **Verification Success Email Template –** Select the Email template to be used for successfull applicant verification.
 * **Verification Rejected Email Template –** Select the Email template to be used for failed applicant verification.
@@ -141,7 +141,7 @@ If you further click on any of the entries it contains the information as shown 
 
 Our module adds certain fields against the customer to keep track of credit assignment and available credit limits. Following fields are added:-
 
-* **CreditSafe Credit Reference:-** Credit reference received from creditsafe upon credit application.
+* **CreditSafe Credit Reference:-** Credit reference number received from creditsafe upon credit application.
 * **Credit Limit:-** The limit received from creditsafe upon succefull credit application. Maximum limit that can be used by the customer to make purchases. It does not decrease after transactions.
 * **Credit Balance:-** The limit received from creditsafe upon succefull credit application. Maximum limit that can be used by the customer to make purchases. This value get's updated based on transactions made by the customer. for eg:- if they make purchase using the credit limit then that amount will be deducted and reflected here.&#x20;
 * **Credit Limit Verified:-** This toggle turns on when the customer verification is complete, either manual or automatic.&#x20;
@@ -155,10 +155,10 @@ Our module adds certain fields against the customer to keep track of credit assi
 
 ### <mark style="color:blue;">Customer Verification Process</mark> <a href="#bookmark3" id="bookmark3"></a>
 
-Based on the "Approval Type" configuration described earlier the customer verification takes place:-
+Based on the "Approval Type" configuration described earlier, the customer's verification takes place:-
 
 * **Automatic:-** The customer verification is done automatically.
-* **Manual:-** When "manual" verification is selected then it is upon the administrator to verify the customer for eg:- asking for documents via email and verifying them in person. Once verified admin can click on the verify button in the customer page ( go to **Admin>Customers>All Customers>select the customer**). Once verified the "Credit Limit Verified" toggle gets turned on under the account information.&#x20;
+* **Manual:-** When "manual" verification is selected, then it is upon the administrator to verify the customer, for eg:- asking for documents via email and verifying them in person. Once verified admin can click on the verify button or turn on the toggle in the customer page ( go to **Admin>Customers>All Customers>select the customer**). Once verified by using the "Verify" button, the customer get an email regarding their successful verification.
 
 <div data-full-width="true">
 
@@ -166,7 +166,7 @@ Based on the "Approval Type" configuration described earlier the customer verifi
 
 </div>
 
-* **Disabled:-** Customer verification is not required and upon successfull application the credit limits are assigned to customer.
+* **Disabled:-** Customer verification is not required and upon successful application the credit limits are assigned to customer.
 
 ### <mark style="color:blue;">CreditSafe Adjustment Grid</mark> <a href="#bookmark3" id="bookmark3"></a>
 
