@@ -18,7 +18,7 @@
    * _Automatically on Cron Run_&#x20;
    * _Multi Websites Selection_&#x20;
    * _Custom Stock Status Product Attribute_&#x20;
-3. [_Front-end Site View_ ](magento-2-custom-stock-status-extension.md#\_bookmark14)
+3. [_Front-end Site View_ ](magento-2-custom-stock-status-extension.md#bookmark14)
    * _Custom Stock Message for Simple Products on the Product Page_&#x20;
    * _Custom Stock Message for Configurable Products on the Product Page_&#x20;
    * _Custom Stock Message on the Cart & Checkout Pages_&#x20;
