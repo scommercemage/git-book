@@ -44,22 +44,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 
 #### <mark style="color:orange;">Integration Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
-* **Cron for Order import –** Please allow to set cron frequency for order import from Noths.
-* **API Url –** Please enter API Url.
+* **API Uri –** NOTHS API URI should be mentioned here.
+* **API Key -** Please enter API Key
 * **API Log –** Select “Yes” to enable the API Log. If set to “Yes” then it will log communication with Noths API.
-* **Create Files for Log –** Select “Yes” to enable the create files for log. If set to “Yes” then it will log communication with Noths API.
-* **API Key –** Please enter API Key.
 * **Select the allowed order statuses –** Please select order status which will be imported from Noths
+* **Cron for Order Import -** Please add define schedule how often you want to update transactions
 * **Select the store for NOTHS Orders –** Please select the store for Noths orders.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 * **Noths Order Payment Method –** Please add the payment method which will be used to import orders from Noths.
 * **Noths Order Shipping Method –** Please add the shipping method which will be used to import orders from Noths.
+* **Send dispatch to NOTHS -** Select Yes/No. If this is set to yes then dispatch API call will be sent when shipment is created in Magento.
 * **Dispatch Notes Path –** Please add the dispatch notes path in media/noths/dispatchnote/\[order number].pdf
 * **Estimated Days to ship –** Please add the days for estimated days to ship.
 * **Attributes Mapping –** Please add the mapping of Magento attribute with options in Noths.
+* **Create Files for Log -** Select Yes/No”. If this is set to yes then it will log communication with NOTHS API
+* **Purge Log -** Please enable purging of the log data in the DB.
+* **Retention Data -** Please add number of days worth of logs you want to keep it in the DB.
+* **Cron Job - Please -** Please add define schedule how often you want the logs to be purged.
 
-![](../../.gitbook/assets/noths\_integ1.jpg)
-
-![](../../.gitbook/assets/noths\_integ2.jpg)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Noths Order(s) View from Back-end</mark> <a href="#bookmark6" id="bookmark6"></a>
 
