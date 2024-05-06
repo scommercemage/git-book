@@ -62,7 +62,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Create Files for Log -** Select Yes/No”. If this is set to yes then it will log communication with NOTHS API
 * **Purge Log -** Please enable purging of the log data in the DB.
 * **Retention Data -** Please add number of days worth of logs you want to keep it in the DB.
-* **Cron Job - Please -** Please add define schedule how often you want the logs to be purged.
+* **Cron Job -** Please add define schedule how often you want the logs to be purged.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
