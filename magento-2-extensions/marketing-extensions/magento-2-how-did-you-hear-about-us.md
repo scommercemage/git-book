@@ -42,10 +42,18 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Where did you
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Dropdown options –** Please add the WDHAU options for customers and administrators to choose during checkout and creating order via admin respectively. There should be semicolon (;)separated values for example Google;Facebook;Twitter;Others
+* **Other Options Title -** Please add the other options title.
 * **Drop Down Label –** Please add the label.
 * **Other Label –** Please add the label for other option.
+* **Field Is Required On Customer Registration -** Select “Yes” or “No” to enable or disable the Field is required on customer registration.
 
-![](../../.gitbook/assets/general\_heardaboutus.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:orange;">Report</mark> <a href="#bookmark4" id="bookmark4"></a>
+
+* **Exclue Statuses -** Select exclude statuses which you would like to not include when generating the WDYHAU Report.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Selected WDYHAU Option in Orders Grid -**</mark> You can see the selected "Where did you hear about us?" option at **Admin > Sales > Orders** grid.
 
