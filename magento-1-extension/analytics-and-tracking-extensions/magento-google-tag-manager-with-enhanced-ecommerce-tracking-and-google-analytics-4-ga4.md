@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
   **Please don’t turn this on unless you understand what this setting does.**
 * **GTM code HTML** - This setting allows you to enter the HTML code of server-side GTM container. This HTML code will replace the default GTM code on the frontend of your website.
 * **GTM noscript HTML** - This setting allows you to enter noscript part of server-side GTM code. This noscript code will replace the default noscript GTM on the frontend of your website.
-* **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce
+* **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce. Please make sure this feature is enabled in Google Analytics first before enabling in Magento 1.
 * **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
 * **PII Data Format –** Set “data layer” to push the PII data directly into the data layer ( this requires you to map the data in GTM as per your use. Set "Global Javascript" to store the PII data in a global javascript variable. Use the GTM json file which automatically maps this data into the Enhanced Conversion tag.
 * **Brand Attribute –** Select brand attribute to send brand information to Google Analytics.
