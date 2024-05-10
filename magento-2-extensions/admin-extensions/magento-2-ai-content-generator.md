@@ -67,7 +67,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -96,7 +102,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -109,7 +115,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
