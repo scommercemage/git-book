@@ -123,8 +123,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 * **Cookie Message Settings Link Text -** Please add the cookie message link text
 * **Use Data Layers -** Select "Yes/No". If set to "Yes" then Data Layers will be used, instead of cookies for GTM. If set to "No", then it won't add Data Layers.
 * **Show if not all accepted -** Select “Yes/No”. If set to “Yes” then Cookie notice message will appear if not all cookie accepted.
+* **Show cookie banner unless consent given -** Select Yes/No. If set to "Yes" then it controls the visibility of the cookie consent banner on your website. When enabled, the banner will persistently display until the user actively consents or declines the use of cookies even when all cookies are granted by default. If disabled, the banner will be hidden when all cookies are granted by default.
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Popup Styling</mark> <a href="#bookmark9" id="bookmark9"></a>
 
