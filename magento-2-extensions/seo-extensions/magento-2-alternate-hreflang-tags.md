@@ -143,8 +143,8 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 * <mark style="color:orange;">**Hreflang Tag on the CMS Page -**</mark> Enable hreflang on the CMS Pages From _Admin > Stores > Configuration > Scommerce Configuration > Hreflang > General Settings > Enable - Select "Yes " > Enable Hreflang Tags For CMS Pages - "Yes". Go to Admin > content > Pages_ select the about us page for each store view and go into _Search Engine Optimization. Put the same identifier if you want interlinking between various languages of the same about us page._
 
-![](../../.gitbook/assets/4.png)
+![](<../../.gitbook/assets/4 (1).png>)
 
-![](<../../.gitbook/assets/3 (1).png>)
+![](<../../.gitbook/assets/3 (1) (1).png>)
 
 If you have a question related to this extension please check out our [**FAQ section**](https://www.scommerce-mage.com/magento-2-hreflang.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -275,11 +275,11 @@ In the final step a bundled product is created using the first two selections wh
 
 **Multiple currencies** can be added/selected from Admin > Stores Configuration > General > Currency Setup – Allowed Currencies – Select currencies
 
-![](../../.gitbook/assets/1.png)
+![](<../../.gitbook/assets/1 (1).png>)
 
 **Currency rates** can be configured against base currency from Admin > Stores > Currency > Currency Rates
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1) (1).png>)
 
 **Base currency** can be defined from Admin > Stores Configuration > General > Currency Setup > Base Currency – Select currency
 

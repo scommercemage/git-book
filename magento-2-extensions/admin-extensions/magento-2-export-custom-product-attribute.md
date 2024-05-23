@@ -37,7 +37,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Export Produc
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Allowed Attributes –** Select the porduct attributes that you want to list in separate columns while exporting the catalog products.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Exporting Custom Product Attributes</mark> <a href="#bookmark8" id="bookmark8"></a>
 
@@ -53,11 +53,11 @@ Make sure the custom attributes that you want to import are selected under **Adm
 
 **Step 3:-** Click on continue and when the cron runs the export will be generated and added in the list below
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;**Step 4:-** Finally, download the export file from the select dropdown.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:-** You can see in the export file that our custom attributes new and sale are present in separate columns.
 

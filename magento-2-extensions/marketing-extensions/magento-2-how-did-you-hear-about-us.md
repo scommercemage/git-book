@@ -47,13 +47,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Where did you
 * **Other Label –** Please add the label for other option.
 * **Field Is Required On Customer Registration -** Select “Yes” or “No” to enable or disable the Field is required on customer registration.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Report</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Exclue Statuses -** Select exclude statuses which you would like to not include when generating the WDYHAU Report.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Selected WDYHAU Option in Orders Grid -**</mark> You can see the selected "Where did you hear about us?" option at **Admin > Sales > Orders** grid.
 

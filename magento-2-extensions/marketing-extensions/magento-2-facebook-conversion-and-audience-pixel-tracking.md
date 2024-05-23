@@ -107,11 +107,11 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 * <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to Wishlist when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to cart when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -133,7 +133,7 @@ In case you want to add a custom prompt for this product simply click on **AI Co
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -153,7 +153,7 @@ Go to Product settings>Search Engine Optimization. Click on **Fetch Content** be
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -163,7 +163,7 @@ Go to Product settings>Search Engine Optimization. Click on **Fetch Content** be
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -173,7 +173,7 @@ Go to Product settings>Search Engine Optimization. Click on **Fetch Content** be
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -198,7 +198,7 @@ Go to Category settings>Search Engine Optimization. Click on **Fetch Content** b
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -208,7 +208,7 @@ Go to Category settings>Search Engine Optimization. Click on **Fetch Content** b
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -218,7 +218,7 @@ Go to Category settings>Search Engine Optimization. Click on **Fetch Content** b
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -243,7 +243,7 @@ Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -253,7 +253,7 @@ Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -263,7 +263,7 @@ Go to Page settings>Search Engine Optimization. Click on **Fetch Content** below
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

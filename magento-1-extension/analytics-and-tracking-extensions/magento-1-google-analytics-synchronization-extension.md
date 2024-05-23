@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -85,7 +85,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -93,7 +93,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -101,7 +101,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -109,7 +109,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -117,7 +117,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -134,7 +134,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -142,7 +142,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -151,7 +151,7 @@ Please follow the steps below to create project in Google developer console for 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -161,7 +161,7 @@ In the earlier step we created a service account ID which is also the service ac
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -169,7 +169,7 @@ Now In order for this account to access your GA4 property we are required to add
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -177,7 +177,7 @@ Click on plus sign to add new email:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -185,7 +185,7 @@ Next add the email and set the permissions to Editor and you are done.&#x20;
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -195,7 +195,7 @@ The order tracking info is captured against each order which is later used to sy
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -209,13 +209,13 @@ The synced transactions can be verified in two ways. Either checking the GA Sync
 
 The GA Sync logs can be viewed by going into your server>Magento installation directory>Var>log>ga\_sync.log.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 This file contains details of each synced transaction alongwith the order data that was sent, please refer to the image below:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -225,7 +225,7 @@ Go to your Google Analytics 4 Property then from left menu click on reports:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -233,7 +233,7 @@ Next, select realtime from the left menu  and under the event name column you ca
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

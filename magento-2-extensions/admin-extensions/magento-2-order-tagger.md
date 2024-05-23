@@ -61,7 +61,7 @@ Go to **Admin>Sales>Scommerce Order Tagger>Order Tags**
 * **Text Color–** Add the text color for the tag.
 * **Background Color–** Add the background color for the tag
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Conditions–** Add the conditions using order or address attributes.
 

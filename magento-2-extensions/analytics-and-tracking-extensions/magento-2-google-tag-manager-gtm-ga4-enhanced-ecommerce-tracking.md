@@ -148,7 +148,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 <div data-full-width="true">
 
-<img src="../../.gitbook/assets/5.png" alt="">
+<img src="../../.gitbook/assets/5 (1).png" alt="">
 
 </div>
 
@@ -472,7 +472,7 @@ Now follow the steps below to import the latest GA4 settings for GTM
 
 **Step 3:-** Click on Choose container file and choose the JSON file acquired in step 1 then select the workspace new/existing. Also select Merge>Rename conflicting tags, triggers, and variables so that no crucial setting is lost.
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
 

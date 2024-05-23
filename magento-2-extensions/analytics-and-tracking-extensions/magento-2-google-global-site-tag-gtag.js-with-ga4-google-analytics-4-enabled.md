@@ -68,7 +68,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Category Attribute-** Please select category attribute if you have one otherwise put your brand name in the below input box. **Attribute should be available for product listing 'Storefront Properties -> Used in Product Listing = Yes'**
 * **Is Category ID-** Set "Yes" if "Category Attribute" is ID of the category, "No" if it is plain value
 
-![](../../.gitbook/assets/2.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **Default List-** Enter the default list name if the product impression is not found
@@ -89,7 +89,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
   * **Selector:-** add the selector for the step. Basic selector could be '#customer-email' this is equals to '#customer-email/change' and will send customer email itself
   * **Type:-** choose the step type from the dropdown
 
-![](../../.gitbook/assets/5.png)
+![](<../../.gitbook/assets/5 (1).png>)
 
 ### <mark style="color:blue;">Configuration Settings for Global Site Tag (gtag.js)</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -158,11 +158,11 @@ If the optimize is enabled in the extension then you need link the Google optimi
 
 **Step 3:-** Choose the account settings and acknowledge the service aggreements and click on lets go on the next screen upon which a popup window will appear.
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Enter the name and URL of the store then select the experience and click on create.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:-** In the next window scroll down and click on Link Analytics.
 

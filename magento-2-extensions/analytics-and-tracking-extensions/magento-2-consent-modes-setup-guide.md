@@ -4,7 +4,7 @@
 
 1. Once you have installed the modules **“Google Tag Manager Pro Tracking”**, **“Tracking Base”**, ”**Cookie Popup**” and “**GDPR**”, enable them and enter the correct license key.
 
-![](<../../.gitbook/assets/0 (1).png>)
+![](<../../.gitbook/assets/0 (1) (1).png>)
 
 2. After that, go to **“Customers”** -> **“Manage Cookie Choices”** and click on **“Add new Cookie Choice”** to set up cookie choices in the Cookie Popup extension.
 
@@ -32,17 +32,17 @@
 
 ![](<../../.gitbook/assets/5 (2).png>)
 
-![](<../../.gitbook/assets/6 (1).png>)
+![](<../../.gitbook/assets/6 (1) (1).png>)
 
 2. Go to **“Workspace”**->**”Tags”** -> click on **“Consent Overview”** (shield) and set up consent for each tag. Make sure to select **“No additional consent required”** for Tags that already have **“Built-In Consent**”. These tags are generally Google related tags.
 
-![](<../../.gitbook/assets/7 (1).png>)
+![](<../../.gitbook/assets/7 (1) (1).png>)
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](<../../.gitbook/assets/8 (1) (1).png>)
 
 **2a**. In order to add **“Additional Consent”**, click on the tag name and go to **”Consent Settings”** and choose **“Require additional consent for tag to fire”** and add the consent param that you want as **“Additional Consent”**. If cookies related to the consent parameter that is chosen as an additional consent are not accepted then that tag would not fire.
 
-![](<../../.gitbook/assets/9 (1).png>)
+![](<../../.gitbook/assets/9 (1) (1).png>)
 
 **On GTM’s end consent mode setup is complete**.
 
@@ -50,12 +50,12 @@
 
 1. In order to verify whether the consent mode is working as per the configuration you have set or not, you can preview your changes and compare them with the frontend as shown in the below images. All the values should be the same.
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](<../../.gitbook/assets/10 (1) (1).png>)
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](<../../.gitbook/assets/11 (1) (1).png>)
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](<../../.gitbook/assets/12 (1) (1).png>)
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](<../../.gitbook/assets/13 (1) (1).png>)
 
-![](<../../.gitbook/assets/14 (1).png>)
+![](<../../.gitbook/assets/14 (1) (1).png>)
