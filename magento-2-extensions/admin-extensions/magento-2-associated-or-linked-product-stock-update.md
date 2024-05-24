@@ -43,7 +43,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Optimise Stock save** - Select "Yes" or "No". If set to "Yes" then it optimise stock save for better performance on products with large amounts of associated products.
+* **Optimise Stock save** - Select "Yes" or "No". If set to "Yes" then it will optimise stock save for better performance on products with large amounts of associated products.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
