@@ -10,9 +10,10 @@
    * _Installation via Composer_
 2. [_<mark style="color:blue;">Configuration Settings for Content Security Policy (CSP) Whitelist</mark>_](magento-2-content-security-policy-csp-whitelist-manager.md#bookmark3)
    * _General Settings_&#x20;
-   * _Sources_
+   * _CSP Directives_
    * _Critical Security Overrides_
 3. [_<mark style="color:blue;">Working of the extension</mark>_](magento-2-content-security-policy-csp-whitelist-manager.md#working-of-the-extension)
+   * Steps to Check and Fix Console CSP Errors
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -23,7 +24,6 @@
 * <mark style="color:orange;">**Installation via app/code:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added. After the successful upload of the package, run below commands on Magento 2 root directory.
 
 ```
-composer require orhanerday/open-ai
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy en_GB en_US
@@ -46,17 +46,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 * **IMPORTANT INFORMATION**- When adding or changing whitelist, ensure to include only those domains that are recognized and trustworthy. This precaution is crucial because unauthorized or compromised domains may contain malicious scripts.
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **Report Only Mode -** Set "Yes" to enable Report Only mode for CSP ( it will only report CSP vulnerabilities in the browser console and Set "No" to enable Strict Mode ( it will prevent data from loading or code from getting executed to prevent vulnerabilities).
+
+<div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:orange;">Sources</mark> <a href="#bookmark4" id="bookmark4"></a>
+</div>
+
+#### <mark style="color:orange;">CSP Directives</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 *   **Default Src**
 
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for default-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 *   **Base Uri**
@@ -64,7 +69,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for base-uri
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
 
@@ -73,7 +78,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for child-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 * **Connect Src**
@@ -147,12 +152,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 
-*   **Style Src**
+* **Style Src**
+  * **Enabled-** Select “Yes” or “No” to enable or disable csp whitelist for style-src
+  * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    * **Enabled-** Select “Yes” or “No” to enable or disable csp whitelist for style-src
-    * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
+<div data-full-width="true">
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
 
 
@@ -160,32 +168,53 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 *   **Enable Unsafe Inline Script-**This setting permits the execution of unsafe inline scripts, which can be introduced by your developers / third party extensions / attackers. Make sure you assess these unsafe inline scripts before setting this to YES.
 
-    * **Caution**: Enabling unsafe inline scripts is a temporary measure and should only be done under the guidance of your developer. You must ask your developers or third party extension providers to whitelist their inline scripts. This setting must NOT be left on 'YES' permanently, as it significantly increases the risk of security vulnerabilities, making your site an easy target for attackers. Always prioritise the security of your site and user data.
+    <mark style="color:orange;">**Caution**</mark><mark style="color:orange;">: Enabling unsafe inline scripts is a temporary measure and should only be done under the guidance of your developer. You must ask your developers or third party extension providers to whitelist their inline scripts. This setting must NOT be left on 'YES' permanently, as it significantly increases the risk of security vulnerabilities, making your site an easy target for attackers. Always prioritise the security of your site and user data.</mark>
 
 
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">**Working of the extension**</mark>
 
-<mark style="color:orange;">**Steps to check whether the extension is working or not**</mark>
+<mark style="color:orange;">**Steps to Check and Fix Console CSP Errors**</mark>
 
-*   Check the errors present in the frontend's console.
+* Check the errors present in the frontend's console.
 
-    <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-*   Check the source of these errors.
+<div data-full-width="true">
 
-    <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-*   Check the URL present in these errors.
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+</div>
+
+* Check the source of these errors.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Check the URL present in these errors.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 *   In the backend, add the URL to the source to which that error belongs to.
 
     <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-*   You would no longer see the error on the frontend
+* You would no longer see the error on the frontend
 
-    <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
 
-\
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
-
-
+If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
