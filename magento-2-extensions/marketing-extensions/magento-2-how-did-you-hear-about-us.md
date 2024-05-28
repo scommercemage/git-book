@@ -53,7 +53,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Where did you
 
 * **Exclue Statuses -** Select exclude statuses which you would like to not include when generating the WDYHAU Report.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Selected WDYHAU Option in Orders Grid -**</mark> You can see the selected "Where did you hear about us?" option at **Admin > Sales > Orders** grid.
 

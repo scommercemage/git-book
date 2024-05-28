@@ -197,9 +197,41 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ### <mark style="color:blue;">JSONs/Script provided with extension package</mark> <a href="#bookmark5" id="bookmark5"></a>
 
-The extension package contains JSONs which can be imported in GTM to set
+The extension package contains JSONs which can be imported in GTM to set up required Tags, Triggers and Variables.&#x20;
 
-up required Tags, Triggers and Variables. Go to the extension file m2-google-tag- manager-pro and then to the Data Folder (Path - **m2-google-tag-manager-pro/data/**) to find these files. The JSONs can be used to set up
+#### <mark style="color:orange;">Finding JSON files</mark>
+
+Please follow the steps below to download the module:-
+
+**Step 1:-** Login to your account and go to the My Account Section&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**Step 2:-** Click on My Downloadable Products
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**Step 3:-** Click on the extension and from the dropdown menu select download
+
+&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Go to the extension file m2-google-tag- manager-pro and then to the Data Folder (Path - **m2-google-tag-manager-pro/data/**) to find these files.&#x20;
+
+The JSONs can be used to set up
 
 * **GTM-GoogleAnalytics4.json:-** Google Analytics 4
 * **GTM-UniversalAnalytics.json:-** Enhanced Ecommerce Universal Analytics
