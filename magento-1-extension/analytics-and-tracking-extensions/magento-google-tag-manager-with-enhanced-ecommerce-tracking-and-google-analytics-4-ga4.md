@@ -28,6 +28,7 @@
    * Back-end/Admin Tracking&#x20;
 10. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
 11. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
+12. [Query String Parameter Cookies](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#query-string-parameter-cookies)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -419,5 +420,17 @@ Please follow the below guide to set up consent mode v2 with GTM, also you would
 {% content-ref url="magento-1-consent-modes-setup-guide.md" %}
 [magento-1-consent-modes-setup-guide.md](magento-1-consent-modes-setup-guide.md)
 {% endcontent-ref %}
+
+### <mark style="color:blue;">Query String Parameter Cookies</mark>
+
+Cookies from query Params configuration can be used to create new cookie parameters which can be stored in the users browser as per the valid time configured. for eg:- We have created a "msclkid"cookie in the configuration. Now if the cookie parameter is passwed with the URL then that cookie will be created in the browser.
+
+[https://demo.scommerce-mage.co.uk/?msclkid=abc123](https://demo.scommerce-mage.co.uk/?msclkid=abc123) :- In this url we passed the cookie parameter "msclkid" with the value "abc123". We can see this cookie being created in the below image:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-10 at 14.53.17.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-next-order-discount.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
