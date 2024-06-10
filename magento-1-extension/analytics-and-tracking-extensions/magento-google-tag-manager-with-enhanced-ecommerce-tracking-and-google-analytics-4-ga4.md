@@ -10,6 +10,7 @@
    * Clear Caches&#x20;
 2. [Configuration Settings for Google Tag Manager Pro Tracking ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark4)
    * General Settings&#x20;
+   * Query String Parameter Cookies
 3. [JSONs provided with extension package ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark6)
    * Enhanced Ecommerce Universal Analytics&#x20;
    * Facebook Pixel&#x20;
@@ -115,6 +116,13 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+#### <mark style="color:orange;">Query String Parameter Cookies</mark> <a href="#bookmark5" id="bookmark5"></a>
+
+* **Query String Parameters –** Enter the cookie parameter names comma separated, once the if the parameter is passed with the URL then that cookie will be generated. for eg:- [https://demo.scommerce-mage.co.uk/?msclkid=abc123](https://demo.scommerce-mage.co.uk/?msclkid=abc123) ,cookie named msclkid is created and stored in the browser.
+* **Cookie Lifetime (Days) –** Enter the lifetime of the cookie in days. It will be stored in the users browser as per the time defined in this setting
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-10 at 14.25.18.png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">JSONs provided with extension package</mark> <a href="#bookmark6" id="bookmark6"></a>
 
