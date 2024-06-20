@@ -9,7 +9,7 @@
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
    * _Installation via Composer(Breeze Theme)_
-2. [_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3)
+2. [_Configuration Settings for Tracking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
 3. [_Configuration Settings for Google Tag Manager Pro_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3-1)&#x20;
