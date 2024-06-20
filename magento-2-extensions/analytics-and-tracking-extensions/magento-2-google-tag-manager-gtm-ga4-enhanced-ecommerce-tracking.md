@@ -9,26 +9,26 @@
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
    * _Installation via Composer(Breeze Theme)_
-2. [_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3)
+2. [_Configuration Settings for <mark style="color:blue;">T</mark>racking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
-3. [_Configuration Settings for Google Tag Manager Pro_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark3-1)
+3. [_Configuration Settings for Google Tag Manager Pro_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3-1)&#x20;
    * _General Settings_
    * _Cookies From Query Params_&#x20;
-4. [_JSONs/Script provided with extension package_  ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark5)
-5. [_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark10)&#x20;
-6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark11)&#x20;
-7. [_Publishing Tags in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark12)&#x20;
-8. [_Set up Enhanced Ecommerce in Google Analytics_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark13)&#x20;
-9. [_Set up Google Analytics 4_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14)&#x20;
+4. [_JSONs/Script provided with extension package_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark5) &#x20;
+5. [_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark10)&#x20;
+6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark11)&#x20;
+7. [_Publishing Tags in GTM_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark12)
+8. [_Set up Enhanced Ecommerce in Google Analytics_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark13)
+9. [_Set up Google Analytics 4_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark14-1)
 10. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14-1)
-11. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)
+11. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16)
     * _Enable Enhanced Conversions in Google Adwords_
     * _Set up Enhanced Conversion with the Module_
 12. [_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#back-end-admin-tracking)
-13. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)
-14. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16-1)
-15. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark16)&#x20;
+13. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-1)
+14. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-2)
+15. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-3)&#x20;
     * _Order Total of Product without VAT_&#x20;
     * _Order Total of Product with VAT_&#x20;
     * _Send SKU of Child Product_&#x20;
