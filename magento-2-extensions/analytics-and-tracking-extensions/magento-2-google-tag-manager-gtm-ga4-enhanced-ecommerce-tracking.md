@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark0)
+1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
@@ -74,12 +74,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **Enable Enhanced Ecommerce –** Select ‘Yes’ to enable this module. Please make sure this feature is enabled in Google Analytics first before enabling in Magento2.
 * **Enable Enhanced Conversion:-** Set "Yes" to enable enhanced conversion to send PII data to Google Adwords to target actual customers. You need to turn on enhanced conversions in Google Adwords. [Click here for more information](https://support.google.com/google-ads/answer/10172785)
-* **Send Conversion Data using data layer:-** Set "Yes" to push the Conversion PII data as a data layer and set "No" to push Conversion PII data as a Javascript variable.
 * **Enable Consent mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/111.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-20 at 13.43.02.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -235,7 +234,8 @@ The JSONs can be used to set up
 
 * **GTM-GoogleAnalytics4.json:-** Google Analytics 4
 * **GTM-UniversalAnalytics.json:-** Enhanced Ecommerce Universal Analytics
-* **GTM-Facebook.json:-** Facebook Pixel tracking
+* **GTM-Facebook\_Pixel\_Tracking.json:-** Facebook Pixel tracking
+* **GTM-Snapchat\_Tracking.json**:- Snapchat Pixel tracking
 * **GTM-AdwordsDynamicRemarketing.json:-** Google AdWords Dynamic Remarketing
 * **GTM-google\_ads\_conversion\_tracking.json:-** Google Ads Conversion Tracking
 * **GTM-Pinterest.json:-** Pinterest tracking
@@ -306,6 +306,22 @@ Once the GTM container file has been imported, you need to change variable infor
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
 
 <figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Facebook Pixel Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/find-facebook-pixel-id.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Snapchat Pixel Tracking -**</mark> Add the Snapchat Pixel ID which can be obtained from snapchat Ads account as shown below.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-20 at 13.48.35.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
