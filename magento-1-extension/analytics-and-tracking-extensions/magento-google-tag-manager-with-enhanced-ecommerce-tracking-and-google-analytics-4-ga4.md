@@ -51,12 +51,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **GTM noscript HTML** - This setting allows you to enter noscript part of server-side GTM code. This noscript code will replace the default noscript GTM on the frontend of your website.
 * **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce. Please make sure this feature is enabled in Google Analytics first before enabling in Magento 1.
 * **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
-* **PII Data Format –** Set “data layer” to push the PII data directly into the data layer ( this requires you to map the data in GTM as per your use. Set "Global Javascript" to store the PII data in a global javascript variable. Use the GTM json file which automatically maps this data into the Enhanced Conversion tag.
 * **Brand Attribute –** Select brand attribute to send brand information to Google Analytics.
 * **Brand text box –** If you don’t have brand attribute and you want to send default brand name to Google Analytics then you can enter here.
 * **Base –** Set “Yes” if you want to send base order data and ‘No’ to send store order data to Google. Set this to “Yes” always unless you have multi- store/currency is enabled and you want to send different currency data to Google.
 * **Revenue without Shipping Price –** Set “yes” to send revenue data without the shipping amount.
 * **Send Phone or Admin Orders –** Enable this feature only if you want to send admin orders on order creation.
+* **Send Refund on Order Cancellation –** Enable this feature to send refund event when an order is cancelled from admin.
 * **Source –** Add source you want to pass to Google for admin orders.
 * **Medium –** Add medium you want to pass to Google for admin orders**.**
 * **Enable dynamic remarketing tags and facebook tracking –** Set yes to enable dynamic remarketing tags and facebook tracking.
@@ -90,13 +90,7 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-21 at 19.03.37.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -130,7 +124,8 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 The extension package contains JSONs which can be imported in GTM to set up required Tags, Triggers and Variables. The JSONs can be used to set up
 
 * Enhanced Ecommerce Universal Analytics
-* Facebook Pixel
+* Facebook Pixel Tracking
+* Snapchat Pixel Tracking
 * Adwords Dynamic Remarketing
 * Google Analytics 4
 * Google Ads Enhanced Conversion Tracking with Javascript variable
@@ -216,6 +211,22 @@ Once the GTM container file has been imported, you need to change variable infor
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account. &#x20;
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Facebook Pixel Tracking**</mark>** -** Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
+
+<div data-full-width="true">
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252F4Cnzb24CECcfQOzACHz6%252Ffind-facebook-pixel-id.png%3Falt%3Dmedia%26token%3Df5113270-34a5-4a49-a94d-ec254e06b2ab&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=8cc6c66661952ffb6b8f534409adb3955526b113c3de9231681be007728fc07b" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Snapchat Pixel Tracking**</mark>** -** Add the Snapchat Pixel ID which can be obtained from snapchat Ads account as shown below.
+
+<div data-full-width="true">
+
+<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FPWYHJWnDNNFJwb7250Jy%252FScreen%2520Shot%25202024-06-20%2520at%252013.48.35.png%3Falt%3Dmedia%26token%3Daaa82f51-d507-495f-9162-e553087975ba&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=c16c5edb979a0a908130fc89daf64012ac3416e5ab08219e9baf97c2fd620d48" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
