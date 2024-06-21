@@ -216,7 +216,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <div data-full-width="true">
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252F4Cnzb24CECcfQOzACHz6%252Ffind-facebook-pixel-id.png%3Falt%3Dmedia%26token%3Df5113270-34a5-4a49-a94d-ec254e06b2ab&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=8cc6c66661952ffb6b8f534409adb3955526b113c3de9231681be007728fc07b" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -224,7 +224,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <div data-full-width="true">
 
-<figure><img src="https://docs.scommerce-mage.com/~gitbook/image?url=https%3A%2F%2F641457949-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F9UPh2CKadJHQWfApD4tk%252Fuploads%252FPWYHJWnDNNFJwb7250Jy%252FScreen%2520Shot%25202024-06-20%2520at%252013.48.35.png%3Falt%3Dmedia%26token%3Daaa82f51-d507-495f-9162-e553087975ba&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=c16c5edb979a0a908130fc89daf64012ac3416e5ab08219e9baf97c2fd620d48" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
