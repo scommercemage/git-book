@@ -196,6 +196,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 ### <mark style="color:blue;">JSONs/Script provided with extension package</mark> <a href="#bookmark5" id="bookmark5"></a>
 
+<mark style="color:red;">**NOTE:-**</mark> <mark style="color:red;"></mark>_<mark style="color:red;">Please make sure to import the JSON files again after every upgrade of the module as we keep changing these files time to time and keep them updated with our latest data layers.</mark>_
+
 The extension package contains JSONs which can be imported in GTM to set up required Tags, Triggers and Variables.&#x20;
 
 #### <mark style="color:orange;">Finding JSON files</mark>
@@ -206,7 +208,7 @@ Please follow the steps below to download the module:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -214,7 +216,7 @@ Please follow the steps below to download the module:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -435,11 +437,15 @@ To enable enhanced conversions we first need to enable enhanced conversions in G
 
 #### <mark style="color:orange;">Setup Enhanced Conversion with the Module</mark>
 
-Go to **Stores>Configuration>Scommerce Configuration>Tracking Base** and set "Enable Enhanced Conversion" to "Yes".  Also set "Send Conversion Data using data layer" to "Yes", if you want the hashed PII data to be captured in the data layer other it will be available in a global javascript variable called conversionData. Depending upon this import the correct JSON file to get the correct GTM settings.This will enable user data collection from the store which will be sent to Google Adwords as part of the the Enhanced Conversion.
+Go to **Stores>Configuration>Scommerce Configuration>Tracking Base** and set "Enable Enhanced Conversion" to "Yes".  Import the JSON file either enhanced conversion using data layers or the normal enhanced conversion JSON that fetches the PII data from the global Javascript objec.
 
-<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
 
-Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_tracking.json"  if "Send Conversion Data using data layer" is set to "no" otherwise import "GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json" provided with the extension(data folder) in your GTM container .  Change the 'conversion label' and 'conversion ID' in the "Google Ads Conversion Tracking" tag. Finally publish the changes to finish the setup.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_tracking.json"  if or  import "GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json" provided with the extension(data folder) in your GTM container .  Change the 'conversion label' and 'conversion ID' in the "Google Ads Conversion Tracking" tag. Finally publish the changes to finish the setup.
 
 ### <mark style="color:blue;">**Back-end / Admin Tracking**</mark>&#x20;
 
