@@ -108,7 +108,7 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -131,6 +131,9 @@ The extension package contains JSONs which can be imported in GTM to set up requ
 * Google Ads Enhanced Conversion Tracking with Javascript variable
 * Google Ads Enhanced Conversion Tracking with Data layer
 * Microsoft UET Tracking (Bing Ads Tracking)
+* Tiktok Pixel Tracking
+* Twitter(X) Pixel Tracking
+* Reddit Pixel Tracking
 
 ### <mark style="color:blue;">Importing JSONs into GTM</mark> <a href="#bookmark10" id="bookmark10"></a>
 
@@ -206,11 +209,11 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Google Ads Conversion Tracking -**</mark> Add Conversion ID and Conversion Label in the Google Ads Conversion Tracking tag before publishing the container. These IDs can be found in your Google Ads account.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Facebook Pixel Tracking**</mark>** -** Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
 
@@ -227,6 +230,22 @@ Once the GTM container file has been imported, you need to change variable infor
 <figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+<mark style="color:orange;">**Tiktok Pixel Tracking**</mark>** -** Add the Tiktok Pixel ID which can be obtained from Tiktok Ads account as shown below. Once your pixel is created, copy the unique pixel ID code.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Twitter(X) Pixel Tracking**</mark>** -** Add the Twitter Pixel ID which can be obtained from Twitter Ads account as shown below.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-01 181717.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:orange;">**Reddit Pixel Tracking**</mark>** -** Add the Reddit Pixel ID which can be obtained from Reddit Ads account as shown below.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
