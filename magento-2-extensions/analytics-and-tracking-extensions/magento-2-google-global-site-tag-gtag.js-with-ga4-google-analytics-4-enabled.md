@@ -20,7 +20,7 @@
    * _Google Analytics Shopping Behaviour_&#x20;
    * _Google Analytics Sales Performance_
 5. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)
-6. [_Link Google Optimize with Google Analytics Account_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
+6. [_Set Up Cross Domain Measurement_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark12)
 7. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
    * _Home Page with Tags_&#x20;
    * _Gtag.js Code_&#x20;
@@ -103,21 +103,27 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
   * **Main Account –** Select ‘Yes’ to set your main analytics id as an account id. This account will be used to connect gtag.js.
   * **Use Linker –** If this is enabled (set to ‘Yes’) then this account will be linked to domains from “Domains to link” field, which is specified below
   * **Action –** You can delete your account\\, if required.
-* **Enable Optimize –** Select ‘Yes’ to enable the module, or ‘No’ to disable it.
-* **Optimize Container ID –** Enter your Google Optimize container ID here.
 
-![](../../.gitbook/assets/gtag1.png)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
-* **Enable Linker -** If this is enabled then you can set linker properties, in domain configurations which is specified below e.g. Domain to link, Decorate Forms.
+* **Enable Linker -** If this is enabled then you can set linker properties, in domain configurations which is specified below e.g. Domain to link, Decorate Forms. This setting is mainly for Cross domain mesurement, so to use this you must first enable it in Google Analytics 4 Admin.
 * **Domains to Link -** Enter the domains that you want to link. Example destination.com, dest3.com or /^example.(com|de|nl)$/.
 * **Decorate Forms -** If you have forms on site pointing to the destination domain, set this property of the linker parameter to Yes
-* **Promotion Tracking –** Here is the format to set up the promotion tracking: \<a href= ”#” data-track-promo-id=”PROMOID” data-track-promo- name=”PROMONAME” data-track-promo-creative=”PROMOCREATIVE” data-track-promo-position=”PROMOPOSITION” >Content\</a>
+* **Promotion Tracking –** Here is the format to set up the promotion tracking: \<a href="#" data-promotion="CREATIVENAME" data-id="PROMOID" data-name="PROMONAME" data-creative="PROMOCREATIVE" data-position="PROMOPOSITION"> Content \</a>
 * **Enable Dynamic Remarketing Tag –** If set to ‘Yes’, then this will enable and install remarketing tag to different pages.
 * **Enable Tracking for Other Sites –** This will enable other sites variables ([https://developers.google.com/adwords-remarekting-tag/parameters#other)](https://developers.google.com/adwords-remarekting-tag/parameters#other) instead of retail site variables.
 
-![](../../.gitbook/assets/gtag2.png)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Backend Tracking <a href="#bookmark5" id="bookmark5"></a>
 
@@ -146,39 +152,21 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 ![](../../.gitbook/assets/gtag\_ga41.jpg)
 
-### <mark style="color:blue;">Link Google Optimize with Google Analytics Account</mark> <a href="#bookmark12" id="bookmark12"></a>
+### <mark style="color:blue;">Set Up Cross Domain Measurement</mark> <a href="#bookmark12" id="bookmark12"></a>
 
-If the optimize is enabled in the extension then you need link the Google optimize account with the Google analytics account otherwise the data won't be tracked in GA. Once the optimize setup is complete you need to add the optimizer ID in the Gtag configuration to enable linking. Please follow the steps below to link the optimizer account with Google Analytics account.&#x20;
+&#x20;**Step 1:-** Go to Google Analytics 4 Admin>Data Streams>Select your stream>Configure Tag Settings >Configure Your Domains, here add your domains or subdomains that you want to track.&#x20;
 
-**Step 1:-** Begin Setup of your Google optimize account by visiting [https://optimize.google.com/optimize/home/#/accounts](https://optimize.google.com/optimize/home/#/accounts)
+<div data-full-width="true">
 
-**Step 2:-** Click on get started to start the setup, click on next after selecting the subscribe options
+<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+</div>
 
-**Step 3:-** Choose the account settings and acknowledge the service aggreements and click on lets go on the next screen upon which a popup window will appear.
+**Step 2:-** Add the all domains added above in the configuration "Domains to link" comma separated. Now if you have any links taking you from your main site to the linked site, **\_gl cookie** is automatically apended to the URL that contains several information such as source website, source campaign etc hereby accomplishing the cross domain measurement. an example of such URL is as follows:-
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Step 4:-** Enter the name and URL of the store then select the experience and click on create.
-
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Step 5:-** In the next window scroll down and click on Link Analytics.
-
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
-
-**Step 6:-** Select the analytics property that you want to link and then click on the link button
-
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
-
-**Step 6:-** Click on view instructions which will reveal the optimize code that we will add in the configuration to finish the setup.
-
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
-
-**Step 7:-** Copy the code from the above screen then go to stores>configuration>Scommerce confguration>Global Site Tag(gtag.js) then enter the ID in optimize container ID as shown below. Once done your Google optimize and Google Analytics accounts are now linked.
-
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+```
+https://magento2demo.scommerce-mage.co.uk/?_gl=1*fzl3bd*_ga*MTk3ODY0NTU1Mi4xNzIyODQzNDc3*_ga_FWXJFY956H*MTcyMjg1OTYxOC40LjEuMTcyMjg1OTYzNS4wLjAuMA..
+```
 
 ### <mark style="color:blue;">Front-end Site view</mark> <a href="#bookmark12" id="bookmark12"></a>
 
