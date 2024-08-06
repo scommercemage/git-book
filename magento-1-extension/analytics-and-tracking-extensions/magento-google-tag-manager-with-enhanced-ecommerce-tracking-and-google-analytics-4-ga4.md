@@ -12,23 +12,27 @@
    * General Settings&#x20;
    * Query String Parameter Cookies
 3. [JSONs provided with extension package ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark6)
-   * Enhanced Ecommerce Universal Analytics&#x20;
-   * Facebook Pixel&#x20;
-   * Adwords Dynamic Remarketing&#x20;
    * Google Analytics 4
-   * Google Ads Enhanced Conversion Tracking
+   * Facebook Pixel Tracking
+   * Snapchat Pixel Tracking
+   * Adwords Dynamic Remarketing
+   * Google Ads Enhanced Conversion Tracking with Javascript variable
+   * Google Ads Enhanced Conversion Tracking with Data layer
+   * Microsoft UET Tracking (Bing Ads Tracking)
+   * Tiktok Pixel Tracking
+   * Twitter(X) Pixel Tracking
+   * Reddit Pixel Tracking
 4. [Importing JSONs into GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark10)&#x20;
 5. [Setting variable information in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark11)&#x20;
 6. [Publishing Tags in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark12)&#x20;
-7. [Set up Enhanced Ecommerce in Google Analytics](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark13)&#x20;
-8. [Set up Google Analytics 4](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
-9. [AJAX Add to Basket or Remove from Basket ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
+7. [Set up Google Analytics 4](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
+8. [AJAX Add to Basket or Remove from Basket ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
    * AJAX Add to Basket&#x20;
    * AJAX Remove from Basket&#x20;
    * Back-end/Admin Tracking&#x20;
-10. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
-11. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
-12. [Query String Parameter Cookies](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#query-string-parameter-cookies)
+9. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
+10. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
+11. [Query String Parameter Cookies](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#query-string-parameter-cookies)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -49,7 +53,6 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
   **Please don’t turn this on unless you understand what this setting does.**
 * **GTM code HTML** - This setting allows you to enter the HTML code of server-side GTM container. This HTML code will replace the default GTM code on the frontend of your website.
 * **GTM noscript HTML** - This setting allows you to enter noscript part of server-side GTM code. This noscript code will replace the default noscript GTM on the frontend of your website.
-* **Enhanced Ecommerce –** Set “yes” to enable the enhanced ecommerce. Please make sure this feature is enabled in Google Analytics first before enabling in Magento 1.
 * **Enhanced Conversion –** Set “yes” to enable the enhanced conversion and send PII data with the tag. Please make sure enhanced conversion is enabled in Google Ads before using this setting.
 * **Brand Attribute –** Select brand attribute to send brand information to Google Analytics.
 * **Brand text box –** If you don’t have brand attribute and you want to send default brand name to Google Analytics then you can enter here.
@@ -61,14 +64,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Tag Ma
 * **Medium –** Add medium you want to pass to Google for admin orders**.**
 * **Enable dynamic remarketing tags and facebook tracking –** Set yes to enable dynamic remarketing tags and facebook tracking.
 * **Product ID Attribute –** Select attribute for Product ID, this should be same attribute as you have in your Google Base Feed.
-* **Enable Google Optimize –** Set “Yes” to add page-hiding snippet code for google optimize.
 * **Enable GDPR cookie check –** If you are using our GDPR Extension or any other GDPR Extension and you want to block sending information to Google then set this to “yes” based on customer preference. Please note this is optional as far as you are not sending any PII to Google this setting needs to be turned off.
 * **Force decline –** If you set this to yes then GTM tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website.
 * **GDPR Cookie Key –** You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **cookie\_accepted** but if you are using other GDPR extension then please check with extension developer
 * **Order Total Include VAT –** If set to “Yes” then VAT will be included in order total.
 * **Order Item Include VAT –** If set to “Yes” then VAT will be included in order item.
-* **Enable GA4 data layer –** Set “yes” to enable the GA4 data layer.
-* **Enable UA data layer –** Set “yes” to enable the Universal Analytics data layer.
 * **Affiliation –** Enter the affiliation to be sent with GA4 events.
 * **Enable Consent Mode -** This setting activates [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent). It lets us control how Google tags use user consent and protect user data
 * **Enable GDPR country check** - This setting enables you to specify a list of countries whose users will be able to choose which consent parameters to be sent to Google as 'granted' or 'denied'
@@ -90,25 +90,25 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-21 at 19.03.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -123,11 +123,10 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 The extension package contains JSONs which can be imported in GTM to set up required Tags, Triggers and Variables. The JSONs can be used to set up
 
-* Enhanced Ecommerce Universal Analytics
+* Google Analytics 4
 * Facebook Pixel Tracking
 * Snapchat Pixel Tracking
 * Adwords Dynamic Remarketing
-* Google Analytics 4
 * Google Ads Enhanced Conversion Tracking with Javascript variable
 * Google Ads Enhanced Conversion Tracking with Data layer
 * Microsoft UET Tracking (Bing Ads Tracking)
@@ -209,11 +208,11 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Google Ads Conversion Tracking -**</mark> Add Conversion ID and Conversion Label in the Google Ads Conversion Tracking tag before publishing the container. These IDs can be found in your Google Ads account.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Facebook Pixel Tracking**</mark>** -** Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
 
@@ -235,7 +234,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -245,7 +244,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Reddit Pixel Tracking**</mark>** -** Add the Reddit Pixel ID which can be obtained from Reddit Ads account as shown below.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
@@ -262,27 +261,6 @@ With the version description, you can be as elaborate as possible on the changes
 **Step 3** − Scroll down to the Workspace Changes, you will see all the changes made in the tags, which are unpublished or in the PREVIEW mode.
 
 **Step 4** − Click PUBLISH and you will be presented with a summary for this version.
-
-### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#bookmark13" id="bookmark13"></a>
-
-#### <mark style="color:orange;">**To turn on Enhanced E-commerce for a view, and label your checkout steps:**</mark>
-
-1. Click Admin at the top of any Analytics page.
-2. Select the view for which you want to enable Enhanced E-commerce reporting.
-3. In the view column, click E-commerce Settings.
-4. Under **Step 1**, Enable E-commerce, set the status to ON.
-5. Click Next Step.
-6. Under **Step 2**, Enhanced Ecommerce Settings, set the status to ON. When you turn this option on
-   * You can see the Enhanced E-commerce reports in the conversions section
-   * The older, older category of E-commerce reports is no longer visible
-
-You can turn this option off to restore the older category of E-commerce reports.
-
-* Optionally, enter labels for the checkout steps that you have defined in your Magento steps configuration. Please see screenshots below for reference
-
-![A screenshot of a social media post  Description automatically generated](<../../.gitbook/assets/12 (21)>)
-
-* Click Submit.
 
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark14" id="bookmark14"></a>
 
