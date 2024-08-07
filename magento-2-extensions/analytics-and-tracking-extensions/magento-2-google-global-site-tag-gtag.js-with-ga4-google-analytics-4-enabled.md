@@ -13,15 +13,9 @@
    * _Checkout Behaviour_
 3. [_Configuration Settings for Global Site Tag (gtag.js)_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3-1)
    * _General Settings_&#x20;
-4. [_Backend Tracking_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark5)
-   * _Backend Order Tracking in Google Analytics_&#x20;
-   * _Backend Order Google Analytics Source/Medium_&#x20;
-   * _Google Analytics Checkout Behaviour_&#x20;
-   * _Google Analytics Shopping Behaviour_&#x20;
-   * _Google Analytics Sales Performance_
-5. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)
-6. [_Set Up Cross Domain Measurement_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark12)
-7. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
+4. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)
+5. [_Set Up Cross Domain Measurement_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark12)
+6. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
    * _Home Page with Tags_&#x20;
    * _Gtag.js Code_&#x20;
    * _Gtag.js Brand Name_&#x20;
@@ -125,26 +119,6 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 </div>
 
-### Backend Tracking <a href="#bookmark5" id="bookmark5"></a>
-
-* <mark style="color:orange;">**Backend Order Tracking in Google Analytics -**</mark> You can track admin orders by selecting "Yes" for " **Enabled Backend Tracking**" from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Enabled Backend Tracking - "Yes".** In the below image you can see the tracked admin orders in Google analytics.
-
-![](../../.gitbook/assets/gtag\_backendorder.jpg)
-
-* <mark style="color:orange;">**Backend Order Google Analytics Source/Medium -**</mark> To track/add Campaign Source and Medium for backend orders, add campaign source and medium from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Backend Tracking Configuration > Backend Campaign Source - "phone" > Campaign Medium -"admin".**
-
-![](<../../.gitbook/assets/4 (51)>)
-
-* <mark style="color:orange;">**Google Analytics Checkout Behaviour -**</mark> You can see the checkout behaviour in GA with billing & shipping method, payment method and transactions details.
-
-![](../../.gitbook/assets/gtag\_checkoutbehaviour.jpg)
-
-* <mark style="color:orange;">**Google Analytics Shopping Behaviour -**</mark> In below image you can see the shopping behaviour with all sessions, product views, add to cart, checkout details.
-
-![](../../.gitbook/assets/gtag\_shoppingbehaviour.jpg)
-
-* <mark style="color:orange;">**Google Analytics Sales Performance -**</mark> Placed order details in GA, with Transaction ID, Tax, Shipping, Refund Amount and Quantity details.
-
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * Go to Analytics and select the website on which you want to implement GA4.
@@ -172,11 +146,19 @@ https://magento2demo.scommerce-mage.co.uk/?_gl=1*fzl3bd*_ga*MTk3ODY0NTU1Mi4xNzIy
 
 * <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see all the fired tags.
 
-![](../../.gitbook/assets/gtag\_front1.jpg)
+<div data-full-width="true">
 
-* <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – UA – 33387561-8, AW- 12345678.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/11 (28)>)
+</div>
+
+* <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – G-R6FSTDG16K, AW-123234123.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-07 2122012132.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand Name – “TestScommerce”.**
 
