@@ -182,7 +182,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 #### <mark style="color:orange;">Variables Created with JSON’s</mark>
 
-* **GA4 MEasurement ID –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
+* **GA4 Measurement ID –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
 
 <div data-full-width="true">
 
