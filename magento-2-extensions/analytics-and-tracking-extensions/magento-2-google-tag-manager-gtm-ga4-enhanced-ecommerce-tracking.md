@@ -285,9 +285,13 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Variables Created with JSON’s**</mark>
 
-* <mark style="color:orange;">**GA ID –**</mark> This variable is created when GTM-UniversalAnalytics.json is imported and it holds value for Google Analytics Id for the site. Click on the GA ID and change it to correct value.
+* **GA4 Measurement ID –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
 
-![](../../.gitbook/assets/gtm\_variable2.jpg)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * <mark style="color:orange;">**conversionID -**</mark> This variable is created when GTM- AdwordsDynamicRemarketing.json is imported and it holds value for Google Adwords Conversion Id for the site. Click on the conversionID and change it to correct value.
 
