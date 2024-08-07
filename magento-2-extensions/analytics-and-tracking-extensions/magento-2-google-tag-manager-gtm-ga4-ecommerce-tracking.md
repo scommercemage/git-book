@@ -24,17 +24,16 @@
 10. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16)
     * _Enable Enhanced Conversions in Google Adwords_
     * _Set up Enhanced Conversion with the Module_
-11. [_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#back-end-admin-tracking)
-12. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-1)
-13. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-2)
-14. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-3)&#x20;
+11. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-1)
+12. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-2)
+13. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-3)&#x20;
     * _Order Total of Product without VAT_&#x20;
     * _Order Total of Product with VAT_&#x20;
     * _Send SKU of Child Product_&#x20;
     * _Send SKU of Parent Product Only_&#x20;
     * _Send Parent Category_&#x20;
     * _Primary Category_&#x20;
-15. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-4)
+14. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-4)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -405,12 +404,6 @@ Go to **Stores>Configuration>Scommerce Configuration>Tracking Base** and set "En
 </div>
 
 Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_tracking.json"  if or  import "GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json" provided with the extension(data folder) in your GTM container .  Change the 'conversion label' and 'conversion ID' in the "Google Ads Conversion Tracking" tag. Finally publish the changes to finish the setup.
-
-### <mark style="color:blue;">**Back-end / Admin Tracking**</mark>&#x20;
-
-&#x20;It tracks orders placed from **Admin > Sales > Orders > Create New Order.**
-
-![](../../.gitbook/assets/gtm\_backend.jpg)
 
 ### <mark style="color:blue;">Cookies From Query Params</mark> <a href="#bookmark16" id="bookmark16"></a>
 
