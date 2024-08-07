@@ -147,7 +147,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark11" id="bookmark11"></a>
 
-* Go to Analytics and select the website on which you want to implement GA4 alongside universal analytics.
+* Go to Analytics and select the website on which you want to implement GA4.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen
 
 ![](../../.gitbook/assets/gtag\_ga41.jpg)

@@ -173,14 +173,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 * **Force decline –** If you set this to yes then GTM tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website
 * **GDPR Cookie Key –**  You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **cookie\_accepted** but if you are using other GDPR extension then please check with extension developer
-* **Enable UA data layer –** Select "Yes" to add UA (Universal Analytics) events to the data layer.
 * **Enable GA4 data layer-**Select "Yes" to add GA4(Google Analytics 4) events to the data layer.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/gt2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Cookies From Query Params</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -208,7 +203,7 @@ Please follow the steps below to download the module:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -216,7 +211,7 @@ Please follow the steps below to download the module:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -235,7 +230,6 @@ Go to the extension file m2-google-tag- manager-pro and then to the Data Folder 
 The JSONs can be used to set up
 
 * **GTM-GoogleAnalytics4.json:-** Google Analytics 4
-* **GTM-UniversalAnalytics.json:-** Enhanced Ecommerce Universal Analytics
 * **GTM-Facebook\_Pixel\_Tracking.json:-** Facebook Pixel tracking
 * **GTM-Snapchat\_Tracking.json**:- Snapchat Pixel tracking
 * **GTM-AdwordsDynamicRemarketing.json:-** Google AdWords Dynamic Remarketing
@@ -347,27 +341,9 @@ With the version description, you can be as elaborate as possible on the changes
 
 **Step 5 −** Click PUBLISH and you will be presented with a summary for this version.
 
-### <mark style="color:blue;">Set up Enhanced Ecommerce in Google Analytics</mark> <a href="#bookmark13" id="bookmark13"></a>
-
-<mark style="color:orange;">**To turn on Enhanced E-commerce for a view, and label your checkout steps:**</mark>
-
-1. Click Admin at the top of any Analytics page.
-2. Select the view for which you want to enable Enhanced E-commerce reporting.
-3. In the view column, click E-commerce Settings.
-4. Under **Step 1**, Enable E-commerce, set the status to ON.
-5. Click Next Step.
-6. Under **Step 2**, Enhanced Ecommerce Settings, set the status to ON. When you turn this option on
-   * You can see the Enhanced E-commerce reports in the conversions section
-   * The older, older category of E-commerce reports is no longer visible You can turn this option off to restore the older category of E-commerce reports.
-7. Optionally, enter labels for the checkout steps that you have defined in your Magento steps configuration. Please see screenshots below for reference
-
-![](../../.gitbook/assets/gtm\_setup.jpg)
-
-Finally, Click Submit.
-
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark14" id="bookmark14"></a>
 
-* Go to Analytics and select the website on which you want to implement GA4 alongside universal analytics.
+* Go to Analytics and select the website on which you want to implement GA4.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen.
 
 ![](../../.gitbook/assets/gtm\_ga41.jpg)
@@ -400,26 +376,6 @@ To setup Google Adwords Conversion, please make sure you add **GTM-google\_ads\_
 * Google Ads Conversion Tracking
 
 ![](<../../.gitbook/assets/image (61).png>)
-
-<mark style="color:red;">**Please note: If you have GA4 enabled but UA disabled in Magento admin configuration then you need to change the following variables in GTM for Google Ads Conversion Tracking**</mark>
-
-From&#x20;
-
-**\{{Order Value\}} to \{{Ecommerce Value\}}**
-
-**\{{Order Id\}} to \{{Ecommerce Transaction ID\}}**
-
-**\{{Order Currency Code\}} to \{{Ecommerce Currency\}}**
-
-**As shown in the below screenshots**&#x20;
-
-**From**
-
-![](<../../.gitbook/assets/image (66).png>)
-
-To &#x20;
-
-![](<../../.gitbook/assets/image (69).png>)
 
 ### <mark style="color:blue;">Setup Enhanced Conversion</mark>  <a href="#bookmark16" id="bookmark16"></a>
 

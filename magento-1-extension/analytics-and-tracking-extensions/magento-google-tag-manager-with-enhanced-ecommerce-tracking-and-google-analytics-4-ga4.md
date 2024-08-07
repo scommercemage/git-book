@@ -90,13 +90,13 @@ Cookie preference cookie could be set using our [GDPR extension](https://www.sco
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -182,7 +182,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 #### <mark style="color:orange;">Variables Created with JSON’s</mark>
 
-* **GA4 Measurement ID –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
+* <mark style="color:orange;">**GA4 Measurement ID**</mark>** –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
 
 <div data-full-width="true">
 
@@ -212,7 +212,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Microsoft UET Tracking -**</mark> Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Facebook Pixel Tracking**</mark>** -** Add the Microsoft Advertising UET Tag ID which can be obtained from microsoft Ads account.
 
@@ -244,7 +244,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Reddit Pixel Tracking**</mark>** -** Add the Reddit Pixel ID which can be obtained from Reddit Ads account as shown below.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
