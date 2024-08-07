@@ -1,41 +1,40 @@
-# Magento 2 Google Tag Manager (GTM) GA4 Enhanced Ecommerce Tracking
+# Magento 2 Google Tag Manager (GTM) GA4 Ecommerce Tracking
 
 ## <mark style="color:blue;">Installation and User Guide for Magento 2 Google Tag Manager Pro Tracking Extension</mark>
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark0)
+1. [_Installation_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
    * _Installation via Composer(Breeze Theme)_
-2. [_Configuration Settings for Tracking Base_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3)
+2. [_Configuration Settings for Tracking Base_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
-3. [_Configuration Settings for Google Tag Manager Pro_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark3-1)&#x20;
+3. [_Configuration Settings for Google Tag Manager Pro_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark3-1)&#x20;
    * _General Settings_
    * _Cookies From Query Params_&#x20;
-4. [_JSONs/Script provided with extension package_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark5) &#x20;
-5. [_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark10)&#x20;
-6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark11)&#x20;
-7. [_Publishing Tags in GTM_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark12)
-8. [_Set up Enhanced Ecommerce in Google Analytics_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark13)
-9. [_Set up Google Analytics 4_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark14-1)
-10. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#\_bookmark14-1)
-11. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16)
+4. [_JSONs/Script provided with extension package_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark5) &#x20;
+5. [_Importing JSONs into GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark10)&#x20;
+6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark11)&#x20;
+7. [_Publishing Tags in GTM_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark12)
+8. [_Set up Google Analytics 4_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark14-1)
+9. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#\_bookmark14-1)
+10. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16)
     * _Enable Enhanced Conversions in Google Adwords_
     * _Set up Enhanced Conversion with the Module_
-12. [_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#back-end-admin-tracking)
-13. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-1)
-14. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-2)
-15. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-3)&#x20;
+11. [_Back-end / Admin Tracking_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#back-end-admin-tracking)
+12. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-1)
+13. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-2)
+14. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-3)&#x20;
     * _Order Total of Product without VAT_&#x20;
     * _Order Total of Product with VAT_&#x20;
     * _Send SKU of Child Product_&#x20;
     * _Send SKU of Parent Product Only_&#x20;
     * _Send Parent Category_&#x20;
     * _Primary Category_&#x20;
-16. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-enhanced-ecommerce-tracking.md#bookmark16-4)
+15. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-4)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -279,7 +278,7 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Variables Created with JSON’s**</mark>
 
-* **GA4 Measurement ID –** This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
+* <mark style="color:orange;">**GA4 Measurement ID –**</mark> This variable is created when GTM-Google Analytics 4.json is imported and it holds value for Google Analytics 4 Measurement Id for the site. Click on the GA4 Measurement ID and change it to correct value.
 
 <div data-full-width="true">
 

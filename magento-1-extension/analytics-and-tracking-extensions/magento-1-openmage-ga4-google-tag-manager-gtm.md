@@ -1,17 +1,17 @@
-# Magento Google Tag Manager with Enhanced Ecommerce Tracking and Google Analytics 4(GA4)
+# Magento 1 / OpenMage GA4 Google Tag Manager (GTM)
 
-### <mark style="color:blue;">Installation and User Guide for Magento 1 Google Tag Manager with Enhanced Ecommerce Tracking</mark>
+### <mark style="color:blue;">Installation and User Guide for Magento 1 / OpenMage GA4 Google Tag Manager (GTM)</mark>
 
 **Table of Contents**
 
-1. [Installation ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark0)
+1. [Installation ](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Google Tag Manager Pro Tracking ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark4)
+2. [Configuration Settings for Google Tag Manager Pro Tracking ](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark4)
    * General Settings&#x20;
    * Query String Parameter Cookies
-3. [JSONs provided with extension package ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark6)
+3. [JSONs provided with extension package ](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark6)
    * Google Analytics 4
    * Facebook Pixel Tracking
    * Snapchat Pixel Tracking
@@ -22,17 +22,17 @@
    * Tiktok Pixel Tracking
    * Twitter(X) Pixel Tracking
    * Reddit Pixel Tracking
-4. [Importing JSONs into GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark10)&#x20;
-5. [Setting variable information in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark11)&#x20;
-6. [Publishing Tags in GTM](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark12)&#x20;
-7. [Set up Google Analytics 4](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
-8. [AJAX Add to Basket or Remove from Basket ](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark14)
+4. [Importing JSONs into GTM](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark10)&#x20;
+5. [Setting variable information in GTM](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark11)&#x20;
+6. [Publishing Tags in GTM](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark12)&#x20;
+7. [Set up Google Analytics 4](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark14)
+8. [AJAX Add to Basket or Remove from Basket ](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark14)
    * AJAX Add to Basket&#x20;
    * AJAX Remove from Basket&#x20;
    * Back-end/Admin Tracking&#x20;
-9. [_Set Primary Categories_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#set-primary-categories)
-10. [_Upgrading the Module From 0.0.35 and Below_](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#\_bookmark16)
-11. [Query String Parameter Cookies](magento-google-tag-manager-with-enhanced-ecommerce-tracking-and-google-analytics-4-ga4.md#query-string-parameter-cookies)
+9. [_Set Primary Categories_](magento-1-openmage-ga4-google-tag-manager-gtm.md#set-primary-categories)
+10. [_Upgrading the Module From 0.0.35 and Below_](magento-1-openmage-ga4-google-tag-manager-gtm.md#\_bookmark16)
+11. [Query String Parameter Cookies](magento-1-openmage-ga4-google-tag-manager-gtm.md#query-string-parameter-cookies)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
