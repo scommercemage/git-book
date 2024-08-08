@@ -111,7 +111,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 * **Decorate Forms -** If you have forms on site pointing to the destination domain, set this property of the linker parameter to Yes
 * **Promotion Tracking –** Here is the format to set up the promotion tracking: \<a href="#" data-promotion="CREATIVENAME" data-id="PROMOID" data-name="PROMONAME" data-creative="PROMOCREATIVE" data-position="PROMOPOSITION"> Content \</a>
 * **Enable Dynamic Remarketing Tag –** If set to ‘Yes’, then this will enable and install remarketing tag to different pages.
-* **Enable Tracking for Other Sites –** This will enable other sites variables ([https://developers.google.com/adwords-remarekting-tag/parameters#other)](https://developers.google.com/adwords-remarekting-tag/parameters#other) instead of retail site variables.
+* **Enable Tracking for Other Sites –** This will enable other sites variables ([https://support.google.com/tagmanager/answer/6106009?hl=en-GB#zippy=%2Ccustom](https://support.google.com/tagmanager/answer/6106009?hl=en-GB#zippy=%2Ccustom)[)](https://developers.google.com/adwords-remarekting-tag/parameters#other) instead of retail site variables.
 
 <div data-full-width="true">
 
