@@ -138,6 +138,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 
 * **Add Carrier Title:-** Use this to add carrier title to the shipping step. Set "Yes" to send _carrier\_code::carrier\_title_. Ex. flatrate::Flat Rate
 * **Add Payment Title :-** Use this to add payment method title to payment step. Set "Yes" to send _method::title_. Ex. checkmo::Check / Money Order
+
+<mark style="color:orange;">**For GA4:-**</mark>
+
+Please make sure to add "shipment" and "payment" in the steps configuration as without them the <mark style="color:red;">**GA4 events add\_shipping\_info and add\_payment Info won't work.**</mark>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**For UA:-**</mark>
+
 * **Steps Configuration:-** define checkout steps
   * **Step:-** number of step
   * **Selector:-** add the selector for the step. Basic selector could be '#customer-email' this is equals to '#customer-email/change' and will send customer email itself
@@ -234,6 +247,9 @@ The JSONs can be used to set up
 * **GTM-google\_ads\_conversion\_tracking.json:-** Google Ads Conversion Tracking
 * **GTM-Pinterest.json:-** Pinterest tracking
 * **GTM-Pinterest-GA4.json:-** Use this file if you are using only GA4 and not UA
+* **GTM-Reddit\_Pixel\_Tracking.json:-** Reddit Pixel Tracking
+* **GTM-Tiktok\_Pixel\_Tracking.json:-** Tiktok Pixel Tracking
+* **GTM-Twitter.json:-** Twitter Pixel Tracking
 * **GTM-Partnerize.json:-** Partnerize
 * **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration and also ensure that "send conversion data using data layer is set to "No" in tracking base configuration)
 * **GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json -** If you have set "send conversion data using data layer is set to "Yes" in tracking base configuration then import this JSON file which utilizes data layer push to populate the conversion PII data.
@@ -320,6 +336,26 @@ Once the GTM container file has been imported, you need to change variable infor
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-06-20 at 13.48.35.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+<mark style="color:orange;">**Twitter Pixel Tracking -**</mark> Add the Twitter Pixel ID which can be obtained from Twitter Ads account as shown below.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-09 214747.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Reddit Pixel Tracking -**</mark> Add the Reddit Pixel ID which can be obtained from Reddit Ads account as shown below.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-09 214652.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Tiktok Pixel Tracking -**</mark> Add the base pixel code and Tiktok Pixel ID which can be obtained from Tiktok Ads account as shown below.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-09 214829.png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
