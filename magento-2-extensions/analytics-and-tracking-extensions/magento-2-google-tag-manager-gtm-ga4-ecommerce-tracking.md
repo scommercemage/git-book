@@ -156,6 +156,8 @@ Please make sure to add "shipment" and "payment" in the steps configuration as w
   * **Selector:-** add the selector for the step. Basic selector could be '#customer-email' this is equals to '#customer-email/change' and will send customer email itself
   * **Type:-** choose the step type from the dropdown
 
+**Note-Please keep in mind that Universal Analytics is not supported by Google now and has been replaced by GA4:** [**https://support.google.com/analytics/answer/11583528?hl=en**](https://support.google.com/analytics/answer/11583528?hl=en)
+
 <div data-full-width="true">
 
 <img src="../../.gitbook/assets/5 (1).png" alt="">
