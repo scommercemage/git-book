@@ -148,7 +148,7 @@ https://magento2demo.scommerce-mage.co.uk/?_gl=1*fzl3bd*_ga*MTk3ODY0NTU1Mi4xNzIy
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

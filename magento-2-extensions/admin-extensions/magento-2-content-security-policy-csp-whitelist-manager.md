@@ -14,6 +14,9 @@
    * _Critical Security Overrides_
 3. [_<mark style="color:blue;">Working of the extension</mark>_](magento-2-content-security-policy-csp-whitelist-manager.md#working-of-the-extension)
    * Steps to Check and Fix Console CSP Errors
+4. [_Fixing Inline Script and Inline Style Content Security Policy Issues_](magento-2-content-security-policy-csp-whitelist-manager.md#fixing-inline-script-and-inline-style-content-security-policy-issues)
+   * Inline Style Error Example
+   * Inline Script Error Example
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -50,7 +53,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -61,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for default-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 *   **Base Uri**
@@ -69,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for base-uri
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
 
@@ -78,7 +81,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for child-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 * **Connect Src**
@@ -158,7 +161,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -174,7 +177,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -216,5 +219,89 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### <mark style="color:blue;">**Fixing Inline Script and Inline Style Content Security Policy Issues**</mark>
+
+In this section, we will fix the inline script and style related console errors for Content Security Policy as shown in image below:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Identify the script or style tag that's causing the console error.
+* Create SHA256 hash of contents of with the script or style tag and then use bas64 to encode this hash. It can be done all together :- [https://emn178.github.io/online-tools/sha256.html](https://emn178.github.io/online-tools/sha256.html)
+* Alternatively you can generate the hash using PHP as shown below.
+
+```
+$whitelistHash = base64_encode(hash('sha256', $content, true));
+```
+
+* Next we add this hash to our module in the correct section i.e either style or script.
+
+Let us look at examples to understand this process better:-
+
+<mark style="color:orange;">**Inline Style Error Example**</mark>
+
+* Suppose we identified the style thats causing the issue as follows:-
+
+```
+<style>
+body {
+background-color: #f3f3f3;
+}
+</style>
+```
+
+* Next we will go the site and create a SHA256 hash as well as the base64 encode of this hash of the contents of the style tag as shown in screengrab below:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-23 182227.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Style Src** section. Add the hash here as shown in the image below:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Please make sure hash is selected in the type dropdown. This should resolve the console error.
+
+
+
+<mark style="color:orange;">**Inline Script Error Example**</mark>
+
+* The identified script tag causing the issue is as follows:-
+
+```
+<script>
+console.log('Hello, world!');
+</script>
+```
+
+* We will go the site([https://emn178.github.io/online-tools/sha256.html](https://emn178.github.io/online-tools/sha256.html)) and create a SHA256 hash as well as the base64 encode of this hash of the contents of the style tag as shown in screengrab below:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-23 183053.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Script Src** section. Add the hash here as shown in the image below:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Please make sure hash is selected in the type dropdown. This should resolve the console error.
+
+
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
