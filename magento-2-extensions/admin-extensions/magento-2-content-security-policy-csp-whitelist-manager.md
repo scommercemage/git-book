@@ -1,6 +1,6 @@
 # Magento 2 Content Security Policy (CSP) Whitelist Manager
 
-### <mark style="color:blue;">Installation and User Guide for Magento 2 Content Security Policy (CSP) Whitelist Manager</mark>
+<mark style="color:blue;">Installation and User Guide for Magento 2 Content Security Policy (CSP) Whitelist Manager</mark>
 
 **Table of Contents**
 
@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for default-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 *   **Base Uri**
@@ -72,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for base-uri
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
 
@@ -164,7 +164,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
   * **Enabled-** Select “Yes” or “No” to enable or disable csp whitelist for style-src
   * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -178,7 +178,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -223,11 +223,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 ### <mark style="color:blue;">**Fixing Inline Script and Inline Style Content Security Policy Issues**</mark>
 
-In this section, we will fix the inline script and style related console errors for Content Security Policy as shown in image below:-
+In this section, we will show you how to fix the inline script and style related console errors for Content Security Policy. Please check the image below:-
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -265,7 +265,7 @@ background-color: #f3f3f3;
 
 * Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Style Src** section. Add the hash here as shown in the image below:-
 
-<figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * Please make sure hash is selected in the type dropdown. This should resolve the console error.
 
