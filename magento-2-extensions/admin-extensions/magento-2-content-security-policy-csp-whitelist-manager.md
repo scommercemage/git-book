@@ -265,11 +265,7 @@ background-color: #f3f3f3;
 
 * Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Style Src** section. Add the hash here as shown in the image below:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
 * Please make sure hash is selected in the type dropdown. This should resolve the console error.
 
@@ -295,11 +291,7 @@ console.log('Hello, world!');
 
 * Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Script Src** section. Add the hash here as shown in the image below:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
 
 * Please make sure hash is selected in the type dropdown. This should resolve the console error.
 
