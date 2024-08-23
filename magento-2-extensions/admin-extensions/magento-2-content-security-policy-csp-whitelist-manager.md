@@ -152,18 +152,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for script-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Style Src**
   * **Enabled-** Select “Yes” or “No” to enable or disable csp whitelist for style-src
   * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
 
 
