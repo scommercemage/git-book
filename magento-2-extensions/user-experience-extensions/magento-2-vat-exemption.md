@@ -57,14 +57,18 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Vat Exempt Se
 #### <mark style="color:orange;">Vat Exempt Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Shipping VAT Exempt -** Please Select "Yes/No" to include or exclude shipping from VAT exemption (Default - No).
-* **Declaration Statement -** Please provide declaration statement. This will be shown in admin along with order details and on the frontend checkout page.
+* **Declaration Statement -** Please provide declaration statement. This will be shown in admin along with order details and on the frontend in My Account section.
 * **VAT Exempt Title -** Please provide title. This will be shown on the checkout page before VAT Exempt message and declaration form (Default - VAT Exempt).
 * **Basket VAT Exempt Message -** Please add VAT exempt message. This will be shown on the cart/basket page.
 * **VAT Exempt Message -** Please provide VAT Exempt message. This will be shown on the checkout page under VAT exempt section to users who are applying for VAT exemption. **(Default - VAT Exempt products are in your basket so if you are disable or from eligible charity then you should be able to claim VAT exemption from here).**
 * **Terms and Condition Message -** Please provide terms and conditions message. This will be shown on the checkout pages along with checkbox on VAT exempt declaration form.
 * **Use Reason as Text Input-** Set "Yes" to allow customers to enter their own custom reasons without selecting from the dropdown list
 
-![](../../.gitbook/assets/vat.png)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * **Show VAT Exempt -** Set "Yes" to show vat exempt form on the checkout otherwise it will be hidden.
 * **Next button text-** Use this setting to change text for “Next” button on the checkout page.
