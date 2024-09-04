@@ -139,28 +139,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Add Carrier Title:-** Use this to add carrier title to the shipping step. Set "Yes" to send _carrier\_code::carrier\_title_. Ex. flatrate::Flat Rate
 * **Add Payment Title :-** Use this to add payment method title to payment step. Set "Yes" to send _method::title_. Ex. checkmo::Check / Money Order
 
-<mark style="color:orange;">**For GA4:-**</mark>
-
-Please make sure to add "shipment" and "payment" in the steps configuration as without them the <mark style="color:red;">**GA4 events add\_shipping\_info and add\_payment Info won't work.**</mark>
-
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<mark style="color:orange;">**For UA:-**</mark>
-
-* **Steps Configuration:-** define checkout steps
-  * **Step:-** number of step
-  * **Selector:-** add the selector for the step. Basic selector could be '#customer-email' this is equals to '#customer-email/change' and will send customer email itself
-  * **Type:-** choose the step type from the dropdown
-
-**Note-Please keep in mind that Universal Analytics is not supported by Google now and has been replaced by GA4:** https://support.google.com/analytics/answer/11583528?hl=en &#x20;
-
-<div data-full-width="true">
-
-<img src="../../.gitbook/assets/5 (1).png" alt="">
+<figure><img src="../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
