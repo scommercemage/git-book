@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-dynamic-remarketing-tag.md#\_bookmark0)
+1. [_Installation_ ](magento-2-google-dynamic-remarketing-tag.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Google Remarketing_ ](magento-2-google-dynamic-remarketing-tag.md#\_bookmark3)
+2. [_Configuration Settings for Google Remarketing_](magento-2-google-dynamic-remarketing-tag.md#bookmark3)&#x20;
    * _General Settings_&#x20;
    * _Dynamic Remarketing Tag, Code Snippets on the Homepage_&#x20;
    * _Dynamic Remarketing Tag/Code Snippets with Product Details_&#x20;
