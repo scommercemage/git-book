@@ -4,12 +4,12 @@
 
 #### **Table of Contents**
 
-1. [_Installation_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark0)
+1. [_Installation_](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark3)
+2. [_Configuration Settings for SEO Base_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Canonical Tags_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark5)
+3. [_Configuration Settings for Canonical Tags_](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#bookmark5)&#x20;
    * _General Settings_&#x20;
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
@@ -20,7 +20,7 @@
    * _Category set up for Canonical URL_&#x20;
    * _CMS set up for Canonical URL_&#x20;
 4. [_Set Primary Categories_](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#set-primary-categories)
-5. [_Front-end Site View_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#\_bookmark15)
+5. [_Front-end Site View_ ](magento-2-canonical-urls-for-category-product-cms-and-other-pages.md#bookmark15)
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
    * _CMS Canonical Tag_&#x20;
