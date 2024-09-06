@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-shelf-life.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-shelf-life.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Shelf Life Expiration_ ](magento-2-product-shelf-life.md#\_bookmark3)
+2. [_Configuration Settings for Product Shelf Life Expiration_ ](magento-2-product-shelf-life.md#bookmark3)
    * _General Settings_&#x20;
    * _Batch Settings_&#x20;
    * _Product Batches Grid_&#x20;
@@ -24,7 +24,7 @@
    * _Batch Report_&#x20;
    * _Import / Export Product Batches_&#x20;
    * _Batch Expiration Email Notification_&#x20;
-3. [_API - Application Programming Interface_ ](magento-2-product-shelf-life.md#\_bookmark20)
+3. [_API - Application Programming Interface_ ](magento-2-product-shelf-life.md#bookmark20)
    * _Authentication Token_&#x20;
    * _Creating a Batch using API_&#x20;
    * _Retrieve all Batches using API_&#x20;
