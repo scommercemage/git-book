@@ -4,15 +4,15 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento-2-dynamic-sale-catagory.md#\_bookmark0)
+1. [I_nstallation_ ](magento-2-dynamic-sale-catagory.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Dynamic Sale Category_ ](magento-2-dynamic-sale-catagory.md#\_bookmark3)
+2. [_Configuration Settings for Dynamic Sale Category_ ](magento-2-dynamic-sale-catagory.md#bookmark3)
    * _General Settings_&#x20;
 3. [_Product Special Price Set up_ ](magento-2-dynamic-sale-catagory.md#product-special-price-set-up)
    * _Products Assigned to Sale Category in the Back-end_&#x20;
 4. [_Command to Force Run Sale Category Products_ ](magento-2-dynamic-sale-catagory.md#command-to-force-run-sale-category-products)
-5. [_Front-end Site View_ ](magento-2-dynamic-sale-catagory.md#\_bookmark8)
+5. [_Front-end Site View_ ](magento-2-dynamic-sale-catagory.md#bookmark8)
    * _Sale Products on the Category Page_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
