@@ -4,18 +4,18 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark0)
+1. [_Installation_ ](magento-2-associated-or-linked-product-stock-update.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_&#x20;
-2. [_Configuration Settings for Associated Product_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark3)
+2. [_Configuration Settings for Associated Product_ ](magento-2-associated-or-linked-product-stock-update.md#bookmark3)
    * _General Settings_&#x20;
    * _Product Association at Product Level_&#x20;
    * _Product Association for Simple Product_&#x20;
    * _Product Association for Configurable/Child Product_&#x20;
    * _Product Grid at Product Level_&#x20;
    * _Associated or Linked Product Stock Update_&#x20;
-3. [_Fix Product Associations_](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)
-4. [_Import / Export_ ](magento-2-associated-or-linked-product-stock-update.md#\_bookmark10)
+3. [_Fix Product Associations_](magento-2-associated-or-linked-product-stock-update.md#bookmark10)
+4. [_Import / Export_ ](magento-2-associated-or-linked-product-stock-update.md#bookmark10-1)
    * _Import_&#x20;
    * _Export_&#x20;
 
