@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250006)
+1. [_Installation_ ](magento-2-alternate-hreflang-tags.md#toc\_250006)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250005)
+2. [_Configuration Settings for SEO Base_ ](magento-2-alternate-hreflang-tags.md#toc\_250005)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Alternate Hreflang_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250003)
+3. [_Configuration Settings for Alternate Hreflang_ ](magento-2-alternate-hreflang-tags.md#toc\_250003)
    * _General Settings_&#x20;
    * _Language and Country Settings_&#x20;
 4. [_Set Path Priority_](magento-2-alternate-hreflang-tags.md#set-path-priority)
-5. [_Override Canonical URL_](magento-2-alternate-hreflang-tags.md#override-canonical-url)
+5. _Override Canonical URL_
    * _Category Page_
    * _Product Page_
    * _CMS Page_
 6. [_Set Primary Categories_](magento-2-alternate-hreflang-tags.md#set-primary-categories)
-7. [_Frontend Site View_ ](magento-2-alternate-hreflang-tags.md#\_toc\_250000)
+7. [_Frontend Site View_ ](magento-2-alternate-hreflang-tags.md#toc\_250002-1)
    * _Hreflang Tag on the Home Page_&#x20;
    * _Hreflang Tag on the Category Page_&#x20;
    * _Hreflang Tag on the Product Page_&#x20;
