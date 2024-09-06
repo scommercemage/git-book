@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-scheduler.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-scheduler.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Scheduler_ ](magento-2-product-scheduler.md#\_bookmark3)
+2. [_Configuration Settings for Product Scheduler_ ](magento-2-product-scheduler.md#bookmark3)
    * _General Settings_&#x20;
    * _Timer/Label Settings_&#x20;
    * _Cron Settings_&#x20;
@@ -17,7 +17,7 @@
    * _Display Prelaunch Text and/or Countdown Timer (such as Launching Soon)_
    * _Disable Product on Scheduled Date_
    * _When Start and End Date is Same_
-4. [_Front-end Site View_ ](magento-2-product-scheduler.md#\_bookmark8)
+4. [_Front-end Site View_ ](magento-2-product-scheduler.md#bookmark8)
    * _"Launching Soon" Text for the New Product on the Category Page_&#x20;
    * _Launching Soon Timer on the Product Page_&#x20;
 
