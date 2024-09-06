@@ -4,15 +4,15 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark0)
+1. [_Installation_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Facebook Conversion Tracking_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark3)
+2. [_Configuration Settings for Facebook Conversion Tracking_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#bookmark3)
    * _General Settings_&#x20;
    * _Analyze Data with Facebook Events Manager_&#x20;
    * _Facebook Events Manager Graph_&#x20;
-3. [_Enable GDPR Support_](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)
-4. [_Front-end site view_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#\_bookmark7)
+3. [_Enable GDPR Support_](magento-2-facebook-conversion-and-audience-pixel-tracking.md#bookmark7)
+4. [_Front-end site view_ ](magento-2-facebook-conversion-and-audience-pixel-tracking.md#bookmark7-1)
    * _Facebook Pixel Tag on the Category Page_&#x20;
    * _Facebook Pixel Tag on the Product Page_&#x20;
    * _Facebook Pixel Tag on the Cart Page_&#x20;
