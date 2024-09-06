@@ -4,28 +4,28 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)
+1. [_Installation_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for GDPR_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark3)
+2. [_Configuration Settings for GDPR_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark3)
    * _General Settings_&#x20;
    * _Order and Quote Anonymisation Settings_&#x20;
    * _Privacy Settings_&#x20;
-3. [_Configuration Settings for Cookie Popup_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark7)&#x20;
+3. [_Configuration Settings for Cookie Popup_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark7)
    * _General Settings_&#x20;
    * _Popup Styling_&#x20;
    * _Additional Tabs_&#x20;
-4. [_Admin Configuration for Manage Cookie Choices_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark11)
+4. [_Admin Configuration for Manage Cookie Choices_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark11)
    * _Manage Choice List_&#x20;
    * _Add New Cookie Choice_&#x20;
-5. [_Customers Details in Privacy Policy Consent_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark20)
-6. [_Anonymize Orders from Admin Section_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark21)
-7. [_Newsletter Subscription_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark22)
-8. [_Enable / Disable Tracking Without GTM_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark23)
+5. [_Customers Details in Privacy Policy Consent_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark20)
+6. [_Anonymize Orders from Admin Section_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark21)
+7. [_Newsletter Subscription_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark22)
+8. [_Enable / Disable Tracking Without GTM_](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark23)
    * _Using Module_
    * _Manually Adding Code_
 9. [_Integrate Cookies with GTM Pro Tracking_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
-10. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark25)
+10. [_Front-end Site View_ ](magento-2-gdpr-compliance-anonymisation-of-order-data.md#bookmark25)
     * _Front-end Site View - Integrate Cookies with GTM Pro Tracking_&#x20;
     * _Cookie Pop-up- Cookie Accept_&#x20;
     * _Cookie Pop-up- Cookie Accept for different store views_
