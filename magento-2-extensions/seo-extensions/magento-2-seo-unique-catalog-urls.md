@@ -4,18 +4,18 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250008)
+1. [_Installation_ ](magento-2-seo-unique-catalog-urls.md#toc\_250008)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250007)
+2. [_Configuration Settings for SEO Base_](magento-2-seo-unique-catalog-urls.md#toc\_250007)&#x20;
    * _General Settings_
-3. [_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250005)
+3. [_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#toc\_250027)
    * _General Settings_&#x20;
    * _Configuration Path to Set Up Primary Category_&#x20;
    * _Primary Category settings for Category_&#x20;
    * _Run the script to setup primary category of one or all products together_&#x20;
 4. [_Set Primary Categories_](magento-2-seo-unique-catalog-urls.md#set-primary-categories)
-5. [_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#\_toc\_250000)
+5. [_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#toc\_250024)
    * _Product Page Unique URL_&#x20;
    * _Search Page / Category Page Unique Catalog Product URL_&#x20;
 
