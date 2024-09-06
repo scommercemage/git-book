@@ -4,16 +4,16 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-how-did-you-hear-about-us.md#\_bookmark0)
+1. [_Installation_ ](magento-2-how-did-you-hear-about-us.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Where did you hear about us?_ ](magento-2-how-did-you-hear-about-us.md#\_bookmark3)
+2. [_Configuration Settings for Where did you hear about us?_ ](magento-2-how-did-you-hear-about-us.md#bookmark3)
    * _General Settings_&#x20;
    * _Selected WDYHAU Option in Orders Grid_&#x20;
    * _WDYHAU Details at Customers Level_&#x20;
    * _WDYHAU Details on the Sales Order View Page_&#x20;
    * _“Where did you hear about us?” Drop-down Options in the Back-end_&#x20;
-3. [_Front-end Site View_ ](magento-2-how-did-you-hear-about-us.md#\_bookmark9)
+3. [_Front-end Site View_ ](magento-2-how-did-you-hear-about-us.md#bookmark9)
    * _WDYHAU Option on the Registration Page_&#x20;
    * _WDYHAU option on the Checkout Page_&#x20;
 
