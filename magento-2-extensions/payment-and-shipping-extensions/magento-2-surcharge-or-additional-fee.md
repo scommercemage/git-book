@@ -4,15 +4,15 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-surcharge-or-additional-fee.md#\_bookmark0)
+1. [_Installation_ ](magento-2-surcharge-or-additional-fee.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Surcharge_ ](magento-2-surcharge-or-additional-fee.md#\_bookmark3)
+2. [_Configuration Settings for Surcharge_ ](magento-2-surcharge-or-additional-fee.md#bookmark3)
    * _General Settings_&#x20;
    * _Surcharge for Multiple countries/Multiple payment methods_&#x20;
    * _View Surcharge on the Order Details View Page_&#x20;
    * _Surcharge for Admin Orders_&#x20;
-3. [_Front-end Site View_ ](magento-2-surcharge-or-additional-fee.md#\_bookmark8)
+3. [_Front-end Site View_ ](magento-2-surcharge-or-additional-fee.md#bookmark8)
    * _Surcharge Percentage/Fixed Amount Per Payment Method and Country_&#x20;
    * _View Surcharge on the Checkout Page_&#x20;
    * _Surcharge with the Free Shipping_&#x20;
