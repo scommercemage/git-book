@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark0)
+1. [_Installation_ ](magento-2-apply-discount-coupon-code-via-link.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Auto Coupon_ ](magento-2-apply-discount-coupon-code-via-link.md#\_bookmark3)
+2. [_Configuration Settings for Auto Coupon_ ](magento-2-apply-discount-coupon-code-via-link.md#bookmark3)
    * _General Settings_&#x20;
 3. [_Discount Setup_](magento-2-apply-discount-coupon-code-via-link.md#discount-setup)
 4. [_Discount Link_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)
-5. [_Front-end site view_ ](magento-2-apply-discount-coupon-code-via-link.md#discount-link)
+5. [_Front-end site view_ ](magento-2-apply-discount-coupon-code-via-link.md#bookmark7)
    * _Successful Applied Discount Message on the Front-end_&#x20;
    * _Coupon Code On the Checkout Page_&#x20;
 
