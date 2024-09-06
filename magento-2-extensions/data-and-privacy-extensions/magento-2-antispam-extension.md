@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-antispam-extension.md#\_bookmark0)
+1. [_Installation_ ](magento-2-antispam-extension.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-antispam-extension.md#\_bookmark3)
+2. [_Configuration Settings for <mark style="color:blue;">A</mark>ntispam Extension_](magento-2-antispam-extension.md#bookmark3)
    * _General Settings_&#x20;
    * _Rate Limiter_
 3. [_Frontend_](magento-2-antispam-extension.md#frontend)
