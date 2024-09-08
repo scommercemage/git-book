@@ -4,19 +4,19 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-cross-linking-seo.md#\_toc\_250004)
+1. [_Installation_ ](magento-2-cross-linking-seo.md#toc\_250004)
    * _Installation via app/code_
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
-2. [_Configuration Settings for SEO Base_ ](magento-2-cross-linking-seo.md#\_toc\_250003)
+2. [_Configuration Settings for SEO Base_ ](magento-2-cross-linking-seo.md#toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Cross Linking_ ](magento-2-cross-linking-seo.md#\_toc\_250001)
+3. [_Configuration Settings for Cross Linking_ ](magento-2-cross-linking-seo.md#toc\_250001)
    * _Cross Links Grid_&#x20;
    * _Add New Cross Link._&#x20;
    * _Build External Link to Any Website_&#x20;
    * _Alert Message for Inactive Product / Category_&#x20;
 4. [_Set Primary Categories_](magento-2-cross-linking-seo.md#set-primary-categories)
-5. [_Front-end Site view_ ](magento-2-cross-linking-seo.md#\_toc\_250000)
+5. [_Front-end Site view_ ](magento-2-cross-linking-seo.md#toc\_250000)
    * _Cross Link on Category Page_&#x20;
    * _Category Page Cross Link Redirecting on External Link_&#x20;
    * _Cross Link on Product Page_&#x20;
