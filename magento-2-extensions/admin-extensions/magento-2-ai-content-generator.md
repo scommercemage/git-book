@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-ai-content-generator.md#\_bookmark0)
+1. [_Installation_ ](magento-2-ai-content-generator.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
