@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-perfect-audience-tracking.md#\_bookmark0)
+1. [_Installation_ ](magento-2-perfect-audience-tracking.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Perfect Audience_ ](magento-2-perfect-audience-tracking.md#\_bookmark3)
+2. [_Configuration Settings for Perfect Audience_ ](magento-2-perfect-audience-tracking.md#bookmark3)
    * _General Settings_&#x20;
    * _Perfect Audience Tag_&#x20;
 
