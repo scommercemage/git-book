@@ -4,19 +4,19 @@
 
 **Table Of Contents**
 
-1. [_Installation_ ](magento-2-order-delete-or-archive.md#\_bookmark0)
+1. [_Installation_ ](magento-2-order-delete-or-archive.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Order Delete or Archive_ ](magento-2-order-delete-or-archive.md#\_bookmark3)
+2. [_Configuration Settings for Order Delete or Archive_ ](magento-2-order-delete-or-archive.md#bookmark4)
    * _General Settings_&#x20;
    * _Order Archive Settings_&#x20;
    * _Order Delete Settings_&#x20;
-3. [_Order Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark7)
+3. [_Order Grid_ ](magento-2-order-delete-or-archive.md#bookmark7)
    * _Archive or Delete Orders from Order View Page_&#x20;
-4. [_Archive Grid_ ](magento-2-order-delete-or-archive.md#\_bookmark9)
+4. [_Archive Grid_ ](magento-2-order-delete-or-archive.md#bookmark9)
    * _Restore_&#x20;
    * _Restore Orders From Archived Order View Page_&#x20;
-5. [_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12)&#x20;
+5. [_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12)[ ](magento-2-order-delete-or-archive.md#bookmark12)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
