@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-repeat-order.md#\_bookmark0)
+1. [_Installation_ ](magento-2-repeat-order.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Repeat Order Subscription_ ](magento-2-repeat-order.md#\_bookmark3)
+2. [_Configuration Settings for Repeat Order Subscription_ ](magento-2-repeat-order.md#bookmark3)
    * _General Settings_&#x20;
    * _Repeat Order Subscription Email_&#x20;
    * _Payment / Order Failed Emailed_&#x20;
@@ -18,7 +18,7 @@
    * _Backend Order Page Link through Subscription Order_&#x20;
 4. [_Subscriptions Payment Grid_ ](magento-2-repeat-order.md#subscriptions-payment-grid)
    * _View Subscription Payment Details_&#x20;
-5. [_Front-end Site View_ ](magento-2-repeat-order.md#\_bookmark14)
+5. [_Front-end Site View_ ](magento-2-repeat-order.md#bookmark14)
    * _Subscription Options on the Checkout Page_&#x20;
    * _Frequency Selection Drop-down_&#x20;
    * _My Subscription Section on the My Account Page_&#x20;
