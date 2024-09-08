@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-lazy-load-image.md#\_toc\_250005)
+1. [_Installation_ ](magento-2-lazy-load-image.md#toc\_250005)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-lazy-load-image.md#\_toc\_250004)
+2. [_Configuration Settings for Optimiser Base_](magento-2-lazy-load-image.md#toc\_250004)&#x20;
    * _General Settings_&#x20;
-3. [_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#\_toc\_250002)
+3. [_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#toc\_250002)
    * _General Settings_&#x20;
-4. [_Front-end Screenshots_ ](magento-2-lazy-load-image.md#\_toc\_250000)
+4. [_Front-end Screenshots_ ](magento-2-lazy-load-image.md#toc\_250000)
    * _Lazy Loading on the Homepage_&#x20;
    * _Home Page Excluded from Lazy Loading_&#x20;
    * _Lazy Loading on the Category Page_&#x20;
