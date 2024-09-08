@@ -4,17 +4,17 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark0)
+1. [_Installation_ ](magento-2-competition-or-prize-draw-with-social-booster.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark3)
+2. [_Configuration Settings for Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#bookmark3)
    * _General Settings_&#x20;
    * _Social Booster - Facebook Settings_&#x20;
    * _Social Booster - Twitter Settings_&#x20;
    * _Email_&#x20;
-3. [_Create/Edit/Delete Custom form fields_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark8)
+3. [_Create/Edit/Delete Custom form fields_ ](magento-2-competition-or-prize-draw-with-social-booster.md#bookmark8)
    * _View Custom Field Screen_&#x20;
-4. [_Create/Edit Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark10)
+4. [_Create/Edit Competition_ ](magento-2-competition-or-prize-draw-with-social-booster.md#bookmark10)
    * _Create Competition_&#x20;
    * _Add Fields in Competition Form_&#x20;
    * _Add Custom Fields_&#x20;
@@ -25,7 +25,7 @@
    * _Choose Winner_&#x20;
 5. [_Competition Entrants_ ](magento-2-competition-or-prize-draw-with-social-booster.md#competition-entrants)
    * _View Entrants_&#x20;
-6. [_Front-end Site View_ ](magento-2-competition-or-prize-draw-with-social-booster.md#\_bookmark21)
+6. [_Front-end Site View_ ](magento-2-competition-or-prize-draw-with-social-booster.md#bookmark21)
    * _Competition Form_&#x20;
    * _Social Sharing Links on the Form_&#x20;
    * _Competition Entry Confirmation Email_&#x20;
