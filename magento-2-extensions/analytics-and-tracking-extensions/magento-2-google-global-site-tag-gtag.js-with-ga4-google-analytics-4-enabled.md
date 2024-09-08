@@ -4,18 +4,18 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark0)
+1. [_Installation_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark0)&#x20;
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
    * _Installation via Composer(Hyvä Theme)_
-2. [_Configuration Settings for Tracking Base_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3)
+2. [_Configuration Settings for Tracking Base_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark3)
    * _General Settings_&#x20;
    * _Checkout Behaviour_
-3. [_Configuration Settings for Global Site Tag (gtag.js)_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark3-1)
+3. [_Configuration Settings for Global Site Tag (gtag.js)_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark3-1)
    * _General Settings_&#x20;
-4. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark11)
+4. [_Set up Google Analytics 4_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark11)
 5. [_Set Up Cross Domain Measurement_](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark12)
-6. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#\_bookmark12)
+6. [_Front-end Site view_ ](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#bookmark12-1)
    * _Home Page with Tags_&#x20;
    * _Gtag.js Code_&#x20;
    * _Gtag.js Brand Name_&#x20;
