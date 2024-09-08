@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-rich-snippets.md#\_toc\_250010)
+1. [_Installation_ ](magento-2-google-rich-snippets.md#toc\_250010)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-google-rich-snippets.md#\_toc\_250009)
+2. [_Configuration Settings for SEO Base_ ](magento-2-google-rich-snippets.md#toc\_250009)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Rich Snippets_ ](magento-2-google-rich-snippets.md#\_toc\_250007)
+3. [_Configuration Settings for Rich Snippets_ ](magento-2-google-rich-snippets.md#toc\_250007)
    * _General Settings_&#x20;
    * _Rich Snippets General Settings_&#x20;
    * _Twitter Card Settings_&#x20;
@@ -17,7 +17,7 @@
    * _Pinterest Rich Pins Settings_&#x20;
    * _Free Shipping (Website Level)_
    * _Price Valid Until_
-4. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-google-rich-snippets.md#\_toc\_250001)
+4. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-google-rich-snippets.md#toc\_250007-1)
    * _Home Page Markup Code_&#x20;
    * _Category Page Markup Code_&#x20;
    * _Product Page Markup Code_&#x20;
