@@ -6,12 +6,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-substitute-products.md#\_bookmark0)
+1. [_Installation_ ](magento-2-substitute-products.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for S_ubstitute Products](magento-2-substitute-products.md#\_bookmark3)
+2. [_Configuration Settings for S_ubstitute Products](magento-2-substitute-products.md#bookmark3)
    * _General Settings_&#x20;
-3. [_A_ssigning Substitute Products](magento-2-substitute-products.md#\_bookmark5)
+3. [_A_ssigning Substitute Products](magento-2-substitute-products.md#bookmark5)
    * _Add Substitute Products_
    * _Order Placed with Substitute Product_
 4. [_Front-End View_](magento-2-substitute-products.md#front-end-view)
