@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-advanced-seo-suite.md#\_toc\_250032)
+1. [_Installation_ ](magento-2-advanced-seo-suite.md#toc\_250032)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-advanced-seo-suite.md#\_toc\_250031)
+2. [_Configuration Settings for SEO Base_ ](magento-2-advanced-seo-suite.md#toc\_250031)
    * _General Settings_&#x20;
-3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-advanced-seo-suite.md#\_toc\_250029)
+3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-advanced-seo-suite.md#toc\_250029)
    * _General Settings_&#x20;
    * _Exclude Categories from Sitemap_&#x20;
    * _Exclude Products from Sitemap_&#x20;
@@ -21,12 +21,12 @@
    * _Product Link in Sitemap XML_&#x20;
    * _Category Link in Sitemap XML_&#x20;
    * _CMS Pages Link in Sitemap XML_&#x20;
-5. [_Configuration Settings for Catalog URL_ ](magento-2-advanced-seo-suite.md#\_toc\_250027)
+5. [_Configuration Settings for Catalog URL_ ](magento-2-advanced-seo-suite.md#toc\_250027)
    * _General Settings_&#x20;
    * _Configuration Path to Set Up Primary Category_&#x20;
-6. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250024)
+6. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#toc\_250024)
    * _Product Page Unique URL_&#x20;
-7. [_Configuration Settings for Canonical Tags_ ](magento-2-advanced-seo-suite.md#\_toc\_250023)
+7. [_Configuration Settings for Canonical Tags_ ](magento-2-advanced-seo-suite.md#toc\_250023)
    * _General Settings_&#x20;
    * _Category Canonical Tag_&#x20;
    * _Product Canonical Tag_&#x20;
@@ -35,18 +35,18 @@
    * _Product Setup for Canonical URL_&#x20;
    * _Category Setup for Canonical URL_&#x20;
    * _CMS Setup for Canonical URL_&#x20;
-8. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250014)
+8. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#toc\_250014)
    * _Canonical Tag on the Category Page_&#x20;
    * _Canonical Tag on the Product Page_&#x20;
    * _Canonical Tag on the CMS Page_&#x20;
-9. [_Configuration Settings for Rich Snippets_ ](magento-2-advanced-seo-suite.md#\_toc\_250013)
+9. [_Configuration Settings for Rich Snippets_ ](magento-2-advanced-seo-suite.md#toc\_250013)
    * _General Settings_&#x20;
    * _Rich Snippets General Settings_&#x20;
    * _Twitter Card Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Facebook Open Graph Settings_&#x20;
    * _Pinterest Rich Pins Settings_&#x20;
-10. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-advanced-seo-suite.md#\_toc\_250007)
+10. [_Structured Data / Markup Code of Front-end Page(s) in Structured Data Testing Tool_ ](magento-2-advanced-seo-suite.md#toc\_250007)
     * _Home Page Markup Code_&#x20;
     * _Category Page Markup Code_&#x20;
     * _Product Page Markup Code_&#x20;
@@ -54,21 +54,21 @@
     * _Twitter Card_&#x20;
     * _Facebook Open Graph_&#x20;
     * _Increased and Optimized Page Ranking in Search Results_&#x20;
-11. [_Configuration Settings for Hreflang_ ](magento-2-advanced-seo-suite.md#\_toc\_250005)
+11. [_Configuration Settings for Hreflang_ ](magento-2-advanced-seo-suite.md#toc\_250005)
     * _General Settings_&#x20;
     * _Language and Country Settings_&#x20;
-12. [_Front-end Site view_ ](magento-2-advanced-seo-suite.md#\_toc\_250002)
+12. [_Front-end Site view_ ](magento-2-advanced-seo-suite.md#toc\_250002)
     * _Hreflang Tag on the Home Page_&#x20;
     * _Hreflang Tag on the Category Page_&#x20;
     * _Hreflang Tag on the Product Page_&#x20;
     * _Hreflang Tag on the CMS Page_&#x20;
-13. [_Configuration Settings for Cross Linking_ ](magento-2-advanced-seo-suite.md#\_toc\_250001)
+13. [_Configuration Settings for Cross Linking_ ](magento-2-advanced-seo-suite.md#toc\_250001)
     * _Cross Links Grid_&#x20;
     * _Add New Cross Link._&#x20;
     * _Build External Link to Any Website_&#x20;
     * _Alert Message for Inactive Product / Category_&#x20;
 14. [_Set Primary Categories_](magento-2-advanced-seo-suite.md#set-primary-categories)
-15. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#\_toc\_250000)
+15. [_Front-end Site View_ ](magento-2-advanced-seo-suite.md#toc\_250000)
     * _Cross Link on Category Page_&#x20;
     * _Category Page Cross Link Redirecting on External Link_&#x20;
     * _Cross Link on Product Page_
