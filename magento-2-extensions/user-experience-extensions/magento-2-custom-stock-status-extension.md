@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-custom-stock-status-extension.md#\_bookmark0)
+1. [_Installation_ ](magento-2-custom-stock-status-extension.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Custom Stock Status_ ](magento-2-custom-stock-status-extension.md#\_bookmark3)
+2. [_Configuration Settings for Custom Stock Status_ ](magento-2-custom-stock-status-extension.md#bookmark3)
    * _General Settings_&#x20;
    * _Stock Status Rules Grid_&#x20;
    * _Add New Rule_&#x20;
