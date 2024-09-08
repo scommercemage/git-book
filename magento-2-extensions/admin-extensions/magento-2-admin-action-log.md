@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-admin-action-log.md#\_bookmark0)
+1. [_Installation_ ](magento-2-admin-action-log.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for_ ](magento-2-admin-action-log.md#\_bookmark3)[_Security Base_](magento-2-admin-action-log.md#\_toc\_250003)
+2. [_Configuration Settings for_ ](magento-2-admin-action-log.md#\_bookmark3)[_Security Base_](magento-2-admin-action-log.md#toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#\_bookmark3)
+3. [_Configuration Settings for Admin Activity Logger_ ](magento-2-admin-action-log.md#bookmark3)
    * _General Settings_&#x20;
    * _Modules Activity Logger_&#x20;
    * _Admin Activity Logger_&#x20;
