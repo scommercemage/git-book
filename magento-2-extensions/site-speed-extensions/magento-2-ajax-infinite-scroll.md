@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-* &#x20;[_Installation_](magento-2-ajax-infinite-scroll.md#\_toc\_250007)
+* [ _Installation_](magento-2-ajax-infinite-scroll.md#toc\_250007)
   * _Installation via app/code_
   * _Installation via Composer_
-* [_Configuration Settings for Optimiser Base_ ](magento-2-ajax-infinite-scroll.md#\_toc\_250006)
+* [_Configuration Settings for Optimiser Base_ ](magento-2-ajax-infinite-scroll.md#toc\_250006)
   * _General Settings_&#x20;
-* [_Configuration Settings for Infinite Scrolling_ ](magento-2-ajax-infinite-scroll.md#\_toc\_250004)
+* [_Configuration Settings for Infinite Scrolling_ ](magento-2-ajax-infinite-scroll.md#toc\_250004)
   * _General Settings_&#x20;
-* [_Front-end Site View of Infinite Scroll_ ](magento-2-ajax-infinite-scroll.md#\_toc\_250002)
+* [_Front-end Site View of Infinite Scroll_ ](magento-2-ajax-infinite-scroll.md#toc\_250002)
   * _Infinite Scroll with ‘Load More Button’ on the Category Page_&#x20;
   * _Infinite Scroll with Auto Loading on the Category and Search Pages_&#x20;
   * _Auto Loading on the Category Page_&#x20;
