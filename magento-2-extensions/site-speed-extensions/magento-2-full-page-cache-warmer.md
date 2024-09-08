@@ -4,21 +4,21 @@
 
 **Table Of Contents**
 
-1. [_Installation_ ](magento-2-full-page-cache-warmer.md#\_toc\_250008)
+1. [_Installation_ ](magento-2-full-page-cache-warmer.md#toc\_250008)
    * _Installation via app/code_
    * _Installation via Composer_&#x20;
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#\_toc\_250007)
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#toc\_250007)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#\_toc\_250005)
+3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#toc\_250005)
    * _General Settings_&#x20;
    * _Cron Settings_&#x20;
-4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#\_toc\_250002)
+4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#toc\_250002)
    * _Regenerate_&#x20;
-5. [_Console Commands_ ](magento-2-full-page-cache-warmer.md#\_toc\_250001)
+5. [_Console Commands_ ](magento-2-full-page-cache-warmer.md#toc\_250001)
    * _Category Page_&#x20;
    * _Product Page_&#x20;
    * _CMS Page_&#x20;
-6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#\_toc\_250000)
+6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#toc\_250000)
    * _Cache Hit for the Category Page After the Execution of Category Page Command_&#x20;
    * _Cache Miss for the Category Page_&#x20;
 
