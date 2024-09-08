@@ -4,16 +4,16 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-social-login.md#\_bookmark0)
+1. [_Installation_ ](magento-2-social-login.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Social Login_ ](magento-2-social-login.md#\_bookmark3)
+2. [_Configuration Settings for Social Login_ ](magento-2-social-login.md#bookmark3)
    * _General Settings_&#x20;
    * _Facebook_&#x20;
    * _Google_&#x20;
    * _Create Facebook App Id_&#x20;
    * _Create Google App Id_&#x20;
-3. [_Front-end Site View_ ](magento-2-social-login.md#\_bookmark9)
+3. [_Front-end Site View_ ](magento-2-social-login.md#bookmark9)
    * _Social Login Options on the Front-end_&#x20;
    * _Social Login Options on the Sign In Page_&#x20;
    * _Social Login Options on the Registration Page_&#x20;
