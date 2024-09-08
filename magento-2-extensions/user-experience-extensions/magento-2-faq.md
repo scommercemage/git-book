@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-faq.md#\_bookmark0)
+1. [_Installation_ ](magento-2-faq.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for FAQ_ ](magento-2-faq.md#\_bookmark3)
+2. [_Configuration Settings for FAQ_ ](magento-2-faq.md#bookmark3)
    * _General Settings_&#x20;
    * _Manage FAQ's_&#x20;
    * _Manage FAQ Category_&#x20;
-3. [_Front-end Site view_ ](magento-2-faq.md#\_bookmark7)
+3. [_Front-end Site view_](magento-2-faq.md#bookmark7)&#x20;
    * _FAQ Categories_&#x20;
    * _FAQ Product_&#x20;
 
