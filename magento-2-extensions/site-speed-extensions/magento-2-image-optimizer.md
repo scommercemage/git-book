@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-image-optimizer.md#\_toc\_250004)
+1. [_Installation_](magento-2-image-optimizer.md#toc\_250004)&#x20;
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-image-optimizer.md#\_toc\_250003)
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-image-optimizer.md#toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Image Optimiser_ ](magento-2-image-optimizer.md#\_toc\_250001)
+3. [_Configuration Settings for Image Optimiser_](magento-2-image-optimizer.md#toc\_250001)&#x20;
    * _General Settings_&#x20;
    * _Compress/Optimize Product Images_&#x20;
    * _Compress/Optimize Category Images_&#x20;
