@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-not-on-the-high-street-integration.md#\_bookmark0)
+1. [_Installation_ ](magento-2-not-on-the-high-street-integration.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Noths Integration_ ](magento-2-not-on-the-high-street-integration.md#\_bookmark3)
+2. [_Configuration Settings for Noths Integration_ ](magento-2-not-on-the-high-street-integration.md#bookmark3)
    * _General Settings_&#x20;
    * _Integration Settings_&#x20;
-3. [_Noths Order(s) View from Back-end_ ](magento-2-not-on-the-high-street-integration.md#\_bookmark6)
+3. [_Noths Order(s) View from Back-end_ ](magento-2-not-on-the-high-street-integration.md#bookmark6)
    * _Noths Order Import_&#x20;
    * _Noths Order Details on Order View Page_&#x20;
    * _Noths Order Logs_&#x20;
