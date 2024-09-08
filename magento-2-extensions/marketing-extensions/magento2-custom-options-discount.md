@@ -4,16 +4,16 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento2-custom-options-discount.md#\_bookmark0)
+1. [I_nstallation_ ](magento2-custom-options-discount.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Custom options Discount_ ](magento2-custom-options-discount.md#\_bookmark3)
+2. [_Configuration Settings for Custom options Discount_ ](magento2-custom-options-discount.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Adding Custom Options to Products_](magento2-custom-options-discount.md#\_bookmark5)
-4. [_Adding Cart Price Rules for Custom Options_ ](magento2-custom-options-discount.md#\_bookmark6)
+3. [_Adding Custom Options to Products_](magento2-custom-options-discount.md#bookmark5)
+4. [_Adding Cart Price Rules for Custom Options_ ](magento2-custom-options-discount.md#bookmark6)
    * _Apply Cart Rule for all custom options available_&#x20;
    * _Apply cart Rule for specific custom options_&#x20;
-5. [_Frontend Screengrabs_ ](magento2-custom-options-discount.md#\_bookmark9)
+5. [_Frontend Screengrabs_ ](magento2-custom-options-discount.md#bookmark9)
    * _When “only for selected custom options is set to “Yes”_&#x20;
    * _When “only for selected custom options is set to “No”_&#x20;
    * _When “only for selected custom options is set to “Yes” and Conditions are set_&#x20;
