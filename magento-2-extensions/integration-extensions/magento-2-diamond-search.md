@@ -4,13 +4,13 @@
 
 #### **Table of Contents**
 
-1. [_Prerequisites( module installed previously )_](magento-2-diamond-search.md#\_bookmark0)
+1. [_Prerequisites( module installed previously )_](magento-2-diamond-search.md#bookmark0)
    * _Module Installed via composer_
    * _Module Installed by Placing Files in app/code_
-2. [_Installation_](magento-2-diamond-search.md#\_bookmark0-1)
+2. [_Installation_](magento-2-diamond-search.md#table-of-contents)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-3. [_Configuration Settings for Diamond Search_](magento-2-diamond-search.md#\_bookmark3)
+3. [_Configuration Settings for Diamond Search_](magento-2-diamond-search.md#bookmark3)
    * _General Settings_&#x20;
    * _Filter Widget Settings_
    * _Myo Widget_
