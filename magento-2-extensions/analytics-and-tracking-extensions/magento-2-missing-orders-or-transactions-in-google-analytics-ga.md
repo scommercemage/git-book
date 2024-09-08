@@ -17,10 +17,10 @@
    * _Google Analytics 4 Real Time Reports_
    * _Google Analytics 4 Custom Reports_
 4. [_Order Tracking Information_](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
-5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382)
+5. [_Create Project in Google Developer Console for GA Reporting API_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169382-1)
 6. [_Getting View ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169393)
 7. [_Getting Property ID_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
-8. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394)
+8. [_Command to run the Synch Manually_ ](magento-2-missing-orders-or-transactions-in-google-analytics-ga.md#toc65169394-1)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#toc62151771" id="toc62151771"></a>
 
