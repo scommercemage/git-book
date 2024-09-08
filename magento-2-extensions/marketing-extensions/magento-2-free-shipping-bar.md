@@ -4,12 +4,12 @@
 
 ### Table of Contents
 
-1. [_Installation_ ](magento-2-free-shipping-bar.md#\_bookmark0)
+1. [_Installation_ ](magento-2-free-shipping-bar.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Free Shipping Bar Rule_ ](magento-2-free-shipping-bar.md#\_bookmark3)
+2. [_Configuration Settings for Free Shipping Bar Rule_ ](magento-2-free-shipping-bar.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Manage Free Shipping Bar Rules_ ](magento-2-free-shipping-bar.md#\_bookmark5)
+3. [_Manage Free Shipping Bar Rules_ ](magento-2-free-shipping-bar.md#bookmark5)
    * _Free Shipping Bar Rule - Grid_&#x20;
    * _New Shipping Bar - General Settings_&#x20;
    * _New Shipping Bar - Websites & Customers Groups_&#x20;
@@ -19,7 +19,7 @@
    * _New Shipping Bar - Design_&#x20;
    * _Font Color - Enter font color_&#x20;
    * _Free Shipping Discount_&#x20;
-4. [_Front-end Site View 10_](magento-2-free-shipping-bar.md#\_bookmark15)
+4. [_Front-end Site View_](magento-2-free-shipping-bar.md#bookmark15)
    * _Free Shipping Bar on the Homepage with Generic Message_&#x20;
    * _Free Shipping Bar with Generic Message / Bar Position Bottom Fixed_&#x20;
    * _Free Shipping Bar with Remaining Amount_&#x20;
