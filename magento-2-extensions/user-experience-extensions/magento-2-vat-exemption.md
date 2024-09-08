@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-vat-exemption.md#\_bookmark0)
+1. [_Installation_ ](magento-2-vat-exemption.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Vat Exemption_ ](magento-2-vat-exemption.md#\_bookmark3)
+2. [_Configuration Settings for Vat Exemption_ ](magento-2-vat-exemption.md#bookmark3)
    * _General Settings_&#x20;
    * _Vat Exempt Settings_&#x20;
-3. [_VAT Exempt - Reasons_ ](magento-2-vat-exemption.md#\_bookmark6)
+3. [_VAT Exempt - Reasons_ ](magento-2-vat-exemption.md#bookmark6)
    * _Create New Reason_&#x20;
-4. [_Admin Order View Page_ ](magento-2-vat-exemption.md#\_bookmark8)
+4. [_Admin Order View Page_ ](magento-2-vat-exemption.md#bookmark8)
    * _Declaration Statement on Order View Page_&#x20;
    * _VAT Exemption Details on Order View Page_&#x20;
    * _VAT Exemption Option for Admin Orders_&#x20;
-5. [_Enable VAT Exemption for Products_ ](magento-2-vat-exemption.md#\_bookmark11)
+5. [_Enable VAT Exemption for Products_ ](magento-2-vat-exemption.md#bookmark11)
    * _Include or Exclude Product_&#x20;
-6. [_Front-end Site View_ ](magento-2-vat-exemption.md#\_bookmark13)
+6. [_Front-end Site View_ ](magento-2-vat-exemption.md#bookmark13)
    * _VAT Exempt Form on the Cart Page_&#x20;
    * _VAT Exempt Message on the Cart Page_&#x20;
    * _VAT Exempt Option on the Checkout Page_&#x20;
