@@ -4,12 +4,12 @@
 
 ### Table of Contents
 
-1. [_Installation_ ](magento-2-advanced-reporting-extension.md#\_bookmark0)
+1. [_Installation_ ](magento-2-advanced-reporting-extension.md#bookmark0)
    * _Upload Package_&#x20;
    * _Install Extension_&#x20;
-2. [_Configuration Settings for Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark3)
+2. [_Configuration Settings for Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Reports of Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#\_bookmark5)
+3. [_Reports of Advanced Reporting_ ](magento-2-advanced-reporting-extension.md#bookmark5)
    * _Sales Detailed Report_&#x20;
    * _Sales Item Detailed Report_&#x20;
    * _Sales Summary Report_&#x20;
