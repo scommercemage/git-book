@@ -4,7 +4,7 @@
 
 ### Table of Contents
 
-1. [Installation ](magento-2-cash-back-discount.md#\_bookmark0)
+1. [Installation ](magento-2-cash-back-discount.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
 2. [Configuration Settings for Cash Back Discount ](magento-2-cash-back-discount.md#configuration-settings-for-cash-back-discount)
@@ -13,7 +13,7 @@
    * Cash Back Reminder&#x20;
    * Create Cart Price Rules for Cashback Discount&#x20;
    * Cashback Transactions&#x20;
-3. [Front-end Site View ](magento-2-cash-back-discount.md#\_bookmark9)
+3. [Front-end Site View](magento-2-cash-back-discount.md#bookmark9)&#x20;
    * Cashback Qualifying Message on the Checkout Page&#x20;
    * Cashback Discount Option on the Checkout Page&#x20;
    * Applied Cashback Discount on the Checkout Page&#x20;
