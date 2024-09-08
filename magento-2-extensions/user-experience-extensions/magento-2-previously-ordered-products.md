@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-previously-ordered-products.md#\_toc\_250007)
+1. [_Installation_ ](magento-2-previously-ordered-products.md#toc\_250007)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#\_toc\_250006)
+2. [_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#toc\_250006)
    * _General Settings_&#x20;
 3. [_Hide One or Multiple Columns from the Previous Purchases Grid_](magento-2-previously-ordered-products.md#\_toc\_250004)
-4. [_Front-end Site view_ ](magento-2-previously-ordered-products.md#\_toc\_250003)
+4. [_Front-end Site view_](magento-2-previously-ordered-products.md#toc\_250003)&#x20;
    * _Previous Purchase Grid_&#x20;
    * _Hide Columns in the Previous Purchase Grid_&#x20;
    * _Add One or Multiple Products to Cart Directly From the Grid_&#x20;
