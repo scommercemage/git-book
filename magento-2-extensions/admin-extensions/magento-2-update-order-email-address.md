@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-update-order-email-address.md#\_bookmark0)
+1. [_Installation_ ](magento-2-update-order-email-address.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Update Order Email Address_ ](magento-2-update-order-email-address.md#\_bookmark3)
+2. [_Configuration Settings for Update Order Email Address_ ](magento-2-update-order-email-address.md#bookmark3)
    * _General Settings_&#x20;
    * _Update Email Address from Order Detail View Page_&#x20;
    * _Updated Email Address Visible on the Order Detail View Page_&#x20;
