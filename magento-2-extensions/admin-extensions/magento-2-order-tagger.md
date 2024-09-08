@@ -4,21 +4,21 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-order-tagger.md#\_bookmark0)
+1. [_Installation_ ](magento-2-order-tagger.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Order Tagger_](magento-2-order-tagger.md#\_bookmark3)
+2. [_Configuration Settings for Order Tagger_](magento-2-order-tagger.md#bookmark3)
    * _Order Tags Logs_
    * _Order Tags Grid_
    * _General Settings_&#x20;
-3. [_Types of Tags_](magento-2-order-tagger.md#\_bookmark3-1)
+3. [_Types of Tags_](magento-2-order-tagger.md#bookmark3-1)
    * _Static Tags_
    * _Dynamic Tags_
    * _Predefined Tags_
-4. [_Assign Tags_](magento-2-order-tagger.md#\_bookmark3-1)
+4. [_Assign Tags_](magento-2-order-tagger.md#bookmark3-2)
    * _Manually Assign/Remove Tags_&#x20;
    * _Assign Tags Based on Conditions_
-5. [_Tags in Action_](magento-2-order-tagger.md#\_bookmark3-2)
+5. [_Tags in Action_](magento-2-order-tagger.md#bookmark3-3)
    * _Order Grid_
    * _Filter Order Grid_
 
