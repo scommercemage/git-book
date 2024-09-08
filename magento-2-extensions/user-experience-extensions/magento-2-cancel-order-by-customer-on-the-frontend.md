@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark0)
+1. [_Installation_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Cancel Order_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark3)
+2. [_Configuration Settings for Cancel Order_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Front-end Site View for Order Cancellation from My Account Section_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#\_bookmark5)
+3. [_Front-end Site View for Order Cancellation from My Account Section_ ](magento-2-cancel-order-by-customer-on-the-frontend.md#bookmark5)
    * _Cancel Order from My Account Section_&#x20;
    * _Cancel Order Popup_&#x20;
    * _Notification Message for Cancel Order_&#x20;
