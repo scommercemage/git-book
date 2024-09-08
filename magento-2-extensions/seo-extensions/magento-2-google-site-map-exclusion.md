@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-site-map-exclusion.md#\_toc\_250004)
+1. [_Installation_ ](magento-2-google-site-map-exclusion.md#toc\_250004)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#\_toc\_250003)
+2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#\_toc\_250001)
+3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#toc\_250029)
    * _General Settings_&#x20;
    * _Exclude Categories from Sitemap_&#x20;
    * _Exclude Products from Sitemap_&#x20;
