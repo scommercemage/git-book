@@ -4,42 +4,42 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250024)
+1. [I_nstallation_ ](magento-2-google-page-speed-optimizer.md#toc\_250024)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_&#x20;
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250023)
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-google-page-speed-optimizer.md#toc\_250023)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Speed Optimiser_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250021)
+3. [_Configuration Settings for Speed Optimiser_ ](magento-2-google-page-speed-optimizer.md#toc\_250021)
    * _General Settings_&#x20;
    * _Minify HTML_&#x20;
    * _Javascript Settings_&#x20;
    * _CSS Settings_&#x20;
-4. [_Configuration Settings for Lazy Loading_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250016)
+4. [_Configuration Settings for Lazy Loading_](magento-2-google-page-speed-optimizer.md#toc\_250016)&#x20;
    * _General Settings_&#x20;
    * _Lazy Loading on the Homepage_&#x20;
    * _Home Page Excluded from Lazy Loading_&#x20;
    * _Lazy Loading on the Category Page_&#x20;
    * _Lazy Loading on the Search Page_&#x20;
    * _Lazy Loading on the Cart Page_&#x20;
-5. [_Configuration Settings for Image Optimizer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250014)
+5. [_Configuration Settings for Image Optimizer_ ](magento-2-google-page-speed-optimizer.md#toc\_250014)
    * _General Settings_&#x20;
    * _Compress/Optimize Product Image_&#x20;
    * _Compress/Optimize Category Image._&#x20;
    * _Compress/Optimize CMS Image_&#x20;
-6. [_Configuration Settings for Cache Warmer_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250012)
+6. [_Configuration Settings for Cache Warmer_ ](magento-2-google-page-speed-optimizer.md#toc\_250012)
    * _General Settings_&#x20;
    * _Cron Settings_&#x20;
-7. [_Cache Warmer Grid_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250009)
+7. [_Cache Warmer Grid_ ](magento-2-google-page-speed-optimizer.md#toc\_250009)
    * _Regenerate_&#x20;
-8. [_Console Commands_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250008)
+8. [_Console Commands_ ](magento-2-google-page-speed-optimizer.md#toc\_250008)
    * _Category Page_&#x20;
    * _Product Page_&#x20;
    * _CMS Page_&#x20;
-9. [_Front-end Screenshots_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250007)
+9. [_Front-end Screenshots_ ](magento-2-google-page-speed-optimizer.md#toc\_250007)
    * _Cache Hit for the category page after the execution of category page command_&#x20;
    * _Cache Miss for the Category Page_&#x20;
 10. [_Set Primary Categories_](magento-2-google-page-speed-optimizer.md#set-primary-categories)
-11. [_Google Page Speed Tests_ ](magento-2-google-page-speed-optimizer.md#\_toc\_250006)
+11. [_Google Page Speed Tests_ ](magento-2-google-page-speed-optimizer.md#toc\_250006)
     * _Home Page Mobile_&#x20;
     * _Home Page Desktop_&#x20;
     * _Category Page Mobile_&#x20;
