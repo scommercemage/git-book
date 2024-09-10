@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-feed.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-feed.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Feed Generator_ ](magento-2-product-feed.md#\_bookmark3)
+2. [_Configuration Settings for Product Feed Generator_ ](magento-2-product-feed.md#bookmark3)
    * _General Settings_&#x20;
-3. _Create Data Feeds_&#x20;
+3. [_Create Data Feeds_ ](magento-2-product-feed.md#create-data-feeds)
    * _General_&#x20;
    * _Content_&#x20;
    * _Format_&#x20;
