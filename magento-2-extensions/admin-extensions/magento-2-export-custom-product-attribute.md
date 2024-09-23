@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-export-custom-product-attribute.md#\_bookmark0)
+1. [_Installation_ ](magento-2-export-custom-product-attribute.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Export Custom Product Attribute_](magento-2-export-custom-product-attribute.md#\_bookmark3)
+2. [_Configuration Settings for Export Custom Product Attribute_](magento-2-export-custom-product-attribute.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Exporting Custom Product Attributes_](magento-2-export-custom-product-attribute.md#\_bookmark8)
+3. [_Exporting Custom Product Attributes_](magento-2-export-custom-product-attribute.md#bookmark8)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
