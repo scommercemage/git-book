@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-advanced-admin-login-security.md#\_bookmark0)
+1. [_Installation_ ](magento-2-advanced-admin-login-security.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for_ ](magento-2-advanced-admin-login-security.md#\_bookmark3)[_Security Base_](magento-2-advanced-admin-login-security.md#\_toc\_250003)
+2. [_Configuration Settings for Security Base_](magento-2-advanced-admin-login-security.md#toc\_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Advanced Login Security_](magento-2-advanced-admin-login-security.md#\_bookmark3)
-4. [_Scommerce Admin Login Security_](magento-2-advanced-admin-login-security.md#\_toc\_250003-1)
+3. [_Configuration Settings for Advanced Login Security_](magento-2-advanced-admin-login-security.md#bookmark3)
+4. [_Scommerce Admin Login Security_](magento-2-advanced-admin-login-security.md#toc\_250003-1)
    * _Admin Login Attempts_
    * _Blacklist_
    * _Whitelist_
