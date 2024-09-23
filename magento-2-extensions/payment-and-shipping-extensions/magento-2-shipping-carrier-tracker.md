@@ -7,7 +7,7 @@
 1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#bookmark4)
+2. [_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#bookmark3)
    * _General Settings_&#x20;
    * _Shipping Methods_
 3. [_Tracking Links_](magento-2-shipping-carrier-tracker.md#bookmark8)
