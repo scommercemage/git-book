@@ -58,20 +58,28 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 
 * <mark style="color:orange;">**Free Shipping Bar Rule - Grid -**</mark> To create new free shipping bar rule click on “Add Shipping Bar” button and to edit existing rule click “Edit” option under "Action"
 
-![](../../.gitbook/assets/fresshippingrid.jpg)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image_2024_09_23T11_22_26_636Z.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">New Shipping Bar - General Settings</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Bar Name -** Enter Bar name. This is only for admin use.
 * **Bar Status -** Select "Enable/Disable" bar status.
-* **Cart Subtotal Source -** Select option "Specify Manually" or out of the box "Magento free shipping method".
+* **Minimum Order Amount Source -** Select option "Specify Manually" (utilize the rules minimum order amount) or out of the box "Magento free shipping method"(utilize minimum amount from the freee shipping method).
 * **From (Date) -** Select date from date picker.
 * **To (Date) -** Select date from date picker.
 * **Priority -** Set priority level for the free shipping bar. Highest priority level will be picked up first
-* **Rule Apply On -** Select "Grand Total/Subtotal" to apply the free shipping bar rule.
-* **Cart Goal -** Enter qualifying amount for cart goal.
+* **Rule Apply On -** Select "Subtotal excluding VAT/Subtotal including VAT" to apply the free shipping bar rule.
+* **Minimum Order Amount -** Enter qualifying amount for cart goal.
 
-![Configuration   Settings   Stores   Magento Admin (1).png](<../../.gitbook/assets/3 (71)>)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image_2024_09_23T11_47_09_782Z.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">New Shipping Bar - Websites & Customers Groups</mark> <a href="#bookmark8" id="bookmark8"></a>
 
@@ -104,7 +112,11 @@ You can add and customize Free Shipping Bar Rules from, **Admin > Marketing > Al
 * **Achieved Message -** Provide achieved message (A customer will get it, when the cart total achieves the needed amount to get a free shipping).
 * **Free Shipping Terms Content -** Provide shipping terms or other important information. (This will be a fill in the message to provide customers with shipping terms or other important information right on the bar).
 
-![ContentNew Shippingbar   Shippingbar   Manage Free Shipping Bar Rules   Marketing   Magento Admin.png](<../../.gitbook/assets/7 (38)>)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image_2024_09_23T11_48_29_350Z.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">New Shipping Bar - Design</mark> <a href="#bookmark12" id="bookmark12"></a>
 
