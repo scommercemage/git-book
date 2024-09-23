@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#\_bookmark0)
+1. [_Installation_ ](magento-2-shipping-carrier-tracker.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#\_bookmark3)
+2. [_Configuration Settings for Shipping Carrier Tracker_](magento-2-shipping-carrier-tracker.md#bookmark4)
    * _General Settings_&#x20;
    * _Shipping Methods_
-3. [_Tracking Links_](magento-2-shipping-carrier-tracker.md#\_bookmark8)
+3. [_Tracking Links_](magento-2-shipping-carrier-tracker.md#bookmark8)
    * _Admin Panel_
    * _My Account Section_
    * _Shipment Email_
