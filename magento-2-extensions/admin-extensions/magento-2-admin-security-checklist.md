@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-admin-security-checklist.md#installation-and-user-guide-for-magento-2-security-checklist-extension)
+1. [_Installation_ ](magento-2-admin-security-checklist.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
