@@ -31,7 +31,7 @@ php bin/magento setup:static-content:deploy
 [installation-via-composer.md](../installation-via-composer.md)
 {% endcontent-ref %}
 
-### <mark style="color:blue;">Configuration Settings for Surcharge</mark> <a href="#bookmark3" id="bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Shipping Carrier Tracking</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link**
 
