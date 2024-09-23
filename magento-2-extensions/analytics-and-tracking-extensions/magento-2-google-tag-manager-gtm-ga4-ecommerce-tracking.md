@@ -20,7 +20,7 @@
 6. [_Setting variable information in GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark11)&#x20;
 7. [_Publishing Tags in GTM_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark12)
 8. [_Set up Google Analytics 4_ ](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark14-1)
-9. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#\_bookmark14-1)
+9. [_Set up Google Adwords Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark14-1)
 10. [_Set up Enhanced Conversion_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16)
     * _Enable Enhanced Conversions in Google Adwords_
     * _Set up Enhanced Conversion with the Module_
