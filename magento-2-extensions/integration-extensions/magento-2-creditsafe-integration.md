@@ -20,7 +20,7 @@
 6. [_CreditSafe Adjustment Grid_](magento-2-creditsafe-integration.md#bookmark3-4)
    * _CreditSafe Transactions Grid_
    * _Import CreditSafe transactions in the Grid_
-7. [_Frontend_](magento-2-creditsafe-integration.md#bookmark3-3)
+7. [_Frontend_](magento-2-creditsafe-integration.md#bookmark3-5)
    * _Apply for CreditSafe Application_
    * _CreditSafe Company Application_
    * _Successful Credit Application_
