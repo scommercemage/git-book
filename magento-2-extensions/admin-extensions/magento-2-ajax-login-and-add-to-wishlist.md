@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark0)
+1. [_Installation_ ](magento-2-ajax-login-and-add-to-wishlist.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Ajax Login & Wishlist_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark3)
+2. [_Configuration Settings for Ajax Login & Wishlist_ ](magento-2-ajax-login-and-add-to-wishlist.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Front-end site view_ ](magento-2-ajax-login-and-add-to-wishlist.md#\_bookmark5)
+3. [_Front-end site view_ ](magento-2-ajax-login-and-add-to-wishlist.md#bookmark5)
    * _Ajax Add to Wishlist - Ajax SignIn Popup_&#x20;
    * _Ajax Add to Wishlist – Ajax Create an Account Popup_&#x20;
    * _Ajax Add to Wishlist – Mini Cart Drop-Down Slider_&#x20;
