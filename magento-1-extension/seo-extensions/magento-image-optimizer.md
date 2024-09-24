@@ -59,7 +59,17 @@ You can compress product images by enabling module from Admin > Stores > Configu
 
 You can compress category images by enabling module from Admin > Stores > Configuration > Optimize Images > Enabled – “Yes” > Select “Category”.
 
-![](../../.gitbook/assets/imgm14.png)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### <mark style="color:orange;">Compress/Optimize CMS Images</mark>&#x20;
 
