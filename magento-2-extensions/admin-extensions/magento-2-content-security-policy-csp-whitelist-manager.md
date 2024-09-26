@@ -4,19 +4,21 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-content-security-policy-csp-whitelist-manager.md#bookmark0)
+1. [_Installation_](magento-2-content-security-policy-csp-whitelist-manager.md#bookmark0)
    * _Download Extension_
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_<mark style="color:blue;">Configuration Settings for Content Security Policy (CSP) Whitelist</mark>_](magento-2-content-security-policy-csp-whitelist-manager.md#bookmark3)
+2. [_Configuration Settings for Content Security Policy (CSP) Whitelist_](magento-2-content-security-policy-csp-whitelist-manager.md#bookmark3)
    * _General Settings_&#x20;
    * _CSP Directives_
    * _Critical Security Overrides_
-3. [_<mark style="color:blue;">Working of the extension</mark>_](magento-2-content-security-policy-csp-whitelist-manager.md#working-of-the-extension)
-   * Steps to Check and Fix Console CSP Errors
-4. [_Fixing Inline Script and Inline Style Content Security Policy Issues_](magento-2-content-security-policy-csp-whitelist-manager.md#fixing-inline-script-and-inline-style-content-security-policy-issues)
-   * Inline Style Error Example
-   * Inline Script Error Example
+3. [_CSP Reports Grid_](magento-2-content-security-policy-csp-whitelist-manager.md#csp-reports-grid)
+4. [_Working of the extension_](magento-2-content-security-policy-csp-whitelist-manager.md#working-of-the-extension)
+   * _Steps to Check and Fix Console CSP Errors through CSP Grid_
+   * _Steps to Check and Fix Console CSP Errors_
+5. [_Fixing Inline Script and Inline Style Content Security Policy Issues_](magento-2-content-security-policy-csp-whitelist-manager.md#fixing-inline-script-and-inline-style-content-security-policy-issues)
+   * _Inline Style Error Example_
+   * _Inline Script Error Example_
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -49,11 +51,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 * **IMPORTANT INFORMATION**- When adding or changing whitelist, ensure to include only those domains that are recognized and trustworthy. This precaution is crucial because unauthorized or compromised domains may contain malicious scripts.
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Report Only Mode -** Set "Yes" to enable Report Only mode for CSP ( it will only report CSP vulnerabilities in the browser console and Set "No" to enable Strict Mode ( it will prevent data from loading or code from getting executed to prevent vulnerabilities).
+* **Report Only Mode -** Set "Yes" to enable Report Only mode for CSP ( it will only report CSP vulnerabilities in the CSP reports grid and browser console. Make sure to add Report URL in Configuration>Security>CSP for the CSP grid to collect reports. Set "No" to enable Strict Mode ( it will prevent data from loading or code from getting executed to prevent vulnerabilities).
+* **Report Collection Enabled:-** Set "Yes" to enable collecting CSP reports in the CSP grid, Set "No" these errors will only be available in the browser console
+* **Report URL Configuration:-** Please add following URLs in _Security > CSP section_ of your Store config **Admin Default** - _https://BASE\_URL/scommercereporturi/report/admin **Storefront**_** Default** - _https://BASE\_URL/scommercereporturi/report/storefront_
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -182,9 +186,73 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 </div>
 
+### <mark style="color:blue;">**CSP Reports Grid**</mark>
+
+The CSP Reports Grid collects and displays all the CSP errors on both frontend and backend. To enable report collection please make sure to add the following URLs in _Security > CSP section_ of your Store config:-
+
+* **Admin Default** - _https://BASE\_URL/scommercereporturi/report/admin_&#x20;
+* _**Storefront**_** Default** - _https://BASE\_URL/scommercereporturi/report/storefront_
+
+_For eg:-_
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+To access the grid go to Admin>System>Scommerce CSP Records> CSP Report Only Grid
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* **ID:-** Id of the record
+* **Blocked URL:-** The URL reported in the CSP error
+* **Report Type:-** Store Front (frontend) or Admin(backend), where the error was reported
+* **Source URLs:-** The Source URL of the page where this error was reported
+* **Policy violation:-** The CSP directive which was violated in this record.
+* **Last report date:-** When was this error last reported.
+
 ### <mark style="color:blue;">**Working of the extension**</mark>
 
-<mark style="color:orange;">**Steps to Check and Fix Console CSP Errors**</mark>
+<mark style="color:orange;">**Steps to Check and Fix Console CSP Errors thorugh CSP Reports Grid**</mark>
+
+Go to Admin>System>Scommerce CSP Records> CSP Report Only Grid, select the error records that you want to whitelist then from the Actions dropdown, select whitelist.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Please clear caches as prompted:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Once done all the selected entries will be whitelisted into their specific CSP directive and should be visible in the admin configuration.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:red;">**Note:-**</mark> _<mark style="color:red;">If you have already whitelisted the entries manually in the configuration then you can delete these records from the grid by selection the records that you want to delete and then click on Action dropdown and select delete.</mark>_
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">**Steps to Check and Fix Console CSP Errors Manually**</mark>
 
 * Check the errors present in the frontend's console.
 
