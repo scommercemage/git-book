@@ -16,7 +16,7 @@
 4. [_Archive Grid_ ](magento-2-order-delete-or-archive.md#bookmark9)
    * _Restore_&#x20;
    * _Restore Orders From Archived Order View Page_&#x20;
-5. [_Automatically Archive Orders_](magento-2-order-delete-or-archive.md#\_bookmark12)[ ](magento-2-order-delete-or-archive.md#bookmark12)
+5. [_Automatically Archive Orders_ ](magento-2-order-delete-or-archive.md#bookmark12)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
