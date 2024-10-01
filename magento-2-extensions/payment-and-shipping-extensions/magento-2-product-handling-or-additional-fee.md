@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-handling-or-additional-fee.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-handling-or-additional-fee.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Handling Fee_ ](magento-2-product-handling-or-additional-fee.md#\_bookmark3)
+2. [_Configuration Settings for Handling Fee_ ](magento-2-product-handling-or-additional-fee.md#bookmark3)
    * _General Settings_&#x20;
    * _Handling Fee on Order Detail View Page_&#x20;
    * _Add Handling Fee at Product Level_&#x20;
-3. [_Front-end Site View_ ](magento-2-product-handling-or-additional-fee.md#\_bookmark7)
+3. [_Front-end Site View_ ](magento-2-product-handling-or-additional-fee.md#bookmark7)
    * _Handling Fee on Cart Page_&#x20;
    * _Handling Fee On Checkout Page_&#x20;
 
