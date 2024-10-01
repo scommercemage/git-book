@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-reviews.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-reviews.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Reviews_](magento-2-product-reviews.md#\_bookmark3)
+2. [_Configuration Settings for Product Reviews_](magento-2-product-reviews.md#bookmark3)
    * _General Settings_&#x20;
-3. [_Creating New Review Sliders_](magento-2-product-reviews.md#\_bookmark5)
-4. [_A_d](magento-2-product-reviews.md#\_bookmark5)[ding Review Slider](magento-2-product-reviews.md#\_bookmark5)
+3. [_Creating New Review Sliders_](magento-2-product-reviews.md#bookmark5)
+4. [_A_dding Review Slider](magento-2-product-reviews.md#bookmark5-1)
    * _Category Page_
    * _CMS Pages_
 5. [_Front-End View_](magento-2-product-reviews.md#front-end-view)
