@@ -8,21 +8,22 @@
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
 2. [Configuration Settings for Cash Back Discount ](magento-2-cash-back-discount.md#configuration-settings-for-cash-back-discount)
-   * General Settings&#x20;
-   * Cash Back&#x20;
-   * Cash Back Reminder&#x20;
-   * Create Cart Price Rules for Cashback Discount&#x20;
-   * Cashback Transactions&#x20;
+   * _General Settings_&#x20;
+   * _Cash Back_&#x20;
+   * _Cash Back Reminder_&#x20;
+   * _Create Cart Price Rules for Cashback Discount_&#x20;
+   * _Cashback Transactions_&#x20;
+   * _Cashback Customize Email Template_
 3. [Front-end Site View](magento-2-cash-back-discount.md#bookmark9)&#x20;
-   * Cashback Qualifying Message on the Checkout Page&#x20;
-   * Cashback Discount Option on the Checkout Page&#x20;
-   * Applied Cashback Discount on the Checkout Page&#x20;
-   * Auto Apply Discount&#x20;
-   * Cashback Discount Details on the Front-end - My Account Section&#x20;
-   * Cashback Expiry Reminder Email&#x20;
-   * Second Cashback Expiry Reminder Email&#x20;
-   * Order Confirmation Email&#x20;
-   * Invoice Email&#x20;
+   * _Cashback Qualifying Message on the Checkout Page_&#x20;
+   * _Cashback Discount Option on the Checkout Page_&#x20;
+   * _Applied Cashback Discount on the Checkout Page_&#x20;
+   * _Auto Apply Discount_&#x20;
+   * _Cashback Discount Details on the Front-end - My Account Section_&#x20;
+   * _Cashback Expiry Reminder Email_&#x20;
+   * _Second Cashback Expiry Reminder Email_&#x20;
+   * _Order Confirmation Email_&#x20;
+   * _Invoice Email_&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -54,16 +55,17 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cash Back**
 #### <mark style="color:orange;">Cash Back</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Auto Apply Discount –** Please select “Yes” if you would like to auto apply discount.
+* **Tax Class -** Select the tax class
+* **Grand or SubTotal Attribute -** Select the grand or subtotal attribute
 * **Select discount in case of multiple cash back rules are applied –** Please choose whether the customer will get minimum discount or maximum discount, in case there are more than one cashback rules are applicable on cart.
 * **Include Shipping (Yes/No) –** Please select “Yes” if you would like to include shipping price in Cash Back qualifying amount.
 * **Cashback Title Message –** Please add cashback discount title to show on checkout page. This will appear just before cashback discount message.
 * **Cashback Qualifying Message –** Please add cashback qualifying message. This will appear on checkout pages when a user will qualify for cashback discount %s and %d is dynamic variable for amount and date.
 * **Apply Cashback Checkbox Label –** Please add label for apply discount checkbox on checkout.
-* **Cashback Email Message –** Please add cashback qualifying message. This will appear on order confirmation %s and %d is dynamic variable for amount and date,
 * **Transactions Update Schedule –** This setting will be used to allow you to define schedule how often you want to update transactions.
 * **Summary Update Schedule –** This setting will be used to allow you to define schedule how often you want to update summary.
 
-![](../../.gitbook/assets/cashback\_settings.png)
+<figure><img src="../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Cash Back Reminder</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -99,6 +101,22 @@ The grid will have following columns/information:-
 * <mark style="color:orange;">**Applied Cashback Details on the Order View Page -**</mark> You can view the applied cashback discount at **Admin > Sales > Orders > select Order > View.**
 
 ![](../../.gitbook/assets/cashback\_applied.jpg)
+
+* <mark style="color:orange;">**Cashback Customize Email Template -**</mark> You can display cashback discount in any of your email templates using the built in variables.&#x20;
+
+```
+<p>cashback</p>
+{{var cashback}} - - - this is to display cashback value
+{{depend cashbackDiscount}} - - - this is to make clause (if cashbackDiscount exist and not 0 then show something)
+<p> cashbackDiscount </p>
+{{/depend}}
+```
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark9" id="bookmark9"></a>
 
