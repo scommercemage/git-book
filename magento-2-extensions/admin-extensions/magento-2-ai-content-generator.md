@@ -71,6 +71,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 </div>
 
+* **Content Writing using Gemini** - Set "Yes" to use Gemini to generate content. Please make sure "Content Writing using ChatGPT is set to "NO" to expose Gemini settings.
+* **Gemini API version -** Select the Gemini version from the available option that you want to use to generate content. (Gemini Pro and Gemini Flash)
+* **Gemini API Key -** Enter the API key from Gemini ([https://ai.google.dev/gemini-api/docs/api-key](https://ai.google.dev/gemini-api/docs/api-key))
+* **Purge Log -** Set "Yes" to enable purging of the log data in the database.
+* **Retention Days -** Define the retention days for the logs that are kept in the database.&#x20;
+* **Cron Job -** Define Cron schedule for purging of the log data.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 **Note:-** Switch store view or website to expose the settings below:-
 
 #### <mark style="color:orange;">Product Settings</mark> <a href="#bookmark4" id="bookmark4"></a>

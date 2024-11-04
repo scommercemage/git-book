@@ -300,7 +300,7 @@ Let us see how it works on the front-end.
 
 * Visit the store and go to cookie settings on the pop-up. In the cookie preferences:- -- select your cookie. In this case we have created statistics cookie. -- Next from the top right corner select the checkbox to enable the cookie and save your choice.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next check the inspector of your browser to verify whether your cookie is enabled/disabled. If you have enabled the cookie then the value will be 1 and if it is disabled then the value will be 0. Refer to the image below.
 
