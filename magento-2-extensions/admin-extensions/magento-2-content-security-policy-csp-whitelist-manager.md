@@ -68,7 +68,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for default-src
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 *   **Base Uri**
@@ -76,7 +76,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
     * **Enabled**- Select “Yes” or “No” to enable or disable csp whitelist for base-uri
     * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
 
@@ -168,7 +168,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
   * **Enabled-** Select “Yes” or “No” to enable or disable csp whitelist for style-src
   * **Whitelist entries**- Please add URLs that you want to whitelist. By default, the type of entry added would be host. You can also delete this entry and add multiple entries.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -182,7 +182,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > CSP Whitelist
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -295,7 +295,7 @@ In this section, we will show you how to fix the inline script and style related
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -333,7 +333,7 @@ background-color: #f3f3f3;
 
 * Now copy this hash and go to **Stores>Configuration>Scommerce Configuration>CSP Whitelist** and scroll down to find the **Style Src** section. Add the hash here as shown in the image below:-
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Please make sure hash is selected in the type dropdown. This should resolve the console error.
 

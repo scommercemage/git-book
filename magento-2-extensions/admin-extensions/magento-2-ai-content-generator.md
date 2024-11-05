@@ -29,6 +29,7 @@
    * _Meta Title_
    * _Meta Description_
    * _Meta Keywords_
+6. [_AI Content Generator API Logs_](magento-2-ai-content-generator.md#bookmark3-5)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -80,7 +81,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -313,6 +314,24 @@ AI content generator generates content on all Category, Product, CMS Pages. Plea
 <div data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### <mark style="color:blue;">AI Content Generator API Logs</mark> <a href="#bookmark3" id="bookmark3"></a>
+
+Go to **Scommerce AI Content Generator>API Logs** to view logs of each API request used by AI content Generator.
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The grid contains request response and the AI engine used:-
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
