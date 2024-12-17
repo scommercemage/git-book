@@ -65,8 +65,8 @@ Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 #### <mark style="color:orange;">Category Canonical Tag</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * **Category Canonical Enable –** Set it to yes, if you want canonical tag on category pages.
-* **Exclude Current Category in Admin –**Set it to “Yes”, if you don’t want the same category to appear in the drop-down selection while choosing canonical category for a category.
-* **Append Text with Every Category URL Path –**Set it to yes, if you want to append text with overridden canonical URL as well. This setting is useful when you have pagination/filtered navigation/sorting on your site.
+* **Exclude Current Category in Admin –**&#x53;et it to “Yes”, if you don’t want the same category to appear in the drop-down selection while choosing canonical category for a category.
+* **Append Text with Every Category URL Path –**&#x53;et it to yes, if you want to append text with overridden canonical URL as well. This setting is useful when you have pagination/filtered navigation/sorting on your site.
 
 ![](../../.gitbook/assets/category.png)
 
@@ -93,7 +93,7 @@ Go to _Admin > Stores > Configuration >Scommerce Configuration > Canonical Tags_
 
 * **No Index No Follow Enabled –** Set it to yes, if you want to add no index, no follow in the head section.
 * **Action names –** Add action names here to add no index, no follow in the head section for specific page. New route name needs to be added in next line.
-* **Route names –**Add route name here to add no index, no follow in the head section for list of pages.
+* **Route names –**&#x41;dd route name here to add no index, no follow in the head section for list of pages.
 
 ![](../../.gitbook/assets/noindex.png)
 

@@ -4,10 +4,10 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-product-shelf-life.md#\_bookmark0)
+1. [_Installation_ ](magento-2-product-shelf-life.md#_bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Product Shelf Life Expiration_ ](magento-2-product-shelf-life.md#\_bookmark3)
+2. [_Configuration Settings for Product Shelf Life Expiration_ ](magento-2-product-shelf-life.md#_bookmark3)
    * _General Settings_&#x20;
    * _Batch Settings_&#x20;
    * _Product Batches Grid_&#x20;
@@ -24,7 +24,7 @@
    * _Batch Report_&#x20;
    * _Import / Export Product Batches_&#x20;
    * _Batch Expiration Email Notification_&#x20;
-3. [_API - Application Programming Interface_ ](magento-2-product-shelf-life.md#\_bookmark20)
+3. [_API - Application Programming Interface_ ](magento-2-product-shelf-life.md#_bookmark20)
    * _Authentication Token_&#x20;
    * _Creating a Batch using API_&#x20;
    * _Retrieve all Batches using API_&#x20;
@@ -56,9 +56,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/shelf\_general.jpg)
+![](../../.gitbook/assets/shelf_general.jpg)
 
 ### Batch Settings <a href="#bookmark5" id="bookmark5"></a>
 
@@ -67,15 +67,15 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf
 * **Disable batch once expired -** Please select “Yes” or “No” to disable the batch. It disables the batch automatically once their expiry date is passed and runs as part of cron job at midnight.
 * **Email Addresses -** Please provide email addresses (comma separated) to send the batch expiration email notification.
 * **Email Sender –** Please select sender/ from email addresses for Batch expiry updated.
-* **Select Email Template -**Please select the email template for batch expiry email notification.
+* **Select Email Template -**&#x50;lease select the email template for batch expiry email notification.
 * **Cron Scheduler for expiry batch notification -** This setting will be used to send the email through the cron.
 * **Batch Selection Attribute –** This setting will determine how batches are selected automatically.
 * **Batch Selection Attribute Direction –** As per the batch selection attribute you can choose the direction for example Ascending(ASC) or Descending(DSC).
 * **Batch Selection –** You can choose to select batches automatically based on batch selection attribute or you can set it to Manual. When Manual you will be able to select batches during shipment.
 
-![](../../.gitbook/assets/shelf\_batch1.jpg)
+![](../../.gitbook/assets/shelf_batch1.jpg)
 
-![](../../.gitbook/assets/shelf\_batch2.jpg)
+![](../../.gitbook/assets/shelf_batch2.jpg)
 
 #### <mark style="color:orange;">Product Batches Grid</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -87,11 +87,11 @@ You can create and manage product batches from, **Admin> Product Batches**. This
 
 ![](<../../.gitbook/assets/5 (57)>)
 
-* <mark style="color:orange;">**Add New Product Batch -**</mark>To create new product batch, go to **Admin > Product Batches>**click **'Add New Batch'.** It will take you to the new product batch page and by providing all the required details; you can create the new batch.
+* <mark style="color:orange;">**Add New Product Batch -**</mark>To create new product batch, go to **Admin > Product Batches>**&#x63;lick **'Add New Batch'.** It will take you to the new product batch page and by providing all the required details; you can create the new batch.
 
 ![](<../../.gitbook/assets/6 (21)>)
 
-* <mark style="color:orange;">**Un-Associate / Delete Product Batch -**</mark>Toun-associate and delete product batch, go to**Admin > Product Batches> Select Batch > Edit >**Click **"Un-Associate with Product''** and for **Delete** click on **"Delete"** button**.**
+* <mark style="color:orange;">**Un-Associate / Delete Product Batch -**</mark>Toun-associate and delete product batch, go to**Admin > Product Batches> Select Batch > Edit >**&#x43;lick **"Un-Associate with Product''** and for **Delete** click on **"Delete"** butto&#x6E;**.**
 
 ![](<../../.gitbook/assets/7 (11)>)
 
@@ -103,7 +103,7 @@ When user enables the module then Product Batches section appears at, **Admin>Ca
 
 #### <mark style="color:orange;">Add Specific Batch to Product</mark> <a href="#bookmark11" id="bookmark11"></a>
 
-You can also add specific batches to a product from, **Admin > Catalog > Product > Select Product >Edit >Product Batches >**Click**"Add Specific Batch"**. It redirects to **Batch Grid** and by selecting batch **ID** you can associate active batches to a product.
+You can also add specific batches to a product from, **Admin > Catalog > Product > Select Product >Edit >Product Batches >**&#x43;lic&#x6B;**"Add Specific Batch"**. It redirects to **Batch Grid** and by selecting batch **ID** you can associate active batches to a product.
 
 ![](<../../.gitbook/assets/9 (30)>)
 
@@ -117,7 +117,7 @@ You can also add specific batches to a product from, **Admin > Catalog > Product
 
 #### <mark style="color:orange;">Deleting or Un- Associating a Product Batch</mark> <a href="#bookmark14" id="bookmark14"></a>
 
-* **Deleting: -**To delete a product batch, go to Catalog>Product Batches then select the product batch that you want to delete. From Action coloumn click Edit. Here you will see the option to delete the Product batch.
+* **Deleting: -**&#x54;o delete a product batch, go to Catalog>Product Batches then select the product batch that you want to delete. From Action coloumn click Edit. Here you will see the option to delete the Product batch.
 
 #### <mark style="color:red;">Note:- If an order has been shipped then you won’t be able to delete that product batch. You will see an error.</mark>
 
@@ -146,7 +146,7 @@ You can also add specific batches to a product from, **Admin > Catalog > Product
 To import and export product batches, go to **Admin > System >Import / Export**.
 
 * **Import -** It updates the stock quantity and disables the batches if they are expired.
-* **Export-**It exports the batches in the selected file format, e.g. CSV**.**
+* **Export-**&#x49;t exports the batches in the selected file format, e.g. CS&#x56;**.**
 
 #### <mark style="color:blue;">Import Settings</mark>
 
@@ -160,7 +160,7 @@ To import and export product batches, go to **Admin > System >Import / Export**.
 
 ![Export   Import Export   Data Transfer   System   Magento Admin.png](<../../.gitbook/assets/17 (12)>)
 
-* <mark style="color:orange;">**Batch Expiration Email Notification -**</mark> When you select "Yes" for **"**Batch expiry email notification"from **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf Life Expiration > Batch Settings**, then it sends an email notification for batch expiration.
+* <mark style="color:orange;">**Batch Expiration Email Notification -**</mark> When you select "Yes" for **"**&#x42;atch expiry email notification"from **Admin > Stores > Configuration > Scommerce Configuration > Product Shelf Life Expiration > Batch Settings**, then it sends an email notification for batch expiration.
 
 ![Shelf Life Expiration Notification Gmail\_011.png](<../../.gitbook/assets/18 (16)>)
 

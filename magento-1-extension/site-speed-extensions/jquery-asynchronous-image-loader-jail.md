@@ -2,7 +2,7 @@
 
 ### <mark style="color:blue;">Magento Jquery Asynchronous Image Loader Extension Installation/Set-up Guide</mark>
 
-* <mark style="color:orange;">**Disable Compilation Mode**</mark><mark style="color:orange;">:</mark> To check that this is disabled, go to System->Tools->Compilation. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the right**-**hand side of the screen.
+* <mark style="color:orange;">**Disable Compilation Mode**</mark><mark style="color:orange;">:</mark> To check that this is disabled, go to System->Tools->Compilation. If the compiler status is ‘Disabled’, you are ready to go. If not, simply click the ‘Disable’ button on the righ&#x74;**-**&#x68;and side of the screen.
 * <mark style="color:orange;">**Upload Package:**</mark> Upload the content of the module to your root folder. This will not overwrite the existing Magento folder or files, only the new contents will be added.
 * <mark style="color:orange;">**Clear Caches:**</mark> This can be done from the admin console by navigating to the cache management page (System->Cache Management), selecting all caches, clicking ‘refresh’ from the drop-down menu, and submitting the change. Log out and login back in Admin.
 * <mark style="color:orange;">**Admin Configuration:**</mark> Go to Admin ->System->Configuration->Scommerce Configuration -> Lazy Load Images -> General&#x20;

@@ -38,11 +38,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Send Base Data –** Select whether you want to send base order data or store order data.
 * **Brand Attribute –** Select a brand attribute to send with brand names
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Brand Text box –** Input brand name to send to Google
 * **Default Landing Page -** This setting allows you to set default landing page value which shows in Google Analytics in case landing page is not available to sent as part of missing transaction.
@@ -63,11 +59,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Analyt
 * **Measurement ID –** Enter the measurement ID of your GA4 property. Ga4 measurement ID can be extracted from **GA4>Admin>Data Streams>Select website and it is available in the top right corner.**
 * **Property ID –** Enter the property ID of GA4. **GA4>Admin>Property Settings>Property ID**&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Create Project in Google Developer Console for GA Reporting API</mark> <a href="#toc65169382" id="toc65169382"></a>
 
@@ -75,129 +67,69 @@ Please follow the steps below to create project in Google developer console for 
 
 * #### Go to [https://console.developers.google.com/](https://console.developers.google.com/). Click on the dropdown on the left as shown in the image below and a popup will appear on your screen. <a href="#toc65169383" id="toc65169383"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 143824.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 143824.png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Click on New Project <a href="#toc65169384" id="toc65169384"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Enter your project name and Location then click on create. <a href="#toc65169385" id="toc65169385"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Click on Enable APIS and SERVICES <a href="#toc65169386" id="toc65169386"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### In the next window search for Google Analytics Data API <a href="#toc65169387" id="toc65169387"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Click on Enable to enable the API <a href="#toc65169388" id="toc65169388"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Similarly enable the "Google Analytics Reporting API" as well. <a href="#toc65169389" id="toc65169389"></a>
 * #### Click on Credentials from the left window then click on Create Credentials and choose service account. <a href="#toc65169389" id="toc65169389"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 145949 (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 145949 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### In the next window, fill in your service account name and description then click on Create. An email will be automatically created as per your name. We need to add this email in google analytics. We will do it in the steps down below. Your service name will be your Application Name that you will enter in the configuration. <a href="#toc65169390" id="toc65169390"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Click on continue without selecting a role. <a href="#toc65169391" id="toc65169391"></a>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * #### Click Continue again without any selection <a href="#toc65169392" id="toc65169392"></a>
 * Click on Create Key from the image below and select json your key file will be downloaded. **Place this key file in the VAR directory of your website**. Copy the exact name with extension “.json” and input it into **security Key** in the configuration.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Add Cloud Console Email to Google Analytics 4</mark> <a href="#toc65169394" id="toc65169394"></a>
 
 In the earlier step we created a service account ID which is also the service account email. Alternatively, you can go to the "API & Services" section from the left menu and find your service account email there as shown in screengrab below:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Now In order for this account to access your GA4 property we are required to add this service email to GA4. To do that copy this email address and go to your GA4 property. Go to admin and click on Property access management:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Click on plus sign to add new email:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Next add the email and set the permissions to Editor and you are done.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Order Tracking INFO</mark> <a href="#toc65169394" id="toc65169394"></a>
 
 The order tracking info is captured against each order which is later used to sync the transactions to GA4 attributing them to correct sessions and dates to improve report accuracy. The order tracking info can be viewed by going into Admin>Sales>Order>Edit any order. Please refer to the screengrab below.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **Note:-** The Order tracking info will only present in the orders that are placed after the module is installed and enabled. It won't be present for historical orders.
 
@@ -213,29 +145,17 @@ The GA Sync logs can be viewed by going into your server>Magento installation di
 
 This file contains details of each synced transaction alongwith the order data that was sent, please refer to the image below:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Google Analytics 4 Real Time Reports</mark>
 
 Go to your Google Analytics 4 Property then from left menu click on reports:-
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Next, select realtime from the left menu  and under the event name column you can find the purchase event by clicking on that you can verify the transaction ID that was sent through the sync module.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Google Analytics 4 Custom Reports</mark>
 

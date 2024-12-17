@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-lazy-load-image.md#toc\_250005)
+1. [_Installation_ ](magento-2-lazy-load-image.md#toc_250005)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for Optimiser Base_](magento-2-lazy-load-image.md#toc\_250004)&#x20;
+2. [_Configuration Settings for Optimiser Base_](magento-2-lazy-load-image.md#toc_250004)&#x20;
    * _General Settings_&#x20;
-3. [_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#toc\_250002)
+3. [_Configuration Settings for Lazy Loading_ ](magento-2-lazy-load-image.md#toc_250002)
    * _General Settings_&#x20;
-4. [_Front-end Screenshots_ ](magento-2-lazy-load-image.md#toc\_250000)
+4. [_Front-end Screenshots_ ](magento-2-lazy-load-image.md#toc_250000)
    * _Lazy Loading on the Homepage_&#x20;
    * _Home Page Excluded from Lazy Loading_&#x20;
    * _Lazy Loading on the Category Page_&#x20;
@@ -43,7 +43,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimiser Bas
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/config\_speed.png)
+![](../../.gitbook/assets/config_speed.png)
 
 ### <mark style="color:blue;">Configuration Settings for Lazy Loading</mark> <a href="#toc_250002" id="toc_250002"></a>
 
@@ -51,16 +51,16 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Lazy Loading*
 
 #### <mark style="color:orange;">General Settings</mark> <a href="#toc_250001" id="toc_250001"></a>
 
-* **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
+* **Enabled -** Select “Yes” or **“**&#x4E;&#x6F;**”** to enable or disable the module.
 * **Loading Icon –** Show a preview image before the real image loads.
 * **Skip Images Count by page category –** Enter a valid image count to skip the images from lazy load. Based on the count this option will decide how many images to load without lazy loading.
 * **Ignore Images that Contain –** Provide a part of an image tag content into the field to exclude the image from the lazy load.
 * **Exclude Pages –** Select the page(s) from multi-select options to exclude from the lazy load.
 * **Lazy loading for product only on category page –** Select “Yes” to apply lazy load on product images only on category page.
 
-![](../../.gitbook/assets/gen\_lazy1.png)
+![](../../.gitbook/assets/gen_lazy1.png)
 
-![](../../.gitbook/assets/gen\_lazy2.png)
+![](../../.gitbook/assets/gen_lazy2.png)
 
 
 

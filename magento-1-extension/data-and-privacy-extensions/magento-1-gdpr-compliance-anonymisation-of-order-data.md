@@ -4,20 +4,20 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark0)
+1. [_Installation_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark0)
    * _Disable Compilation Mode_&#x20;
    * _Upload Package_&#x20;
    * _Clear Caches_&#x20;
-2. [_Configuration Settings for GDPR Compliance_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
+2. [_Configuration Settings for GDPR Compliance_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark4)
    * _General Settings_&#x20;
    * _Cookie Notification Message_&#x20;
    * _Cookie Notification Message_&#x20;
    * _Privacy Settings_&#x20;
-3. [_Configuration Settings for Cookie Popup_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark4)
+3. [_Configuration Settings for Cookie Popup_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark4)
    * _General Settings_&#x20;
    * _Popup Styling_&#x20;
    * _Additional Tabs_&#x20;
-4. [_Admin Configuration for Cookie Choice_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark13)
+4. [_Admin Configuration for Cookie Choice_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark13)
    * _Manage Cookie Choice List_&#x20;
      * _ID_&#x20;
      * _Choice Name_&#x20;
@@ -34,12 +34,12 @@
    * _Created by List_&#x20;
    * _Required Record_&#x20;
    * _Set by Default_&#x20;
-5. [_Customers Detail in Privacy Policy Consents_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark30)
-6. [_Anonymize Orders from Admin Section_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark31)
-7. [_Newsletter Subscription_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark32)
-8. [_Enable / Disable Tracking_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark33)
+5. [_Customers Detail in Privacy Policy Consents_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark30)
+6. [_Anonymize Orders from Admin Section_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark31)
+7. [_Newsletter Subscription_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark32)
+8. [_Enable / Disable Tracking_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark33)
 9. [_Integrate Cookies with GTM Pro Tracking_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#integrate-cookies-with-gtm-pro-tracking)
-10. [_Front-end site view_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#\_bookmark35)
+10. [_Front-end site view_ ](magento-1-gdpr-compliance-anonymisation-of-order-data.md#_bookmark35)
     * _Cookie Popup – Cookie Accept_&#x20;
     * _Cookie Preferences_&#x20;
     * _Cookie Preferences for store view_
@@ -91,7 +91,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Cookie link color –** Text Color for links on cookie message
 * **Cookie Background Color –** Background color for cookie message
 
-![](../../.gitbook/assets/gdpr1\_cookienotification.jpg)
+![](../../.gitbook/assets/gdpr1_cookienotification.jpg)
 
 #### <mark style="color:orange;">Cookie Notification Message</mark> <a href="#bookmark7" id="bookmark7"></a>
 
@@ -101,7 +101,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Delete Confirmation Email Template –** Email Template to send email deletion confirmation to customers after successfully deleting their account
 * **Enable sending customer data via email before deleting customer data–** If set to “yes” then customer data will be sending to be specified email address just before deleting specific customer record.
 
-![](../../.gitbook/assets/gdpr1\_emailnotification.jpg)
+![](../../.gitbook/assets/gdpr1_emailnotification.jpg)
 
 #### <mark style="color:orange;">Privacy Settings</mark> <a href="#bookmark8" id="bookmark8"></a>
 
@@ -112,7 +112,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Enable Checkout –** If set to Yes then privacy agreement checkbox will appear for customers to confirm before submitting billing form
 * **Enable Registration –** If set to Yes then privacy agreement checkbox will appear for customers to confirm before submitting registration form.
 
-![](../../.gitbook/assets/gdpr1\_privacy.jpg)
+![](../../.gitbook/assets/gdpr1_privacy.jpg)
 
 ### <mark style="color:blue;">Configuration Settings for Cookie Popup</mark> <a href="#bookmark9" id="bookmark9"></a>
 
@@ -120,11 +120,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cookie Popup*
 
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark10" id="bookmark10"></a>
 
-* **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
+* **Enabled -** Select “Yes” or **“**&#x4E;&#x6F;**”** to enable or disable the module.
 * **Modal Title -** Enter name of the modal title, this will be shown on the frontend cookie popup modal. We’ve set modal title as “Cookie preferences”.
 * **Save Choice Button Text -** Enter the title of the save choice button. Click on this button will save the cookies choice. Whatever the current cookie choice is there it will save that choice.
-* **Allow All Button Text -** Enter title of the allow all button**.** We've set title as "Allow All". When you click on "ALLOW All" then cookies will allow the provision of enhance functionality, it will keep track of how many people have visited website, and how they interact with the site. All the information used is aggregated and completely anonymous. If you do not allow cookies, then functionalities may not function properly.
-* **Decline All Button Text -** Enter title of the decline all button**.** We've set title as "Decline All". When you click on "Decline All" then none of the cookies will be accepted and the funtionality attached to them will not work for customers such as tracking information.
+* **Allow All Button Text -** Enter title of the allow all butto&#x6E;**.** We've set title as "Allow All". When you click on "ALLOW All" then cookies will allow the provision of enhance functionality, it will keep track of how many people have visited website, and how they interact with the site. All the information used is aggregated and completely anonymous. If you do not allow cookies, then functionalities may not function properly.
+* **Decline All Button Text -** Enter title of the decline all butto&#x6E;**.** We've set title as "Decline All". When you click on "Decline All" then none of the cookies will be accepted and the funtionality attached to them will not work for customers such as tracking information.
 * **Accept Button Text -** Enter button title for accepting cookies on the cookie message, it will accept all cookies.
 * **Decline Button Text -** Enter button title for declining cookies on the cookie message, it will decline all cookies.
 * **Cookies List Header -** Title of the block for the "Used by" list. Cookies name will be shown under this cookies list header. You can see "Used by" list on the frontend Cookie popup.

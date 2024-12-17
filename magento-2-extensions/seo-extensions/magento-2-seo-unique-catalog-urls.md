@@ -4,18 +4,18 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-seo-unique-catalog-urls.md#toc\_250008)
+1. [_Installation_ ](magento-2-seo-unique-catalog-urls.md#toc_250008)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_](magento-2-seo-unique-catalog-urls.md#toc\_250007)&#x20;
+2. [_Configuration Settings for SEO Base_](magento-2-seo-unique-catalog-urls.md#toc_250007)&#x20;
    * _General Settings_
-3. [_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#toc\_250027)
+3. [_Configuration settings for Catalog URL_ ](magento-2-seo-unique-catalog-urls.md#toc_250027)
    * _General Settings_&#x20;
    * _Configuration Path to Set Up Primary Category_&#x20;
    * _Primary Category settings for Category_&#x20;
    * _Run the script to setup primary category of one or all products together_&#x20;
 4. [_Set Primary Categories_](magento-2-seo-unique-catalog-urls.md#set-primary-categories)
-5. [_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#toc\_250024)
+5. [_Front-end Site View_ ](magento-2-seo-unique-catalog-urls.md#toc_250024)
    * _Product Page Unique URL_&#x20;
    * _Search Page / Category Page Unique Catalog Product URL_&#x20;
 
@@ -44,7 +44,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Base_
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/config\_seo.png)
+![](../../.gitbook/assets/config_seo.png)
 
 ### <mark style="color:blue;">Configuration Settings for Catalog URL</mark> <a href="#toc_250027" id="toc_250027"></a>
 
@@ -52,10 +52,10 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > Catalog URL_
 
 #### <mark style="color:orange;">General Settings</mark> <a href="#toc_250026" id="toc_250026"></a>
 
-* **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
+* **Enabled -** Select “Yes” or **“**&#x4E;&#x6F;**”** to enable or disable the module.
 * **Exclude Root Categories –** Exclude some root categories to appear as primary category dropdown against products.
 
-![](../../.gitbook/assets/general\_catalog.png)
+![](../../.gitbook/assets/general_catalog.png)
 
 ### <mark style="color:blue;">Configuration Path to Set Up Primary Category</mark> <a href="#toc_250025" id="toc_250025"></a>
 
@@ -104,7 +104,7 @@ Go to Admin>Catalog>Categories select a category then scroll down to find the op
 
 ![](<../../.gitbook/assets/1 (3).png>)
 
-_<mark style="color:red;">**N.B -**</mark>_ R_<mark style="color:red;">un the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
+_<mark style="color:red;">**N.B -**</mark>_ &#x52;_<mark style="color:red;">un the script provided in the extension folder at the path Data/SetPrimaryCategoryM2.php from ssh</mark>_
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#toc_250024" id="toc_250024"></a>
 

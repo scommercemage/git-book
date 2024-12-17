@@ -52,13 +52,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cancel Order*
 * **Email Template for Registered Customer –** Please select email template for sending cancellation email to registered customer.
 * **Email BCC –** Please add CC email addresses for Order Cancellation emails in comma separated format.
 
-![](../../.gitbook/assets/cancel\_general.jpg)
+![](../../.gitbook/assets/cancel_general.jpg)
 
-* **Reasons –** Select order cancellation reason from the dropdown or select other to define your own reasons. Option “Other” will display a text box on front end, where you can add reason of cancellation**.**
+* **Reasons –** Select order cancellation reason from the dropdown or select other to define your own reasons. Option “Other” will display a text box on front end, where you can add reason of cancellatio&#x6E;**.**
 * **Notification Message –** Enter notification message you want to show on frontend for order cancellation.
 * **Number of hours to cancel –** Please add number of hours valid for order cancellation.
 
-![](../../.gitbook/assets/cancel\_general2.jpg)
+![](../../.gitbook/assets/cancel_general2.jpg)
 
 ### <mark style="color:blue;">Front-end Site View for Order Cancellation from My Account Section</mark> <a href="#bookmark5" id="bookmark5"></a>
 

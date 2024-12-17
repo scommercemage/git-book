@@ -9,9 +9,9 @@
 1. [_Installation_ ](magento-2-substitute-products.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for S_ubstitute Products](magento-2-substitute-products.md#bookmark3)
+2. [_Configuration Settings for &#x53;_&#x75;bstitute Products](magento-2-substitute-products.md#bookmark3)
    * _General Settings_&#x20;
-3. [_A_ssigning Substitute Products](magento-2-substitute-products.md#bookmark5)
+3. [_&#x41;_&#x73;signing Substitute Products](magento-2-substitute-products.md#bookmark5)
    * _Add Substitute Products_
    * _Order Placed with Substitute Product_
 4. [_Front-End View_](magento-2-substitute-products.md#front-end-view)
@@ -39,9 +39,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Pro
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/shelf\_general.jpg)
+![](../../.gitbook/assets/shelf_general.jpg)
 
 ### <mark style="color:blue;">Assigning Substitute Products</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -51,7 +51,7 @@ The substitute product should have exactly same configurations as the main produ
 
 Go to **Admin>Catalog>Products**, navigate to your product from the list and click on Edit from the action column. Scroll down to find the **Subsitute Products** tab. Please refer to the image below:-
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Click on **Enabled** to enable the substitute products for this main product. Add the SKU of the product that you want to add as a substitute of this product and add the priority. In case of multiple substitute products you can set the priortiy highest being 0 so that whenever products are out of stock, upon order placement the SKU will be chosen based on the priority set.&#x20;
 

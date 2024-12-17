@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento2-custom-options-discount.md#bookmark0)
+1. [&#x49;_&#x6E;stallation_ ](magento2-custom-options-discount.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
 2. [_Configuration Settings for Custom options Discount_ ](magento2-custom-options-discount.md#bookmark3)
@@ -43,7 +43,7 @@ php bin/magento setup:static-content:deploy
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/customoptions\_general.png)
+![](../../.gitbook/assets/customoptions_general.png)
 
 ### <mark style="color:blue;">Adding Custom Options to Products</mark> <a href="#bookmark5" id="bookmark5"></a>
 

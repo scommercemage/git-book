@@ -4,14 +4,14 @@
 
 **Table of Contents**
 
-1. [Installation ](magento-seo-unique-catalog-urls.md#\_bookmark0)
+1. [Installation ](magento-seo-unique-catalog-urls.md#_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Catalog URL ](magento-seo-unique-catalog-urls.md#\_bookmark4)
+2. [Configuration Settings for Catalog URL ](magento-seo-unique-catalog-urls.md#_bookmark4)
    * General Settings&#x20;
    * Configuration Path to Set Up Primary Category&#x20;
-3. [Front-end Site View ](magento-seo-unique-catalog-urls.md#\_bookmark7)
+3. [Front-end Site View ](magento-seo-unique-catalog-urls.md#_bookmark7)
    * Product Page Unique URL&#x20;
    * Search Page / Category Page Unique Catalog Product URL&#x20;
 
@@ -32,22 +32,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Catalog URL**
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Exclude Root Categories –** Exclude some root categories to appear as primary category dropdown against products.
 
-![](../../.gitbook/assets/mseo\_general.jpg)
+![](../../.gitbook/assets/mseo_general.jpg)
 
 #### <mark style="color:orange;">Configuration Path to Set Up Primary Category</mark> <a href="#bookmark6" id="bookmark6"></a>
 
 To set primary category go to **Admin > Catalog > Select Product > Primary Category.** The drop down will show all the categories selected for the product from where you can select the primary category of the product.
 
-![](../../.gitbook/assets/m1seo\_1.jpg)
+![](../../.gitbook/assets/m1seo_1.jpg)
 
 ### <mark style="color:blue;">Front-end site view</mark> <a href="#bookmark7" id="bookmark7"></a>
 
-* <mark style="color:orange;">**Product Page Unique URL –**</mark> You can assign primary category to a product from **Admin > Catalog > Select Product > Primary Category.** In the below image you can see the primary category “**Home & Decor > Electronics”** has been set for the product Madison LX2200**.**
+* <mark style="color:orange;">**Product Page Unique URL –**</mark> You can assign primary category to a product from **Admin > Catalog > Select Product > Primary Category.** In the below image you can see the primary category “**Home & Decor > Electronics”** has been set for the product Madison LX220&#x30;**.**
 
-![](../../.gitbook/assets/m1seo\_2.jpg)
+![](../../.gitbook/assets/m1seo_2.jpg)
 
 * <mark style="color:orange;">**Search Page / Category Page Unique Catalog Product URL –**</mark> We have set the primary category of "Madison LX2200" product to “**Home & Decor > Electronics”**, and the category path remains the same when we access the product from the search or any other category, which you can see in the below image.
 
-![](../../.gitbook/assets/m1\_seo2.jpg)
+![](../../.gitbook/assets/m1_seo2.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-seo-catalog-urls.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

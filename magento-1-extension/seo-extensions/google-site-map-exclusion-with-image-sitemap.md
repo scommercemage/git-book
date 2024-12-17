@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. [Installation ](google-site-map-exclusion-with-image-sitemap.md#\_bookmark0)
+1. [Installation ](google-site-map-exclusion-with-image-sitemap.md#_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Google Sitemap ](google-site-map-exclusion-with-image-sitemap.md#\_bookmark4)
+2. [Configuration Settings for Google Sitemap ](google-site-map-exclusion-with-image-sitemap.md#_bookmark4)
    * General Settings&#x20;
    * Exclude Categories from Sitemap&#x20;
    * Exclude Products from Sitemap&#x20;
@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sitemap**
 
 ![](<../../.gitbook/assets/3 (52)>)
 
-* <mark style="color:orange;">**Exclude CMS from Sitemap –**</mark> To exclude CMS pages from sitemap, go to **Admin > CMS > Pages > Select CMS Page** (you want to exclude from site map**) > General > Exclude from Sitemap:** Set to **“Yes/No”.**
+* <mark style="color:orange;">**Exclude CMS from Sitemap –**</mark> To exclude CMS pages from sitemap, go to **Admin > CMS > Pages > Select CMS Page** (you want to exclude from site ma&#x70;**) > General > Exclude from Sitemap:** Set to **“Yes/No”.**
 
 ![](<../../.gitbook/assets/4 (67)>)
 
@@ -55,7 +55,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sitemap**
 
 ![](<../../.gitbook/assets/5 (69)>)
 
-* <mark style="color:orange;">**Add new Sitemap –**</mark> You can create a new site map from **Admin > Catalog > Google Sitemap >** Click **“Add Sitemap”**, it redirects to New Site Map page**,** and by providing all the required details you can create Site Map.
+* <mark style="color:orange;">**Add new Sitemap –**</mark> You can create a new site map from **Admin > Catalog > Google Sitemap >** Click **“Add Sitemap”**, it redirects to New Site Map pag&#x65;**,** and by providing all the required details you can create Site Map.
 
 ![](<../../.gitbook/assets/6 (6)>)
 

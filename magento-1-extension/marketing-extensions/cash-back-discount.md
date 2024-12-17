@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. [Installation ](cash-back-discount.md#\_bookmark0)
+1. [Installation ](cash-back-discount.md#_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Cashback Discount ](cash-back-discount.md#\_bookmark4)
+2. [Configuration Settings for Cashback Discount ](cash-back-discount.md#_bookmark4)
    * General Settings&#x20;
    * Reminder&#x20;
    * Shopping Cart Price Rules Setup&#x20;
@@ -18,7 +18,7 @@
    * Manage Coupon Codes&#x20;
    * Applied Cashback Details on the order view page&#x20;
    * Theme Changes&#x20;
-3. [Front-end site view ](cash-back-discount.md#\_bookmark14)
+3. [Front-end site view ](cash-back-discount.md#_bookmark14)
    * Cashback Discount Option on the Checkout Page&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
@@ -35,7 +35,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Cashback Expiry Date (YYYY-MM-DD HH:MM:SS) –** Expiry date and time for Cash back offer. Orders placed before this date and time will get cash back offer for their next order. It should be in (YYYY-MM-DD HH:MM:SS**)** format.
+* **Cashback Expiry Date (YYYY-MM-DD HH:MM:SS) –** Expiry date and time for Cash back offer. Orders placed before this date and time will get cash back offer for their next order. It should be in (YYYY-MM-DD HH:MM:S&#x53;**)** format.
 * **Cashback Validity Months -** Cash back discount validity period. It defines the period for the validity of cash back discount for next order.
 * **Cashback Minimum Order Value –** The discount will only apply when the basket value exceeds the minimum order value.
 * **Exclude Order Statuses –** Order status excluded from cash back offer.
@@ -44,7 +44,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 * **Cashback Qualifying Message –** Message to appear on basket and review order page to show that they qualified for cash back offer for their next purchase.
 * **Cashback Email Message –** Message will appear on the order confirmation email. Default message, “%s” will be replaced with validity period.
 
-![](../../.gitbook/assets/m1cashback\_general.jpg)
+![](../../.gitbook/assets/m1cashback_general.jpg)
 
 #### <mark style="color:orange;">Reminder</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -54,7 +54,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cashback**
 * **Send reminder (days) –** Number days defined for reminder email before cash back validity expires.
 * **Log Process –** If set to yes, logs the reminder email logs in var/log folder.
 
-![](../../.gitbook/assets/m1cashback\_reminder.jpg)
+![](../../.gitbook/assets/m1cashback_reminder.jpg)
 
 *   <mark style="color:orange;">**Shopping Cart Price Rules Setup –**</mark> Steps to set up discount offer:
 

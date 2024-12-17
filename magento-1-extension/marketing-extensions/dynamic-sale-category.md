@@ -4,15 +4,15 @@
 
 **Table of Contents**
 
-1. [Installation ](dynamic-sale-category.md#\_bookmark0)
+1. [Installation ](dynamic-sale-category.md#_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Dynamic Sale category ](dynamic-sale-category.md#\_bookmark4)
+2. [Configuration Settings for Dynamic Sale category ](dynamic-sale-category.md#_bookmark4)
    * General Settings&#x20;
-3. [Product Special Price Set up ](dynamic-sale-category.md#\_bookmark6)
+3. [Product Special Price Set up ](dynamic-sale-category.md#_bookmark6)
    * Product Assigned to Sale Category in the Back-end&#x20;
-4. [Front-end Site View ](dynamic-sale-category.md#\_bookmark8)
+4. [Front-end Site View ](dynamic-sale-category.md#_bookmark8)
    * Sale Products on the Category Page&#x20;
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
@@ -28,7 +28,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Sale/Offer Ca
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Category Levels –** Choose the category level and save configurations to populate the sale category dropdown. You can then select your desired category where you want to show all the sale products.
 * **Sale Category –** Choose the sale category created above to show your sale products. This category will then show all the products set up with special price.
 
@@ -38,7 +38,7 @@ will then only show sale products and will ignore any other products set up dire
 
 * **Hide Sale Category with no product –** Hides sale category from appearing in the navigation if no sale product found.
 
-![](../../.gitbook/assets/m1sale\_general.jpg)
+![](../../.gitbook/assets/m1sale_general.jpg)
 
 ### <mark style="color:blue;">Product Special Price Set up</mark> <a href="#bookmark6" id="bookmark6"></a>
 

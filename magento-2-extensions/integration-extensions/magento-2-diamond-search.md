@@ -257,7 +257,7 @@ If customers chooses to start by selecting a diamond then they will be able to s
 
 Once the customer decides on a diamond they click on it which takes them to a detailed page for that diamond. It contains all the necessary details related to that specific diamond. Once satisfied they click on **SELECT DIAMOND** and they are redirected to the next step i.e choosing a ring.&#x20;
 
-![](../../.gitbook/assets/step1\_2.jpg)
+![](../../.gitbook/assets/step1_2.jpg)
 
 #### <mark style="color:orange;">Choosing a Setting(Ring)</mark>
 
@@ -295,10 +295,10 @@ Please follow the steps provided below in order to setup 360 view and certificat
 
 1. Use local inventory in the configuration
 2. Update diamond and add below values from Admin > Catalog > Products > Select Diamiond > Edit > “**Diamond Details**“
-   1. Put any value with url of the document (ex. [https://certimage.s3-accelerate.amazonaws.com/images/full\_size/certificates/LG480159253.pdf](https://certimage.s3-accelerate.amazonaws.com/images/full\_size/certificates/LG480159253.pdf)) in the **“Has cert file”** attribute for the certificate
-   2. Put any value for 360 url value for **“ Sarineloupe Url“** attribute (ex. [V360 Viewer](https://certimage.s3-accelerate.amazonaws.com/V360\_viewers/sample\_image/Vision360.html?surl=https://certimage.s3-accelerate.amazonaws.com/V360/\_v4.0/\&d=IM-143-102-04\&sv=0,1,2,3,4,5) ) and **1** to “ **Has Sarineloupe“** attribute**.**
+   1. Put any value with url of the document (ex. [https://certimage.s3-accelerate.amazonaws.com/images/full\_size/certificates/LG480159253.pdf](https://certimage.s3-accelerate.amazonaws.com/images/full_size/certificates/LG480159253.pdf)) in the **“Has cert file”** attribute for the certificate
+   2. Put any value for 360 url value for **“ Sarineloupe Url“** attribute (ex. [V360 Viewer](https://certimage.s3-accelerate.amazonaws.com/V360_viewers/sample_image/Vision360.html?surl=https://certimage.s3-accelerate.amazonaws.com/V360/_v4.0/\&d=IM-143-102-04\&sv=0,1,2,3,4,5) ) and **1** to “ **Has Sarineloupe“** attribut&#x65;**.**
 
-**Test URL** - [![](https://diamondsearch.scommerce-mage.co.uk/static/version1651246469/frontend/Magento/luma/en\_US/Magento\_Theme/favicon.ico)Choose a diamond](https://diamondsearch.scommerce-mage.co.uk/diamondsearch/#!/93072712)
+**Test URL** - [![](https://diamondsearch.scommerce-mage.co.uk/static/version1651246469/frontend/Magento/luma/en_US/Magento_Theme/favicon.ico)Choose a diamond](https://diamondsearch.scommerce-mage.co.uk/diamondsearch/#!/93072712)
 
 ![](<../../.gitbook/assets/image (73).png>)
 

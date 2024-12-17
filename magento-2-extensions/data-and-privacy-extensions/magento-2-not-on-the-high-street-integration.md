@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/noths\_general.jpg)
+![](../../.gitbook/assets/noths_general.jpg)
 
 #### <mark style="color:orange;">Integration Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -51,7 +51,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Cron for Order Import -** Please add define schedule how often you want to update transactions
 * **Select the store for NOTHS Orders –** Please select the store for Noths orders.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Noths Order Payment Method –** Please add the payment method which will be used to import orders from Noths.
 * **Noths Order Shipping Method –** Please add the shipping method which will be used to import orders from Noths.
@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Retention Data -** Please add number of days worth of logs you want to keep it in the DB.
 * **Cron Job -** Please add define schedule how often you want the logs to be purged.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Noths Order(s) View from Back-end</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -74,10 +74,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 
 * <mark style="color:orange;">**Noths Order Details on Order View Page -**</mark> You can view Noths order details at **Admin > Sales > Select Order > View.**
 
-![](../../.gitbook/assets/noths\_front1.jpg)
+![](../../.gitbook/assets/noths_front1.jpg)
 
 * <mark style="color:orange;">**Noths Order Logs -**</mark> To view Noths Logs go to **Admin > Scommerce Noths > Order Logs.** This log will have Entity Id, Request, Status, Type, Created At, and Response.
 
-![](../../.gitbook/assets/noths\_front2.jpg)
+![](../../.gitbook/assets/noths_front2.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](magento-2-not-on-the-high-street-integration.md#installation-and-user-guide-for-magento-2-noths-integration-extension) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

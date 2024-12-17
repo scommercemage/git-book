@@ -41,13 +41,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Auto Coupon**
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Message After Applying Code –** Message which will displays on the site after successful application of coupon code.
 
-![](../../.gitbook/assets/general\_applydiscount.png)
+![](../../.gitbook/assets/general_applydiscount.png)
 
 ### <mark style="color:blue;">**Discount Setup**</mark>&#x20;
 
-You can set up the discount coupon code **from Admin > Marketing > Cart Price Rules >** Click **"Add New Rule",** it redirects on **"**New Cart Price Rule" and by providing all the required details you can create the new rule and set up the discount code.
+You can set up the discount coupon code **from Admin > Marketing > Cart Price Rules >** Click **"Add New Rule",** it redirects on **"**&#x4E;ew Cart Price Rule" and by providing all the required details you can create the new rule and set up the discount code.
 
-![](../../.gitbook/assets/applydiscount\_cartpricerules.png)
+![](../../.gitbook/assets/applydiscount_cartpricerules.png)
 
 ### <mark style="color:blue;">**Discount Link**</mark>&#x20;
 
@@ -59,16 +59,16 @@ Once the discount is set up then on the front-end it can be applied using the be
 2. **Discount Code –** Discount code as set up in discount.
 3. **Returning Site URL –** This is optional parameter. If defined, user will be redirected to this URL after successful application of the discount code. If not defined then User will be redirected to the Home page.
 
-![](../../.gitbook/assets/applydiscount\_discountlink.jpg)
+![](../../.gitbook/assets/applydiscount_discountlink.jpg)
 
 ### <mark style="color:blue;">Front-end Site View</mark> <a href="#bookmark7" id="bookmark7"></a>
 
 * <mark style="color:orange;">**Successful Applied Discount Message on the Front-end -**</mark> The message you have set from **Admin > Stores > Configuration > Scommerce Configuration > Auto Coupon > Message After Applying Code**, will be shown on the front-end homepage.
 
-![](../../.gitbook/assets/applydiscount\_front1.jpg)
+![](../../.gitbook/assets/applydiscount_front1.jpg)
 
 * <mark style="color:orange;">**Coupon Code On the Checkout Page -**</mark> Applied discount coupon code will be shown on the front-end checkout page under "Order Summary" section.
 
-![](../../.gitbook/assets/applydiscount\_front2.jpg)
+![](../../.gitbook/assets/applydiscount_front2.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-apply-coupon-via-link.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

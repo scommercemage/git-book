@@ -67,12 +67,12 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Parent Category –** Set “Yes” to send the category path and Set “No” to send the category name only.
 * **Default List-** Enter the default list name if the product impression is not found
 * **Send Admin Orders to Google–** Select “Yes” to track orders created in admin
-* **Source-**Please add the Campaign Source for backend orders.
-* **Medium-**Please define the Campaign Medium for Backend Orders.
+* **Source-**&#x50;lease add the Campaign Source for backend orders.
+* **Medium-**&#x50;lease define the Campaign Medium for Backend Orders.
 * **Send Product Impression on Scroll -** Enable this feature when you have loads of products on product listing / category pages.
 * **Category Ajax Enabled –** Enable this feature if you have third party ajax enabled extension on your category page.
 
-![](../../.gitbook/assets/tbase\_890x.png)
+![](../../.gitbook/assets/tbase_890x.png)
 
 #### <mark style="color:orange;">Checkout Behaviour</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -98,11 +98,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
   * **Use Linker –** If this is enabled (set to ‘Yes’) then this account will be linked to domains from “Domains to link” field, which is specified below
   * **Action –** You can delete your account\\, if required.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -113,28 +109,20 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site T
 * **Enable Dynamic Remarketing Tag –** If set to ‘Yes’, then this will enable and install remarketing tag to different pages.
 * **Enable Tracking for Other Sites –** This will enable other sites variables ([https://support.google.com/tagmanager/answer/6106009?hl=en-GB#zippy=%2Ccustom](https://support.google.com/tagmanager/answer/6106009?hl=en-GB#zippy=%2Ccustom)[)](https://developers.google.com/adwords-remarekting-tag/parameters#other) instead of retail site variables.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Set up Google Analytics 4</mark> <a href="#bookmark11" id="bookmark11"></a>
 
 * Go to Analytics and select the website on which you want to implement GA4.
 * Once you are in universal analytics panel go into admin settings. Here you will notice an UPGRADE TO GA4 button, click on it. You will be walked with creating a new property. Follow along, once you are finished you will see the new GA4 view on your screen
 
-![](../../.gitbook/assets/gtag\_ga41.jpg)
+![](../../.gitbook/assets/gtag_ga41.jpg)
 
 ### <mark style="color:blue;">Set Up Cross Domain Measurement</mark> <a href="#bookmark12" id="bookmark12"></a>
 
 &#x20;**Step 1:-** Go to Google Analytics 4 Admin>Data Streams>Select your stream>Configure Tag Settings >Configure Your Domains, here add your domains or subdomains that you want to track.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure></div>
 
 **Step 2:-** Add the all domains added above in the configuration "Domains to link" comma separated. Now if you have any links taking you from your main site to the linked site, **\_gl cookie** is automatically apended to the URL that contains several information such as source website, source campaign etc hereby accomplishing the cross domain measurement. an example of such URL is as follows:-
 
@@ -146,22 +134,14 @@ https://magento2demo.scommerce-mage.co.uk/?_gl=1*fzl3bd*_ga*MTk3ODY0NTU1Mi4xNzIy
 
 * <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see all the fired tags.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 * <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – G-R6FSTDG16K, AW-123234123.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-07 2122012132.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2024-08-07 2122012132.png" alt=""><figcaption></figcaption></figure></div>
 
 * <mark style="color:orange;">**Gtag.js Brand Name –**</mark> You can add brand name from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Brand Name – “TestScommerce”.**
 
-![](../../.gitbook/assets/gtag\_front3.jpg)
+![](../../.gitbook/assets/gtag_front3.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](magento-2-google-global-site-tag-gtag.js-with-ga4-google-analytics-4-enabled.md#installation-and-user-guide-for-magento-2-how-did-you-hear-about-us-extension) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

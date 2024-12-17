@@ -71,7 +71,7 @@ Create creditsafe rules based on your requirements.
 * **Type –** Select the user type either "Business" or "Consumer" this rule will be created for the appropriate applicant type.
 * **CS Credit Limit/Score Range -** Enter the credit limit or credit score range for the particular rule.
 * **Limit–** Enter the credit limit to be assigned for this rule based on the score entered previously. If the score is in this range then the entered limit should be provided to the applicant.
-* **Limit Type –**There are two main credit limit types:&#x20;
+* **Limit Type –**&#x54;here are two main credit limit types:&#x20;
   * **Absolute Limit:** This limit is a fixed amount set by you or your business, regardless of external factors. It's directly entered into the "limit field" you mentioned.&#x20;
   * **Percentage Limit:** This limit is determined as a percentage of an external creditworthiness score. The external score typically comes from CreditSafe.&#x20;
   * **The calculation involves:** Credit Limit Received from CreditSafe (e.g., 1000) Limit Specified in the Limit Field (e.g., 50) The final credit limit is the percentage of the CreditSafe limit multiplied by the limit field value. In this example: Final Limit = 50% \* 1000 = 500
@@ -121,35 +121,19 @@ Similarly you can create multiple rules as per your requirements to appropriatel
 * **Failed Credit Limit Message  –** Enter the message that will be displayed to customer when their credit check failedbut they have retries available.
 * **Failed Credit Limit (no retries)  –** Enter the message that will be displayed to customer when their credit check failed and they have no retries available.
 
-<div data-full-width="true">
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">CreditSafe API Logs</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 All requests and responses with regards to creditsafe endpoints are logged into a grid. You can view the logs by going into **Admin>System>CreditSafe API Logs>Credit Safe Logs**.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure></div>
 
 If you further click on any of the entries it contains the information as shown in the image below:-&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">CreditSafe Information Stored Against the Customer</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -161,11 +145,7 @@ Our module adds certain fields against the customer to keep track of credit assi
 * **Credit Limit Verified:-** This toggle turns on when the customer verification is complete, either manual or automatic.&#x20;
 * **Credit Limit Retry Count:-** The number of times a customer has applied for credit application.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/creditagainstcustomer.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/creditagainstcustomer.png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Customer Verification Process</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -174,11 +154,7 @@ Based on the "Approval Type" configuration described earlier, the customer's ver
 * **Automatic:-** The customer verification is done automatically.
 * **Manual:-** When "manual" verification is selected, then it is upon the administrator to verify the customer, for eg:- asking for documents via email and verifying them in person. Once verified admin can click on the verify button or turn on the toggle in the customer page ( go to **Admin>Customers>All Customers>select the customer**). Once verified by using the "Verify" button, the customer get an email regarding their successful verification.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/customerverification.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/customerverification.png" alt=""><figcaption></figcaption></figure></div>
 
 * **Disabled:-** Customer verification is not required and upon successful application the credit limits are assigned to customer.
 
@@ -188,21 +164,13 @@ Based on the "Approval Type" configuration described earlier, the customer's ver
 
 It allows you to track and manage adjustments made to customer credit limits based on their orders and payments. With this system, you can view and manage adjustments made to customer credit limits in a single, easy-to-use grid. Easily Keep track of adjustments made to customer credit limits. Go to **Admin>Sales>Creditsafe>Transactions.** The grid reflects both positive and negative adjustments i.e when a customer makes a purchase using their credit limit and when they make the payment of the invoice.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Import CreditSafe transactions in the Grid</mark>
 
 You can import transactions by either going into Admin>System>Import our by going to sales>Orders>Import from CSV. Next select the "Entity Type" as "CreditSafe Transaction Import" from the dropdown.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/creditsafeimporttransactions.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/creditsafeimporttransactions.png" alt=""><figcaption></figcaption></figure></div>
 
 The format of the import file should be as shown in the image. The fields required are as follows:-
 
@@ -213,11 +181,7 @@ The format of the import file should be as shown in the image. The fields requir
 * **customer\_email:-** Enter the customer email.
 * **transaction\_description:-** You can add a description of the adjustment which will be reflected in the creditsafe transactions grid.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Frontend</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -225,32 +189,16 @@ The format of the import file should be as shown in the image. The fields requir
 
 Customers can apply for creditsafe application from their My Account section using the button "Apply for Web Credit Account".
 
-<div data-full-width="true">
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/applyforcreditaccount (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/applyforcreditaccount (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/applyforcreditaccount2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/applyforcreditaccount2.png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">CreditSafe Company Application</mark>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/creditsafecompanyapplication.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/creditsafecompanyapplication.png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Successful Credit Application</mark>
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_](magento-2-image-optimizer.md#toc\_250004)&#x20;
+1. [_Installation_](magento-2-image-optimizer.md#toc_250004)&#x20;
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-image-optimizer.md#toc\_250003)
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-image-optimizer.md#toc_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Image Optimiser_](magento-2-image-optimizer.md#toc\_250001)&#x20;
+3. [_Configuration Settings for Image Optimiser_](magento-2-image-optimizer.md#toc_250001)&#x20;
    * _General Settings_&#x20;
    * _Compress/Optimize Product Images_&#x20;
    * _Compress/Optimize Category Images_&#x20;
@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimiser Bas
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/config\_speed.png)
+![](../../.gitbook/assets/config_speed.png)
 
 ### <mark style="color:blue;">Configuration Settings for Image Optimiser</mark> <a href="#toc_250001" id="toc_250001"></a>
 
@@ -48,7 +48,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Image Optimis
 
 #### <mark style="color:orange;">General Settings</mark> <a href="#toc_250000" id="toc_250000"></a>
 
-* **Enabled -** Select “Yes” or **“**No**”** to enable or disable the module.
+* **Enabled -** Select “Yes” or **“**&#x4E;&#x6F;**”** to enable or disable the module.
 * **Compress Images while uploading (All pages, CMS, Category and Product):** Select available options to enable compression for new images uploaded via Magento admin. We recommend this to be enabled because all the new things will be compressed straight away.
 * **Number of images to processed –** Define how many number of images you want to process when the cron job runs. Please note this number should be reasonable especially when you have multiple stores and many additional product images.
 * **Include folders –** Please select list of folders you want to include for compressing the image.
@@ -61,9 +61,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Image Optimis
 * **Debugging (Yes/No) –** Select “Yes” to enable debugging. This will write logs in var – log – imageoptimize.log
 * **Image Optimiser Schedule –** Please define the Cron frequency to optimize images.
 
-![](../../.gitbook/assets/image\_general1.png)
+![](../../.gitbook/assets/image_general1.png)
 
-![](../../.gitbook/assets/image\_general2.png)
+![](../../.gitbook/assets/image_general2.png)
 
 * <mark style="color:orange;">**Compress/Optimize Product Images -**</mark> You can compress product images by enabling module from **Admin > Stores > Configuration > Scommerce Configuration > Image Optimiser > Enabled - "Yes" > Compress Images while uploading -** Select **"Product ".**
 

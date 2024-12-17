@@ -56,7 +56,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 * **Subscription Discount Percent –** Enter the discount percent, this will be offered on subscription orders. If left blank, then no discount will be offered.
 * **Use Tier Prices in Subscription –** Select “Yes” to use tier prices in subscription.
 
-![](../../.gitbook/assets/repeat\_general.jpg)
+![](../../.gitbook/assets/repeat_general.jpg)
 
 #### <mark style="color:orange;">Repeat Order Subscription Email</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 * **Email Template –** Select order confirmation email template for repeat order. The template will contain Subscription Id, Order Amount, Discount Subscription Frequency, Subscription Start Date, Billing address, Shipping address, Payment Method, Subscribed items.
 * **Email CC –** Please add CC email addresses for Repeat Order emails in comma separated format.
 
-![](../../.gitbook/assets/repeat\_confirmationmail.jpg)
+![](../../.gitbook/assets/repeat_confirmationmail.jpg)
 
 #### <mark style="color:orange;">Payment / Order Failed Emailed</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -72,7 +72,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 * **Email Template –** Select Order/Payment failure email template for repeat order. The template will contain Subscription Id, Due Order Date (for which payment/order failed).
 * **Email CC –** Enter CC email address.
 
-![](../../.gitbook/assets/repeat\_paymentfailed.jpg)
+![](../../.gitbook/assets/repeat_paymentfailed.jpg)
 
 #### <mark style="color:orange;">Subscription Status Update Notification</mark> <a href="#bookmark7" id="bookmark7"></a>
 
@@ -88,64 +88,64 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Repeat Order 
 * **Email Template for Card Expiration for Admin –** Email template for Card Expiration for admin.
 * **Email Template for Card Expiration –** Select email template for Card Expiration.
 
-![](../../.gitbook/assets/repeat\_substatus.jpg)
+![](../../.gitbook/assets/repeat_substatus.jpg)
 
 ### <mark style="color:blue;">**Manage Subscription Grid**</mark>
 
 You can manage subscriptions from, **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions**. This grid will have all the details about the subscriptions like Subscription ID, Frequency, Customer Email, Last Order date, Status, Action (Edit). With the action ‘Edit’ you can easily update subscription details and can also perform Cancel/Pause/Re-start actions.
 
-![](../../.gitbook/assets/repeat\_managesubgrid.jpg)
+![](../../.gitbook/assets/repeat_managesubgrid.jpg)
 
 * <mark style="color:orange;">**Re-start/Pause, Cancel Subscriptions -**</mark> You can re-start, pause and cancel subscriptions from **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit.**
 
-![](../../.gitbook/assets/repeat\_restart.jpg)
+![](../../.gitbook/assets/repeat_restart.jpg)
 
-* <mark style="color:orange;">**Subscribed Items and Order History on the Edit Subscription Page -**</mark>** You** can see the subscribed items and order history from **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit.**
+* <mark style="color:orange;">**Subscribed Items and Order History on the Edit Subscription Page -**</mark>**&#x20;You** can see the subscribed items and order history from **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit.**
 
-![](../../.gitbook/assets/repeat\_subhistory.jpg)
+![](../../.gitbook/assets/repeat_subhistory.jpg)
 
 * <mark style="color:orange;">**Backend Order Page Link through Subscription Order –**</mark> When you click on subscription order URL visible under Orders History section at **Admin > Scommerce Mage > Repeat Order > Manage Subscriptions > Select Subscription > Edit,** then it redirects to backend order page.
 
-![](../../.gitbook/assets/repeat\_backendorder.jpg)
+![](../../.gitbook/assets/repeat_backendorder.jpg)
 
 **Subscription order link redirected to order view page**
 
-![](../../.gitbook/assets/repeat\_subscriptionorderlink.jpg)
+![](../../.gitbook/assets/repeat_subscriptionorderlink.jpg)
 
 ### <mark style="color:blue;">**Subscriptions Payment Grid**</mark>&#x20;
 
 &#x20;To see subscriptions payment details go to **Admin>** **Scommerce Mage > Repeat Order > Subscription Payments**. This grid will provide a view of payment status for the Payment transactions processed for automated subscription order. This will mainly have Subscription Id, First name, Transactions date and time, Transaction error/response.
 
-![](../../.gitbook/assets/repeat\_subpaymentgrid.jpg)
+![](../../.gitbook/assets/repeat_subpaymentgrid.jpg)
 
-* <mark style="color:orange;">**View Subscription Payment Details -**</mark> You can view payment details from Admin**> Scommerce Mage > Repeat Order > Subscription Payments > Select Subscription > View.**
+* <mark style="color:orange;">**View Subscription Payment Details -**</mark> You can view payment details from Admi&#x6E;**> Scommerce Mage > Repeat Order > Subscription Payments > Select Subscription > View.**
 
-![](../../.gitbook/assets/repeat\_viewsubpaydetail.jpg)
+![](../../.gitbook/assets/repeat_viewsubpaydetail.jpg)
 
 ### Front-end Site View <a href="#bookmark14" id="bookmark14"></a>
 
 * <mark style="color:orange;">**Subscription Options on the Checkout Page -**</mark> When you enable the module then it shows subscription options on the checkout page, by checking "Yes please I would like to receive future discounts" you can subscribed for the repeat order.
 
-![](../../.gitbook/assets/repeat\_front1.jpg)
+![](../../.gitbook/assets/repeat_front1.jpg)
 
 * <mark style="color:orange;">**Frequency Selection Drop-down -**</mark> On the checkout page when you check the subscription option then it shows frequency drop down, from where you can select the repeat order frequency.
 
-![](../../.gitbook/assets/repeat\_front2.jpg)
+![](../../.gitbook/assets/repeat_front2.jpg)
 
 * <mark style="color:orange;">**My Subscription Section on the My Account Page -**</mark> On the front-end you can see the subscription details at My Account > My Subscriptions
 
-![](../../.gitbook/assets/repeat\_front3.jpg)
+![](../../.gitbook/assets/repeat_front3.jpg)
 
 * <mark style="color:orange;">**Subscription Details on the My Subscriptions Page -**</mark> To view subscriptions details go to My Account > My Subscriptions.
 
-![](../../.gitbook/assets/repeat\_front4.jpg)
+![](../../.gitbook/assets/repeat_front4.jpg)
 
 * <mark style="color:orange;">**View / Edit Subscription Information from the Front-end/ My Account -**</mark> On the front-end you can view and edit the subscriptions from My **Account > My Subscriptions > Select Order > Edit.**
 
-![](../../.gitbook/assets/repeat\_front5.jpg)
+![](../../.gitbook/assets/repeat_front5.jpg)
 
 * <mark style="color:orange;">**Subscription Confirmation Email –**</mark> When you subscribed for repeat order, it sends subscription confirmation email.
 
-![](../../.gitbook/assets/repeat\_front6.jpg)
+![](../../.gitbook/assets/repeat_front6.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-repeat-order.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

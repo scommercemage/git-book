@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-1. [I_nstallation_ ](magento-2-dynamic-sale-catagory.md#bookmark0)
+1. [&#x49;_&#x6E;stallation_ ](magento-2-dynamic-sale-catagory.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
 2. [_Configuration Settings for Dynamic Sale Category_ ](magento-2-dynamic-sale-catagory.md#bookmark3)
@@ -49,14 +49,14 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Dynamic Sale 
 * **Sale ends text on the Category Page –** Add text for sale ends date in listing. Please include space if needed.
 * **Date Format on the Category Page –** Select the date format for sale end date displayed on category page.
 
-![](../../.gitbook/assets/general\_dynamicsale.png)
+![](../../.gitbook/assets/general_dynamicsale.png)
 
 
 
 * **Cron Schedule –** This setting will be used to send the email through the cron.
 * **Duplicate Urls Fix -** Use this if command shows error "URL key for specified store already exists.". Note: it's not going to fix URLs duplicated key issue. It will just use another algorithm of assigning. The best option is to to fix duplicated URLs. Put "Yes" if you know what you are doing
 
-![](../../.gitbook/assets/dynamicsale\_cron.png)
+![](../../.gitbook/assets/dynamicsale_cron.png)
 
 ### <mark style="color:blue;">**Product Special Price Set up**</mark>&#x20;
 

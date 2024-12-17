@@ -46,7 +46,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge**
 * **Surcharge Percentage or Fixed Amount –** This is the surcharge or additional fee which will be shown to the customer based on surcharge amount type (fixed to percentage)
 * **Surcharge Percentage or Fixed Amount per payment method or payment method and country -** Fixed or Percentage amount, additional fee will be applied based on grand or subtotal attribute been selected per payment method or payment method and country. Example checkmo:3;cashondelivery:2 or checkmo:3:FR;checkmo:5:GB
 
-![](../../.gitbook/assets/surcharge\_general.jpg)
+![](../../.gitbook/assets/surcharge_general.jpg)
 
 
 
@@ -56,11 +56,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge**
 **Grand or Subtotal Attribute** value been selected.
 
 * **Skip with Free Shipping –** This option can be used if you don’t want to charge additional fee when the shipping price is zero. This is useful when you are charging additional fee based on the shipping country but when the shipping is free then you might not want to charge additional fee.
-* **Tax Class -** Please select the tax class from the drop-down list**.**
+* **Tax Class -** Please select the tax class from the drop-down lis&#x74;**.**
 * **Shipping Countries –** The additional fee will be applied only to the specific shipping country(s). Please select all if you want to charge additional fee for all shipping countries.
 * **Payment Method –** The additional fee will be applied only to the specific payment method (s). Please select all if you want to charge additional fee for all payment methods.
 
-![](../../.gitbook/assets/surcharge\_general2.jpg)
+![](../../.gitbook/assets/surcharge_general2.jpg)
 
 Please select the Payment Method, surcharge will be applied only for the selected payment method
 
@@ -88,7 +88,7 @@ Please select the Payment Method, surcharge will be applied only for the selecte
 ![](<../../.gitbook/assets/7 (4)>)
 
 * <mark style="color:orange;">**Set Different Surcharge for Countries -**</mark> You can set different surcharge for countries from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Surcharge Percentage or Fixed Amount per payment method -** checkmo:3:FR;checkmo:5:GB.
-* <mark style="color:orange;">**View Surcharge on the Checkout Page -**</mark> When you select "Surcharge Amount Type" to "**Percentage**" , " Surcharge Percentage or Fixed Amount " to "**10**" and " Payment Method " to "**Cash On Delivery**"/"**Check Money order**" from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge,** then it adds 10 % additional fee on "Subtotal Including Tax" based on selected payment method and shipping countries. To add shipping countries go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Shipping Countries -** Select Shipping Countries from the drop-down list**.**
+* <mark style="color:orange;">**View Surcharge on the Checkout Page -**</mark> When you select "Surcharge Amount Type" to "**Percentage**" , " Surcharge Percentage or Fixed Amount " to "**10**" and " Payment Method " to "**Cash On Delivery**"/"**Check Money order**" from **Admin > Stores > Configuration > Scommerce Configuration > Surcharge,** then it adds 10 % additional fee on "Subtotal Including Tax" based on selected payment method and shipping countries. To add shipping countries go to **Admin > Stores > Configuration > Scommerce Configuration > Surcharge > Shipping Countries -** Select Shipping Countries from the drop-down lis&#x74;**.**
 
 ![](<../../.gitbook/assets/8 (53)>)
 

@@ -57,11 +57,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable Captcha on Competition Form –** Please select “Yes” or “No” to enable/disable captcha on the competition form.
 * **Subscription to Newsletter on Form Submission –** Please select “Yes” or “No” to enable/disable newsletter subscription on the competition form.
 
-![](../../.gitbook/assets/competition\_general.png)
+![](../../.gitbook/assets/competition_general.png)
 
 #### <mark style="color:orange;">Social Booster - Facebook Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -69,11 +69,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 * **Facebook Fan Page –** Please add full URL of your Facebook page for example [www.facebook.com/scommercemage](http://www.facebook.com/scommercemage).
 * **Facebook App ID –** Please add Facebook application Id this can be obtained by creating app by clicking on the following URL ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)) after login to your Facebook account.
 
-![](../../.gitbook/assets/competition\_socialsettings.png)
+![](../../.gitbook/assets/competition_socialsettings.png)
 
 #### <mark style="color:orange;">Social Booster - Twitter Settings</mark> <a href="#bookmark6" id="bookmark6"></a>
 
-![](../../.gitbook/assets/competition\_socialsettings2.png)
+![](../../.gitbook/assets/competition_socialsettings2.png)
 
 * **Enable (Yes/No) –** Please select “Yes” or “No” to Twitter for competitions on global level.
 * **Twitter Account –** Please add unique id of your twitter account. For example our twitter account is [http://www.twitter.com/scommerce/mage](http://www.twitter.com/scommerce/mage) so you just need to put Scommerce Mage.
@@ -84,7 +84,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Competition**
 * **Email Sender (Textbox) –** Please add email sender for competition email.
 * **Email Template for competition entry email –** Please select dropdown to select default global level competition entry email template from the available list of templates. A default template will be added with the extension install.
 
-![](../../.gitbook/assets/competition\_emailsettings.png)
+![](../../.gitbook/assets/competition_emailsettings.png)
 
 ### <mark style="color:blue;">Create/Edit/Delete Custom form fields</mark> <a href="#bookmark8" id="bookmark8"></a>
 

@@ -10,7 +10,7 @@
 2. [_Configuration Settings for Product Reviews_](magento-2-product-reviews.md#bookmark3)
    * _General Settings_&#x20;
 3. [_Creating New Review Sliders_](magento-2-product-reviews.md#bookmark5)
-4. [_A_dding Review Slider](magento-2-product-reviews.md#bookmark5-1)
+4. [_&#x41;_&#x64;ding Review Slider](magento-2-product-reviews.md#bookmark5-1)
    * _Category Page_
    * _CMS Pages_
 5. [_Front-End View_](magento-2-product-reviews.md#front-end-view)
@@ -41,8 +41,8 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration >Substitute Pro
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled -** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
-* **Email Field Enabled -**Set "Yes" to enable the email field in the product review form and set "No" to disable the email field.
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **Email Field Enabled -**&#x53;et "Yes" to enable the email field in the product review form and set "No" to disable the email field.
 
 <figure><img src="../../.gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

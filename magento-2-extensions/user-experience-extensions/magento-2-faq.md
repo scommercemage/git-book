@@ -11,7 +11,7 @@
    * _General Settings_&#x20;
    * _Manage FAQ's_&#x20;
    * _Manage FAQ Category_&#x20;
-3. [_Front-end Site view_](magento-2-faq.md#bookmark7)&#x20;
+3. [_Front-end Site view_](magento-2-faq.md#bookmark7)[ ](magento-2-faq.md#bookmark7)
    * _FAQ Categories_&#x20;
    * _FAQ Product_&#x20;
 
@@ -38,7 +38,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark4" id="bookmark4"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable FAQ Site Wide –** Set “yes” to enable FAQ page.
 * **Site Wide FAQ Title –** Title of FAQ page if FAQ for site enabled.
 * **Enable FAQ for Products –** If this is set to yes then FAQ Tab will appear on product pages.
@@ -46,11 +46,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 * **Admin Email –** Email to send notification about new questions created from product front page.
 * **FAQ Email Template –** Email Template for sending to admin with the details when someone asks a question.
 
-![](../../.gitbook/assets/faq\_general.jpg)
+![](../../.gitbook/assets/faq_general.jpg)
 
 <mark style="color:orange;">**Manage FAQ's -**</mark> You can manage, update and add new FAQ's from **Admin > FAQ > Manage FAQ's**. To add new FAQ's follow the below settings:-
 
-<mark style="color:blue;">**Add New FAQ:**</mark>** Add new FAQ > General Tab**
+<mark style="color:blue;">**Add New FAQ:**</mark>**&#x20;Add new FAQ > General Tab**
 
 * **Status –** Status of FAQ Active/Inactive
 * **Title –** Title for FAQ
@@ -84,11 +84,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 
 * **Select Product –** Select products to associated FAQ’s.
 
-![](../../.gitbook/assets/faq\_selectproduct.jpg)
+![](../../.gitbook/assets/faq_selectproduct.jpg)
 
 <mark style="color:orange;">**Manage FAQ Category:**</mark> You can manage, update and add new category for FAQ's from **Admin > FAQ > Add new FAQ Category**. Below is the configuration to add new FAQ category:-
 
-<mark style="color:blue;">**Add New FAQ Category:**</mark>** Add new FAQ Category > General Tab**
+<mark style="color:blue;">**Add New FAQ Category:**</mark>**&#x20;Add new FAQ Category > General Tab**
 
 * **Status –** Status of FAQ Category Active/Inactive
 * **Title –** Title for FAQ Category
@@ -115,10 +115,10 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 
 * <mark style="color:orange;">**FAQ Categories -**</mark> When you enable the module and set "Yes" for " **Enable FAQ Site Wide**" from **Admin > Stores > Configuration > Scommerce Configuration> FAQ** , then on the front-end, it shows FAQ page with categories.
 
-![](../../.gitbook/assets/faq\_front1.jpg)
+![](../../.gitbook/assets/faq_front1.jpg)
 
 * <mark style="color:orange;">**FAQ Product -**</mark> Select "Yes" for **"** Enable FAQ for Products" from **Admin > Stores > Configuration > Scommerce Configuration > FAQ**
 
-![](../../.gitbook/assets/faq\_front2.jpg)
+![](../../.gitbook/assets/faq_front2.jpg)
 
 If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-faq.html#faq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

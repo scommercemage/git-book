@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Sched
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Enable Log –** Yes/No (If set to yes then this create a log file in var/log folder for each day with a time stamp like product\_scheduler 20190125 log. The log file will record all details about products being set to enable/disable along with the dates/store values).
 
-![](../../.gitbook/assets/general\_pscheduler.png)
+![](../../.gitbook/assets/general_pscheduler.png)
 
 #### <mark style="color:orange;">Timer / Label Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -61,7 +61,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Sched
 * **Launching Soon Label Font Colour on Product Page –** This is a text box. This option will only show if **“Show timer/label before launch date”** is set to yes. The user can enter the text colour for the launching soon label text on product page. Default colour should be #FF0000.
 * **Custom CSS –** Enter custom CSS code and easily change the way Product Scheduler looks.
 
-![](../../.gitbook/assets/timtable\_scheduler.png)
+![](../../.gitbook/assets/timtable_scheduler.png)
 
 
 
@@ -69,7 +69,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Product Sched
 
 * **Cron Schedule –** This will allow you to define cron frequency, how often you want to run product scheduler cron.
 
-![](../../.gitbook/assets/cron\_scheduler.png)
+![](../../.gitbook/assets/cron_scheduler.png)
 
 ### <mark style="color:blue;">Setting UP Product Scheduler</mark>
 
@@ -83,7 +83,7 @@ Let us look at how to set up start and end date for products.&#x20;
 
 * <mark style="color:orange;">**Start and End Date Setup at Product Level -**</mark> You can schedule product for launching by selecting ''Start Date'' and ''End Date'' from **Catalog > Products > Select Product > Start Date / End Date**.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Enable Product on Scheduled Date-**</mark> The product gets enabled based on the Start date added in the product settings. If the start date is set 2 days in the future then the product will be enabled/launched exactly after completion of 2days.
 * <mark style="color:orange;">**Display Prelaunch Text and/or Countdown Timer (such as Launching Soon)-**</mark> The prelaunch text/Countdown timer gets displayed based on the Start date added in product settings. The time till which these are displayed are calculated based on the current date/time and the start date/time so Its current date and time minus the start date and time.  It won't be displayed only when start date has already gone by, if its set in the future then it will always be displayed.&#x20;

@@ -4,12 +4,12 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-google-site-map-exclusion.md#toc\_250004)
+1. [_Installation_ ](magento-2-google-site-map-exclusion.md#toc_250004)
    * _Installation via app/code_
    * _Installation via Composer_
-2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#toc\_250003)
+2. [_Configuration Settings for SEO Base_ ](magento-2-google-site-map-exclusion.md#toc_250003)
    * _General Settings_&#x20;
-3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#toc\_250029)
+3. [_Configuration Settings for SEO Sitemap Exclusion_ ](magento-2-google-site-map-exclusion.md#toc_250029)
    * _General Settings_&#x20;
    * _Exclude Categories from Sitemap_&#x20;
    * _Exclude Products from Sitemap_&#x20;
@@ -63,7 +63,7 @@ Go to _Admin > Stores > Configuration > Scommerce Configuration > SEO Sitemap_
 
 * **Enable -** Select “Yes” or “No” to enable or disable the module.
 
-![](../../.gitbook/assets/generl\_sitemap.png)
+![](../../.gitbook/assets/generl_sitemap.png)
 
 * <mark style="color:orange;">**Exclude Categories from Sitemap –**</mark> To include or exclude categories, go to _Admin > Catalog > Manage Categories > Select category (you want to exclude from site map) > General > Exclude from Sitemap: Set to “Yes/No”_
 
@@ -95,15 +95,15 @@ We have a priority system in place for the URL path that is to be included in th
 
 * **Override canonical URL:-** It is of highest priority. If this is set for any product, category or CMS page then canonical URL path will be picked in the sitemap.
 
-![](../../.gitbook/assets/overridecanonical\_890x.png)
+![](../../.gitbook/assets/overridecanonical_890x.png)
 
 * **Set Primary Category:-** It is secondest highest priority. If override canonical URL is not set then the primary category path set is picked in the sitemap.
 
-![](../../.gitbook/assets/primarycategory\_890x.png)
+![](../../.gitbook/assets/primarycategory_890x.png)
 
 * **Default Path:-** if neither override canonical URL nor Set primary Category is set then the default path of the product, category or CMS page is picked to be included in the sitemap.
 
-![](../../.gitbook/assets/regular\_890x.png)
+![](../../.gitbook/assets/regular_890x.png)
 
 ### <mark style="color:blue;">**Override Canonical URL**</mark>
 
@@ -113,19 +113,19 @@ You can set the override canonical URL for any product, category or CMS page. Th
 
 Go to Admin>Catalog>Categories and select any category. Scroll down to find the tab "Search Engine Optimization". Enter the URL path in the "Override Canonical URL" section.&#x20;
 
-![](../../.gitbook/assets/overridecategory\_890x.png)
+![](../../.gitbook/assets/overridecategory_890x.png)
 
 #### <mark style="color:orange;">Product Page</mark>
 
 Go to Admin>Catalog>products and select any product and click edit. Scroll down to find the tab "Search Engine Optimization". Enter the URL path in the "Override Canonical URL" section.&#x20;
 
-![](../../.gitbook/assets/overrideproduct\_890x.png)
+![](../../.gitbook/assets/overrideproduct_890x.png)
 
 #### <mark style="color:orange;">CMS Page</mark>
 
 Go to Admin>Content>Pages and select any page. Scroll down to find the tab "Search Engine Optimization". Enter the URL path in the "Override Canonical URL" section.&#x20;
 
-![](../../.gitbook/assets/overridecms\_890x.png)
+![](../../.gitbook/assets/overridecms_890x.png)
 
 ### <mark style="color:blue;">Set Primary Categories</mark>
 
@@ -145,7 +145,7 @@ _<mark style="color:red;">**N.B -**</mark>_ _<mark style="color:red;">If you are
 
 ### <mark style="color:blue;">**Google Sitemap XML**</mark>&#x20;
 
-Google site map shows all the included Products, Categories**,** and CMS Pages links in the sitemap.xml.
+Google site map shows all the included Products, Categorie&#x73;**,** and CMS Pages links in the sitemap.xml.
 
 * <mark style="color:orange;">**Category Link in Sitemap XML -**</mark> You can see the category link in the Google Sitemap XML.
 

@@ -65,11 +65,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Facebook Conv
 
 * <mark style="color:orange;">**Analyze Data with Facebook Events Manager -**</mark> Facebook Business Manager gathered enough information so that you can analyze data using event log, which shows how many times the tracker has been fired.
 
-![](../../.gitbook/assets/facebook\_analyze.jpg)
+![](../../.gitbook/assets/facebook_analyze.jpg)
 
-* <mark style="color:orange;">**Facebook Events Manager Graph -**</mark> You can view the event log and graph in Facebook business manager with all the events view details**.**
+* <mark style="color:orange;">**Facebook Events Manager Graph -**</mark> You can view the event log and graph in Facebook business manager with all the events view detail&#x73;**.**
 
-![](../../.gitbook/assets/facebook\_eventsmanager.jpg)
+![](../../.gitbook/assets/facebook_eventsmanager.jpg)
 
 ### <mark style="color:blue;">Enable GDPR Support</mark> <a href="#bookmark7" id="bookmark7"></a>
 
@@ -107,11 +107,11 @@ To enable GDPR support go to **Stores>Configuration>Scommerce Configuration>Face
 
 * <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to Wishlist when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Facebook Pixel Tag on Add to Wishlist Page -**</mark>Add to cart when "Always Send Parent SKU" set to 'NO" AND Dynamic Product Ads Enabled - "YES"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

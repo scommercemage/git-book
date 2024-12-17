@@ -4,13 +4,13 @@
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-previously-ordered-products.md#toc\_250007)
+1. [_Installation_ ](magento-2-previously-ordered-products.md#toc_250007)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_
-2. [_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#toc\_250006)
+2. [_Configuration Settings for Reorder Previous Products_ ](magento-2-previously-ordered-products.md#toc_250006)
    * _General Settings_&#x20;
-3. [_Hide One or Multiple Columns from the Previous Purchases Grid_](magento-2-previously-ordered-products.md#toc\_250004)
-4. [_Front-end Site view_ ](magento-2-previously-ordered-products.md#toc\_250003)
+3. [_Hide One or Multiple Columns from the Previous Purchases Grid_](magento-2-previously-ordered-products.md#toc_250004)
+4. [_Front-end Site view_ ](magento-2-previously-ordered-products.md#toc_250003)
    * _Previous Purchase Grid_&#x20;
    * _Hide Columns in the Previous Purchase Grid_&#x20;
    * _Add One or Multiple Products to Cart Directly From the Grid_&#x20;
@@ -49,13 +49,13 @@ php bin/magento setup:static-content:deploy
 * #### Current Product Price
 * #### Number of Orders
 
-![](../../.gitbook/assets/reorder\_general.jpg)
+![](../../.gitbook/assets/reorder_general.jpg)
 
 ### <mark style="color:blue;">Hide One or Multiple Columns from the Previous Purchases Grid</mark> <a href="#toc_250004" id="toc_250004"></a>
 
-To hide one or multiple columns from the previous purchases grid please go to **Admin> Stores> Configuration> Scommerce Configuration> Previous Products.**Find the setting named Hidden Columns select one or multiple columns that you want to hide and save the settings.
+To hide one or multiple columns from the previous purchases grid please go to **Admin> Stores> Configuration> Scommerce Configuration> Previous Products.**&#x46;ind the setting named Hidden Columns select one or multiple columns that you want to hide and save the settings.
 
-![](../../.gitbook/assets/reorder\_general2.jpg)
+![](../../.gitbook/assets/reorder_general2.jpg)
 
 ### <mark style="color:blue;">Front-end Siteview</mark> <a href="#toc_250003" id="toc_250003"></a>
 

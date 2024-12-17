@@ -4,11 +4,11 @@
 
 **Table of Contents**
 
-1. [Installation ](magento-1-google-global-site-tag-gtag.js.md#\_bookmark0)
+1. [Installation ](magento-1-google-global-site-tag-gtag.js.md#_bookmark0)
    * Disable Compilation Mode&#x20;
    * Upload Package&#x20;
    * Clear Caches&#x20;
-2. [Configuration Settings for Google Global Site Tag ](magento-1-google-global-site-tag-gtag.js.md#\_bookmark4)
+2. [Configuration Settings for Google Global Site Tag ](magento-1-google-global-site-tag-gtag.js.md#_bookmark4)
    * General Settings&#x20;
    * Admin Transactions Tracking&#x20;
    * Backend Order Tracking in Google Analytics&#x20;
@@ -16,7 +16,7 @@
    * Google Analytics Checkout Behaviour&#x20;
    * Google Analytics Shopping Behaviour&#x20;
    * Google Analytics Sales Performance&#x20;
-3. [Front-end Site view ](magento-1-google-global-site-tag-gtag.js.md#\_bookmark12)
+3. [Front-end Site view ](magento-1-google-global-site-tag-gtag.js.md#_bookmark12)
    * Home Page with Tags&#x20;
    * Gtag.js Code&#x20;
    * Gtag.js Brand Name&#x20;
@@ -34,7 +34,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 #### <mark style="color:orange;">General Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
-* **License Key –**Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
+* **License Key –**&#x50;lease add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Accounts Id –** You can add multiple account id. It can be analysis, adwords.
   * **Main Account –** Select “Yes” to set your main analytics id as an account id. This account will be used to connect gtag.js.
   * **Use Linker –** If this is enabled (set to “Yes”) then this account will be linked to domains from “Domains to link” field, which is specified below.
@@ -49,9 +49,9 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 * **Dynamic Remarketing Enabled –** If set to “Yes” then this will enable and install remarketing tag to different pages.
 * **Dynamic Remarketing other sites –** Set “Yes” to enable other site variables ([https://developers.google.com/adwords-remarketing-](https://developers.google.com/adwords-remarketing-tag/parameters#other) [tag/parameters#other](https://developers.google.com/adwords-remarketing-tag/parameters#other)) instead of retail site variables.
 
-![](../../.gitbook/assets/m1gtag\_general1.jpg)
+![](../../.gitbook/assets/m1gtag_general1.jpg)
 
-![](../../.gitbook/assets/m1ua\_general2.jpg)
+![](../../.gitbook/assets/m1ua_general2.jpg)
 
 #### <mark style="color:orange;">Admin Transactions Tracking</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -59,11 +59,11 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 * **Admin Source –** Please add the Campaign source for backend orders.
 * **Admin Medium –** Please define the Campaign Medium for Backend Orders.
 
-![](../../.gitbook/assets/m1gtag\_admintrans.jpg)
+![](../../.gitbook/assets/m1gtag_admintrans.jpg)
 
 * <mark style="color:orange;">**Backend Order Tracking in Google Analytics –**</mark> You can track admin orders by selecting “Yes” for **“ Admin Transactions Tracking “** from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “Yes”.** In the below Image you can see the tracked admin orders in Google Analytics.
 
-![](../../.gitbook/assets/m1gtag\_backendordertracking.jpg)
+![](../../.gitbook/assets/m1gtag_backendordertracking.jpg)
 
 * <mark style="color:orange;">**Backend Order Tracking - Source/Medium –**</mark> To add campaign Source and Medium for backend orders go to **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Admin Transactions Tracking – “phone” > Admin Medium – “admin”.**
 
@@ -71,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 * <mark style="color:orange;">**Google Analytics Checkout Behaviour –**</mark> You can view the checkout behaviour in GA tool under **Conversions > Ecommerce > Checkout Behaviour.**
 
-![](../../.gitbook/assets/m1gtag\_checkoutbeha.jpg)
+![](../../.gitbook/assets/m1gtag_checkoutbeha.jpg)
 
 * <mark style="color:orange;">**Google Analytics Shopping Behaviour –**</mark> You can view the shopping behaviour with all sessions, product views, add to cart and checkout details in GA tool under **Conversions > Ecommerce > Shopping Behaviour.**
 
@@ -85,7 +85,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Google Global
 
 * <mark style="color:orange;">**Home Page with Tags –**</mark> In Tag Assistant tool you can see all the fired tags.
 
-![](../../.gitbook/assets/m1gtag\_front1.jpg)
+![](../../.gitbook/assets/m1gtag_front1.jpg)
 
 * <mark style="color:orange;">**Gtag.js Code –**</mark> In the below image you can see the **UA** and **AW** tracking id’s added from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id > Click on “Add Account”** – UA - 33387561-3, AW – 123456789.
 
