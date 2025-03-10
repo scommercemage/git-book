@@ -51,7 +51,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Cron for Order Import -** Please add define schedule how often you want to update transactions
 * **Select the store for NOTHS Orders –** Please select the store for Noths orders.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Noths Order Payment Method –** Please add the payment method which will be used to import orders from Noths.
 * **Noths Order Shipping Method –** Please add the shipping method which will be used to import orders from Noths.
@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Retention Data -** Please add number of days worth of logs you want to keep it in the DB.
 * **Cron Job -** Please add define schedule how often you want the logs to be purged.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Noths Order(s) View from Back-end</mark> <a href="#bookmark6" id="bookmark6"></a>
 
