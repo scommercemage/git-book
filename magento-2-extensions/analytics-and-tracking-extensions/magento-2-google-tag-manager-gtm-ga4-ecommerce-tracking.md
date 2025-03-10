@@ -197,6 +197,7 @@ The JSONs can be used to set up
 * **GTM-Tiktok\_Pixel\_Tracking.json:-** Tiktok Pixel Tracking
 * **GTM-Twitter.json:-** Twitter Pixel Tracking
 * **GTM-Partnerize.json:-** Partnerize
+* GTM-Webgains\_tracking.json:- Webgains Affiliate tracking
 * **GTM-google\_ads\_enhanced\_conversion\_tracking.json:-** Google Ads Enhanced Conversion Tracking(Make sure its enabled in the extension configuration and also ensure that "send conversion data using data layer is set to "No" in tracking base configuration)
 * **GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json -** If you have set "send conversion data using data layer is set to "Yes" in tracking base configuration then import this JSON file which utilizes data layer push to populate the conversion PII data.
 * #### **SetPrimaryCategories.php:-** Primary Category Script (SetPrimaryCategories.php) – All of the above JSON files can be imported into GTM but primary category script needs to be added into the root directory of your website. Add the SetPrimaryCategories.php file in your website’s root directory and open the link as follows: - http://Your\_website\_URL.com/SetPrimaryCategories.php
