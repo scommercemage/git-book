@@ -129,11 +129,5 @@ Users can update their Phone Number with the Account by signing in to the store 
 
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/otp_update_mobile.png" alt=""><figcaption></figcaption></figure></div>
 
-If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
-
-
-
-
-
-
+If you have a question related to this extension please check out our [**FAQ Section**](https://www.scommerce-mage.com/magento-2-otp-login.html#customfaq) first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
 
