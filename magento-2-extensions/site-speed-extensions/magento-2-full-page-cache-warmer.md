@@ -4,21 +4,21 @@
 
 **Table Of Contents**
 
-1. [_Installation_ ](magento-2-full-page-cache-warmer.md#toc\_250008)
+1. [_Installation_ ](magento-2-full-page-cache-warmer.md#toc_250008)
    * _Installation via app/code_
    * _Installation via Composer_&#x20;
-2. [_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#toc\_250007)
+2. [_Configuration Settings for Optimiser Base_ ](magento-2-full-page-cache-warmer.md#toc_250007)
    * _General Settings_&#x20;
-3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#toc\_250005)
+3. [_Configuration Settings for Full Page Cache Warmer_ ](magento-2-full-page-cache-warmer.md#toc_250005)
    * _General Settings_&#x20;
    * _Cron Settings_&#x20;
-4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#toc\_250002)
+4. [_Cache Warmer Grid_ ](magento-2-full-page-cache-warmer.md#toc_250002)
    * _Regenerate_&#x20;
-5. [_Console Commands_ ](magento-2-full-page-cache-warmer.md#toc\_250001)
+5. [_Console Commands_ ](magento-2-full-page-cache-warmer.md#toc_250001)
    * _Category Page_&#x20;
    * _Product Page_&#x20;
    * _CMS Page_&#x20;
-6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#toc\_250000)
+6. [_Front-end Site View_ ](magento-2-full-page-cache-warmer.md#toc_250000)
    * _Cache Hit for the Category Page After the Execution of Category Page Command_&#x20;
    * _Cache Miss for the Category Page_&#x20;
 
@@ -47,7 +47,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Optimiser Bas
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-![](../../.gitbook/assets/general\_fullpage.png)
+![](../../.gitbook/assets/general_fullpage.png)
 
 ### <mark style="color:blue;">Configuration Settings for Full Page Cache Warmer</mark> <a href="#toc_250005" id="toc_250005"></a>
 
@@ -75,7 +75,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#toc_250002" id="toc_250002"></a>
 

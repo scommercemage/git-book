@@ -77,6 +77,7 @@
     * [Magento 2 Security Suite](magento-2-extensions/admin-extensions/magento-2-security-suite.md)
     * [Magento 2 AI Content Generator](magento-2-extensions/admin-extensions/magento-2-ai-content-generator.md)
     * [Magento 2 Content Security Policy (CSP) Whitelist Manager](magento-2-extensions/admin-extensions/magento-2-content-security-policy-csp-whitelist-manager.md)
+    * [Magento 2 OTP Login](magento-2-extensions/admin-extensions/magento-2-otp-login.md)
   * [Data & Privacy Extensions](magento-2-extensions/data-and-privacy-extensions/README.md)
     * [Magento 2 Not On The High Street Integration](magento-2-extensions/data-and-privacy-extensions/magento-2-not-on-the-high-street-integration.md)
     * [Magento 2 GDPR Compliance: Anonymisation of order data](magento-2-extensions/data-and-privacy-extensions/magento-2-gdpr-compliance-anonymisation-of-order-data.md)

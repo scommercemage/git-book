@@ -75,7 +75,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > AI Content Ge
 * **Retention Days -** Define the retention days for the logs that are kept in the database.&#x20;
 * **Cron Job -** Define Cron schedule for purging of the log data.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **Note:-** Switch store view or website to expose the settings below:-
 
@@ -121,7 +121,7 @@ Click on **Fetch Content** and Based on the prompt set in the configuration the 
 
 In case you want to add a custom prompt for this product simply click on **AI Content Using Custom Prompt** and add your prompt then when you click **Fetch Content** the content is generated based on your custom prompt.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Description</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -229,10 +229,10 @@ AI content generator generates content on all Category, Product, CMS Pages. Plea
 
 Go to **Scommerce AI Content Generator>API Logs** to view logs of each API request used by AI content Generator.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The grid contains request response and the AI engine used:-
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**

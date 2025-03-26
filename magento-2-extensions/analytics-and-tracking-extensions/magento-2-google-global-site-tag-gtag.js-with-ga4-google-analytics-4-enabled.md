@@ -134,7 +134,7 @@ https://magento2demo.scommerce-mage.co.uk/?_gl=1*fzl3bd*_ga*MTk3ODY0NTU1Mi4xNzIy
 
 * <mark style="color:orange;">**Home Page with Tags -**</mark> In Tag Assistant tool you can see all the fired tags.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * <mark style="color:orange;">**Gtag.js Code -**</mark> In the below image you can see the UA and AW tracking id’s from **Admin > Stores > Configuration > Scommerce Configuration > Global Site Tag (gtag.js) > Account Id** > Click on **“Add Account”** – G-R6FSTDG16K, AW-123234123.
 

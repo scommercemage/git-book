@@ -136,19 +136,19 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Base
 * **Send Ecom Category Path –**  Set "yes" to send the category path with ecomm\_category.
 * **Enable GDPR Cookie Check –** Select "Yes" or "No" to enable/disable GDPR Cookie Check
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Server Side Tagging –** Set "Yes" to enable server side tagging and "no" to disable it. <mark style="color:orange;">**Please don’t turn this on unless you understand what this setting does.**</mark>
 * **Server Side script part -** Enter the HTML code of server side GTM container. It will replace the default HTML code on the frontend.
 * S**erver Side noscript part -** Enter the noscript part of server-side GTM code. It will also replace the default HTML code on the frontend.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Force decline –** If you set this to yes then GTM tracking will be turned off unless customer accepts the cookie policy from the cookie notification message from your website
 * **GDPR Cookie Key –**  You can add name of your GDPR cookie here for our [GDPR extension](https://www.scommerce-mage.com/magento2-gdpr-compliance.html) the name of cookie key is **cookie\_accepted** but if you are using other GDPR extension then please check with extension developer
 * **Enable GA4 data layer-**&#x53;elect "Yes" to add GA4(Google Analytics 4) events to the data layer.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Cookies From Query Params</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -170,17 +170,17 @@ Please follow the steps below to download the module:-
 
 **Step 1:-** Login to your account and go to the My Account Section&#x20;
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **Step 2:-** Click on My Downloadable Products
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **Step 3:-** Click on the extension and from the dropdown menu select download
 
 &#x20;
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Go to the extension file m2-google-tag- manager-pro and then to the Data Folder (Path - **m2-google-tag-manager-pro/data/**) to find these files.&#x20;
 
@@ -286,11 +286,11 @@ Once the GTM container file has been imported, you need to change variable infor
 
 <mark style="color:orange;">**Webgains Event ID -**</mark> Add webgains event id received from Webgains in the GTM variable \{{Webgains - Event ID\}}
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:orange;">**Webgains Program ID -**</mark> Add the Webgains Program ID received from Webgains in the GTM Variable \{{Webgains - Program ID\}}
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Publishing Tags in GTM</mark> <a href="#bookmark12" id="bookmark12"></a>
 
@@ -368,7 +368,7 @@ To enable enhanced conversions we first need to enable enhanced conversions in G
 
 Go to **Stores>Configuration>Scommerce Configuration>Tracking Base** and set "Enable Enhanced Conversion" to "Yes".  Import the JSON file either enhanced conversion using data layers or the normal enhanced conversion JSON that fetches the PII data from the global Javascript objec.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Once done import the JSON file named "GTM-google\_ads\_enh  anced\_conversion\_tracking.json"  if or  import "GTM-google\_ads\_enhanced\_conversion\_tracking\_using\_datalayers.json" provided with the extension(data folder) in your GTM container .  Change the 'conversion label' and 'conversion ID' in the "Google Ads Conversion Tracking" tag. Finally publish the changes to finish the setup.
 
