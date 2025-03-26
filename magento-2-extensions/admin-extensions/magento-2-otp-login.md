@@ -31,9 +31,7 @@ php bin/magento setup:static-content:deploy
 
 * <mark style="color:orange;">**Installation via Composer:**</mark> Please follow the guide provided in the below link to complete the installation via composer.
 
-{% content-ref url="../installation-via-composer.md" %}
-[installation-via-composer.md](../installation-via-composer.md)
-{% endcontent-ref %}
+{% embed url="https://docs.scommerce-mage.com/magento-2-extensions/installation-via-composer" %}
 
 ### <mark style="color:blue;">Configuration Settings for OTP Login</mark> <a href="#bookmark3" id="bookmark3"></a>
 
