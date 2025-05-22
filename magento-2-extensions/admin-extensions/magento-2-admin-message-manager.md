@@ -1,16 +1,16 @@
-# Magento 2 Admin Account Switcher
+# Magento 2 Admin Message Manager
 
-### <mark style="color:blue;">Installation and User Guide for Magento 2 Admin Account Switcher</mark>
+### <mark style="color:blue;">Installation and User Guide for Magento 2 Admin Message Manager</mark>
 
 **Table of Contents**
 
-1. [_Installation_ ](magento-2-admin-account-switcher.md#bookmark0)
+1. [_Installation_ ](magento-2-admin-message-manager.md#bookmark0)
    * _Installation via app/code_&#x20;
    * _Installation via Composer_&#x20;
-2. [_Configuration Settings for Admin Account Switcher_](magento-2-admin-account-switcher.md#bookmark3)
+2. _Configuration Settings for Admin Message Manager_
    * _General Settings_&#x20;
-3. [_Admin Account Switcher Workflow_](magento-2-admin-account-switcher.md#bookmark6)
-4. [_Admin Account Switcher Role_](magento-2-admin-account-switcher.md#bookmark6-1)
+3. [_Admin Account Switcher Workflow_](magento-2-admin-message-manager.md#bookmark6)
+4. [_Admin Account Switcher Role_](magento-2-admin-message-manager.md#bookmark6-1)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -26,7 +26,7 @@ php bin/magento setup:static-content:deploy
 
 {% embed url="https://docs.scommerce-mage.com/magento-2-extensions/installation-via-composer" %}
 
-### <mark style="color:blue;">Configuration Settings for Admin Account Switcher</mark> <a href="#bookmark3" id="bookmark3"></a>
+### <mark style="color:blue;">Configuration Settings for Admin Message Manager</mark> <a href="#bookmark3" id="bookmark3"></a>
 
 Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Account Switcher**
 
@@ -41,7 +41,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Admin Account
 
 Using this extension an admin can login into another admin's account directly from admin edit form section without requiring a password which allows them to debug easily without having to reset the other admin's password.
 
-The admin can only use this functionality if they have the "Scommerce Switch Admin Account" (_**Admin>System>Permissions>User Roles>Select Role>Role Resources**_)selected under role resources for their user role.&#x20;
+The admin can only use this functionality if the have the "Scommerce Switch Admin Account" selected under role resources for their user role.&#x20;
 
 Go to Admin>System>Permissions>All Users, here select(click edit) the admins account in which you want to login.
 
@@ -58,4 +58,3 @@ To check this, you can go to _Admin>System>Permissions>User Roles>Role Resources
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
-
