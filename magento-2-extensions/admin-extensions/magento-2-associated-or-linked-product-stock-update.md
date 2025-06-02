@@ -45,7 +45,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Associated Pr
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 * **Optimise Stock save** - Select "Yes" or "No". If set to "Yes" then it will optimise stock save for better performance on products with large amounts of associated products.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Product Association at Product Level –**</mark> You can associate products from **Admin > Catalog > Products > Select Product > Product Association > Click “AddProduct”.**
 

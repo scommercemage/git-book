@@ -75,7 +75,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Cache Warmer*
 * **Cache Cron Schedule -** Schedule cron job to regenerate the cache for all non cached page(s).
 * **Number of Concurrent Regeneration request -** Please define the number of concurrent request.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Cache Warmer Grid</mark> <a href="#toc_250002" id="toc_250002"></a>
 

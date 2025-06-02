@@ -43,7 +43,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > OTP Login**
 * **License Key -** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. Please go to _Admin > Stores > Configuration > Scommerce Configuration > Core_ and click on "Verify" to verify the license key.&#x20;
 * **Enable Login with Mobile** - Select "Yes" or "No". If set to "Yes" then users will be able to login to the store using their mobile number.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">OTP Configuration</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -56,7 +56,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > OTP Login**
 * **Lock Time (minutes)-** Add the lock time on multiple otp failures
 * **Channel on Register-** Select the countries allowed to be used for sending via SMS.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">API Configuration</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -66,7 +66,7 @@ This section is to configure TWILIO as the SMS provider used for sending OTPs. P
 * **Authorization Key -** Add the authorization key from Twilio
 * **Mobile Number**- Add the mobile number from Twilio without the "+" sign
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Emails</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -75,7 +75,7 @@ This section is to configure the Sender Email and the Email template used to sen
 * **Success Email Sender-** Select the Email to be used for sending successful login emails.&#x20;
 * **Otp Email Template -** Select the Email template to be used for OTP emails.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Messages</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -83,7 +83,7 @@ This section is to configure the Sender Email and the Email template used to sen
 
 * **Register Channel Message-** Enter the message to be displayed on the registeration page for the users.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Sign In Using OTP</mark> <a href="#bookmark6" id="bookmark6"></a>
 
@@ -91,7 +91,7 @@ This section is to configure the Sender Email and the Email template used to sen
 
 Go to the frontend and click on Sign In, you will it opens a popup to signin with Mobile. Add your Mobile number and click on Send OTP. Make sure Sign in with Mobile is enabled in the configuration only then you will be able to sign in using Mobile Number.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Enter the OTP to sign in&#x20;
 
@@ -105,7 +105,7 @@ If the OTP is expired click on resend to resend the otp.
 
 Go to the frontend and click on Sign In, you will it opens a popup, select Signin with Email.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Add credentials and proceed an OTP will be sent to your email, add to login to the store.
 

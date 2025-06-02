@@ -40,7 +40,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 * **Enabled –** Select “Yes” or “No” to enable or disable the module.
 * **License Key –** Please add the license for the extension which is provided in the order confirmation email. Please note license keys are site URL specific. If you require license keys for dev/staging sites then please email us at [support@scommerce-mage.com](mailto:support@scommerce-mage.com).
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Shipping Methods</mark>  <a href="#bookmark4" id="bookmark4"></a>
 
@@ -49,13 +49,13 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Tracking Link
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Tracking Links</mark> <a href="#bookmark8" id="bookmark8"></a>
 
 Go to **Admin>Sales>Order** and select an order then click on 'Ship' to create a shipment. Scroll down to find shipping information then select the shipping carrier from the carrier dropdown list and enter the tracking number for that carrier. Select email copy of shipment checkbox then generate the shipment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">**Admin Panel:-**</mark> Once the shipment is generated you can go to the order then from the left menu select shipments and view the generated shipment. You should see the tracking number consists a link, and once you link on that link it will take you to the shipping carriers tracking site with your tracking number.
 
