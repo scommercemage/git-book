@@ -70,7 +70,22 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-* **Block access to site until cookie policy is accepted -** If set to “Yes” then customer access to site will be blocked until cookie policy is accepted. If set to “No” then just normal cookie message block will be shown until cookie policy is accepted, but the access to the site will be allowed.
+* **Block access to site until cookie policy is handled -**&#x20;
+  * **Accepted only** _(Equivalent to “Yes” in the original setup)_
+    * **Behavior:** When set to **Accepted only**, customer access to the site will be blocked until the cookie policy is accepted.
+    *   **Modal Pop-up:** Once the customer has chosen to decline cookies, a modal pop-up will appear (if not accepted) with the following configurable text:
+
+        > **"You have chosen to decline cookies. As a result, access to this site is restricted, and you will not be able to browse its content. Cookies are necessary for core functionality, including navigation and session management.**
+        >
+        > **If you'd like to reconsider your choice and continue browsing, please click the button below. This will reload the page, allowing you to review the cookie policy again and make a new selection. Thanks"**
+
+        * **Button Text:** The button will display the text **"Review Cookie Policy"** (this is also configurable).
+  * **Accepted or Declined** _(New option)_
+    * **Behavior:** When set to **Accepted or Declined**, customer access to the site will be blocked until the cookie policy is either accepted **or** declined.
+  * **No restriction** _(Equivalent to “No” in the original setup and set as default)_
+    * **Behavior:** If set to **No restriction**, a normal cookie message block will be shown until the cookie policy is accepted, but the customer is allowed to access the rest of the site.
+* **Cookie Blocked Message** **-** Add the message that will be shown when Cookie Declined
+* **Review Cookie Policy Button Text -** Add the button text for review cookie policy
 * **Page Wrapper Css Class - Add** the page wrapper Css class.
 * **Cookie text message -** Enter cookie text message, if you want to display message in cookie policy area.
 * **Information Page -** Use this page to learn about cookie settings.
@@ -80,7 +95,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 * **Cookie background color -** Background color of cookie policy area.
 * **Message Position -** Select position "Top/Bottom" of the cookie notification message.
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Order and Quote Anonymisation Settings</mark> <a href="#bookmark5" id="bookmark5"></a>
 
@@ -300,7 +315,7 @@ Let us see how it works on the front-end.
 
 * Visit the store and go to cookie settings on the pop-up. In the cookie preferences:- -- select your cookie. In this case we have created statistics cookie. -- Next from the top right corner select the checkbox to enable the cookie and save your choice.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next check the inspector of your browser to verify whether your cookie is enabled/disabled. If you have enabled the cookie then the value will be 1 and if it is disabled then the value will be 0. Refer to the image below.
 
@@ -327,6 +342,10 @@ Cookies are used to improve the experience for user. As we created different coo
 * Accept cookie for German Store view
 
 <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+
+* Review cookie policy
+
+<figure><img src="../../.gitbook/assets/reveiew_cookie_policy.png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Check the Value of the Accepted Cookies on the Front-end</mark> <a href="#bookmark29" id="bookmark29"></a>
 

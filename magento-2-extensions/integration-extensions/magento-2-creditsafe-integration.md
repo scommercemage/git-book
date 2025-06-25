@@ -133,7 +133,7 @@ All requests and responses with regards to creditsafe endpoints are logged into 
 
 If you further click on any of the entries it contains the information as shown in the image below:-&#x20;
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">CreditSafe Information Stored Against the Customer</mark> <a href="#bookmark3" id="bookmark3"></a>
 
@@ -164,7 +164,7 @@ Based on the "Approval Type" configuration described earlier, the customer's ver
 
 It allows you to track and manage adjustments made to customer credit limits based on their orders and payments. With this system, you can view and manage adjustments made to customer credit limits in a single, easy-to-use grid. Easily Keep track of adjustments made to customer credit limits. Go to **Admin>Sales>Creditsafe>Transactions.** The grid reflects both positive and negative adjustments i.e when a customer makes a purchase using their credit limit and when they make the payment of the invoice.&#x20;
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Import CreditSafe transactions in the Grid</mark>
 
@@ -181,7 +181,7 @@ The format of the import file should be as shown in the image. The fields requir
 * **customer\_email:-** Enter the customer email.
 * **transaction\_description:-** You can add a description of the adjustment which will be reflected in the creditsafe transactions grid.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Frontend</mark> <a href="#bookmark3" id="bookmark3"></a>
 

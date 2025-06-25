@@ -64,7 +64,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > Noths**
 * **Retention Data -** Please add number of days worth of logs you want to keep it in the DB.
 * **Cron Job -** Please add define schedule how often you want the logs to be purged.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">Noths Order(s) View from Back-end</mark> <a href="#bookmark6" id="bookmark6"></a>
 
