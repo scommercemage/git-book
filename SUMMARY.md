@@ -58,6 +58,7 @@
     * [Magento 2 Substitute Products](magento-2-extensions/user-experience-extensions/magento-2-substitute-products.md)
     * [Magento 2 Product 360 view](magento-2-extensions/user-experience-extensions/magento-2-product-360-view.md)
     * [Magento 2 Product Reviews](magento-2-extensions/user-experience-extensions/magento-2-product-reviews.md)
+    * [Magento 2 Advanced Store Locator](magento-2-extensions/user-experience-extensions/magento-2-advanced-store-locator.md)
   * [Admin Extensions](magento-2-extensions/admin-extensions/README.md)
     * [Magento 2 Update Order Email Address](magento-2-extensions/admin-extensions/magento-2-update-order-email-address.md)
     * [Magento 2 Admin Action Log](magento-2-extensions/admin-extensions/magento-2-admin-action-log.md)
