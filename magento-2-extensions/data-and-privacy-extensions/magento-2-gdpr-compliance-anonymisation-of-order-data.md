@@ -71,7 +71,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > GDPR**
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 * **Block access to site until cookie policy is handled -**&#x20;
-  * **Accepted only** _(Equivalent to “Yes” in the original setup)_
+  * **Accepted All only** _(Equivalent to “Yes” in the original setup)_
     * **Behavior:** When set to **Accepted only**, customer access to the site will be blocked until the cookie policy is accepted.
     *   **Modal Pop-up:** Once the customer has chosen to decline cookies, a modal pop-up will appear (if not accepted) with the following configurable text:
 
