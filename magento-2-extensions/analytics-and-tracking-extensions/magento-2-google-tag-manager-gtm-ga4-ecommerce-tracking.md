@@ -26,14 +26,20 @@
     * _Set up Enhanced Conversion with the Module_
 11. [_Cookies From Query Params_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-1)
 12. [_Upgrading the Module From 3.0.1 and Below_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-2)
-13. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-3)&#x20;
+13. [_Secure Execution of Inline Scripts in GTM via CSP Nonce_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#secure-execution-of-inline-scripts-in-gtm-via-csp-nonce)
+    * _Step 1: Enable Nonce Injection_
+    * _Step 2: Verify Script Tag Injection_
+    * _Step 3: Create a GTM Variable for Nonce_
+    * _Step 4: Modify GTM Tags with Nonce_
+    * _Step 5: Validation & Troubleshooting_
+14. [_Front-end Screenshots_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-3)&#x20;
     * _Order Total of Product without VAT_&#x20;
     * _Order Total of Product with VAT_&#x20;
     * _Send SKU of Child Product_&#x20;
     * _Send SKU of Parent Product Only_&#x20;
     * _Send Parent Category_&#x20;
     * _Primary Category_&#x20;
-14. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-4)
+15. [_Set up Consent Mode V2 with GTM_](magento-2-google-tag-manager-gtm-ga4-ecommerce-tracking.md#bookmark16-4)
 
 ### <mark style="color:blue;">Installation</mark> <a href="#bookmark0" id="bookmark0"></a>
 
@@ -448,6 +454,93 @@ Now follow the steps below to import the latest GA4 settings for GTM
 <figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:-** Lastly, click confirm to finish the import. Once it's done you will have the latest tags, triggers and variables for GA4 in your GTM.
+
+### <mark style="color:blue;">Secure Execution of Inline Scripts in GTM via CSP Nonce</mark>
+
+To enhance compatibility with Content Security Policies (CSP), a nonce attribute for Google Tag Manager (GTM) has been added. When enabled, the module injects a unique nonce value into a script tag on every page, allowing secure execution of inline scripts in GTM while complying with CSP directives.
+
+#### <mark style="color:orange;">**Step 1: Enable Nonce Injection**</mark>
+
+1. Navigate to **Stores → Configuration → Scommerce GTM Settings**.
+2. Enable the **"Push Nonce Value to GTM"** flag.
+3. Save the configuration.
+
+#### <mark style="color:orange;">**Step 2: Verify Script Tag Injection**</mark>
+
+After enabling the feature, confirm the following script appears in the `<head>` section of all pages:
+
+html
+
+```
+<script id="scomGtmVar" data-scom-gtm-var="<?= $block->getHelper()->getNonceValue() ?>"></script>  
+```
+
+**Note**: The `data-scom-gtm-var` attribute contains the dynamically generated nonce value.
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure></div>
+
+#### <mark style="color:orange;">**Step 3: Create a GTM Variable for Nonce**</mark>
+
+Use **ONE** of these methods to capture the nonce value in GTM:
+
+**Method A: Custom JavaScript Variable (Recommended)**
+
+1. In GTM, create a new **Custom JavaScript** variable.
+2. Name it (e.g., `Nonce Value`).
+3. Paste this code:
+
+javascript
+
+```
+function() {
+  var el = document.getElementById("scomGtmVar");
+  return el ? el.getAttribute("data-scom-gtm-var") : undefined;
+}
+```
+
+<figure><img src="../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+
+**Method B: DOM Element Variable**
+
+1. Create a **DOM Element** variable.
+2. Configure:
+   * **Selection Method**: `ID`
+   * **Element ID**: `scomGtmVar`
+   * **Attribute Name**: `data-scom-gtm-var`
+
+<figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:orange;">**Step 4: Modify GTM Tags with Nonce**</mark>
+
+For **every Custom HTML tag** using inline scripts:
+
+1. Add the `nonce` attribute to the `<script>` block using the GTM variable:
+
+html
+
+```
+<script nonce="{{Nonce Value}}">  
+  // Your inline code here  
+</script>  
+```
+
+2. **Critical**: Enable **"Support document.write"** in the tag’s Advanced Settings.
+3. Save and publish the container.
+
+#### <mark style="color:orange;">**Step 5: Validation & Troubleshooting**</mark>
+
+**Verify Successful Implementation**
+
+1. **Nonce in Page Source**:
+   * Inspect the page’s `<head>` to confirm `data-scom-gtm-var` contains a value (e.g., `bTIzb3B5Y2pobDZvamJtamZoaHdrYnRxcXI5b3owcW4=`).
+2. **Tag Execution**:
+   * Use GTM Preview to confirm tags fire with the `nonce` attribute.
+3. **CSP Errors**:
+   * Check browser console for CSP violations. Absence of errors confirms compliance.
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">Front-end Screenshots</mark> <a href="#bookmark16" id="bookmark16"></a>
 
