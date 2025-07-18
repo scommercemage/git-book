@@ -75,7 +75,7 @@ Follow these steps to add a new region to your store locator:
 
 * On the Store Regions grid page, click the **Add New Region** button in the top-right corner.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure></div>
 
 * You will be redirected to the New Region page. Fill in the following details:
   * **Active:** Toggle to activate or deactivate the region.
@@ -95,7 +95,7 @@ To view or modify details of an existing region:
 * In the **Actions** column for that region, click **Edit.**
   * Clicking **Edit** will open the region details page where you can modify any of the fields (Region Name, Description, Image).
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure></div>
 
 * After making any changes, click **Save Region** to apply your updates.
 
@@ -106,7 +106,7 @@ You can remove regions from your system, provided no stores are currently assign
 * From the Region Management grid, locate the region you wish to delete.
 * In the **Actions** column for that region, click **Delete**.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure></div>
 
 * Alternatively you can also edit the region and then use the "Delete" button at the top.
 * A confirmation pop-up will appear. Click **OK** to confirm the deletion.
@@ -117,7 +117,7 @@ You can remove regions from your system, provided no stores are currently assign
   * From the **Actions** dropdown, choose **"Delete"**.
   * Confirm by clicking **"OK"** in the popup.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">**2. Store Management & Region Association (Admin)**</mark>
 
@@ -225,7 +225,7 @@ The Store Locator also allows customers to view all stores without initially fil
 5. **Pagination:** Stores are paginated and sorted alphabetically. The pagination threshold can be configured by the admin in the module's backend settings. Users can navigate through paginated results using "Next" and "Previous" controls.
 6. **No Stores Message:** If there are currently no stores in the system, a message will be displayed: _“There are currently no stores available. Please check back later."_
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/sotre_locator_front1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">**4. Store Detail View (Customer)**</mark>
 
@@ -261,6 +261,6 @@ To return to the store listing:
 
 1. Click the **"Back to Stores" link or button**. This will navigate you back to the previous store listing page, whether it was filtered by region or showing all stores.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
