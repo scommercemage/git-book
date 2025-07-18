@@ -150,8 +150,12 @@ Follow these steps to add a new store location:
   * **Working Hours:** (Optional) Describe the store's operating hours (e.g., "Mon-Fri: 9 AM - 6 PM, Sat: 10 AM - 4 PM").
   * **Days Open:** (Optional) List the days the store is open (e.g., "Monday - Saturday").
   * **Description:** (Optional) Any other relevant information about the store (e.g., "Free Parking Available," "Wheelchair Accessible" , "Short Description").
+  * **Latitude:** Enter lattitude of the store location
+  * **Longitude:** Enter longitude of the store location
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure></div>
 
 * Click **Save Store** to create the new store. A success message will appear, and you will be redirected back to the Store Management grid.
 
@@ -165,7 +169,7 @@ To modify details of an existing store, including its assigned region:
   * Clicking **View** will open the store details page in a read-only mode.
 * After making any changes, click **Save Store** to apply your updates.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">**2.4. Deleting a Store**</mark>&#x20;
 
@@ -174,7 +178,7 @@ To remove a store location from your system:
 * From the Store Management grid, locate the store you wish to delete.
 * In the **Actions** column for that store, click **Delete**.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure></div>
 
 * Alternatively you can also edit the store and then use the "Delete" button at the top.
 * A confirmation pop-up will appear. Click **OK** to confirm the deletion.
@@ -184,7 +188,7 @@ To remove a store location from your system:
   * From the **Actions** dropdown, choose **"Delete"**.
   * Confirm by clicking **"OK"** in the popup.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">**3. Store List Display on Frontend (Customer)**</mark>
 
@@ -221,7 +225,7 @@ The Store Locator also allows customers to view all stores without initially fil
 5. **Pagination:** Stores are paginated and sorted alphabetically. The pagination threshold can be configured by the admin in the module's backend settings. Users can navigate through paginated results using "Next" and "Previous" controls.
 6. **No Stores Message:** If there are currently no stores in the system, a message will be displayed: _“There are currently no stores available. Please check back later."_
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/store_locator_frontend.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">**4. Store Detail View (Customer)**</mark>
 
@@ -257,6 +261,6 @@ To return to the store listing:
 
 1. Click the **"Back to Stores" link or button**. This will navigate you back to the previous store listing page, whether it was filtered by region or showing all stores.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
