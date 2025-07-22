@@ -56,7 +56,7 @@ Go to **Admin > Stores > Configuration > Scommerce Configuration > OTP Login**
 * **Lock Time (minutes)-** Add the lock time on multiple otp failures
 * **Channel on Register-** Select the countries allowed to be used for sending via SMS.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">API Configuration</mark> <a href="#bookmark4" id="bookmark4"></a>
 
@@ -66,7 +66,7 @@ This section is to configure TWILIO as the SMS provider used for sending OTPs. P
 * **Authorization Key -** Add the authorization key from Twilio
 * **Mobile Number**- Add the mobile number from Twilio without the "+" sign
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">Emails</mark> <a href="#bookmark4" id="bookmark4"></a>
 

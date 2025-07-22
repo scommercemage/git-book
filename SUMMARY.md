@@ -81,6 +81,7 @@
     * [Magento 2 OTP Login](magento-2-extensions/admin-extensions/magento-2-otp-login.md)
     * [Magento 2 Admin Account Switcher](magento-2-extensions/admin-extensions/magento-2-admin-account-switcher.md)
     * [Magento 2 Admin Message Manager](magento-2-extensions/admin-extensions/magento-2-admin-message-manager.md)
+    * [Magento 2 Bundle Items Inventory](magento-2-extensions/admin-extensions/magento-2-bundle-items-inventory.md)
   * [Data & Privacy Extensions](magento-2-extensions/data-and-privacy-extensions/README.md)
     * [Magento 2 Not On The High Street Integration](magento-2-extensions/data-and-privacy-extensions/magento-2-not-on-the-high-street-integration.md)
     * [Magento 2 GDPR Compliance: Anonymisation of order data](magento-2-extensions/data-and-privacy-extensions/magento-2-gdpr-compliance-anonymisation-of-order-data.md)

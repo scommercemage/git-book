@@ -59,14 +59,14 @@ The admin can only use this functionality if the have the "Scommerce Admin Messa
 * Navigate to **Admin>System>Admin Message Manager**
 * Only users with **"Scommerce Admin Message Manager Section"** permission can access this grid.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### <mark style="color:orange;">**Step 2: Create a New Message**</mark>
 
 * Go to **Admin>System>Admin Message Manager**&#x20;
 * Click **"Add New Message"**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Fill in the form:
   * **Enabled :-** Turn it on to enable the message (Active/Inactive toggle)
@@ -105,7 +105,7 @@ The admin can only use this functionality if the have the "Scommerce Admin Messa
 
 * Open the message>Click **"Delete Message"**>Confirm.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **Option 3: Mass Delete (Bulk Action)**
 
