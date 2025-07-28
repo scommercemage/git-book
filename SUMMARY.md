@@ -90,6 +90,7 @@
     * [Magento 2 Diamond Search](magento-2-extensions/integration-extensions/magento-2-diamond-search.md)
     * [Magento 2 Not On The High Street Integration](magento-2-extensions/integration-extensions/magento-2-not-on-the-high-street-integration.md)
     * [Magento 2 Creditsafe Integration](magento-2-extensions/integration-extensions/magento-2-creditsafe-integration.md)
+    * [Magento 2 PunchOut & ERP Integration](magento-2-extensions/integration-extensions/magento-2-punchout-and-erp-integration.md)
   * [Installation Via Composer](magento-2-extensions/installation-via-composer.md)
 * [Magento 1 Extension](magento-1-extension/README.md)
   * [SEO Extensions](magento-1-extension/seo-extensions/README.md)
