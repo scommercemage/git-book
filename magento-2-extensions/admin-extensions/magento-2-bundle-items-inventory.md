@@ -166,8 +166,6 @@ On the main product’s page, your customers will see all associated bundle item
    * Associated bundle SKUs
    * Quantities for each link
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure></div>
-
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/bundle_items_export.png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
