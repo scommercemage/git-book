@@ -119,6 +119,33 @@ You can remove regions from your system, provided no stores are currently assign
 
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure></div>
 
+#### <mark style="color:orange;">**1.5. Mass Action to Activate/Deactivate/Delete Regions**</mark>&#x20;
+
+Go to **Admin>Stores>Scommerce Store Locator>Store Regions** select the regions that you want to **Deactivate/Activate/Delete**. Next click on the mast action button and then select the action as shown below:-
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure></div>
+
+#### <mark style="color:orange;">**1.6. Import Regions**</mark>
+
+Go to Admin>System>Data Transfer>Import.
+
+From the Entity Type dropdown select "Scommerce Store Locator Regions"
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure></div>
+
+select the import file and other settings as needed then&#x20;
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure></div>
+
+```
+// Sample Import File
+
+Name,Description, Image
+Greater London,"The metropolitan area surrounding London, known for its diverse neighborhoods and vibrant commercial activity.", “greater-london.jpg“
+West Midlands,"A central region in England known for its industrial heritage and growing retail hubs.", “west-midland.jpg“
+North West,"Encompasses major cities like Manchester and Liverpool, with a mix of urban and suburban retail locations.", “north-west.jpg“
+```
+
 ### <mark style="color:blue;">**2. Store Management & Region Association (Admin)**</mark>
 
 This section describes how administrators can create, manage, and associate individual store locations with the regions you've defined.
@@ -190,7 +217,39 @@ To remove a store location from your system:
 
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure></div>
 
-### <mark style="color:blue;">**3. Store List Display on Frontend (Customer)**</mark>
+#### <mark style="color:orange;">**2.5. Mass Action to Activate/Deactivate/Delete Store Locations**</mark>&#x20;
+
+Go to **Admin>Stores>Scommerce Store Locator>Store Locations** select the stores that you want to **Deactivate/Activate/Delete**. Next click on the mast action button and then select the action as shown below:-
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure></div>
+
+#### <mark style="color:orange;">**2.6. Import Stores**</mark>
+
+Go to Admin>System>Data Transfer>Import.
+
+From the Entity Type dropdown select "Scommerce Store Locator Stores"
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure></div>
+
+select the import file and other settings as needed then&#x20;
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure></div>
+
+```
+// Sample Import File
+
+Name,Address,Description,Region,Email,Phone,Working Hours,Longitude,Latitude,Days Open
+London Central Store,"221B Baker Street, London NW1 6XE","Flagship store near Regent's Park",Greater London,central@storeuk.com,+44 20 7946 0011,"Mon–Sat: 9am–7pm",-0.1586,51.5237,"Monday–Saturday"
+Croydon Outlet,"45 High Street, Croydon CR0 1QD","Discount outlet with parking",Greater London,croydon@storeuk.com,+44 20 8760 1122,"Mon–Fri: 10am–6pm",-0.1004,51.3762,"Monday–Friday"
+Stratford Hub,"Westfield Stratford City, London E20","Modern store in shopping centre",Greater London,stratford@storeuk.com,+44 20 8221 3344,"Daily: 10am–8pm",-0.0064,51.5430,"All week"
+Birmingham City Store,"12 New Street, Birmingham B2 4RQ","High-traffic location near Bullring",West Midlands,birmingham@storeuk.com,+44 121 633 4455,"Mon–Sat: 9am–6pm",-1.8998,52.4797,"Monday–Saturday"
+Coventry Retail Point,"88 Broadgate, Coventry CV1 1NB","Family-friendly store with café",West Midlands,coventry@storeuk.com,+44 24 7655 9988,"Tue–Sun: 10am–5pm",-1.5105,52.4081,"Tuesday–Sunday"
+Manchester Arndale,"18 Market Street, Manchester M4 3AT","Located in the heart of the city",North West,manchester@storeuk.com,+44 161 832 7788,"Daily: 9am–8pm",-2.2417,53.4839,"All week"
+Liverpool One Branch,"Paradise Street, Liverpool L1 8JQ","Stylish store with seasonal offers",North West,liverpool@storeuk.com,+44 151 707 2233,"Mon–Sat: 10am–7pm",-2.9840,53.4045,"Monday–Saturday"
+Preston Suburban Spot,"5 Fishergate, Preston PR1 2NJ","Quiet location with easy access",North West,preston@storeuk.com,+44 1772 555 900,"Wed–Sun: 11am–5pm",-2.7034,53.7590,"Wednesday–Sunday"
+```
+
+<mark style="color:blue;">**3. Store List Display on Frontend (Customer)**</mark>
 
 This section describes how customers will interact with the Store Locator on your website's front-end.
 
@@ -209,6 +268,8 @@ Customers can easily find stores by filtering them by region:
 6. **Pagination:** If there are many stores within a selected region, they will be paginated. Stores are sorted alphabetically by default. You can navigate through the results using the "Next" and "Previous" controls.
 7. **No Stores in Region Message:** If a selected region currently has no stores assigned, a message will be displayed: _“There are currently no stores available in this region. Please check back later or select another region from the list."_
 
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure></div>
+
 #### <mark style="color:orange;">**3.2. Viewing All Stores (Without Region Selection)**</mark>&#x20;
 
 The Store Locator also allows customers to view all stores without initially filtering by region:
@@ -225,7 +286,7 @@ The Store Locator also allows customers to view all stores without initially fil
 5. **Pagination:** Stores are paginated and sorted alphabetically. The pagination threshold can be configured by the admin in the module's backend settings. Users can navigate through paginated results using "Next" and "Previous" controls.
 6. **No Stores Message:** If there are currently no stores in the system, a message will be displayed: _“There are currently no stores available. Please check back later."_
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/sotre_locator_front1.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <mark style="color:blue;">**4. Store Detail View (Customer)**</mark>
 
@@ -247,13 +308,15 @@ This workflow describes how customers can access and view detailed information f
 The store detail view provides comprehensive information about the selected store, including:
 
 * **Large Google Map:** A larger, more prominent Google Map showing the precise location of the store based on its address.
+* **Show Directions:** Clicking on this button takes you to the map (link) where people can view the directions to the store.
 * **Store Name and Full Address:** Clearly displayed for easy identification.
 * **Telephone Number:** For direct contact.
 * **Email:** For direct email communication.
-* **Open and Close Times:** Detailed operating hours.
 * **Days Open:** The specific days the store is open.
+* **Working Hours:** Detailed operating hours.
 * **Additional Store Details:** Any extra information provided by the admin.
 * **Region:** (If applicable) The region to which the store is assigned, providing geographical context.
+* **Back Button:** A button to go back to the list of stores page.
 
 **4.4. Navigating Back**&#x20;
 
@@ -261,6 +324,6 @@ To return to the store listing:
 
 1. Click the **"Back to Stores" link or button**. This will navigate you back to the previous store listing page, whether it was filtered by region or showing all stores.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure></div>
 
 If you have a question related to this extension please check out our **FAQ Section** first. If you can't find the answer you are looking for then please contact [**support@scommerce-mage.com**](mailto:core@scommerce-mage.com)**.**
